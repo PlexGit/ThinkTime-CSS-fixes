@@ -17,6 +17,10 @@
       display: none;
     }
 
+    .tableGlobal tr td {
+      white-space: normal;
+    }
+
     /* Article */
 
     .kb-item-content-wrapper-module__body--n6jg5 {
