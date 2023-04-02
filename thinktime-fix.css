@@ -1,0 +1,414 @@
+/* Editable areas resizeable and inner shadow*/
+.k-editable-area, textarea {
+  box-shadow: inset 0px 0px 10px gainsboro;
+  resize: vertical;
+}
+
+.tox-edit-area__iframe {
+  box-shadow: inset 0px 0px 10px gainsboro;
+}
+
+textarea {
+  min-height: 350px;
+}
+
+textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
+  min-height: auto;
+}
+
+/* TinyMCE hacks */
+.tox-statusbar__branding {
+  display: none;
+}
+
+.tt-field-label {
+    color: transparent;
+}
+
+.tox-editor-header {
+  background-color: cornsilk;
+  position: fixed;
+  top: 75px;
+  /* left: 25px; */
+  margin: 0 auto;
+  z-index: 2;
+  box-shadow: 0 0 10px darkgoldenrod
+}
+
+.tox-menubar {
+  background-color: cornsilk;
+}
+
+
+.tox-toolbar__primary {
+  background-color: cornsilk;
+}
+
+
+.tox-toolbar-overlord {
+    background-color: cornsilk;
+}
+
+
+.learn-editor-form-module__settings--SzIKp {
+    background-color: ghostwhite;
+}
+
+
+.learn-editor-form-header-module__header--8emfo {
+    background-color: lightskyblue;
+}
+
+
+.learn-editor-translation-form-module__primary--CA9Aj {
+    background-color: ghostwhite;
+}
+
+
+.article-section-edit-module__section--2\+QX7 {
+    box-shadow: 0 0 10px gainsboro;
+}
+
+
+/* Static top on scroll in articles */
+
+
+.app-header-legacy-module__withFlexContainer--sEWdv {
+    position: static;
+}
+
+
+/* Breadcrumps */
+.breadcrumbs-module__highlightedText--pCVRG {
+  white-space: normal;
+}
+
+
+/* Task title color */
+a.ng-binding.ng-scope {
+  white-space: normal;
+  color:#4a86e8
+}
+
+
+/* Forms list title word wrap */
+a.link.ng-binding {
+  white-space: normal;
+  color:#4a86e8
+}
+
+
+/* Article title word wrap */
+.article-title__title {
+  white-space: normal;
+  color:#4a86e8
+}
+
+
+/* Table of contents word wrap */
+span.article-table-of-contents-module__sectionTitle--Iz4DO {
+  white-space: normal;
+}
+
+
+/* Table of contents items spacing */
+.article-table-of-contents-module__sectionLink--m70gX {
+  height: auto;
+  padding: 8px 16px;
+}
+
+
+/* Table of contents max-width */
+.article-table-of-contents-module__container--6vgPT {
+  max-width: 25%;
+}
+
+
+/* Knowlege Base articles list word wrap */
+a.text-ellipsis.ng-binding {
+  white-space: normal;
+  color:#4a86e8
+}
+
+
+a {
+  transition: background 300ms ease-out;
+}
+
+
+a:not([class]):not([id]) {
+  color: #4a86e8;
+}
+
+
+span.textOverflow.ng-binding {
+  color: #000000;
+}
+
+
+span.counter.ng-binding {
+  color: #000000;
+}
+
+
+span.textOverflow {
+  color: #000000;
+}
+
+
+div.kb-item-page-header-module__container--5atFF {
+  position: static;
+  background-color: #d1e1f1;
+}
+
+
+div span a {
+  /* font-weight: 700; */
+  font-style: normal;
+  /* font-size: 18px; */
+  white-space: normal;
+  /* color: #4a86e8; */
+}
+
+
+span.linkStyle.hiddenOnHover.ng-binding {
+  font-weight: 700;
+  font-style: normal;
+  /* font-size: 18px; */
+  white-space: normal;
+  color: #4a86e8;
+}
+
+
+div ul h2 {
+  display: none
+}
+
+
+div.logPanel {
+  display: none;
+}
+
+
+div ul hr {
+  display: none;
+}
+
+
+button.user-utils-button {
+  display: none;
+}
+
+
+button.notifications-button-legacy-module__button--rJraS {
+  display: none
+}
+
+
+h2.kb--top-section-title {
+  display: none
+}
+
+
+section.kb--top-section {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+
+/* Article editor toolbar CONTAINER */
+div.k-widget.k-window.k-window-titleless.k-editor-widget {
+  position:fixed;
+  top: 30px;
+  left: 30px;
+  height: 125px;
+  width: 900px;
+}
+
+
+/* Article editor toolbar */
+div.editorToolbarWindow.k-header.k-window-content.k-content {
+  background-color:#cccccc;
+}
+
+
+/* Tickets list end */
+td.goesEnd {
+  color:#cccccc;
+}
+
+
+/* Title with buttons padding */
+section.titleSection.ng-scope {
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+
+
+/* Fixed size of paddings in all text containers */
+div.contentContainer {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px
+}
+
+
+/* Agent name in comments */
+a.agent.ng-binding {
+  font-weight: 700;
+  font-style: normal
+}
+
+
+/* Comment is private */
+span.pull-right {
+  background-color: mistyrose;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+
+/* Attachment add in Tickets */
+.k-dropzone {
+    width: fit-content;
+    background-color: blanchedalmond;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    padding-bottom: 2px;
+}
+
+
+.k-dropzone:hover {
+  box-shadow: inset 0px 0px 4px rgba(0,0,0, 0.5);
+  transition: box-shadow 300ms ease-out;
+}
+
+.k-upload .k-dropzone .k-upload-button .fa{
+    margin-left: 0;
+}
+
+.k-upload .k-dropzone .k-upload-button {
+  width: 100%;
+}
+
+.k-upload .k-dropzone .k-upload-button span {
+    padding-top: 4px;
+}
+
+
+/* Tickets post area and buttons */
+
+.k-state-focused {
+  outline: none;
+}
+
+div.k-widget.k-upload.k-header.k-upload-empty {
+  margin-top: 3px;
+}
+
+
+label.checkBox.labelPost {
+  margin-top: 6px;
+}
+
+
+.commentsPanel .postComment .postPanel .postBtn {
+  border: 0;
+}
+
+
+button.postBtn {
+    background-color: lightseagreen;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+
+button.postBtn.postBtn-alt.m-r-10 {
+    background-color:  lightcoral;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+
+.postBtn:hover {
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 300ms ease-out;
+}
+
+
+/* List spacing */
+li {
+  margin-bottom: 10px;
+}
+
+
+/* Links hover */
+a:hover {
+  text-decoration: none;
+  color: #4a86e8;
+  box-shadow:inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25);
+  background: papayawhip;
+}
+
+
+/* Widgets bottom hide */
+div.dashboardPlatesConclusion {
+  display: none;
+}
+
+
+/* Article - Author name and date */
+div.kb-article-footnote-module__footnote--Z\+Q-l {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-direction: column;
+}
+
+
+/* List selector height */
+.k-animation-container {
+  height: 402px;
+}
+
+
+.k-list-container {
+  height: 400px; 
+}
+
+
+.k-list-scroller {
+  height: 332px; 
+}
+
+
+/* Tasks editor toolbar */
+ul.k-toolbar.k-editor-toolbar {
+  background-color: cornsilk;
+  box-shadow: 0 0 2px darkgoldenrod;
+  /* display: none; */
+}
+
+
+.ticketDetailsTitle {
+  padding-top: 16px;
+}
+
+
+.ticketDetailsContent{
+  padding-bottom: 16px;
+}
+
+
+div.k-content.k-state-active {
+ margin-top: 0; 
+}
