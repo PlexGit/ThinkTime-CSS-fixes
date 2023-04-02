@@ -1,9 +1,24 @@
-/* PRINTABLE Articles */
+/* PRINTABLE */
+
 @media print {
+    /* COMMON CLEANUP */
+    
+    /* more common variation is
     body * {
         visibility: hidden;
-
     }
+    */
+    
+    * {
+        visibility: hidden;
+    }
+
+    iframe {
+      display: none;
+    }
+
+    /* Article */
+
     .kb-item-content-wrapper-module__body--n6jg5 {
       padding: 0;
     }
@@ -36,10 +51,67 @@
     .kb-article-view-module__section--MEUXI {
       max-width: 100%;
     }
+
+    /* Ticket */
+    ul.k-tabstrip-items.k-reset,
+    button.btn.btn-link.description-content--trigger.ng-binding,
+    p.commentsCollapse.text-uppercase.ng-scope,
+    ul.attachmentsList,
+    div.postComment.ng-scope {
+      display: none;
+    }
+
+    h1.state1,
+    h1.state1 *,
+    h1.state2,
+    h1.state2 *,
+    h1.state3,
+    h1.state3 *,
+    h1.state4,
+    h1.state4 *,
+    h1.state5,
+    h1.state5 *,
+    span.ttBadge.ng-binding,
+    span.ttBadge.ng-binding *,
+    .contentContainer,
+    .contentContainer * {
+        visibility: visible;
+    }
+
+    .contentContainer {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    /* Task */
+
+    .contentContainer.corporateLongHeight,
+    .taskSettingLine,
+    p.lightColor.small {
+      display: none;
+    }
+
+    h1.status,
+    h1.status *,
+    h1.status.state1,
+    h1.status.state1 *,
+    h1.status.state2,
+    h1.status.state2 *,
+    h1.status.state3,
+    h1.status.state3 *,
+    h1.status.state4,
+    h1.status.state4 *,
+    h1.status.state5,
+    h1.status.state5 *,
+    span.ttBadge,
+    span.ttBadge * {
+        visibility: visible;
+    }
 }
 
 
-/* Editable areas resizeable and inner shadow*/
+/* Editable areas are resizeable and have inner shadow*/
 .k-editable-area, textarea {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
