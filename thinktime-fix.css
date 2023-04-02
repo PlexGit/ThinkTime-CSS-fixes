@@ -1,3 +1,44 @@
+/* PRINTABLE Articles */
+@media print {
+    body * {
+        visibility: hidden;
+
+    }
+    .kb-item-content-wrapper-module__body--n6jg5 {
+      padding: 0;
+    }
+
+    .kb-item-content-wrapper-module__body--n6jg5,
+    .kb-item-content-wrapper-module__body--n6jg5 * {
+        visibility: visible;
+    }
+
+    .kb-item-content-wrapper-module__body--n6jg5 {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    #app-header, 
+    .kb-item-page-header-module__container--5atFF,
+    .kb-article-view-module__expand--NI8XI,
+    .kb-item-view-info-module__sections--nSuJh {
+      display: none;
+    }
+
+    h1, h2,
+    .kb-item-view-info-module__date--C5ez8,
+    .kb-item-owner-view-module__owner--1NH48,
+    .kb-article-footnote-module__publishDate--cC4wY {
+      font-family: Verdana;
+      }
+
+    .kb-article-view-module__section--MEUXI {
+      max-width: 100%;
+    }
+}
+
+
 /* Editable areas resizeable and inner shadow*/
 .k-editable-area, textarea {
   box-shadow: inset 0px 0px 10px gainsboro;
