@@ -115,6 +115,11 @@
 }
 
 
+/* List spacing */
+li {
+  margin-bottom: 10px;
+}
+
 /* Editable areas are resizeable and have inner shadow*/
 .k-editable-area, textarea {
   box-shadow: inset 0px 0px 10px gainsboro;
@@ -126,7 +131,7 @@
 }
 
 textarea {
-  min-height: 350px;
+  min-height: 300px;
 }
 
 textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
@@ -399,6 +404,25 @@ span.pull-right {
     box-shadow: 0 0 10px gainsboro;
 }
 
+.textAreaModal {
+  border: none;
+  padding: 0;
+}
+
+.textAreaModal .bottomBlock {
+    border-top: none;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.textAreaModal textarea {
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+
 /* Attachment add in Tickets */
 .k-dropzone {
     width: fit-content;
@@ -443,6 +467,19 @@ label.checkBox.labelPost {
   margin-top: 6px;
 }
 
+.validation-modal--contents {
+    height: 100%;
+}
+
+.commentsPanel .postComment .postPanel .notifyAllcheckBox {
+  margin-top: 12px;
+}
+
+
+.commentsPanel .postComment {
+    margin-top: 25px;
+    border: none;
+}
 
 .commentsPanel .postComment .postPanel .postBtn {
   border: 0;
@@ -466,12 +503,6 @@ button.postBtn.postBtn-alt.m-r-10 {
 .postBtn:hover {
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
   transition: box-shadow 300ms ease-out;
-}
-
-
-/* List spacing */
-li {
-  margin-bottom: 10px;
 }
 
 
