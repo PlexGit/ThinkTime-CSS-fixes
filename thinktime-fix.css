@@ -217,21 +217,21 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 /* Task title color */
 a.ng-binding.ng-scope {
   white-space: normal;
-  color:mediumblue
+  color:#4369dc
 }
 
 
 /* Forms list title word wrap */
 a.link.ng-binding {
   white-space: normal;
-  color:mediumblue
+  color:#4369dc
 }
 
 
 /* Article title word wrap */
 .article-title__title {
   white-space: normal;
-  color:mediumblue
+  color:#4369dc
 }
 
 
@@ -257,7 +257,7 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
 /* Knowlege Base articles list word wrap */
 a.text-ellipsis.ng-binding {
   white-space: normal;
-  color:mediumblue
+  color:#4369dc
 }
 
 
@@ -267,7 +267,7 @@ a {
 
 
 a:not([class]):not([id]) {
-  color: mediumblue;
+  color: #4369dc;
 }
 
 
@@ -297,7 +297,7 @@ div span a {
   font-style: normal;
   /* font-size: 18px; */
   white-space: normal;
-  /* color: mediumblue; */
+  /* color: #4369dc; */
 }
 
 
@@ -306,7 +306,7 @@ span.linkStyle.hiddenOnHover.ng-binding {
   font-style: normal;
   /* font-size: 18px; */
   white-space: normal;
-  color: mediumblue;
+  color: #4369dc;
 }
 
 
@@ -363,7 +363,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 
 .k-button.k-state-selected {
   border: none;
-  background-color: mediumblue;
+  background-color: #4369dc;
   color: lightgoldenrodyellow;
 }
 
@@ -517,7 +517,7 @@ button.postBtn.postBtn-alt.m-r-10 {
 /* Links hover */
 a:hover, button:hover {
   text-decoration: none;
-  color: mediumblue;
+  color: #4369dc;
   box-shadow:inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25);
   background: papayawhip;
 }
