@@ -396,6 +396,7 @@ span.pull-right {
 /* Ticket action modal right */
 .actionModalTicket.moved {
     background-color: aliceblue;
+    box-shadow: 0 0 10px gainsboro;
 }
 
 /* Attachment add in Tickets */
