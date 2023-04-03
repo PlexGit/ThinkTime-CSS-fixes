@@ -393,6 +393,10 @@ span.pull-right {
   padding-left: 8px;
 }
 
+/* Ticket action modal right */
+.actionModalTicket.moved {
+    background-color: aliceblue;
+}
 
 /* Attachment add in Tickets */
 .k-dropzone {
