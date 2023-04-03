@@ -75,6 +75,8 @@
     h1.state4 *,
     h1.state5,
     h1.state5 *,
+    h1.state6,
+    h1.state6 *,
     span.ttBadge.ng-binding,
     span.ttBadge.ng-binding *,
     .contentContainer,
@@ -86,6 +88,10 @@
         position: absolute;
         left: 0;
         top: 0;
+    }
+
+    .commentsPanel .existComment .commentTitle .addInfo .agent::after {
+      display: none;
     }
 
     /* Task */
@@ -108,6 +114,8 @@
     h1.status.state4 *,
     h1.status.state5,
     h1.status.state5 *,
+    h1.status.state6,
+    h1.status.state6 *,
     span.ttBadge,
     span.ttBadge * {
         visibility: visible;
@@ -209,21 +217,21 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 /* Task title color */
 a.ng-binding.ng-scope {
   white-space: normal;
-  color:#4a86e8
+  color:mediumblue
 }
 
 
 /* Forms list title word wrap */
 a.link.ng-binding {
   white-space: normal;
-  color:#4a86e8
+  color:mediumblue
 }
 
 
 /* Article title word wrap */
 .article-title__title {
   white-space: normal;
-  color:#4a86e8
+  color:mediumblue
 }
 
 
@@ -249,7 +257,7 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
 /* Knowlege Base articles list word wrap */
 a.text-ellipsis.ng-binding {
   white-space: normal;
-  color:#4a86e8
+  color:mediumblue
 }
 
 
@@ -259,7 +267,7 @@ a {
 
 
 a:not([class]):not([id]) {
-  color: #4a86e8;
+  color: mediumblue;
 }
 
 
@@ -289,7 +297,7 @@ div span a {
   font-style: normal;
   /* font-size: 18px; */
   white-space: normal;
-  /* color: #4a86e8; */
+  /* color: mediumblue; */
 }
 
 
@@ -298,7 +306,7 @@ span.linkStyle.hiddenOnHover.ng-binding {
   font-style: normal;
   /* font-size: 18px; */
   white-space: normal;
-  color: #4a86e8;
+  color: mediumblue;
 }
 
 
@@ -355,7 +363,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 
 .k-button.k-state-selected {
   border: none;
-  background-color: #4a86e8;
+  background-color: mediumblue;
   color: lightgoldenrodyellow;
 }
 
@@ -509,7 +517,7 @@ button.postBtn.postBtn-alt.m-r-10 {
 /* Links hover */
 a:hover, button:hover {
   text-decoration: none;
-  color: #4a86e8;
+  color: mediumblue;
   box-shadow:inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25);
   background: papayawhip;
 }
