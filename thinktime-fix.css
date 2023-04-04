@@ -525,7 +525,10 @@ a:not(.btn):not(.kb-link):hover,
 .ticketDetailsPage .description-content--trigger:hover,
 #iLabel:hover,
 #eLabel:hover,
-#sLabel:hover {
+#sLabel:hover,
+#label-item-Support:hover,
+#label-item-Execute:hover,
+#label-item-Insights {
   border-radius: 4px;
 }
 
