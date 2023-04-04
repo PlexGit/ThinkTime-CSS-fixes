@@ -379,7 +379,8 @@ section.titleSection.ng-scope {
   padding-bottom: 5px
 } */
 
-.titleSection {
+.titleSection,
+._tz7wgn {
     padding-top: 6px;
     padding-bottom: 6px;
 }
