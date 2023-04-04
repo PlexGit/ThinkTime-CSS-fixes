@@ -373,12 +373,16 @@ td.goesEnd {
 }
 
 
-/* Title with buttons padding */
+/* Title with buttons padding 
 section.titleSection.ng-scope {
   padding-top: 5px;
   padding-bottom: 5px
-}
+} */
 
+.titleSection {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
 
 /* Fixed size of paddings in all text containers */
 div.contentContainer {
