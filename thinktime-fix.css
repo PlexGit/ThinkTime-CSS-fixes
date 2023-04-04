@@ -505,13 +505,24 @@ button.postBtn.postBtn-alt.m-r-10 {
 /* Links hover */
 a:hover,
 button:hover,
+.btn:hover,
 button.postBtn.postBtn-alt.m-r-10:hover, 
-.k-dropzone:hover {
+.k-dropzone:hover,
+.k-item:hover,
+.kb-tile--content:hover {
   text-decoration: none;
   color: #4369dc;
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
   box-shadow: inset 0px 0px 4px rgba(0,0,0, 0.5);
   background: papayawhip;
+}
+
+a:not(.btn):not(.kb-link):hover,
+.ticketDetailsPage .description-content--trigger:hover,
+#iLabel:hover,
+#eLabel:hover,
+#sLabel:hover {
+  border-radius: 4px;
 }
 
 /* Widgets bottom hide */
