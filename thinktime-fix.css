@@ -441,12 +441,6 @@ span.pull-right {
     padding-bottom: 2px;
 }
 
-
-.k-dropzone:hover {
-  box-shadow: inset 0px 0px 4px rgba(0,0,0, 0.5);
-  transition: box-shadow 300ms ease-out;
-}
-
 .k-upload .k-dropzone .k-upload-button .fa{
     margin-left: 0;
 }
@@ -508,21 +502,17 @@ button.postBtn.postBtn-alt.m-r-10 {
 }
 
 
-.postBtn:hover {
-  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
-  transition: box-shadow 300ms ease-out;
-}
-
-
 /* Links hover */
-a:hover, button:hover {
+a:hover,
+button:hover,
+button.postBtn.postBtn-alt.m-r-10:hover, 
+.k-dropzone:hover {
   text-decoration: none;
   color: #4369dc;
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
   box-shadow: inset 0px 0px 4px rgba(0,0,0, 0.5);
   background: papayawhip;
 }
-
 
 /* Widgets bottom hide */
 div.dashboardPlatesConclusion {
