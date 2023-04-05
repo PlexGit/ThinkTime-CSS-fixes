@@ -138,6 +138,37 @@ a.ng-binding {
   white-space: normal;
 }
 
+/* Success edit button BG */
+.btn-success {
+    background-color: mediumseagreen;
+}
+
+/* MORE buttons */
+.btn-default-custom,
+.btn-primary,
+.btn-primary-invert,
+.k-item.k-state-active,
+.langItem.active,
+.searchButton,
+.postBtn,
+.hamburgerIcon {
+    border-width: 0;
+    background-color: darkslategrey;
+}
+
+.dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link {
+    text-shadow: none;
+}
+
+.dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link:hover {
+  color: black;
+}
+
+.tt-button-primary.legacy,
+._lbsrge {
+    background-color: royalblue;
+}
+
 /* Everything rounded 4px
 a,
 button,
@@ -509,7 +540,8 @@ button:hover,
 button.postBtn.postBtn-alt.m-r-10:hover,
 .k-dropzone:hover,
 .k-item:hover,
-.kb-tile--content:hover {
+.kb-tile--content:hover,
+.tt-button-primary.legacy:hover {
   text-decoration: none;
   color: #4369dc;
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
