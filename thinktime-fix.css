@@ -13,30 +13,37 @@
         visibility: hidden;
     }
 
+
     iframe {
       display: none;
     }
+
 
     .tableGlobal tr td {
       white-space: normal;
     }
 
+
     /* Article */
+
 
     .kb-item-content-wrapper-module__body--n6jg5 {
       padding: 0;
     }
+
 
     .kb-item-content-wrapper-module__body--n6jg5,
     .kb-item-content-wrapper-module__body--n6jg5 * {
         visibility: visible;
     }
 
+
     .kb-item-content-wrapper-module__body--n6jg5 {
         position: absolute;
         left: 0;
         top: 0;
     }
+
 
     #app-header, 
     .kb-item-page-header-module__container--5atFF,
@@ -45,6 +52,7 @@
       display: none;
     }
 
+
     h1, h2,
     .kb-item-view-info-module__date--C5ez8,
     .kb-item-owner-view-module__owner--1NH48,
@@ -52,9 +60,11 @@
       font-family: Verdana;
       }
 
+
     .kb-article-view-module__section--MEUXI {
       max-width: 100%;
     }
+
 
     /* Ticket */
     ul.k-tabstrip-items.k-reset,
@@ -64,6 +74,7 @@
     div.postComment.ng-scope {
       display: none;
     }
+
 
     h1.state1,
     h1.state1 *,
@@ -84,15 +95,18 @@
         visibility: visible;
     }
 
+
     .contentContainer {
         position: absolute;
         left: 0;
         top: 0;
     }
 
+
     .commentsPanel .existComment .commentTitle .addInfo .agent::after {
       display: none;
     }
+
 
     /* Task */
 
@@ -101,6 +115,7 @@
     p.lightColor.small {
       display: none;
     }
+
 
     h1.status,
     h1.status *,
@@ -123,10 +138,32 @@
 }
 
 
+/* Everything rounded 4px*/
+a,
+button,
+.btn,
+.postBtn,
+.kb-link,
+button.postBtn.postBtn-alt.m-r-10,
+.ticketDetailsPage .description-content--trigger,
+.k-dropzone,
+.k-item,
+.kb-tile--content,
+#iLabel,
+#eLabel,
+#sLabel,
+#label-item-Support,
+#label-item-Execute,
+#label-item-Insights {
+  border-radius: 4px;
+}
+
+
 /* List spacing */
 li {
   margin-bottom: 10px;
 }
+
 
 /* Editable areas are resizeable and have inner shadow*/
 .k-editable-area, textarea {
@@ -134,26 +171,32 @@ li {
   resize: vertical;
 }
 
+
 .tox-edit-area__iframe {
   box-shadow: inset 0px 0px 10px gainsboro;
 }
+
 
 textarea {
   min-height: 300px;
 }
 
+
 textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   min-height: auto;
 }
+
 
 /* TinyMCE hacks */
 .tox-statusbar__branding {
   display: none;
 }
 
+
 .tt-field-label {
     color: transparent;
 }
+
 
 .tox-editor-header {
   background-color: cornsilk;
@@ -164,6 +207,7 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   z-index: 2;
   box-shadow: 0 0 10px darkgoldenrod
 }
+
 
 .tox-menubar {
   background-color: cornsilk;
@@ -201,7 +245,6 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 
 
 /* Static top on scroll in articles */
-
 
 .app-header-legacy-module__withFlexContainer--sEWdv {
     position: static;
@@ -361,11 +404,13 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   background-color:#cccccc;
 }
 
+
 .k-button.k-state-selected {
   border: none;
   background-color: #4369dc;
   color: lightgoldenrodyellow;
 }
+
 
 /* Tickets list end */
 td.goesEnd {
@@ -379,11 +424,13 @@ section.titleSection.ng-scope {
   padding-bottom: 5px
 } */
 
+
 .titleSection,
 ._tz7wgn {
     padding-top: 6px;
     padding-bottom: 6px;
 }
+
 
 /* Fixed size of paddings in all text containers */
 div.contentContainer {
@@ -411,16 +458,19 @@ span.pull-right {
   padding-left: 8px;
 }
 
+
 /* Ticket action modal right */
 .actionModalTicket.moved {
     background-color: aliceblue;
     box-shadow: 0 0 10px gainsboro;
 }
 
+
 .textAreaModal {
   border: none;
   padding: 0;
 }
+
 
 .textAreaModal .bottomBlock {
     border-top: none;
@@ -429,12 +479,14 @@ span.pull-right {
     padding-right: 5px;
 }
 
+
 .textAreaModal textarea {
     padding-top: 8px;
     padding-left: 16px;
     padding-right: 16px;
     padding-bottom: 8px;
 }
+
 
 /* Attachment add in Tickets */
 .k-dropzone {
@@ -446,13 +498,16 @@ span.pull-right {
     padding-bottom: 2px;
 }
 
+
 .k-upload .k-dropzone .k-upload-button .fa{
     margin-left: 0;
 }
 
+
 .k-upload .k-dropzone .k-upload-button {
   width: 100%;
 }
+
 
 .k-upload .k-dropzone .k-upload-button span {
     padding-top: 4px;
@@ -461,9 +516,11 @@ span.pull-right {
 
 /* Tickets post area and buttons */
 
+
 .k-state-focused {
   outline: none;
 }
+
 
 div.k-widget.k-upload.k-header.k-upload-empty {
   margin-top: 3px;
@@ -474,9 +531,11 @@ label.checkBox.labelPost {
   margin-top: 6px;
 }
 
+
 .validation-modal--contents {
     height: 100%;
 }
+
 
 .commentsPanel .postComment .postPanel .notifyAllcheckBox {
   margin-top: 12px;
@@ -487,6 +546,7 @@ label.checkBox.labelPost {
     margin-top: 25px;
     border: none;
 }
+
 
 .commentsPanel .postComment .postPanel .postBtn {
   border: 0;
@@ -522,6 +582,7 @@ button.postBtn.postBtn-alt.m-r-10:hover,
   background: papayawhip;
 }
 
+
 a:not(.btn):not(.kb-link):hover,
 .ticketDetailsPage .description-content--trigger:hover,
 #iLabel:hover,
@@ -529,9 +590,10 @@ a:not(.btn):not(.kb-link):hover,
 #sLabel:hover,
 #label-item-Support:hover,
 #label-item-Execute:hover,
-#label-item-Insights {
+#label-item-Insights:hover {
   border-radius: 4px;
 }
+
 
 /* Widgets bottom hide */
 div.dashboardPlatesConclusion {
