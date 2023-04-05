@@ -147,22 +147,27 @@ a.ng-binding {
 .btn-default-custom,
 .btn-primary,
 .btn-primary-invert,
-.k-item.k-state-active,
 .langItem.active,
 .searchButton,
 .postBtn,
-.hamburgerIcon {
+.hamburgerIcon,
+.dashboard .tabsDashboards .k-tabstrip > .k-tabstrip-items .k-item.k-state-active {
     border-width: 0;
     background-color: darkslategrey;
+}
+
+.k-item.k-state-active {
+  border-width: 0;
 }
 
 .dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link {
     text-shadow: none;
 }
 
-.dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link:hover {
+/* .dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link:hover,
+.dashboard .tabsDashboards .k-tabstrip > .k-tabstrip-items .k-item.k-state-active:hover {
   color: black;
-}
+} */
 
 .tt-button-primary.legacy,
 ._lbsrge {
