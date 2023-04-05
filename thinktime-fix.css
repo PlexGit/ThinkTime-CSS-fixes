@@ -1,144 +1,129 @@
 /* PRINTABLE */
 
 @media print {
-    /* COMMON CLEANUP */
-    
-    /* more common variation is
+  /* COMMON CLEANUP */
+
+  /* more common variation is
     body * {
         visibility: hidden;
     }
     */
-    
-    * {
-        visibility: hidden;
-    }
 
+  * {
+    visibility: hidden;
+  }
 
-    iframe {
-      display: none;
-    }
+  iframe {
+    display: none;
+  }
 
+  .tableGlobal tr td {
+    white-space: normal;
+  }
 
-    .tableGlobal tr td {
-      white-space: normal;
-    }
+  /* Article */
 
+  .kb-item-content-wrapper-module__body--n6jg5 {
+    padding: 0;
+  }
 
-    /* Article */
+  .kb-item-content-wrapper-module__body--n6jg5,
+  .kb-item-content-wrapper-module__body--n6jg5 * {
+    visibility: visible;
+  }
 
+  .kb-item-content-wrapper-module__body--n6jg5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 
-    .kb-item-content-wrapper-module__body--n6jg5 {
-      padding: 0;
-    }
+  #app-header,
+  .kb-item-page-header-module__container--5atFF,
+  .kb-article-view-module__expand--NI8XI,
+  .kb-item-view-info-module__sections--nSuJh {
+    display: none;
+  }
 
+  h1,
+  h2,
+  .kb-item-view-info-module__date--C5ez8,
+  .kb-item-owner-view-module__owner--1NH48,
+  .kb-article-footnote-module__publishDate--cC4wY {
+    font-family: Verdana;
+  }
 
-    .kb-item-content-wrapper-module__body--n6jg5,
-    .kb-item-content-wrapper-module__body--n6jg5 * {
-        visibility: visible;
-    }
+  .kb-article-view-module__section--MEUXI {
+    max-width: 100%;
+  }
 
+  /* Ticket */
+  ul.k-tabstrip-items.k-reset,
+  button.btn.btn-link.description-content--trigger.ng-binding,
+  p.commentsCollapse.text-uppercase.ng-scope,
+  ul.attachmentsList,
+  div.postComment.ng-scope {
+    display: none;
+  }
 
-    .kb-item-content-wrapper-module__body--n6jg5 {
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
+  h1.state1,
+  h1.state1 *,
+  h1.state2,
+  h1.state2 *,
+  h1.state3,
+  h1.state3 *,
+  h1.state4,
+  h1.state4 *,
+  h1.state5,
+  h1.state5 *,
+  h1.state6,
+  h1.state6 *,
+  span.ttBadge.ng-binding,
+  span.ttBadge.ng-binding *,
+  .contentContainer,
+  .contentContainer * {
+    visibility: visible;
+  }
 
+  .contentContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
 
-    #app-header, 
-    .kb-item-page-header-module__container--5atFF,
-    .kb-article-view-module__expand--NI8XI,
-    .kb-item-view-info-module__sections--nSuJh {
-      display: none;
-    }
+  .commentsPanel .existComment .commentTitle .addInfo .agent::after {
+    display: none;
+  }
 
+  /* Task */
 
-    h1, h2,
-    .kb-item-view-info-module__date--C5ez8,
-    .kb-item-owner-view-module__owner--1NH48,
-    .kb-article-footnote-module__publishDate--cC4wY {
-      font-family: Verdana;
-      }
+  .contentContainer.corporateLongHeight,
+  .taskSettingLine,
+  p.lightColor.small {
+    display: none;
+  }
 
-
-    .kb-article-view-module__section--MEUXI {
-      max-width: 100%;
-    }
-
-
-    /* Ticket */
-    ul.k-tabstrip-items.k-reset,
-    button.btn.btn-link.description-content--trigger.ng-binding,
-    p.commentsCollapse.text-uppercase.ng-scope,
-    ul.attachmentsList,
-    div.postComment.ng-scope {
-      display: none;
-    }
-
-
-    h1.state1,
-    h1.state1 *,
-    h1.state2,
-    h1.state2 *,
-    h1.state3,
-    h1.state3 *,
-    h1.state4,
-    h1.state4 *,
-    h1.state5,
-    h1.state5 *,
-    h1.state6,
-    h1.state6 *,
-    span.ttBadge.ng-binding,
-    span.ttBadge.ng-binding *,
-    .contentContainer,
-    .contentContainer * {
-        visibility: visible;
-    }
-
-
-    .contentContainer {
-        position: absolute;
-        left: 0;
-        top: 0;
-    }
-
-
-    .commentsPanel .existComment .commentTitle .addInfo .agent::after {
-      display: none;
-    }
-
-
-    /* Task */
-
-    .contentContainer.corporateLongHeight,
-    .taskSettingLine,
-    p.lightColor.small {
-      display: none;
-    }
-
-
-    h1.status,
-    h1.status *,
-    h1.status.state1,
-    h1.status.state1 *,
-    h1.status.state2,
-    h1.status.state2 *,
-    h1.status.state3,
-    h1.status.state3 *,
-    h1.status.state4,
-    h1.status.state4 *,
-    h1.status.state5,
-    h1.status.state5 *,
-    h1.status.state6,
-    h1.status.state6 *,
-    span.ttBadge,
-    span.ttBadge * {
-        visibility: visible;
-    }
+  h1.status,
+  h1.status *,
+  h1.status.state1,
+  h1.status.state1 *,
+  h1.status.state2,
+  h1.status.state2 *,
+  h1.status.state3,
+  h1.status.state3 *,
+  h1.status.state4,
+  h1.status.state4 *,
+  h1.status.state5,
+  h1.status.state5 *,
+  h1.status.state6,
+  h1.status.state6 *,
+  span.ttBadge,
+  span.ttBadge * {
+    visibility: visible;
+  }
 }
 
-
-/* Everything rounded 4px*/
+/* Everything rounded 4px
 a,
 button,
 .btn,
@@ -157,46 +142,40 @@ button.postBtn.postBtn-alt.m-r-10,
 #label-item-Insights {
   border-radius: 4px;
 }
-
+*/
 
 /* List spacing */
 li {
   margin-bottom: 10px;
 }
 
-
 /* Editable areas are resizeable and have inner shadow*/
-.k-editable-area, textarea {
+.k-editable-area,
+textarea {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
 }
-
 
 .tox-edit-area__iframe {
   box-shadow: inset 0px 0px 10px gainsboro;
 }
 
-
 textarea {
   min-height: 300px;
 }
 
-
 textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   min-height: auto;
 }
-
 
 /* TinyMCE hacks */
 .tox-statusbar__branding {
   display: none;
 }
 
-
 .tt-field-label {
-    color: transparent;
+  color: transparent;
 }
-
 
 .tox-editor-header {
   background-color: cornsilk;
@@ -205,84 +184,70 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   /* left: 25px; */
   margin: 0 auto;
   z-index: 2;
-  box-shadow: 0 0 10px darkgoldenrod
+  box-shadow: 0 0 10px darkgoldenrod;
 }
-
 
 .tox-menubar {
   background-color: cornsilk;
 }
 
-
 .tox-toolbar__primary {
   background-color: cornsilk;
 }
 
-
 .tox-toolbar-overlord {
-    background-color: cornsilk;
+  background-color: cornsilk;
 }
-
 
 .learn-editor-form-module__settings--SzIKp {
-    background-color: ghostwhite;
+  background-color: ghostwhite;
 }
-
 
 .learn-editor-form-header-module__header--8emfo {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
-
 
 .learn-editor-translation-form-module__primary--CA9Aj {
-    background-color: ghostwhite;
+  background-color: ghostwhite;
 }
-
 
 .article-section-edit-module__section--2\+QX7 {
-    box-shadow: 0 0 10px gainsboro;
+  box-shadow: 0 0 10px gainsboro;
 }
-
 
 /* Static top on scroll in articles */
 
 .app-header-legacy-module__withFlexContainer--sEWdv {
-    position: static;
+  position: static;
 }
-
 
 /* Breadcrumps */
 .breadcrumbs-module__highlightedText--pCVRG {
   white-space: normal;
 }
 
-
 /* Task title color */
 a.ng-binding.ng-scope {
   white-space: normal;
-  color:#4369dc
+  color: #4369dc;
 }
-
 
 /* Forms list title word wrap */
 a.link.ng-binding {
   white-space: normal;
-  color:#4369dc
+  color: #4369dc;
 }
-
 
 /* Article title word wrap */
 .article-title__title {
   white-space: normal;
-  color:#4369dc
+  color: #4369dc;
 }
-
 
 /* Table of contents word wrap */
 span.article-table-of-contents-module__sectionTitle--Iz4DO {
   white-space: normal;
 }
-
 
 /* Table of contents items spacing */
 .article-table-of-contents-module__sectionLink--m70gX {
@@ -290,50 +255,41 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
   padding: 8px 16px;
 }
 
-
 /* Table of contents max-width */
 .article-table-of-contents-module__container--6vgPT {
   max-width: 25%;
 }
 
-
 /* Knowlege Base articles list word wrap */
 a.text-ellipsis.ng-binding {
   white-space: normal;
-  color:#4369dc
+  color: #4369dc;
 }
-
 
 a {
   transition: background 300ms ease-out;
 }
 
-
 a:not([class]):not([id]) {
   color: #4369dc;
 }
-
 
 span.textOverflow.ng-binding {
   color: #000000;
 }
 
-
 span.counter.ng-binding {
   color: #000000;
 }
-
 
 span.textOverflow {
   color: #000000;
 }
 
-
 div.kb-item-page-header-module__container--5atFF {
   position: static;
   background-color: #d1e1f1;
 }
-
 
 div span a {
   /* font-weight: 700; */
@@ -343,7 +299,6 @@ div span a {
   /* color: #4369dc; */
 }
 
-
 span.linkStyle.hiddenOnHover.ng-binding {
   font-weight: 700;
   font-style: normal;
@@ -352,58 +307,48 @@ span.linkStyle.hiddenOnHover.ng-binding {
   color: #4369dc;
 }
 
-
 div ul h2 {
-  display: none
+  display: none;
 }
-
 
 div.logPanel {
   display: none;
 }
 
-
 div ul hr {
   display: none;
 }
-
 
 button.user-utils-button {
   display: none;
 }
 
-
 button.notifications-button-legacy-module__button--rJraS {
-  display: none
+  display: none;
 }
-
 
 h2.kb--top-section-title {
-  display: none
+  display: none;
 }
-
 
 section.kb--top-section {
   padding-bottom: 15px;
   padding-top: 15px;
 }
 
-
 /* Article editor toolbar CONTAINER */
 div.k-widget.k-window.k-window-titleless.k-editor-widget {
-  position:fixed;
+  position: fixed;
   top: 30px;
   left: 30px;
   height: 125px;
   width: 900px;
 }
 
-
 /* Article editor toolbar */
 div.editorToolbarWindow.k-header.k-window-content.k-content {
-  background-color:#cccccc;
+  background-color: #cccccc;
 }
-
 
 .k-button.k-state-selected {
   border: none;
@@ -411,12 +356,10 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   color: lightgoldenrodyellow;
 }
 
-
 /* Tickets list end */
 td.goesEnd {
-  color:#cccccc;
+  color: #cccccc;
 }
-
 
 /* Title with buttons padding 
 section.titleSection.ng-scope {
@@ -424,29 +367,25 @@ section.titleSection.ng-scope {
   padding-bottom: 5px
 } */
 
-
 .titleSection,
 ._tz7wgn {
-    padding-top: 6px;
-    padding-bottom: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
-
 
 /* Fixed size of paddings in all text containers */
 div.contentContainer {
   padding-bottom: 15px;
   padding-top: 15px;
   padding-right: 15px;
-  padding-left: 15px
+  padding-left: 15px;
 }
-
 
 /* Agent name in comments */
 a.agent.ng-binding {
   font-weight: 700;
-  font-style: normal
+  font-style: normal;
 }
-
 
 /* Comment is private */
 span.pull-right {
@@ -458,130 +397,110 @@ span.pull-right {
   padding-left: 8px;
 }
 
-
 /* Ticket action modal right */
 .actionModalTicket.moved {
-    background-color: aliceblue;
-    box-shadow: 0 0 10px gainsboro;
+  background-color: aliceblue;
+  box-shadow: 0 0 10px gainsboro;
 }
-
 
 .textAreaModal {
   border: none;
   padding: 0;
 }
 
-
 .textAreaModal .bottomBlock {
-    border-top: none;
-    margin: 0;
-    padding-left: 5px;
-    padding-right: 5px;
+  border-top: none;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-
 
 .textAreaModal textarea {
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-bottom: 8px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
 }
-
 
 /* Attachment add in Tickets */
 .k-dropzone {
-    width: fit-content;
-    background-color: blanchedalmond;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 5px;
-    padding-bottom: 2px;
+  width: fit-content;
+  background-color: blanchedalmond;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  padding-bottom: 2px;
 }
 
-
-.k-upload .k-dropzone .k-upload-button .fa{
-    margin-left: 0;
+.k-upload .k-dropzone .k-upload-button .fa {
+  margin-left: 0;
 }
-
 
 .k-upload .k-dropzone .k-upload-button {
   width: 100%;
 }
 
-
 .k-upload .k-dropzone .k-upload-button span {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
-
 /* Tickets post area and buttons */
-
 
 .k-state-focused {
   outline: none;
 }
 
-
 div.k-widget.k-upload.k-header.k-upload-empty {
   margin-top: 3px;
 }
-
 
 label.checkBox.labelPost {
   margin-top: 6px;
 }
 
-
 .validation-modal--contents {
-    height: 100%;
+  height: 100%;
 }
-
 
 .commentsPanel .postComment .postPanel .notifyAllcheckBox {
   margin-top: 12px;
 }
 
-
 .commentsPanel .postComment {
-    margin-top: 25px;
-    border: none;
+  margin-top: 25px;
+  border: none;
 }
-
 
 .commentsPanel .postComment .postPanel .postBtn {
   border: 0;
 }
 
-
 button.postBtn {
-    background-color: lightseagreen;
-    border-radius: 4px;
-    margin: 4px;
+  background-color: lightseagreen;
+  border-radius: 4px;
+  margin: 4px;
 }
-
 
 button.postBtn.postBtn-alt.m-r-10 {
-    background-color:  lightcoral;
-    border-radius: 4px;
-    margin: 4px;
+  background-color: lightcoral;
+  border-radius: 4px;
+  margin: 4px;
 }
-
 
 /* Links hover */
 a:hover,
 button:hover,
 .btn:hover,
-button.postBtn.postBtn-alt.m-r-10:hover, 
+button.postBtn.postBtn-alt.m-r-10:hover,
 .k-dropzone:hover,
 .k-item:hover,
 .kb-tile--content:hover {
   text-decoration: none;
   color: #4369dc;
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
-  box-shadow: inset 0px 0px 4px rgba(0,0,0, 0.5);
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
   background: papayawhip;
 }
-
 
 a:not(.btn):not(.kb-link):hover,
 .ticketDetailsPage .description-content--trigger:hover,
@@ -594,40 +513,34 @@ a:not(.btn):not(.kb-link):hover,
   border-radius: 4px;
 }
 
-
 /* Widgets bottom hide */
 div.dashboardPlatesConclusion {
   display: none;
 }
 
-
 /* Article - Author name and date */
 div.kb-article-footnote-module__footnote--Z\+Q-l {
-    display: flex;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
 }
-
 
 /* List selector height */
 .k-animation-container {
   height: 402px;
 }
 
-
 .k-list-container {
-  height: 400px; 
+  height: 400px;
 }
-
 
 .k-list-scroller {
-  height: 332px; 
+  height: 332px;
 }
-
 
 /* Tasks editor toolbar */
 ul.k-toolbar.k-editor-toolbar {
@@ -636,17 +549,14 @@ ul.k-toolbar.k-editor-toolbar {
   /* display: none; */
 }
 
-
 .ticketDetailsTitle {
   padding-top: 16px;
 }
 
-
-.ticketDetailsContent{
+.ticketDetailsContent {
   padding-bottom: 16px;
 }
 
-
 div.k-content.k-state-active {
- margin-top: 0; 
+  margin-top: 0;
 }
