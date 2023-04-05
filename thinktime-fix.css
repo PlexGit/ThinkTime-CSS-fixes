@@ -1,7 +1,7 @@
 /* PRINTABLE */
 
 @media print {
-  /* COMMON CLEANUP */
+  /* PRINTABLE COMMON CLEANUP */
 
   /* more common variation is
     body * {
@@ -21,7 +21,7 @@
     white-space: normal;
   }
 
-  /* Article */
+  /* PRINTABLE Article */
 
   .kb-item-content-wrapper-module__body--n6jg5 {
     padding: 0;
@@ -57,7 +57,7 @@
     max-width: 100%;
   }
 
-  /* Ticket */
+  /* PRINTABLE Ticket */
   ul.k-tabstrip-items.k-reset,
   button.btn.btn-link.description-content--trigger.ng-binding,
   p.commentsCollapse.text-uppercase.ng-scope,
@@ -95,7 +95,7 @@
     display: none;
   }
 
-  /* Task */
+  /* PRINTABLE Task */
 
   .contentContainer.corporateLongHeight,
   .taskSettingLine,
@@ -121,6 +121,21 @@
   span.ttBadge * {
     visibility: visible;
   }
+}
+
+/* COMMON RULES */
+
+/* Links are inline-blocks */
+a.ng-binding,
+span.ticketName a,
+.ng-scope td a {
+  display: inline-block;
+
+}
+
+/* Word wrap */
+a.ng-binding {
+  white-space: normal;
 }
 
 /* Everything rounded 4px
@@ -216,7 +231,6 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 }
 
 /* Static top on scroll in articles */
-
 .app-header-legacy-module__withFlexContainer--sEWdv {
   position: static;
 }
@@ -225,6 +239,7 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 .breadcrumbs-module__highlightedText--pCVRG {
   white-space: normal;
 }
+
 
 /* Task title color */
 a.ng-binding.ng-scope {
