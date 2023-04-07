@@ -151,8 +151,6 @@ a.ng-binding,
 span.ticketName a,
 .ng-scope td a {
   display: inline-block;
-
-
 }
 
 
@@ -181,6 +179,10 @@ a.ng-binding {
     background-color: darkslategrey;
 }
 
+/* Search border darkslategray */
+.searchPanelKnwoledgeBase, .searchPanelKnwoledgeBaseV2 {
+    border-color: darkslategray;
+}
 
 .k-item.k-state-active {
   border-width: 0;
