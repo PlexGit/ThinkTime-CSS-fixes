@@ -147,9 +147,13 @@
 
 /* Article space between paragraphs */
 .article-section-module__body--kqMjE p+* {
-    margin-block-start: 0.85em;
-    line-height: 1.5;
-    /* margin-block-end: .85em*/
+  margin-block-start: 0.85em;
+  /* margin-block-end: .85em*/
+}
+
+/* Article space between lines */
+.article-section-module__body--kqMjE {
+  line-height: 1.5;
 }
 
 /* Links are inline-blocks */
@@ -200,38 +204,10 @@ a.ng-binding {
 }
 
 
-/* .dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link:hover,
-.dashboard .tabsDashboards .k-tabstrip > .k-tabstrip-items .k-item.k-state-active:hover {
-  color: black;
-} */
-
-
 .tt-button-primary.legacy,
 ._lbsrge {
     background-color: royalblue;
 }
-
-
-/* Everything rounded 4px
-a,
-button,
-.btn,
-.postBtn,
-.kb-link,
-button.postBtn.postBtn-alt.m-r-10,
-.ticketDetailsPage .description-content--trigger,
-.k-dropzone,
-.k-item,
-.kb-tile--content,
-#iLabel,
-#eLabel,
-#sLabel,
-#label-item-Support,
-#label-item-Execute,
-#label-item-Insights {
-  border-radius: 4px;
-}
-*/
 
 
 /* List spacing */
