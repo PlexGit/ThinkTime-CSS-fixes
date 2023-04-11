@@ -148,6 +148,7 @@
 /* Article space between paragraphs */
 .article-section-module__body--kqMjE p+* {
     margin-block-start: 0.85em;
+    line-height: 1.5;
     /* margin-block-end: .85em*/
 }
 
