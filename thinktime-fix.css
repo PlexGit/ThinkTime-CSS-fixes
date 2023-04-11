@@ -145,6 +145,11 @@
 
 /* COMMON RULES */
 
+/* Article space between paragraphs */
+.article-section-module__body--kqMjE p+* {
+    margin-block-start: 0.85em;
+    /* margin-block-end: .85em*/
+}
 
 /* Links are inline-blocks */
 a.ng-binding,
