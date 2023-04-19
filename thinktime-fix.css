@@ -297,8 +297,15 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 
 
 /* Static top on scroll in articles */
-.app-header-legacy-module__withFlexContainer--sEWdv {
+.app-header-legacy-module__withFlexContainer--sEWdv,
+.kb-item-page-header-module__container--5atFF,
+.kb-item-page-header-module__expired--o6pYj {
   position: static;
+}
+
+/* Article header color */
+div.kb-item-page-header-module__container--5atFF {
+  background-color: #d1e1f1;
 }
 
 
@@ -379,12 +386,6 @@ span.counter.ng-binding {
 
 span.textOverflow {
   color: #000000;
-}
-
-
-div.kb-item-page-header-module__container--5atFF {
-  position: static;
-  background-color: #d1e1f1;
 }
 
 
