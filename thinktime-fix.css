@@ -4,11 +4,6 @@
 @media print {
   /* PRINTABLE COMMON CLEANUP */
 
-  /* Headers always with content */
-  h1, h2, h3, h4, h5, h6 {
-    -webkit-break-after: avoid;
-    break-after: avoid
-  }
 
   /* more common variation is
     body * {
@@ -147,6 +142,12 @@
   }
 }
 
+/* Contents button stick to the top in mobile view */
+@media only screen and (max-width: 768px) {
+  .article-table-of-contents-module__expandButton--PgDln {
+    position: static;
+  }
+}
 
 /* COMMON RULES */
 
