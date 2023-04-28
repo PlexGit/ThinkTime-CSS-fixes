@@ -702,6 +702,11 @@ ul.k-toolbar.k-editor-toolbar {
   /* display: none; */
 }
 
+/* Task source code editor window fitting */
+div.k-widget.k-window.k-display-inline-flex {
+  width: fit-content;
+   height: fit-content;
+}
 
 .ticketDetailsTitle {
   padding-top: 16px;
