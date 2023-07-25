@@ -149,7 +149,7 @@
 
 /* Contents button stick to the top in mobile view */
 @media only screen and (max-width: 768px) {
-  .article-table-of-contents-module__expandButton--PgDln {
+  .kb-item-side-content-layout-module__expandButton--2NslK {
     position: static;
   }
 }
@@ -188,7 +188,7 @@ a.ng-binding {
 
 
 /* MORE buttons */
-.btn-default-custom,
+/*.btn-default-custom,*/
 .btn-primary,
 .btn-primary-invert,
 .langItem.active,
