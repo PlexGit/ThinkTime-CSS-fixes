@@ -369,12 +369,17 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
     flex-direction: row-reverse;
 }
 
-/* Article right side section gap */
+/* Article side section gap */
 .kb-item-content-wrapper-module__content--LZ1RU {
     gap: 20px;
 }
 .kb-item-content-wrapper-module__rightSideBarSections--KMPmG {
     gap: 20px;
+}
+
+/* Side section on small displays scrollable */
+.kb-item-side-content-layout-module__content--AUaW4 {
+    overflow: scroll;
 }
 
 /* Table of contents items spacing */
