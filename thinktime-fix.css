@@ -334,6 +334,11 @@ a.ng-binding.ng-scope {
   color: #4369dc;
 }
 
+/* Knowlege Base contents tree */
+.knowledge-base-sidebar-item-module__title--TAk0D {
+    white-space: normal;
+}
+
 
 /* Forms list title word wrap */
 a.link.ng-binding {
