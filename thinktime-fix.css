@@ -350,17 +350,28 @@ a.link.ng-binding {
 
 
 /* Table of contents word wrap */
+/* before v2.15
 span.article-table-of-contents-module__sectionTitle--Iz4DO {
   white-space: normal;
+} */
+.article-side-content-wrapper-module__articleSectionLink--8PNCG {
+    overflow: visible;
+    display: contents;
 }
 
 
 /* Table of contents items spacing */
+/* before v2.15
 .article-table-of-contents-module__sectionLink--m70gX {
   height: auto;
   padding: 8px 16px;
 }
+*/
 
+/* Related articles word-wrap */
+.knowledge-base-item-link-module__title--6WZ11 {
+    white-space: normal;
+}
 
 /* Table of contents max-width */
 .article-table-of-contents-module__container--6vgPT {
