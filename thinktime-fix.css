@@ -655,6 +655,7 @@ button.postBtn {
 
 button.postBtn.postBtn-alt.m-r-10 {
   background-color: lightcoral;
+  color: white;
   border-radius: 4px;
   margin: 4px;
 }
