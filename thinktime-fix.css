@@ -359,6 +359,16 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
     display: contents;
 }
 
+/* Related articles REMOVAL */
+.related-articles-module__relatedArticles--1Q2O5 {
+    display: none;
+}
+
+/* Aside section (table of contents and related articles) positioned left */
+.kb-item-content-wrapper-module__content--LZ1RU {
+    flex-direction: row-reverse;
+}
+
 /* Article right side section gap */
 .kb-item-content-wrapper-module__content--LZ1RU {
     gap: 20px;
