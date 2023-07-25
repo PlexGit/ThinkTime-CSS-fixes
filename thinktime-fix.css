@@ -359,6 +359,13 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
     display: contents;
 }
 
+/* Article right side section gap */
+.kb-item-content-wrapper-module__content--LZ1RU {
+    gap: 20px;
+}
+.kb-item-content-wrapper-module__rightSideBarSections--KMPmG {
+    gap: 20px;
+}
 
 /* Table of contents items spacing */
 /* before v2.15
