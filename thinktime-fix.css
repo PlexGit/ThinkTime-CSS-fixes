@@ -526,6 +526,12 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   color: lightgoldenrodyellow;
 }
 
+/* Tickets text size etc*/
+.ng-binding.ng-isolate-scope {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5
+}
 
 /* Tickets list end */
 td.goesEnd {
