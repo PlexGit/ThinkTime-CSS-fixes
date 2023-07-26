@@ -1,5 +1,6 @@
 /* GLOBAL */
 * {
+  --stylebot-color-ticket-title: #dae3d8;
   /* --knowledge-base-color: #547084;
   --primary-color: #547084; */
   --knowledge-base-color: #223355;
@@ -537,6 +538,10 @@ section.titleSection.ng-scope {
   padding-bottom: 5px
 } */
 
+/* Ticket title section color */
+section.titleSection.ng-scope {
+  background-color: var(--stylebot-color-ticket-title);
+}
 
 .titleSection,
 ._tz7wgn {
