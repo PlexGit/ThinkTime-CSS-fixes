@@ -1,7 +1,9 @@
 /* GLOBAL */
 * {
-  --knowledge-base-color: #547084;
-  --primary-color: #547084;
+  /* --knowledge-base-color: #547084;
+  --primary-color: #547084; */
+  --knowledge-base-color: #223355;
+  --primary-color: #223355;
   /* --navigation-active-background-color: #143c8a; */
   --navigation-active-background-color: #00a6e2;
 }
