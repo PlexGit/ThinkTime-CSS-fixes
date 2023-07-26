@@ -381,17 +381,19 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
     display: none;
 }
 
-/* Aside section (table of contents and related articles) positioned left */
-.kb-item-content-wrapper-module__content--LZ1RU {
-    flex-direction: row-reverse;
-}
-
-/* Article side section gap */
+/* Article aside section */
 .kb-item-content-wrapper-module__content--LZ1RU {
     gap: 20px;
+    flex-direction: row-reverse;
 }
 .kb-item-content-wrapper-module__rightSideBarSections--KMPmG {
     gap: 20px;
+    background-color: cornsilk;
+    padding: 0px 20px 20px 20px;
+    border-radius: 12px;
+}
+.article-side-content-wrapper-module__tableOfContentsTitle--qVJpU {
+    border-bottom: 2px solid var(--layout-border-color);
 }
 
 /* Side section on small displays scrollable */
