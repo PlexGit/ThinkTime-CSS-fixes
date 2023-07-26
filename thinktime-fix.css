@@ -1,7 +1,9 @@
 /* GLOBAL */
 * {
-  --knowledge-base-color: darkslategray;
-  --primary-color: darkslategray;
+  --knowledge-base-color: #547084;
+  --primary-color: #547084;
+  /* --navigation-active-background-color: #143c8a; */
+  --navigation-active-background-color: #00a6e2;
 }
 
 /* PRINTABLE */
@@ -202,12 +204,12 @@ a.ng-binding {
 .hamburgerIcon,
 .dashboard .tabsDashboards .k-tabstrip > .k-tabstrip-items .k-item.k-state-active {
     border-width: 0;
-    background-color: darkslategrey;
+    background-color: var(--primary-color);
 }
 
-/* Search border darkslategray */
+/* Search border dark */
 .searchPanelKnwoledgeBase, .searchPanelKnwoledgeBaseV2 {
-    border-color: darkslategray;
+    border-color: var(--primary-color);
 }
 
 .k-item.k-state-active {
