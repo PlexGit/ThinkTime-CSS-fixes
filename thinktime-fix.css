@@ -387,6 +387,7 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
     flex-direction: row-reverse;
 }
 .kb-item-content-wrapper-module__rightSideBarSections--KMPmG {
+    max-height: calc(90vh - (var(--app-header-height) + var(--breadcrumbs-height)));
     gap: 20px;
     background-color: cornsilk;
     padding: 0px 20px 20px 20px;
