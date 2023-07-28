@@ -255,7 +255,8 @@ a.ng-binding {
 
 /* List spacing */
 li {
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 
@@ -763,7 +764,12 @@ div.kb-article-footnote-module__footnote--Z\+Q-l {
 }
 
 
-/* List selector height */
+/* List selector*/
+.k-list-optionlabel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 /* .k-animation-container {
   height: 402px;
 }
