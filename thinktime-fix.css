@@ -206,6 +206,11 @@ span.ticketName a,
   display: inline-block;
 }
 
+/* External articles names fix - not inline-block */
+.newsItemAlone > h3 > .ng-binding {
+  display: inline;
+}
+
 
 /* Word wrap */
 a.ng-binding {
