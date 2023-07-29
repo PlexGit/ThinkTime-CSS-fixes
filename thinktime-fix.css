@@ -66,17 +66,14 @@ html {
 
   /* PRINTABLE Article */
 
-
   .kb-item-content-wrapper-module__body--n6jg5 {
     padding: 0;
   }
-
 
   .kb-item-content-wrapper-module__body--n6jg5,
   .kb-item-content-wrapper-module__body--n6jg5 * {
     visibility: visible;
   }
-
 
   .kb-item-content-wrapper-module__body--n6jg5 {
     position: absolute;
@@ -84,14 +81,12 @@ html {
     top: 0;
   }
 
-
   #app-header,
   .kb-item-page-header-module__container--5atFF,
   .kb-article-view-module__expand--NI8XI,
   .kb-item-view-info-module__sections--nSuJh {
     display: none;
   }
-
 
   h1,
   h2,
@@ -101,11 +96,10 @@ html {
     font-family: Verdana;
   }
 
-
   .kb-article-view-module__section--MEUXI {
     max-width: 100%;
   }
-
+  
 
   /* PRINTABLE Ticket */
   ul.k-tabstrip-items.k-reset,
