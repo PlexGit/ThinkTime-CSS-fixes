@@ -556,6 +556,11 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   line-height: 1.5
 }
 
+/* Tickets list font size */
+span.ticketName a {
+  font-size: 16px;
+}
+
 /* Tickets list end */
 td.goesEnd {
   color: #cccccc;
@@ -799,11 +804,9 @@ div.k-widget.k-window.k-display-inline-flex {
   padding-top: 16px;
 }
 
-
 .ticketDetailsContent {
   padding-bottom: 16px;
 }
-
 
 div.k-content.k-state-active {
   margin-top: 0;
