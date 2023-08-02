@@ -357,9 +357,6 @@ div.kb-item-page-header-module__container--5atFF {
   white-space: normal;
 }
 
-
-
-
 /* Task title color */
 a.ng-binding.ng-scope {
   white-space: normal;
@@ -367,7 +364,10 @@ a.ng-binding.ng-scope {
 }
 
 /* Knowlege Base contents tree */
-.knowledge-base-sidebar-item-module__title--TAk0D {
+.knowledge-base-sidebar-item-module__title--TAk0D,
+.kb-list-element-module__title--XCprQ,
+.kb-list-element-module__description--AWe23,
+.kb-list-element-module__count--xD9NR {
     white-space: normal;
 }
 
