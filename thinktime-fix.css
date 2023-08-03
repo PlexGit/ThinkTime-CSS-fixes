@@ -656,16 +656,17 @@ span.pull-right {
   margin-left: 0;
 }
 
-
 .k-upload .k-dropzone .k-upload-button {
   width: 100%;
 }
-
 
 .k-upload .k-dropzone .k-upload-button span {
   padding-top: 4px;
 }
 
+.k-upload .k-upload-files .k-file.k-file-success .k-file-name {
+  color: #4369dc
+}
 
 /* Tickets post area and buttons */
 
