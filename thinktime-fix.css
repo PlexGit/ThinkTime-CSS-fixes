@@ -106,7 +106,11 @@ html {
   button.btn.btn-link.description-content--trigger.ng-binding,
   p.commentsCollapse.text-uppercase.ng-scope,
   ul.attachmentsList,
-  div.postComment.ng-scope {
+  div.postComment.ng-scope,
+  div.sideArea,
+  .attachDescription,
+  .attachmentsPanel,
+  .ticketDetailsPage .contentSection .sideArea {
     display: none;
   }
 
