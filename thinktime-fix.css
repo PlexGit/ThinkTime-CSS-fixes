@@ -820,3 +820,9 @@ div.k-widget.k-window.k-display-inline-flex {
 div.k-content.k-state-active {
   margin-top: 0;
 }
+
+
+/* Users list word-wrap */
+span.hiddenOnHover.ng-binding {
+  white-space: normal;
+}
