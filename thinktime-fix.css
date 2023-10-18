@@ -821,8 +821,14 @@ div.k-content.k-state-active {
   margin-top: 0;
 }
 
-
 /* Users list word-wrap */
 span.hiddenOnHover.ng-binding {
   white-space: normal;
+}
+
+/* Task description content */
+div.ticketDetailsContent p.ng-binding {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5
 }
