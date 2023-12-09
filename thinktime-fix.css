@@ -210,11 +210,6 @@ span.ticketName a,
 }
 
 
-/* Word wrap */
-a.ng-binding {
-  white-space: normal;
-}
-
 /* No word wrap in dropdown menu */
 .dropdown-menu>li>a, .dropdown-menu>li>button {
   white-space: nowrap;
@@ -360,24 +355,10 @@ div.kb-item-page-header-module__container--5atFF {
   background-color: #d1e1f1;
 }
 
-
-/* Breadcrumps */
-.breadcrumbs-module__highlightedText--pCVRG {
-  white-space: normal;
-}
-
 /* Task title color */
 a.ng-binding.ng-scope {
   white-space: normal;
   color: #4369dc;
-}
-
-/* Knowlege Base contents tree */
-.knowledge-base-sidebar-item-module__title--TAk0D,
-.kb-list-element-module__title--XCprQ,
-.kb-list-element-module__description--AWe23,
-.kb-list-element-module__count--xD9NR {
-    white-space: normal;
 }
 
 
@@ -439,10 +420,6 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
 }
 */
 
-/* Related articles word-wrap */
-.knowledge-base-item-link-module__title--6WZ11 {
-    white-space: normal;
-}
 
 /* Table of contents max-width */
 .article-table-of-contents-module__container--6vgPT {
@@ -489,7 +466,6 @@ div span a {
   white-space: normal;
   /* color: #4369dc; */
 }
-
 
 span.linkStyle.hiddenOnHover.ng-binding {
   font-weight: 700;
@@ -825,11 +801,6 @@ div.k-content.k-state-active {
   margin-top: 0;
 }
 
-/* Users list word-wrap */
-span.hiddenOnHover.ng-binding {
-  white-space: normal;
-}
-
 /* Task description content */
 div.ticketDetailsContent p.ng-binding {
   font-size: 16px;
@@ -840,4 +811,25 @@ div.ticketDetailsContent p.ng-binding {
 /* Task requrements summaby button */
 .requirementsSummaryButton {
   color: whitesmoke;
+}
+
+/* Word wraps */
+a.ng-binding,
+._1gobrn0,
+._1ayhren,
+.checkbox-option-with-addon-module__row--LEN7F>.checkbox-option-with-addon-module__optionLabel--exSjI,
+.checkbox-option-with-addon-module__row--LEN7F.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__optionLabel--exSjI, .checkbox-option-with-addon-module__row--LEN7F.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__count--BbPVB, .checkbox-option-with-addon-module__row--LEN7F:hover.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__optionLabel--exSjI, .checkbox-option-with-addon-module__row--LEN7F:hover.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__count--BbPVB,
+.checkbox-option-module__label--oVWzc,
+/* Users list */
+span.hiddenOnHover.ng-binding,
+/* Related articles word-wrap */
+.knowledge-base-item-link-module__title--6WZ11,
+/* Knowlege Base contents tree */
+.knowledge-base-sidebar-item-module__title--TAk0D,
+.kb-list-element-module__title--XCprQ,
+.kb-list-element-module__description--AWe23,
+.kb-list-element-module__count--xD9NR,
+/* Breadcrumps */
+.breadcrumbs-module__highlightedText--pCVRG {
+  white-space: normal;
 }
