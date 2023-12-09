@@ -832,3 +832,8 @@ div.ticketDetailsContent p.ng-binding {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5
 }
+
+/* Task requrements summaby button */
+.requirementsSummaryButton {
+  color: whitesmoke;
+}
