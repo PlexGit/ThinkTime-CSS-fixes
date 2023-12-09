@@ -84,6 +84,8 @@ html {
 
   #app-header,
   .kb-item-page-header-module__container--5atFF,
+  .header-module__header--X182v,
+  .app-header-module__header--dp0Gt,
   .kb-article-view-module__expand--NI8XI,
   .kb-item-view-info-module__sections--nSuJh {
     display: none;
@@ -356,7 +358,10 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 
 
 /* Static top on scroll in articles */
+#app-header,
 .app-header-legacy-module__withFlexContainer--sEWdv,
+.header-module__header--X182v,
+.app-header-module__header--dp0Gt,
 .kb-item-page-header-module__container--5atFF,
 .kb-item-page-header-module__expired--o6pYj {
   position: static;
