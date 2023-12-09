@@ -215,6 +215,10 @@ a.ng-binding {
   white-space: normal;
 }
 
+/* No word wrap in dropdown menu */
+.dropdown-menu>li>a, .dropdown-menu>li>button {
+  white-space: nowrap;
+}
 
 /* Success edit button BG */
 .btn-success {
