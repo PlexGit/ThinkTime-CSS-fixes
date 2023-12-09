@@ -368,6 +368,13 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   position: static;
 }
 
+
+/* Left menu with articles tree */
+.knowledge-bases-sidebar-module__sidebar--nbSc0 {
+  top: 0;
+  height: 100vh;
+}
+
 /* Article header color */
 div.kb-item-page-header-module__container--5atFF {
   background-color: #d1e1f1;
@@ -415,11 +422,17 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
     flex-direction: row-reverse;
 }
 .kb-item-content-wrapper-module__rightSideBarSections--KMPmG {
-    max-height: calc(90vh - (var(--app-header-height) + var(--breadcrumbs-height)));
+    /* max-height: calc(90vh - (var(--app-header-height) + var(--breadcrumbs-height))); */
+    max-height: calc(100vh - 40px);
     gap: 20px;
     background-color: cornsilk;
-    padding: 0px 20px 20px 20px;
+    padding: 0 20px 0 20px;
+    /* margin: 20px 0 20px 0; */
     border-radius: 12px;
+    top: 20px;
+}
+.article-side-content-wrapper-module__tableOfContents--hZ\+wE{
+    padding: 20px 0 20px 0;
 }
 .article-side-content-wrapper-module__tableOfContentsTitle--qVJpU {
     border-bottom: 2px solid var(--layout-border-color);
