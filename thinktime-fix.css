@@ -400,6 +400,11 @@ a.link.ng-binding {
   color: var(--link-color);
 }
 
+/* Tasks list items color */
+.task-title-module__taskTitle--2eMeT {
+  color: var(--link-color);
+}
+
 
 /* Table of contents word wrap */
 /* before v2.15
