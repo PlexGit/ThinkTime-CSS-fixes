@@ -9,6 +9,7 @@
   /* --navigation-active-background-color: #143c8a; */
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
+  --link-color: #4369dc;
 }
 
 /* SCROLLBARS */
@@ -358,21 +359,21 @@ div.kb-item-page-header-module__container--5atFF {
 /* Task title color */
 a.ng-binding.ng-scope {
   white-space: normal;
-  color: #4369dc;
+  color: var(--link-color);
 }
 
 
 /* Forms list title word wrap */
 a.link.ng-binding {
   white-space: normal;
-  color: #4369dc;
+  color: var(--link-color);
 }
 
 
 /* Article title word wrap */
 .article-title__title {
   white-space: normal;
-  color: #4369dc;
+  color: var(--link-color);
 }
 
 
@@ -430,7 +431,7 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
 /* Knowlege Base articles list word wrap */
 a.text-ellipsis.ng-binding {
   white-space: normal;
-  color: #4369dc;
+  color: var(--link-color);
 }
 
 
@@ -440,7 +441,7 @@ a {
 
 
 a:not([class]):not([id]) {
-  color: #4369dc;
+  color: var(--link-color);
 }
 
 
@@ -464,7 +465,7 @@ div span a {
   font-style: normal;
   /* font-size: 18px; */
   white-space: normal;
-  /* color: #4369dc; */
+  /* color: var(--link-color); */
 }
 
 span.linkStyle.hiddenOnHover.ng-binding {
@@ -472,7 +473,7 @@ span.linkStyle.hiddenOnHover.ng-binding {
   font-style: normal;
   /* font-size: 18px; */
   white-space: normal;
-  color: #4369dc;
+  color: var(--link-color);
 }
 
 
@@ -530,7 +531,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 
 .k-button.k-state-selected {
   border: none;
-  background-color: #4369dc;
+  background-color: var(--link-color);
   color: lightgoldenrodyellow;
 }
 
@@ -544,6 +545,10 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 /* Tickets list font size */
 span.ticketName a {
   font-size: 16px;
+}
+
+a.ng-binding, span.ticketName a, .ng-scope td a {
+  color: var(--link-color);
 }
 
 /* Tickets list end */
@@ -650,7 +655,7 @@ span.pull-right {
 }
 
 .k-upload .k-upload-files .k-file.k-file-success .k-file-name {
-  color: #4369dc
+  color: var(--link-color)
 }
 
 /* Tickets post area and buttons */
@@ -720,7 +725,7 @@ button.postBtn.postBtn-alt.m-r-10:hover,
 .kb-tile--content:hover,
 .tt-button-primary.legacy:hover {
   text-decoration: none;
-  color: #4369dc;
+  color: var(--link-color);
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
   background: papayawhip;
@@ -830,6 +835,7 @@ span.hiddenOnHover.ng-binding,
 .kb-list-element-module__description--AWe23,
 .kb-list-element-module__count--xD9NR,
 /* Breadcrumps */
-.breadcrumbs-module__highlightedText--pCVRG {
+.breadcrumbs-module__highlightedText--pCVRG
+{
   white-space: normal;
 }
