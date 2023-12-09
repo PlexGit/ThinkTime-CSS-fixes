@@ -185,6 +185,17 @@ html {
   }
 }
 
+/* Padding in KB sections menu */
+@media only screen and (max-width: 768px) {
+  .kb-list-element-module__wrapper--ayYH\+ {
+    height: auto;
+  }
+
+  .kb-list-element-module__card--HNdAG {
+    padding: 20px 5px;
+  }
+}
+
 /* COMMON RULES */
 
 /* Article space between paragraphs */
