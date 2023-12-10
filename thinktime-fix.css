@@ -543,7 +543,6 @@ section.kb--top-section {
   padding-top: 15px;
 }
 
-
 /* Article editor toolbar CONTAINER */
 div.k-widget.k-window.k-window-titleless.k-editor-widget {
   position: fixed;
@@ -871,4 +870,10 @@ span.hiddenOnHover.ng-binding,
 .breadcrumbs-leaf-module__breadcrumb--KaQB1
 {
   white-space: normal;
+}
+
+/* Breadcrumps fix for small scrren */
+.breadcrumbs-leaf-module__breadcrumbsItem--1DUE1 {
+  max-height: 48px;
+  flex-wrap: wrap;
 }
