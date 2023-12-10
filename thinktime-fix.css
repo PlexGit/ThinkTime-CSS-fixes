@@ -877,3 +877,8 @@ span.hiddenOnHover.ng-binding,
   max-height: 48px;
   flex-wrap: wrap;
 }
+
+/* KB folders max width */
+.knowledge-base-folders-module__folder--UVU7s {
+  max-width: calc(100vw - 48px);
+}
