@@ -285,11 +285,6 @@ textarea {
 }
 
 
-.tox-edit-area__iframe {
-  box-shadow: inset 0px 0px 10px gainsboro;
-}
-
-
 textarea {
   min-height: 300px;
 }
@@ -301,26 +296,28 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 
 
 /* TinyMCE hacks */
+.tox-editor-header {
+  background-color: cornsilk;
+  /* box-shadow: 0 0 10px darkgoldenrod;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  margin: 0 auto;
+  max-width: calc(100vw - 20px);
+  z-index: 4; */
+}
+
 .tox-statusbar__branding {
   display: none;
 }
 
+.tox-edit-area__iframe {
+  box-shadow: inset 0px 0px 10px gainsboro;
+}
 
 .tt-field-label {
   color: transparent;
 }
-
-
-.tox-editor-header {
-  background-color: cornsilk;
-  position: fixed;
-  top: 75px;
-  /* left: 25px; */
-  margin: 0 auto;
-  z-index: 2;
-  box-shadow: 0 0 10px darkgoldenrod;
-}
-
 
 .tox-menubar {
   background-color: cornsilk;
@@ -330,7 +327,6 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 .tox-toolbar__primary {
   background-color: cornsilk;
 }
-
 
 .tox-toolbar-overlord {
   background-color: cornsilk;
