@@ -409,7 +409,7 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
 } */
 .article-side-content-wrapper-module__articleSectionLink--8PNCG {
     overflow: visible;
-    display: contents;
+    display: block;
 }
 
 /* Related articles REMOVAL */
