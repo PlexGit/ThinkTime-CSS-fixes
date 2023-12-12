@@ -248,6 +248,9 @@ html {
 .notification-module__body--N5jXV {
   line-height: 20px;
 }
+.notifications-panel-module__body--\+aC\+K tt-empty-state span:nth-child(2) {
+  text-align: center;
+}
 .notification-module__circle--4yBeT {
   box-shadow: 0 0 6px 4px lightgreen;
 }
