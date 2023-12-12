@@ -236,6 +236,16 @@ html {
 /* COMMON RULES */
 
 /* Notification bell */
+.notifications-panel-module__panel--X7E\+K {
+  height: unset;
+}
+/* .notifications-panel-module__body--\+aC\+K, */
+.notifications-panel-module__list--0h2bZ {
+/* .notifications-list-module__list--16c-V { */
+  height: auto;
+  max-height: calc(100vh *2 / 3);
+  /* overflow: hidden; */
+}
 .notifications-panel-module__header--VXCNa {
   display: flex;
   justify-content: space-between;
