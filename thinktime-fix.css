@@ -199,7 +199,18 @@ html {
     height: unset;
     width: 100%;
     /* max-width: fit-content; */
-    /* padding: 12px; */
+    padding: 8px;
+  }
+  .notifications-panel-module__heading--FULoR {
+    font-size: 18px;
+  }
+  .notifications-panel-module__list--0h2bZ {
+    margin-right: -16px;
+    margin-left: -16px;
+  }
+  .notifications-list-module__list--16c-V {
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .notification-module__avatar--kHGok {
     display: none;
@@ -223,11 +234,14 @@ html {
 
 /* Notification bell */
 .notifications-list-module__item--pR5ZC:not(:last-child) {
-    margin-bottom: 20px;
-    /* padding: 8px 0 !important; */
+  margin-bottom: 20px;
+  /* padding: 8px 0 !important; */
+}
+.notification-module__body--N5jXV {
+  line-height: 20px;
 }
 .notification-module__circle--4yBeT {
-    box-shadow: 0 0 12px 8px lightgreen;
+  box-shadow: 0 0 12px 8px lightgreen;
 }
 
 /* Article space between paragraphs */
