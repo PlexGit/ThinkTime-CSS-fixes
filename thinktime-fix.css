@@ -226,6 +226,9 @@ html {
     margin-bottom: 20px;
     /* padding: 8px 0 !important; */
 }
+.notification-module__circle--4yBeT {
+    box-shadow: 0 0 12px 8px lightgreen;
+}
 
 /* Article space between paragraphs */
 .article-section-module__body--kqMjE p+* {
