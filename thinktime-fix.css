@@ -180,21 +180,29 @@ html {
   }
 }
 
-/* Contents button stick to the top in mobile view */
+/* MOBILE VIEW */
+
 @media only screen and (max-width: 768px) {
+  /* Contents button stick to the top in mobile view */
   .kb-item-side-content-layout-module__expandButton--2NslK {
     position: static;
   }
-}
-
-/* Padding in KB sections menu */
-@media only screen and (max-width: 768px) {
+  /* Padding in KB sections menu */
   .kb-list-element-module__wrapper--ayYH\+ {
     height: auto;
   }
-
   .kb-list-element-module__card--HNdAG {
     padding: 20px 5px;
+  }
+  /* Dropdown menus */
+  /* .tt-dropdown-panel {
+    position: fixed;
+    max-width: calc(100vw - 20px);
+  } */
+  .notifications-panel-module__panel--X7E\+K {
+    /* height: unset;
+    max-width: fit-content; */
+    display: table-cell;
   }
 }
 
@@ -882,3 +890,4 @@ span.hiddenOnHover.ng-binding,
 .knowledge-base-folders-module__folder--UVU7s {
   max-width: calc(100vw - 48px);
 }
+
