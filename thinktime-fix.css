@@ -1,5 +1,5 @@
 /* Latest fix */
-/* Notification bell headers letter spacing */
+/* Titles on widgets */
 
 /* GLOBAL */
 * {
@@ -186,6 +186,10 @@ html {
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 768px) {
+  /* Widget title */
+  .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
+    font-size: 0.8rem;
+  }
   /* Contents button stick to the top in mobile view */
   .kb-item-side-content-layout-module__expandButton--2NslK {
     position: static;
@@ -946,7 +950,8 @@ span.hiddenOnHover.ng-binding,
 /* Breadcrumps */
 .breadcrumbs-module__highlightedText--pCVRG,
 .breadcrumbs-leaf-module__highlightedText--Vwl+D,
-.breadcrumbs-leaf-module__breadcrumb--KaQB1
+.breadcrumbs-leaf-module__breadcrumb--KaQB1,
+.titleWidget
 {
   white-space: normal;
 }
