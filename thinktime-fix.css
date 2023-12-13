@@ -1,5 +1,6 @@
-/* Latest fix */
-/* Survey table cell word-wrap */
+/* Latest fix
+More titles word-wrap
+*/
 
 /* GLOBAL */
 * {
@@ -951,7 +952,8 @@ span.hiddenOnHover.ng-binding,
 .breadcrumbs-module__highlightedText--pCVRG,
 .breadcrumbs-leaf-module__highlightedText--Vwl+D,
 .breadcrumbs-leaf-module__breadcrumb--KaQB1,
-.titleWidget
+.titleWidget,
+.ticketsListPage .titleSection .titlePart h1
 {
   white-space: normal;
 }
