@@ -1,5 +1,5 @@
 /* Latest fix
-Word-wrap regression fix
+Word-wrap regression fix 2
 */
 
 /* GLOBAL */
@@ -939,7 +939,8 @@ span.hiddenOnHover.ng-binding,
 .breadcrumbs-leaf-module__breadcrumb--KaQB1,
 .survey-table--cell,
 .titleWidget,
-.ticketsListPage .titleSection .titlePart h1
+.ticketsListPage .titleSection .titlePart h1,
+.ticketDetailsPage .titleSection .leftPart h1
 {
   white-space: normal;
 }
