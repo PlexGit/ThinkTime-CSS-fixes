@@ -1,5 +1,5 @@
 /* Latest fix */
-/* Titles on widgets */
+/* Survey table cell word-wrap */
 
 /* GLOBAL */
 * {
@@ -965,4 +965,9 @@ span.hiddenOnHover.ng-binding,
 /* KB folders max width */
 .knowledge-base-folders-module__folder--UVU7s {
   max-width: calc(100vw - 48px);
+}
+
+/* Survey table cell */
+.survey-table--cell {
+  white-space: normal;
 }
