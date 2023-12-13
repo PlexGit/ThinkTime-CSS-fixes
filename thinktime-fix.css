@@ -1,3 +1,6 @@
+/* Latest fix */
+/* Another way to fix Dashboard table headers */
+
 /* GLOBAL */
 * {
   /* --stylebot-color-ticket-title: #dae3d8; */
@@ -235,9 +238,9 @@ html {
 
 /* COMMON RULES */
 
-/* Dashboard tables */
-table.widgetTable th:nth-child(1) {
-  width: 172px;
+/* Dashboard tables header */
+.dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
+  font-size: 10px;
 }
 
 /* Notification bell */
