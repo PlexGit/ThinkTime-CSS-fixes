@@ -1,5 +1,5 @@
 /* Latest fix */
-/* Notification bell headers margins */
+/* Notification bell headers letter spacing */
 
 /* GLOBAL */
 * {
@@ -228,6 +228,10 @@ html {
   .notifications-panel-module__clearAll--w1Y1V {
     margin-left: 8px;
     margin-right: 8px;
+  }
+  .notifications-panel-module__heading--FULoR,
+  .tt-button-flat {
+    letter-spacing: -.7px;
   }
   .notification-module__prefix--TZDE- {
     padding-right: 12px;
