@@ -1,5 +1,5 @@
 /* Latest fix
-More and more  titles word-wrap
+Word-wrap regression fix
 */
 
 /* GLOBAL */
@@ -187,10 +187,6 @@ html {
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 768px) {
-  /* Widget title */
-  .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
-    font-size: 0.8rem;
-  }
   /* Contents button stick to the top in mobile view */
   .kb-item-side-content-layout-module__expandButton--2NslK {
     position: static;
@@ -229,14 +225,8 @@ html {
   .notifications-panel-module__body--\+aC\+K tt-empty-state tt-svg-icon {
     padding-top: 36px;
   }
-  .notifications-panel-module__heading--FULoR,
   .notifications-panel-module__clearAll--w1Y1V {
-    margin-left: 8px;
-    margin-right: 8px;
-  }
-  .notifications-panel-module__heading--FULoR,
-  .tt-button-flat {
-    letter-spacing: -.7px;
+    margin-left: 16px;
   }
   .notification-module__prefix--TZDE- {
     padding-right: 12px;
@@ -248,11 +238,6 @@ html {
 }
 
 /* COMMON RULES */
-
-/* Dashboard tables header */
-.dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
-  font-size: 10px;
-}
 
 /* Notification bell */
 .notifications-panel-module__panel--X7E\+K {
@@ -952,9 +937,9 @@ span.hiddenOnHover.ng-binding,
 .breadcrumbs-module__highlightedText--pCVRG,
 .breadcrumbs-leaf-module__highlightedText--Vwl+D,
 .breadcrumbs-leaf-module__breadcrumb--KaQB1,
+.survey-table--cell,
 .titleWidget,
-.ticketsListPage .titleSection .titlePart h1,
-.ticketDetailsPage .titleSection .leftPart h1
+.ticketsListPage .titleSection .titlePart h1
 {
   white-space: normal;
 }
@@ -968,9 +953,4 @@ span.hiddenOnHover.ng-binding,
 /* KB folders max width */
 .knowledge-base-folders-module__folder--UVU7s {
   max-width: calc(100vw - 48px);
-}
-
-/* Survey table cell */
-.survey-table--cell {
-  white-space: normal;
 }
