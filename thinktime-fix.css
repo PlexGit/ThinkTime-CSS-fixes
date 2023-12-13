@@ -1,5 +1,5 @@
 /* Latest fix */
-/* Another way to fix Dashboard table headers */
+/* Notification bell headers margins */
 
 /* GLOBAL */
 * {
@@ -224,8 +224,10 @@ html {
   .notifications-panel-module__body--\+aC\+K tt-empty-state tt-svg-icon {
     padding-top: 36px;
   }
+  .notifications-panel-module__heading--FULoR,
   .notifications-panel-module__clearAll--w1Y1V {
-    margin-left: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
   .notification-module__prefix--TZDE- {
     padding-right: 12px;
