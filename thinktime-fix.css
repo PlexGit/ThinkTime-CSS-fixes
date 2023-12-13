@@ -235,6 +235,11 @@ html {
 
 /* COMMON RULES */
 
+/* Dashboard tables */
+table.widgetTable th:nth-child(1) {
+  width: 172px;
+}
+
 /* Notification bell */
 .notifications-panel-module__panel--X7E\+K {
   height: unset;
