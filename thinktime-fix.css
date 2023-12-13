@@ -1,5 +1,5 @@
 /* Latest fix
-More titles word-wrap
+More and more  titles word-wrap
 */
 
 /* GLOBAL */
@@ -953,7 +953,8 @@ span.hiddenOnHover.ng-binding,
 .breadcrumbs-leaf-module__highlightedText--Vwl+D,
 .breadcrumbs-leaf-module__breadcrumb--KaQB1,
 .titleWidget,
-.ticketsListPage .titleSection .titlePart h1
+.ticketsListPage .titleSection .titlePart h1,
+.ticketDetailsPage .titleSection .leftPart h1
 {
   white-space: normal;
 }
