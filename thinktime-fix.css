@@ -1,5 +1,5 @@
 /* Latest fix
-Dashboard tables rows - More space for the article name
+GLOBAL TD white-space normal
 */
 
 /* GLOBAL */
@@ -34,6 +34,10 @@ html {
     border-radius: 9999px;
     border-width: 1px;
   }
+}
+
+td {
+  white-space: normal;
 }
 
 /* PRINTABLE */
