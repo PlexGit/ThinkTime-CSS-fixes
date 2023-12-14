@@ -1,5 +1,5 @@
 /* Latest fix
-All dashboard widgets tables 3+1+1 columns width
+Minor widget borders fixes
 */
 
 /* GLOBAL */
@@ -257,11 +257,17 @@ Older fix for News widget only
   display: flex;
   align-items: center;
   border-top: none;
+  border-bottom: none;
 }
 /* Adjust the width of the first column */
 .widgetTable th:first-child,
 .widgetTable td:first-child {
   flex: 3; /* Set the first column to take some width */
+}
+/* Single row widget fix */
+.dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer table.tableOverdue tr:not(:last-child) td {
+  border-top: none;
+  border-bottom: none;
 }
 
 
