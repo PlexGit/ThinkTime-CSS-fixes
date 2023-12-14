@@ -1,5 +1,5 @@
 /* Latest fix
-Word-wrap regression fix 2
+Dashboard tables rows - More space for the article name
 */
 
 /* GLOBAL */
@@ -246,6 +246,19 @@ html {
 /* Dashboard tables header */
 .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
   font-size: 10px;
+}
+
+/* Dashboar tables rows and columns */
+.dashboard .news-no-summary-table tbody tr {
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard .news-no-summary-table tbody td {
+  display: flex;
+  align-items: center; /* Vertically center the contents */
 }
 
 /* Notification bell */
