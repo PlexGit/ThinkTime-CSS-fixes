@@ -1,5 +1,5 @@
 /* Latest fix
-GLOBAL TD white-space normal
+All dashboard widgets tables 3+1+1 columns width
 */
 
 /* GLOBAL */
@@ -41,55 +41,36 @@ td {
 }
 
 /* PRINTABLE */
-
 @media print {
   /* PRINTABLE COMMON CLEANUP */
-
   /* Headers always with content */
   h1, h2, h3, h4, h5, h6 {
     -webkit-break-after: avoid;
     break-after: avoid
   }
-
-  /* more common variation is
-    body * {
-        visibility: hidden;
-    }
-    */
-
-
   * {
     visibility: hidden;
   }
-
-
   iframe {
     display: none;
   }
-
-
   .tableGlobal tr td {
     white-space: normal;
   }
 
-
   /* PRINTABLE Article */
-
   .kb-item-content-wrapper-module__body--n6jg5 {
     padding: 0;
   }
-
   .kb-item-content-wrapper-module__body--n6jg5,
   .kb-item-content-wrapper-module__body--n6jg5 * {
     visibility: visible;
   }
-
   .kb-item-content-wrapper-module__body--n6jg5 {
     position: absolute;
     left: 0;
     top: 0;
   }
-
   #app-header,
   .kb-item-page-header-module__container--5atFF,
   .header-module__header--X182v,
@@ -98,7 +79,6 @@ td {
   .kb-item-view-info-module__sections--nSuJh {
     display: none;
   }
-
   h1,
   h2,
   .kb-item-view-info-module__date--C5ez8,
@@ -106,7 +86,6 @@ td {
   .kb-article-footnote-module__publishDate--cC4wY {
     font-family: Verdana;
   }
-
   .kb-article-view-module__section--MEUXI {
     max-width: 100%;
   }
@@ -124,8 +103,6 @@ td {
   .ticketDetailsPage .contentSection .sideArea {
     display: none;
   }
-
-
   h1.state1,
   h1.state1 *,
   h1.state2,
@@ -144,30 +121,21 @@ td {
   .contentContainer * {
     visibility: visible;
   }
-
-
   .contentContainer {
     position: absolute;
     left: 0;
     top: 0;
   }
-
-
   .commentsPanel .existComment .commentTitle .addInfo .agent::after {
     display: none;
   }
 
-
   /* PRINTABLE Task */
-
-
   .contentContainer.corporateLongHeight,
   .taskSettingLine,
   p.lightColor.small {
     display: none;
   }
-
-
   h1.status,
   h1.status *,
   h1.status.state1,
@@ -253,17 +221,49 @@ td {
 }
 
 /* Dashboar tables rows and columns */
+/* 
+Older fix for News widget only
 .dashboard .news-no-summary-table tbody tr {
   width: 100%;
-  box-sizing: border-box; /* Include padding and border in the width calculation */
+  box-sizing: border-box; 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .dashboard .news-no-summary-table tbody td {
   display: flex;
-  align-items: center; /* Vertically center the contents */
+  align-items: center; 
+} */
+
+/* All dashdoard widgets tables */
+.widgetTable {
+  display: flex;
+  flex-direction: column;
 }
+/* .widgetTable thead,
+.widgetTable tbody {
+  display: flex;
+  width: 100%;
+} */
+.widgetTable thead tr,
+.widgetTable tbody tr {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.widgetTable th,
+.widgetTable td {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-top: none;
+}
+/* Adjust the width of the first column */
+.widgetTable th:first-child,
+.widgetTable td:first-child {
+  flex: 3; /* Set the first column to take some width */
+}
+
 
 /* Notification bell */
 .notifications-panel-module__panel--X7E\+K {
