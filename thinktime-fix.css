@@ -1,5 +1,5 @@
 /* Latest fix
-Letter spacing in widgets
+Paddings in notification
 */
 
 /* GLOBAL */
@@ -185,7 +185,7 @@ td {
   }
   .notifications-list-module__list--16c-V {
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 8px;
   }
   .notification-module__avatar--kHGok {
     display: none;
