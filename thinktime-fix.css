@@ -187,6 +187,10 @@ html {
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 768px) {
+  /* Widget title */
+  .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
+    font-size: 0.8rem;
+  }
   /* Contents button stick to the top in mobile view */
   .kb-item-side-content-layout-module__expandButton--2NslK {
     position: static;
@@ -238,6 +242,11 @@ html {
 }
 
 /* COMMON RULES */
+
+/* Dashboard tables header */
+.dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
+  font-size: 10px;
+}
 
 /* Notification bell */
 .notifications-panel-module__panel--X7E\+K {
