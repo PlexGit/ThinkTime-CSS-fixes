@@ -1,5 +1,5 @@
 /* Latest fix
-Store Visit summary 2
+Store Visit summary 3
 */
 
 /* GLOBAL */
@@ -213,7 +213,8 @@ td {
   /* Store Visit summary */
   .store-visits-summary-comments-module__tabs--yDApq,
   .store-visits-summary-task-module__title--T3Iho,
-  .store-visits-summary-task-module__taskWrapper--PZqVd {
+  .store-visits-summary-task-module__taskWrapper--PZqVd,
+  .store-visits-summary-task-module__titleNamePart--627MF {
     display: block;
   }
   ._ievr4j {
