@@ -1,4 +1,5 @@
 /* Latest fix
+Notification cyrcle
 Store Visit summary 3
 */
 
@@ -328,7 +329,8 @@ Older fix for News widget only
   text-align: center;
 }
 .notification-module__circle--4yBeT {
-  box-shadow: 0 0 6px 4px lightgreen;
+  /* box-shadow: 0 0 6px 4px lightgreen; */
+  background-color: yellowgreen;
 }
 
 /* Article space between paragraphs */
