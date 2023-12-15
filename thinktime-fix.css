@@ -1,5 +1,5 @@
 /* Latest fix
-Store Visit summary
+Store Visit summary 2
 */
 
 /* GLOBAL */
@@ -216,6 +216,15 @@ td {
   .store-visits-summary-task-module__taskWrapper--PZqVd {
     display: block;
   }
+  ._ievr4j {
+    padding: 0px 10px;
+  }
+  .question-module__headerQuestion--e6xI\+ {
+    padding: 14px 22px;
+  }
+  .question-module__questionField--rWeDO {
+    padding: 0 22px 10px;
+  }
 }
 
 /* COMMON RULES */
@@ -223,7 +232,8 @@ td {
 /* Store Visit summary */
 .store-visits-summary-header-module__title--CDSPT,
 .store-visits-summary-score-by-section-module__questionTitle--9bg\+B,
-.store-visits-summary-task-module__titleNamePart--627MF {
+.store-visits-summary-task-module__titleNamePart--627MF,
+._afpq1s {
   white-space: normal;
 }
 .store-visits-summary-score-by-section-module__wrapper--tKaZI {
