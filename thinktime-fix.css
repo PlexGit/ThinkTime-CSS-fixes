@@ -1,5 +1,5 @@
 /* Latest fix
-Paddings in notification
+Store Visit summary
 */
 
 /* GLOBAL */
@@ -90,7 +90,6 @@ td {
     max-width: 100%;
   }
   
-
   /* PRINTABLE Ticket */
   ul.k-tabstrip-items.k-reset,
   button.btn.btn-link.description-content--trigger.ng-binding,
@@ -211,9 +210,25 @@ td {
   .notification-module__close--wgZ0z {
     margin-left: 4px;
   }
+  /* Store Visit summary */
+  .store-visits-summary-comments-module__tabs--yDApq,
+  .store-visits-summary-task-module__title--T3Iho,
+  .store-visits-summary-task-module__taskWrapper--PZqVd {
+    display: block;
+  }
 }
 
 /* COMMON RULES */
+
+/* Store Visit summary */
+.store-visits-summary-header-module__title--CDSPT,
+.store-visits-summary-score-by-section-module__questionTitle--9bg\+B,
+.store-visits-summary-task-module__titleNamePart--627MF {
+  white-space: normal;
+}
+.store-visits-summary-score-by-section-module__wrapper--tKaZI {
+  padding: 20px 24px 28px;
+}
 
 /* Dashboard tables header */
 .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
