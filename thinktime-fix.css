@@ -1,4 +1,6 @@
 /* Latest fix
+Ticket button colors changed
+
 Ticket button color variations
 Ticket log panel is back
 Mobile - Line height 1 for all headings
@@ -375,10 +377,10 @@ span.ticketName a,
 
 /* Ticket button color variations */
 [data-ng-if="model.AllowedActions.assignToMe && !model.ticket.agent"] {
-  background-color: darkorange;
+  background-color: goldenrod;
 }
 [data-ng-switch-when="Resolved"] {
-  background-color: crimson;
+  background-color: firebrick;
 }
 
 /* MORE buttons */
