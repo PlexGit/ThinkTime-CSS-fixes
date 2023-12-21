@@ -1,6 +1,7 @@
 /* Latest fix
-Notification cyrcle
-Store Visit summary 3
+Ticket button color variations
+Ticket log panel is back
+Mobile - Line height 1 for all headings
 */
 
 /* GLOBAL */
@@ -159,6 +160,11 @@ td {
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 768px) {
+  /* Line height 1 for all headings */
+  h1, h2, h3, h4, h5, h6,
+  .learn-item-view-info-wrapper-module__title--nh30A {
+    line-height: 1.2;
+  }
   /* Widget title */
   .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
     font-size: 0.8rem;
@@ -367,6 +373,13 @@ span.ticketName a,
     background-color: mediumseagreen;
 }
 
+/* Ticket button color variations */
+[data-ng-if="model.AllowedActions.assignToMe && !model.ticket.agent"] {
+  background-color: darkorange;
+}
+[data-ng-switch-when="Resolved"] {
+  background-color: crimson;
+}
 
 /* MORE buttons */
 /*.btn-default-custom,*/
@@ -640,21 +653,9 @@ span.linkStyle.hiddenOnHover.ng-binding {
   color: var(--link-color);
 }
 
-
-/* div ul h2 {
-  display: none;
-} */
-
-
-div.logPanel {
-  display: none;
-}
-
-
 div ul hr {
   display: none;
 }
-
 
 button.user-utils-button {
   display: none;
@@ -1013,6 +1014,7 @@ span.hiddenOnHover.ng-binding,
 .breadcrumbs-leaf-module__breadcrumbsItem--1DUE1 {
   max-height: 48px;
   flex-wrap: wrap;
+  line-height: 1.2;
 }
 
 /* KB folders max width */
