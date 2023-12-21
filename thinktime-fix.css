@@ -1,4 +1,6 @@
 /* Latest fix
+Ticket side panel useless time section removed
+
 Ticket button colors changed
 
 Ticket button color variations
@@ -958,6 +960,12 @@ ul.k-toolbar.k-editor-toolbar {
 div.k-widget.k-window.k-display-inline-flex {
   width: fit-content;
    height: fit-content;
+}
+
+/* Ticket side panel useless time section removed */
+.sideArea div:nth-child(2) ul h2,
+.sideArea div:nth-child(2) ul li:nth-child(7) {
+  display: none;
 }
 
 .ticketDetailsTitle {
