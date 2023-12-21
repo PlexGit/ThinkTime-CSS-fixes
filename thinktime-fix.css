@@ -1,4 +1,6 @@
 /* Latest fix
+Article section title line height in mobile
+
 Ticket side panel - useless sections removed (3)
 
 Ticket button colors changed
@@ -166,7 +168,8 @@ td {
 @media only screen and (max-width: 768px) {
   /* Line height 1 for all headings */
   h1, h2, h3, h4, h5, h6,
-  .learn-item-view-info-wrapper-module__title--nh30A {
+  .learn-item-view-info-wrapper-module__title--nh30A,
+  .article-section-module__title--5j05X {
     line-height: 1.2;
   }
   /* Widget title */
