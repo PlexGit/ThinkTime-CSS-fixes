@@ -1,5 +1,5 @@
 /* Latest fix
-Ticket side panel and Task additional info - useless sections removed (2)
+Ticket side panel - useless sections removed (3)
 
 Ticket button colors changed
 
@@ -962,13 +962,9 @@ div.k-widget.k-window.k-display-inline-flex {
    height: fit-content;
 }
 
-/* .ticketDetailsAdditionalInfo { */
 /* Ticket side panel and Task additionsl info - useless sections removed */
 .sideArea div:nth-child(2) ul h2,
-.logPanel,
-.taskSettingLine,
-div.ticketDetailsAdditionalInfo div:nth-child(3) hr,
-div.ticketDetailsAdditionalInfo div:nth-child(3) > p {
+.logPanel {
   display: none;
 }
 
