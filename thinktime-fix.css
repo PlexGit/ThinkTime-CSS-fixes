@@ -1,4 +1,6 @@
 /* Latest fix
+Main area paddings 0 in mobile view
+
 Article section title line height in mobile 
 
 Ticket side panel - useless sections removed (3)
@@ -166,6 +168,11 @@ td {
 /* MOBILE VIEW */
 
 @media only screen and (max-width: 768px) {
+  /* Main content area paddings */
+  .ticketDetailsPage .contentSection .mainArea {
+    padding-left: 0;
+    padding-right: 0;
+  }
   /* Line height 1 for all headings */
   h1, h2, h3, h4, h5, h6,
   .learn-item-view-info-wrapper-module__title--nh30A,
