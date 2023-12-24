@@ -1,0 +1,4 @@
+/* Users list width */
+.adminPage .mainContentContainer .contentAdminContainer {
+    width: calc(100vw - 230px);
+}
