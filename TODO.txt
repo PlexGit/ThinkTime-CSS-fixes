@@ -1,7 +1,1 @@
-/* Users list width. NOTE: Affects other tables, fix to be reworked */
-.adminPage .mainContentContainer .contentAdminContainer {
-    width: calc(100vw - 230px - 20px - 20px);
-}
 
-/* uSearch items blue */
-.knowledge-base-search-item-module__title--XNTUf
