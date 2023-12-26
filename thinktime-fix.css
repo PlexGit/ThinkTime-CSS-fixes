@@ -1,15 +1,7 @@
-/* Latest fix
-Main area paddings 0 in mobile view
+/* 
+LATEST FIXES
 
-Article section title line height in mobile 
-
-Ticket side panel - useless sections removed (3)
-
-Ticket button colors changed
-
-Ticket button color variations
-Ticket log panel is back
-Mobile - Line height 1 for all headings
+Knowledge Base search results color and word-wrap
 */
 
 /* GLOBAL */
@@ -625,6 +617,14 @@ a.text-ellipsis.ng-binding {
   color: var(--link-color);
 }
 
+/* Knowlege Base search results color */
+.knowledge-base-search-item-module__title--XNTUf {
+  color: var(--link-color);
+}
+
+div.knowledge-base-search-item-module__titleRow--RbSt8 a span {
+  white-space: normal;
+}
 
 a {
   transition: background 300ms ease-out;
