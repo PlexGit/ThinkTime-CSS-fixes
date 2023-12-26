@@ -1,4 +1,4 @@
-/* Users list width */
+/* Users list width. NOTE: Affects other tables, fix to be reworked */
 .adminPage .mainContentContainer .contentAdminContainer {
     width: calc(100vw - 230px - 20px - 20px);
 }
