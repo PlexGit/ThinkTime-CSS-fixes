@@ -1,7 +1,8 @@
 /* 
 LATEST FIXES
 
-Knowledge Base search results color and word-wrap
+Ticket buttons layout fix
+Knowlege Base search results color and word-wrap
 */
 
 /* GLOBAL */
@@ -164,6 +165,11 @@ td {
   .ticketDetailsPage .contentSection .mainArea {
     padding-left: 0;
     padding-right: 0;
+  }
+  /* Ticket buttons layout fix */
+  .ticketDetailsPage .titleSection .rightPart {
+    flex-flow: wrap;
+    justify-content: end;
   }
   /* Line height 1 for all headings */
   h1, h2, h3, h4, h5, h6,
