@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Article title text area font fix and non-resizeable, input font Verdana
 All text areas Verdana 16px
 Removing awkward ";" symbol on bottom of the page
 Removed ";" at the end of page - did not work as exspected
@@ -451,13 +452,19 @@ textarea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+input {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 textarea {
   min-height: 300px;
 }
 
+/* Article title text area */
 textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   min-height: auto;
-  font-size: 16px;
+  resize: none;
+  font-size: 32px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
