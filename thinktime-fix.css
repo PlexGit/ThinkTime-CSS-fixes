@@ -1,7 +1,7 @@
 /* 
 LATEST FIXES
 
-Removed ";" at the end of page (2)
+Removed ";" at the end of page - did not work as exspected
 Ticket buttons layout fix
 Knowlege Base search results color and word-wrap
 */
@@ -18,14 +18,6 @@ Knowlege Base search results color and word-wrap
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
   --link-color: #4369dc;
-}
-
-/* Removed ";" at the end of page */
-.ticketDetailsPage {
-    font-size: 0;
-}
-.ticketDetailsPage * {
-    font-size: initial;
 }
 
 /* SCROLLBARS */
