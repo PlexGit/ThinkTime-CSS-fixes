@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Removing the awkward ";" symbol at the bottom of the page
 Removed ";" at the end of page - did not work as exspected
 Ticket buttons layout fix
 Knowlege Base search results color and word-wrap
@@ -18,6 +19,16 @@ Knowlege Base search results color and word-wrap
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
   --link-color: #4369dc;
+}
+
+/* Removing awkward ";" symbol on bottom of the page */
+.ticketDetailsPage,
+.ticketListPage {
+    visibility: hidden;
+}
+.ticketDetailsPage *,
+.ticketListPage * {
+    visibility: visible;
 }
 
 /* SCROLLBARS */
