@@ -1,7 +1,8 @@
 /* 
 LATEST FIXES
 
-Removing the awkward ";" symbol at the bottom of the page
+All text areas Verdana 16px
+Removing awkward ";" symbol on bottom of the page
 Removed ";" at the end of page - did not work as exspected
 Ticket buttons layout fix
 Knowlege Base search results color and word-wrap
@@ -331,7 +332,6 @@ Older fix for News widget only
   letter-spacing: -0.03em;
 }
 
-
 /* Notification bell */
 .notifications-panel-module__panel--X7E\+K {
   height: unset;
@@ -386,7 +386,6 @@ span.ticketName a,
   display: inline;
 }
 
-
 /* No word wrap in dropdown menu */
 .dropdown-menu>li>a, .dropdown-menu>li>button {
   white-space: nowrap;
@@ -427,17 +426,14 @@ span.ticketName a,
   border-width: 0;
 }
 
-
 .dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link {
     text-shadow: none;
 }
-
 
 .tt-button-primary.legacy,
 ._lbsrge {
     background-color: royalblue;
 }
-
 
 /* List spacing */
 li {
@@ -445,25 +441,25 @@ li {
   margin-bottom: 5px;
 }
 
-
 /* Editable areas are resizeable and have inner shadow*/
 .k-editable-area,
 textarea {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
   border-radius: 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 textarea {
   min-height: 300px;
 }
 
-
 textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   min-height: auto;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 /* TinyMCE hacks */
 .tox-editor-header {
@@ -502,26 +498,21 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   background-color: cornsilk;
 }
 
-
 .learn-editor-form-module__settings--SzIKp {
   background-color: ghostwhite;
 }
-
 
 .learn-editor-form-header-module__header--8emfo {
   background-color: lightskyblue;
 }
 
-
 .learn-editor-translation-form-module__primary--CA9Aj {
   background-color: ghostwhite;
 }
 
-
 .article-section-edit-module__section--2\+QX7 {
   box-shadow: 0 0 10px gainsboro;
 }
-
 
 /* Static top on scroll in articles */
 #app-header,
@@ -533,7 +524,6 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 .kb-item-page-header-module__expired--o6pYj {
   position: static;
 }
-
 
 /* Left menu with articles tree */
 .knowledge-bases-sidebar-module__sidebar--nbSc0 {
@@ -552,13 +542,11 @@ a.ng-binding.ng-scope {
   color: var(--link-color);
 }
 
-
 /* Forms list title word wrap */
 a.link.ng-binding {
   white-space: normal;
   color: var(--link-color);
 }
-
 
 /* Article title word wrap */
 .article-title__title {
@@ -570,7 +558,6 @@ a.link.ng-binding {
 .task-title-module__taskTitle--2eMeT {
   color: var(--link-color);
 }
-
 
 /* Table of contents word wrap */
 /* before v2.15
@@ -622,12 +609,10 @@ span.article-table-of-contents-module__sectionTitle--Iz4DO {
 }
 */
 
-
 /* Table of contents max-width */
 .article-table-of-contents-module__container--6vgPT {
   max-width: 25%;
 }
-
 
 /* Knowlege Base articles list word wrap */
 a.text-ellipsis.ng-binding {
@@ -648,26 +633,21 @@ a {
   transition: background 300ms ease-out;
 }
 
-
 a:not([class]):not([id]) {
   color: var(--link-color);
 }
-
 
 span.textOverflow.ng-binding {
   color: #000000;
 }
 
-
 span.counter.ng-binding {
   color: #000000;
 }
 
-
 span.textOverflow {
   color: #000000;
 }
-
 
 div span a {
   /* font-weight: 700; */
@@ -693,16 +673,13 @@ button.user-utils-button {
   display: none;
 }
 
-
 button.notifications-button-legacy-module__button--rJraS {
   display: none;
 }
 
-
 h2.kb--top-section-title {
   display: none;
 }
-
 
 section.kb--top-section {
   padding-bottom: 15px;
@@ -718,12 +695,10 @@ div.k-widget.k-window.k-window-titleless.k-editor-widget {
   width: 900px;
 }
 
-
 /* Article editor toolbar */
 div.editorToolbarWindow.k-header.k-window-content.k-content {
   background-color: #cccccc;
 }
-
 
 .k-button.k-state-selected {
   border: none;
@@ -752,7 +727,6 @@ td.goesEnd {
   color: #cccccc;
 }
 
-
 /* Title with buttons padding 
 section.titleSection.ng-scope {
   padding-top: 5px;
@@ -770,7 +744,6 @@ section.titleSection.ng-scope {
   padding-bottom: 6px;
 }
 
-
 /* Fixed size of paddings in all text containers */
 div.contentContainer {
   padding-bottom: 15px;
@@ -779,13 +752,11 @@ div.contentContainer {
   padding-left: 15px;
 }
 
-
 /* Agent name in comments */
 a.agent.ng-binding {
   font-weight: 700;
   font-style: normal;
 }
-
 
 /* Comment is private */
 span.pull-right {
@@ -797,35 +768,36 @@ span.pull-right {
   padding-left: 8px;
 }
 
-
 /* Ticket action modal right */
 .actionModalTicket.moved {
   background-color: mintcream;
   box-shadow: 0 0 10px gainsboro;
 }
 
-
 .textAreaModal {
   border: none;
   padding: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .textAreaModal .bottomBlock {
   border-top: none;
   margin: 0;
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .textAreaModal textarea {
   padding-top: 8px;
   padding-left: 16px;
   padding-right: 16px;
   padding-bottom: 8px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 /* Attachment add in Tickets */
 .k-dropzone {
@@ -836,7 +808,6 @@ span.pull-right {
   margin-left: 5px;
   padding-bottom: 2px;
 }
-
 
 .k-upload .k-dropzone .k-upload-button .fa {
   margin-left: 0;
@@ -855,22 +826,17 @@ span.pull-right {
 }
 
 /* Tickets post area and buttons */
-
-
 .k-state-focused {
   outline: none;
 }
-
 
 div.k-widget.k-upload.k-header.k-upload-empty {
   margin-top: 3px;
 }
 
-
 label.checkBox.labelPost {
   margin-top: 6px;
 }
-
 
 .validation-modal--contents {
   height: 100%;
@@ -884,17 +850,14 @@ label.checkBox.labelPost {
   margin-top: 12px;
 }
 
-
 .commentsPanel .postComment {
   margin-top: 25px;
   border: none;
 }
 
-
 .commentsPanel .postComment .postPanel .postBtn {
   border: 0;
 }
-
 
 button.postBtn {
   background-color: lightseagreen;
@@ -902,14 +865,12 @@ button.postBtn {
   margin: 4px;
 }
 
-
 button.postBtn.postBtn-alt.m-r-10 {
   background-color: lightcoral;
   color: white;
   border-radius: 4px;
   margin: 4px;
 }
-
 
 /* Links hover */
 a:hover,
@@ -927,7 +888,6 @@ button.postBtn.postBtn-alt.m-r-10:hover,
   background: papayawhip;
 }
 
-
 a:not(.btn):not(.kb-link):hover,
 .ticketDetailsPage .description-content--trigger:hover,
 #iLabel:hover,
@@ -939,12 +899,10 @@ a:not(.btn):not(.kb-link):hover,
   border-radius: 4px;
 }
 
-
 /* Widgets bottom hide */
 div.dashboardPlatesConclusion {
   display: none;
 }
-
 
 /* Article - Author name and date */
 div.kb-article-footnote-module__footnote--Z\+Q-l {
@@ -956,7 +914,6 @@ div.kb-article-footnote-module__footnote--Z\+Q-l {
   padding-bottom: 30px;
   flex-direction: column;
 }
-
 
 /* List selector*/
 .k-list-optionlabel {
@@ -1025,7 +982,10 @@ a.ng-binding,
 ._1gobrn0,
 ._1ayhren,
 .checkbox-option-with-addon-module__row--LEN7F>.checkbox-option-with-addon-module__optionLabel--exSjI,
-.checkbox-option-with-addon-module__row--LEN7F.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__optionLabel--exSjI, .checkbox-option-with-addon-module__row--LEN7F.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__count--BbPVB, .checkbox-option-with-addon-module__row--LEN7F:hover.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__optionLabel--exSjI, .checkbox-option-with-addon-module__row--LEN7F:hover.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__count--BbPVB,
+.checkbox-option-with-addon-module__row--LEN7F.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__optionLabel--exSjI,
+.checkbox-option-with-addon-module__row--LEN7F.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__count--BbPVB,
+.checkbox-option-with-addon-module__row--LEN7F:hover.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__optionLabel--exSjI,
+.checkbox-option-with-addon-module__row--LEN7F:hover.checkbox-option-with-addon-module__active--cUpex>.checkbox-option-with-addon-module__count--BbPVB,
 .checkbox-option-module__label--oVWzc,
 /* Users list */
 span.hiddenOnHover.ng-binding,
