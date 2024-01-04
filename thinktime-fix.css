@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket tabs layout in mobile view
 Task agent name not link colored now + Task attachments roll color
 Static top menu in task creation menu
 */
@@ -180,6 +181,29 @@ td {
   .ticketDetailsPage .titleSection .rightPart {
     flex-flow: wrap;
     justify-content: end;
+  }
+  /* Ticket tabs layout */
+  ul.k-tabstrip-items.k-reset {
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .ttTabStrip .k-header .k-tabstrip-items .k-item {
+    background: none;
+    border: solid 1px lightgray;
+    border-radius: 8px;
+    padding: 0;
+    margin: 4px;
+  }
+  .ttTabStrip .k-header .k-tabstrip-items .k-item.k-state-active {
+    border-radius: 8px;
+    background-color: lightskyblue;
+  }
+  .ttTabStrip .k-header .k-tabstrip-items .k-item .k-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
   /* Line height 1 for all headings */
   h1, h2, h3, h4, h5, h6,
