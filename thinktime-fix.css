@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Tickets List Page - removed awkward ";" symbol 
 Ticket tabs group margin in mobile view
 Ticket tabs layout in mobile view
 Task agent name not link colored now + Task attachments roll color
@@ -23,11 +24,11 @@ Static top menu in task creation menu
 
 /* Removing awkward ";" symbol on bottom of the page */
 .ticketDetailsPage,
-.ticketListPage {
+.ticketsListPage {
     visibility: hidden;
 }
 .ticketDetailsPage *,
-.ticketListPage * {
+.ticketsListPage * {
     visibility: visible;
 }
 
