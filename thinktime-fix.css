@@ -1,12 +1,10 @@
 /* 
 LATEST FIXES
 
+Static top menu in task creation menu
 Article title text area font fix and non-resizeable, input font Verdana
 All text areas Verdana 16px
-Removing awkward ";" symbol on bottom of the page
-Removed ";" at the end of page - did not work as exspected
-Ticket buttons layout fix
-Knowlege Base search results color and word-wrap
+Removing the awkward ";" symbol at the bottom of the page
 */
 
 /* GLOBAL */
@@ -521,14 +519,15 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   box-shadow: 0 0 10px gainsboro;
 }
 
-/* Static top on scroll in articles */
+/* Static top on scroll */
 #app-header,
 .app-header-legacy-module__withFlexContainer--sEWdv,
 .header-module__header--X182v,
 .knowledge-base-view-header-module__header--8Z2Oz,
 .app-header-module__header--dp0Gt,
 .kb-item-page-header-module__container--5atFF,
-.kb-item-page-header-module__expired--o6pYj {
+.kb-item-page-header-module__expired--o6pYj,
+.task-creation-page-header-module__wrapper--ytQlg {
   position: static;
 }
 
