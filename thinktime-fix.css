@@ -1,10 +1,8 @@
 /* 
 LATEST FIXES
 
+Task agent name not link colored now + Task attachments roll color
 Static top menu in task creation menu
-Article title text area font fix and non-resizeable, input font Verdana
-All text areas Verdana 16px
-Removing the awkward ";" symbol at the bottom of the page
 */
 
 /* GLOBAL */
@@ -544,6 +542,19 @@ div.kb-item-page-header-module__container--5atFF {
 
 /* Task title color */
 a.ng-binding.ng-scope {
+  white-space: normal;
+  color: var(--link-color);
+}
+
+/* Task agent name not link colored now */
+.addInfo a.agent.ng-binding {
+  white-space: normal;
+  color: var(--primary-color);
+}
+
+
+/* Task attashments roll color */
+.attachmentsCollapse a {
   white-space: normal;
   color: var(--link-color);
 }
