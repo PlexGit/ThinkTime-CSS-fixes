@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Tickets list heading width to fit one line
 Tickets List Page - removed awkward ";" symbol 
 Ticket tabs group margin in mobile view
 Ticket tabs layout in mobile view
@@ -763,6 +764,11 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 /* Tickets list font size */
 span.ticketName a {
   font-size: 16px;
+}
+
+/* Tickets list heading width to fit one line */
+.ticketsListPage .titleSection .titlePart {
+  width: auto;
 }
 
 a.ng-binding, span.ticketName a, .ng-scope td a {
