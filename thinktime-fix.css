@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket tabs group margin in mobile view
 Ticket tabs layout in mobile view
 Task agent name not link colored now + Task attachments roll color
 Static top menu in task creation menu
@@ -183,6 +184,10 @@ td {
     justify-content: end;
   }
   /* Ticket tabs layout */
+  .ttTabStrip .k-header .k-tabstrip-items {
+    border: none;
+    margin-bottom: 8px;
+  }
   ul.k-tabstrip-items.k-reset {
     margin-left: 0;
     margin-right: 0;
