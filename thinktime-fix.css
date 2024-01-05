@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket filter button width
 Tack Creation Sidebar positioning
 Tickets list heading width to fit one line
 Tickets List Page - removed awkward ";" symbol 
@@ -185,6 +186,12 @@ td {
   .ticketDetailsPage .titleSection .rightPart {
     flex-flow: wrap;
     justify-content: end;
+  }
+  /* Ticket filter button width */
+  .ticketsListPage .ticketsList .ticketsListHead .ticketsFilter2Mobile .filterBtn span {
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   /* Ticket tabs layout */
   .ttTabStrip .k-header .k-tabstrip-items {
