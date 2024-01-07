@@ -1,7 +1,7 @@
 /* 
 LATEST FIXES
 
-Calendar filter options word wrap and line height
+Calendar on wide screens - items word wrap and line height, row height
 Calendar items word wrap and items height in mobile view
 Ticket filter button width
 Tack Creation Sidebar positioning
@@ -14,7 +14,7 @@ Static top menu in task creation menu
 */
 
 /* GLOBAL */
-* {v
+* {
   /* --stylebot-color-ticket-title: #dae3d8; */
   --stylebot-color-ticket-title: #d3e8e6;
   /* --knowledge-base-color: #547084;
@@ -1075,12 +1075,6 @@ span.hiddenOnHover.ng-binding,
   white-space: normal;
 }
 
-/* Calendat filter options word wrap and line height */
-.filter-on-radiobuttons-module__optionValue--OovSS {
-  white-space: normal;
-  line-height: 1.2;
-}
-
 /* Breadcrumps fix for small scrren */
 .breadcrumbs-leaf-module__breadcrumbsItem--1DUE1 {
   max-height: 48px;
@@ -1091,4 +1085,16 @@ span.hiddenOnHover.ng-binding,
 /* KB folders max width */
 .knowledge-base-folders-module__folder--UVU7s {
   max-width: calc(100vw - 48px);
+}
+
+/* Calendar on wide screens - items word wrap and line height, row height */
+.event-module__event--E62nR span:last-child {
+    white-space: normal;
+line-height: 1.2;
+}
+.event-module__shortEvent--vgtmB {
+    height: fit-content;
+}
+.scheduler-row-module__layers--NVaI0 {
+    height: fit-content;
 }
