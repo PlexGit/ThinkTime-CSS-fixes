@@ -1075,6 +1075,12 @@ span.hiddenOnHover.ng-binding,
   white-space: normal;
 }
 
+/* Calendar items word wrap and items height in mobile view */
+.filter-on-radiobuttons-module__optionValue--OovSS {
+  white-space: normal;
+  line-height: 1.2;
+}
+
 /* Breadcrumps fix for small scrren */
 .breadcrumbs-leaf-module__breadcrumbsItem--1DUE1 {
   max-height: 48px;
