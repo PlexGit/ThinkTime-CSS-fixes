@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Calendar filter options word wrap and line height
 Calendar items word wrap and items height in mobile view
 Ticket filter button width
 Tack Creation Sidebar positioning
@@ -13,7 +14,7 @@ Static top menu in task creation menu
 */
 
 /* GLOBAL */
-* {
+* {v
   /* --stylebot-color-ticket-title: #dae3d8; */
   --stylebot-color-ticket-title: #d3e8e6;
   /* --knowledge-base-color: #547084;
@@ -1072,6 +1073,12 @@ span.hiddenOnHover.ng-binding,
 .ticketDetailsPage .titleSection .leftPart h1
 {
   white-space: normal;
+}
+
+/* Calendat filter options word wrap and line height */
+.filter-on-radiobuttons-module__optionValue--OovSS {
+  white-space: normal;
+  line-height: 1.2;
 }
 
 /* Breadcrumps fix for small scrren */
