@@ -12,6 +12,8 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a/raw/106a5e62104
 Fixes that I applied and did not forget to describe
 04.01.2023
 
+Calendar items word wrap and items height in mobile view
+Ticket filter button width
 Tack Creation Sidebar positioning
 Tickets list heading width to fit one line
 Tickets List Page - removed awkward ";" symbol
