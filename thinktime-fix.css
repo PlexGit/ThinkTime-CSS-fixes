@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Calendar items word wrap and items height in mobile view
 Ticket filter button width
 Tack Creation Sidebar positioning
 Tickets list heading width to fit one line
@@ -293,6 +294,13 @@ td {
   }
   .question-module__questionField--rWeDO {
     padding: 0 22px 10px;
+  }
+  /* Calendar items */
+  ._ub61tk {
+    white-space: normal;
+  }
+  .list-view-module__event--TmLUh {
+    height: fit-content;
   }
 }
 
