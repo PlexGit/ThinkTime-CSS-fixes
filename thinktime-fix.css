@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+Store Visit completion title width
+Store Visit completion percentage items
 Store Visit header line height
 (+) icon bg color
 Store Visit and Tickets header elements placing
@@ -325,6 +327,23 @@ td {
 }
 .store-visits-summary-score-by-section-module__wrapper--tKaZI {
   padding: 20px 24px 28px;
+}
+
+/* Store Visit completion percentage items */
+.store-visits-summary-score-by-section-module__questionSection--wiX0Q {
+    flex-wrap: wrap;
+}
+.store-visits-summary-score-by-section-module__questionSectionScore--89kf4 {
+  margin-top: 8px;
+}
+
+/* Store Visit completion title width */
+.store-visits-summary-score-by-section-module__questionTitle--9bg\+B {
+    max-width: 75%;
+}
+.store-visits-summary-score-by-section-module__failText--2LQE8,
+.store-visits-summary-score-by-section-module__questionsRatio--tSAVw {
+    white-space: normal;
 }
 
 /* Store Visit comment texarea */
