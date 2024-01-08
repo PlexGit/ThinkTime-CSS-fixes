@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Not to display last breadcrumbs' ">" sign in Learn
 Reversed: Breadcrumbs fix for the small screen - min to the content width
 Not to display the last breadcrumb in Learn because it is the title of the page
 Store Visit completion title width
@@ -1153,6 +1154,10 @@ span.hiddenOnHover.ng-binding,
 /* Not to display last breadcrump in Learn */
 .breadcrumbs-module__breadcrumbs--4SQyq>*:last-child {
     display: none;
+}
+/* Not to display last breadcrump's ">" sign in Learn */
+.breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type {
+  display: none;
 }
 
 /* KB folders max width */
