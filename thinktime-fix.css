@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Store Visit comment textarea
 Calendar on wide screens - items word wrap and line height, row height
 Calendar items word wrap and items height in mobile view
 Ticket filter button width
@@ -316,6 +317,14 @@ td {
 }
 .store-visits-summary-score-by-section-module__wrapper--tKaZI {
   padding: 20px 24px 28px;
+}
+
+/* Store Visit comment texarea */
+.comment-edit-module__textarea--BO9yA {
+    padding: 12px 16px;
+}
+.comment-edit-module__field--Uo8E4 {
+    padding: 0;
 }
 
 /* Dashboard tables header */
