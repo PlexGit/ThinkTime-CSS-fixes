@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Store Visit header line height
 (+) icon bg color
 Store Visit and Tickets header elements placing
 Store Visit comment textarea
@@ -351,6 +352,11 @@ td {
 }
 .titleSection h1 {
   line-height: 1.2;
+}
+
+/* Store Visit header line height */
+.store-visits-summary-header-module__title--CDSPT {
+    line-height: 1.2;
 }
 
 /* Dashboard tables header */
