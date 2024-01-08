@@ -1,7 +1,7 @@
 /* 
 LATEST FIXES
 
-Breadcrumbs fix for the small screen - min to the content width
+Reversed: Breadcrumbs fix for the small screen - min to the content width
 Not to display the last breadcrumb in Learn because it is the title of the page
 Store Visit completion title width
 Store Visit completion percentage items
@@ -1148,7 +1148,7 @@ span.hiddenOnHover.ng-binding,
   max-height: 48px;
   flex-wrap: wrap;
   line-height: 1.2;
-  max-width: min-content;
+  /* max-width: min-content; */
 }
 /* Not to display last breadcrump in Learn */
 .breadcrumbs-module__breadcrumbs--4SQyq>*:last-child {
