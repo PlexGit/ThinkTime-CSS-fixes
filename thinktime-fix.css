@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+(+) icon bg color
 Store Visit and Tickets header elements placing
 Store Visit comment textarea
 Calendar on wide screens - items word wrap and line height, row height
@@ -27,6 +28,11 @@ Static top menu in task creation menu
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
   --link-color: #4369dc;
+}
+
+/* (+) icon bg color */
+.tt-icon-button {
+  background-color: var(--icon-button-background);
 }
 
 /* Removing awkward ";" symbol on bottom of the page */
