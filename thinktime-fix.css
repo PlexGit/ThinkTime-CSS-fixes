@@ -340,6 +340,12 @@ td {
 .ticketDetailsPage .titleSection .mainTitleArea .leftPart {
     flex: 1;
 }
+.ticketDetailsPage .titleSection .mainTitleArea .leftPart h1 {
+  line-height: 1.2;
+}
+.titleSection h1 {
+  line-height: 1.2;
+}
 
 /* Dashboard tables header */
 .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
