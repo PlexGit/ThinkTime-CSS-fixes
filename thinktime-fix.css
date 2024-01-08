@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Not to display the last breadcrumb in Learn because it is the title of page
 Store Visit completion title width
 Store Visit completion percentage items
 Store Visit header line height
@@ -1141,11 +1142,15 @@ span.hiddenOnHover.ng-binding,
   line-height: 1.2;
 }
 
-/* Breadcrumps fix for small scrren */
+/* Breadcrumps fix for small screen */
 .breadcrumbs-leaf-module__breadcrumbsItem--1DUE1 {
   max-height: 48px;
   flex-wrap: wrap;
   line-height: 1.2;
+}
+/* Not to display last breadcrump in Learn */
+.breadcrumbs-module__breadcrumbs--4SQyq>*:last-child {
+    display: none;
 }
 
 /* KB folders max width */
