@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Store Visit and Tickets header elements placing
 Store Visit comment textarea
 Calendar on wide screens - items word wrap and line height, row height
 Calendar items word wrap and items height in mobile view
@@ -325,6 +326,19 @@ td {
 }
 .comment-edit-module__field--Uo8E4 {
     padding: 0;
+}
+
+/* Store Visit and Tickets header elements placing */
+.ticketDetailsPage .titleSection .mainTitleArea {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticketDetailsPage .titleSection .mainTitleArea .leftPart {
+    flex: 1;
 }
 
 /* Dashboard tables header */
