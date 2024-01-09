@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Input fields  reverted to Averta font  to save design
 Store Visit and Tickets header elements - Left part was bigger than the viewport
 My Work smaller header in mobile
 My Work tasks line wrap
@@ -549,10 +550,6 @@ textarea {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 textarea {
   min-height: 300px;
 }
@@ -562,7 +559,7 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   min-height: auto;
   resize: none;
   font-size: 32px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Averta","Futura","Gothic",sans-serif;
 }
 
 /* TinyMCE hacks */
