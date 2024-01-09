@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Store Visit and Tickets header elements - Left part was bigger than the viewport
 My Work smaller header in mobile
 My Work tasks line wrap
 Not to display last breadcrumbs' ">" sign in Learn
@@ -356,6 +357,7 @@ td {
 }
 .ticketDetailsPage .titleSection .mainTitleArea .leftPart {
     flex: 1;
+    margin-right: auto;
 }
 .ticketDetailsPage .titleSection .mainTitleArea .leftPart h1 {
   line-height: 1.2;
