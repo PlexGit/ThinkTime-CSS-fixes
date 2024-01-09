@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+My Work tasks line wrap
 Not to display last breadcrumbs' ">" sign in Learn
 Reversed: Breadcrumbs fix for the small screen - min to the content width
 Not to display the last breadcrumb in Learn because it is the title of the page
@@ -1063,6 +1064,14 @@ div.kb-article-footnote-module__footnote--Z\+Q-l {
   height: 332px;
 } */
 
+/* My Work tasks line wrap */
+._5kaapu {
+  flex-wrap: wrap;
+}
+._1wzyfkw {
+  flex-shrink: 2;
+  margin-bottom: 8px;
+}
 
 /* Tasks editor toolbar */
 ul.k-toolbar.k-editor-toolbar {
