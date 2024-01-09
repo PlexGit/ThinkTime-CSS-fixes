@@ -1,26 +1,9 @@
 /* 
 LATEST FIXES
 
+My Work smaller header in mobile
 My Work tasks line wrap
 Not to display last breadcrumbs' ">" sign in Learn
-Reversed: Breadcrumbs fix for the small screen - min to the content width
-Not to display the last breadcrumb in Learn because it is the title of the page
-Store Visit completion title width
-Store Visit completion percentage items
-Store Visit header line height
-(+) icon bg color
-Store Visit and Tickets header elements placing
-Store Visit comment textarea
-Calendar on wide screens - items word wrap and line height, row height
-Calendar items word wrap and items height in mobile view
-Ticket filter button width
-Tack Creation Sidebar positioning
-Tickets list heading width to fit one line
-Tickets List Page - removed awkward ";" symbol 
-Ticket tabs group margin in mobile view
-Ticket tabs layout in mobile view
-Task agent name not link colored now + Task attachments roll color
-Static top menu in task creation menu
 */
 
 /* GLOBAL */
@@ -317,6 +300,10 @@ td {
   }
   .list-view-module__event--TmLUh {
     height: fit-content;
+  }
+  /* My Work smaller header */
+  .header-module__header--TFCkR {
+    padding: 10px 12px;
   }
 }
 
