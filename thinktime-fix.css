@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB home header height
 Breadcrumbs max-width in mobile
 Input fields  reverted to Averta font  to save design
 Store Visit and Tickets header elements - Left part was bigger than the viewport
@@ -319,6 +320,11 @@ td {
 }
 
 /* COMMON RULES */
+
+/* KB home header height */
+.kb-home-header-module__headerWrapper--Ve8Z0 {
+  height: 160px;
+}
 
 /* Store Visit summary */
 .store-visits-summary-header-module__title--CDSPT,
