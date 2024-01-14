@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB home header height in mobile
 KB home header height
 Breadcrumbs max-width in mobile
 Input fields  reverted to Averta font  to save design
@@ -185,6 +186,10 @@ td {
   .ticketDetailsPage .contentSection .mainArea {
     padding-left: 0;
     padding-right: 0;
+  }
+  /* KB home header height */
+  .kb-home-header-module__headerWrapper--Ve8Z0 {
+    height: 160px;
   }
   /* Ticket buttons layout fix */
   .ticketDetailsPage .titleSection .rightPart {
