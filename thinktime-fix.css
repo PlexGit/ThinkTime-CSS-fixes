@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Table of contents space for scroller
 KB home header height in mobile
 KB home header height
 Breadcrumbs max-width in mobile
@@ -707,6 +708,11 @@ a.link.ng-binding {
 .article-side-content-wrapper-module__articleSectionLink--8PNCG {
     overflow: visible;
     display: block;
+}
+
+/* Table of contents space for scroller */
+.article-side-content-wrapper-module__articleSections--SF1Lj {
+    margin-right: 8px;
 }
 
 /* Related articles REMOVAL */
