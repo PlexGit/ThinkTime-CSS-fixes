@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB folders - items max height
 Table of contents space for scroller
 KB home header height in mobile
 KB home header height
@@ -1184,6 +1185,11 @@ span.hiddenOnHover.ng-binding,
 /* KB folders max width */
 .knowledge-base-folders-module__folder--UVU7s {
   max-width: calc(100vw - 48px);
+}
+
+/* KB folders - items max height */
+.knowledge-base-articles-in-folder-module__article--dl3Lm {
+  max-height: 24px;
 }
 
 /* Calendar on wide screens - items word wrap and line height, row height */
