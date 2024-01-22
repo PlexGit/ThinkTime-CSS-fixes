@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Lighter outline for focused text areas
 KB folders - items max height (v2)
 Table of contents space for scroller
 KB home header height in mobile
@@ -570,6 +571,11 @@ textarea {
   border-radius: 5px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Lighter outline for focused text areas */
+.k-editable-area:focus-visible,
+textarea:focus-visible {
+  outline-color: gainsboro;
 }
 
 textarea {
