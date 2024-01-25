@@ -1,7 +1,7 @@
 /* 
 LATEST FIXES
 
-Table of contents color
+Table of contents color (2)
 Lighter outline for focused text areas
 KB folders - items max height (v2)
 Table of contents space for scroller
@@ -729,9 +729,10 @@ a.link.ng-binding {
     /* max-height: calc(90vh - (var(--app-header-height) + var(--breadcrumbs-height))); */
     max-height: calc(100vh - 40px);
     gap: 20px;
-    background-color: lavender;
+    background-color: white;
     padding: 0 20px 0 20px;
     /* margin: 20px 0 20px 0; */
+    border: 2px gainsboro solid;
     border-radius: 12px;
     top: 20px;
 }
