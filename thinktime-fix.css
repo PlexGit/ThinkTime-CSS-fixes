@@ -1,17 +1,10 @@
 /* 
 LATEST FIXES
 
+Table of contents color
 Lighter outline for focused text areas
 KB folders - items max height (v2)
 Table of contents space for scroller
-KB home header height in mobile
-KB home header height
-Breadcrumbs max-width in mobile
-Input fields  reverted to Averta font  to save design
-Store Visit and Tickets header elements - Left part was bigger than the viewport
-My Work smaller header in mobile
-My Work tasks line wrap
-Not to display last breadcrumbs' ">" sign in Learn
 */
 
 /* GLOBAL */
@@ -736,7 +729,7 @@ a.link.ng-binding {
     /* max-height: calc(90vh - (var(--app-header-height) + var(--breadcrumbs-height))); */
     max-height: calc(100vh - 40px);
     gap: 20px;
-    background-color: cornsilk;
+    background-color: lavender;
     padding: 0 20px 0 20px;
     /* margin: 20px 0 20px 0; */
     border-radius: 12px;
