@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Attachments labels fix
 Table of contents - Active link more intense black
 Table of contents color (4)
 Lighter outline for focused text areas
@@ -322,6 +323,15 @@ td {
 }
 
 /* COMMON RULES */
+
+/* Attachments labels fix */
+.attachmentsList li .attachmentDescription,
+.attachmentsPanel li .attachDescription .labelAttach,
+.uploaded-attachment-module__title--bGOfT,
+.attachment-preview-module__name--xryIZ {
+  line-height: 1.2;
+  white-space: normal;
+}
 
 /* KB home header height */
 .kb-home-header-module__headerWrapper--Ve8Z0 {
