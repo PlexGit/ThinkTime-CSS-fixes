@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+article-summary-list text wrap
 Side section on small displays full height
 Word wrap method changed to {text-wrap: balance} everywhere
 Attachments labels fix
@@ -1187,6 +1188,7 @@ span.hiddenOnHover.ng-binding,
 .kb-list-element-module__title--XCprQ,
 .kb-list-element-module__description--AWe23,
 .kb-list-element-module__count--xD9NR,
+.article-summary-list-module__title--im3OK,
 /* Breadcrumps */
 .breadcrumbs-module__highlightedText--pCVRG,
 .breadcrumbs-leaf-module__highlightedText--Vwl+D,
