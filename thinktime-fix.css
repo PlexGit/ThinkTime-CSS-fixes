@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Side section on small displays full height
 Word wrap method changed to {text-wrap: balance} everywhere
 Attachments labels fix
 Table of contents - Active link more intense black
@@ -776,9 +777,11 @@ a.link.ng-binding {
     text-shadow: 0 0 black;
 }
 
-/* Side section on small displays scrollable */
+/* Side section on small displays scrollable and full height */
 .kb-item-side-content-layout-module__content--AUaW4 {
     overflow: scroll;
+    top: 0;
+    height: 100vh;
 }
 
 /* Table of contents max-width */
