@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+KB folders - items max height (v3)
+Mobile: KB folders smaller paddings
 line-height: 1.2 for all forced text wraps
 article-summary-list text wrap
 Side section on small displays full height
@@ -253,6 +255,9 @@ td {
   }
   .kb-list-element-module__card--HNdAG {
     padding: 20px 5px;
+  }
+  .knowledge-base-folders-module__folder--UVU7s {
+    padding: 12px 16px 16px 20px;
   }
   /* Breadcrumbs max-width */
   .knowledge-base-view-header-module__header--8Z2Oz {
@@ -1234,10 +1239,15 @@ span.hiddenOnHover.ng-binding,
 
 /* KB folders - items max height */
 .knowledge-base-articles-in-folder-module__article--dl3Lm {
-  max-height: 24px;
+  max-height: fit-content;
 }
 .knowledge-base-articles-in-folder-module__article--dl3Lm:hover {
-  background-color: unset;
+  background-color: initial;
+  padding: initial;
+  margin-left: initial;
+  margin-right: initial;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Calendar on wide screens - items word wrap and line height, row height */
