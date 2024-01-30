@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+line-height: 1.2 for all forced text wraps
 article-summary-list text wrap
 Side section on small displays full height
 Word wrap method changed to {text-wrap: balance} everywhere
@@ -1200,6 +1201,7 @@ span.hiddenOnHover.ng-binding,
 {
   /* white-space: normal; */
   text-wrap: balance;
+  line-height: 1.2;
 }
 
 /* Calendar items word wrap and items height in mobile view */
