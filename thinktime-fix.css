@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Mobile: KB articles list smaller paddings
 KB folders - items max height (v3)
 Mobile: KB folders smaller paddings
 line-height: 1.2 for all forced text wraps
@@ -258,6 +259,9 @@ td {
   }
   .knowledge-base-folders-module__folder--UVU7s {
     padding: 12px 16px 16px 20px;
+  }
+  .knowledge-base-article-list-module__article--neW8n {
+    padding: 12px 16px;
   }
   /* Breadcrumbs max-width */
   .knowledge-base-view-header-module__header--8Z2Oz {
