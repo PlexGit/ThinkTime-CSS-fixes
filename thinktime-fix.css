@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Table of contents - Active link more intense black (2)
 Users list width fix
 Mobile: KB articles list smaller paddings
 KB folders - items max height (v3)
@@ -791,7 +792,7 @@ a.link.ng-binding {
 }
 /* Active link more intense black */
 .article-side-content-wrapper-module__articleSectionActiveLink--22dCj {
-    text-shadow: 0 0 black;
+    text-shadow: 0px 0px 1px mediumblue;
 }
 
 /* Side section on small displays scrollable and full height */
