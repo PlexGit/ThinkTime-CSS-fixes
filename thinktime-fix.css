@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Users list width fix
 Mobile: KB articles list smaller paddings
 KB folders - items max height (v3)
 Mobile: KB folders smaller paddings
@@ -339,6 +340,11 @@ td {
 }
 
 /* COMMON RULES */
+
+/* Users list width fix */
+.adminPage .mainContentContainer .contentAdminContainer {
+  flex: 1;
+}
 
 /* Attachments labels fix */
 .attachmentsList li .attachmentDescription,
