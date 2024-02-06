@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Hovered items now have bolder text using tex-shadow
 Table of contents - Active link more intense black (2)
 Users list width fix
 Mobile: KB articles list smaller paddings
@@ -1087,6 +1088,7 @@ button.postBtn.postBtn-alt.m-r-10:hover,
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
   box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
   background: papayawhip;
+  text-shadow: 0 0 1px currentColor;
 }
 
 a:not(.btn):not(.kb-link):hover,
