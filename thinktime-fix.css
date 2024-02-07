@@ -1,22 +1,9 @@
 /* 
 LATEST FIXES
 
+All content containers - No additional margin on top
 Hovered items now have bolder text using tex-shadow
 Table of contents - Active link more intense black (2)
-Users list width fix
-Mobile: KB articles list smaller paddings
-KB folders - items max height (v3)
-Mobile: KB folders smaller paddings
-line-height: 1.2 for all forced text wraps
-article-summary-list text wrap
-Side section on small displays full height
-Word wrap method changed to {text-wrap: balance} everywhere
-Attachments labels fix
-Table of contents - Active link more intense black
-Table of contents color (4)
-Lighter outline for focused text areas
-KB folders - items max height (v2)
-Table of contents space for scroller
 */
 
 /* GLOBAL */
@@ -952,6 +939,11 @@ div.contentContainer {
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+/* All content conteiners - No additional margin on top */
+.contentContainer+.contentContainer {
+  margin-top: auto;
 }
 
 /* Agent name in comments */
