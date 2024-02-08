@@ -1,9 +1,11 @@
 /* 
 LATEST FIXES
 
+Default buttons border
 All content containers - No additional margin on top
 Hovered items now have bolder text using tex-shadow
 Table of contents - Active link more intense black (2)
+
 */
 
 /* GLOBAL */
@@ -545,6 +547,11 @@ span.ticketName a,
 }
 
 /* MORE buttons */
+/* Default buttons border */
+.btn,
+.btnTT {
+  border: 1px solid var(--control-border-color);
+}
 /*.btn-default-custom,*/
 .btn-primary,
 .btn-primary-invert,
