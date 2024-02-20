@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Forms field settings upload button
 Default buttons border
 All content containers - No additional margin on top
 Hovered items now have bolder text using tex-shadow
@@ -1020,6 +1021,12 @@ span.pull-right {
 
 .k-upload .k-dropzone .k-upload-button span {
   padding-top: 4px;
+}
+
+/* Forms field settings upload button */
+.k-button.k-upload-button {
+  border: 0;
+  margin: 0;
 }
 
 .k-upload .k-upload-files .k-file.k-file-success .k-file-name {
