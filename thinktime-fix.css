@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Table width inside ticket
 Forms field settings upload button (2)
 Default buttons border
 All content containers - No additional margin on top
@@ -36,6 +37,11 @@ Table of contents - Active link more intense black (2)
 .ticketDetailsPage *,
 .ticketsListPage * {
     visibility: visible;
+}
+
+/* Table width inside ticket */
+.ng-binding table:not(.k-table) {
+  max-width: fit-content;
 }
 
 /* SCROLLBARS */
