@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+No border for "Read more" button
 Table width inside ticket
 Forms field settings upload button (2)
 Default buttons border
@@ -558,6 +559,10 @@ span.ticketName a,
 .btn,
 .btnTT {
   border: 1px solid var(--control-border-color);
+}
+/* No border for "Read more" button */
+.ticketDetailsPage .description-content--trigger {
+  border: none;
 }
 /*.btn-default-custom,*/
 .btn-primary,
