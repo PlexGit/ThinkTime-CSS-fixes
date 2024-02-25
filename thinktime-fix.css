@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB main page scrollbar fix
 No border for "Read more" button
 Table width inside ticket
 Forms field settings upload button (2)
@@ -63,6 +64,9 @@ html {
     border-radius: 9999px;
     border-width: 1px;
   }
+}
+.knowledge-bases-sidebar-module__sidebar--nbSc0 {
+  scrollbar-color: unset;
 }
 
 td {
