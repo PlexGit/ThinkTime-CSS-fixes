@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+List element margins setup now excludes navigation bar
 On hover highlight border fixes
 TT v2.17.1.0 fixes
 
@@ -38,6 +39,13 @@ TT v2.17.1.0 fixes
 /* Table width inside ticket */
 .ng-binding table:not(.k-table) {
   max-width: fit-content;
+}
+
+
+/* List spacing */
+li:not(.navigation-bar-module__item--CWjB8) {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* SCROLLBARS */
@@ -616,12 +624,6 @@ span.ticketName a,
 .tt-button-primary.legacy,
 ._lbsrge {
     background-color: royalblue;
-}
-
-/* List spacing */
-li {
-  margin-top: 5px;
-  margin-bottom: 5px;
 }
 
 /* Editable areas are resizeable and have inner shadow and min-height */
