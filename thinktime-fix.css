@@ -1,14 +1,7 @@
 /* 
 LATEST FIXES
 
-KB main page scrollbar fix
-No border for "Read more" button
-Table width inside ticket
-Forms field settings upload button (2)
-Default buttons border
-All content containers - No additional margin on top
-Hovered items now have bolder text using tex-shadow
-Table of contents - Active link more intense black (2)
+TT v2.17.1.0 fixes
 
 */
 
@@ -69,7 +62,7 @@ html {
   scrollbar-color: unset;
 }
 
-td {
+th, td {
   /* white-space: normal; */
   text-wrap: balance;
 }
@@ -275,7 +268,18 @@ td {
   .breadcrumbs-leaf-module__breadcrumbsItem--1DUE1 {
     max-width: 85px;
   }
-  /* Dropdown menus */
+  /* Notification bell */
+  .notification-module__avatar--kHGok {
+    display: none;
+  }
+  .notification-module__prefix--TZDE- {
+    padding-right: 12px;
+    padding-left: 6px;
+    margin-right: 0;
+  }
+  .notification-module__indicator--le0zD {
+    margin-right: 2px;
+  }
   .notifications-panel-module__panel--X7E\+K {
     height: unset;
     width: 100%;
@@ -287,9 +291,6 @@ td {
   .notifications-list-module__list--16c-V {
     padding-left: 16px;
     padding-right: 8px;
-  }
-  .notification-module__avatar--kHGok {
-    display: none;
   }
   .notifications-panel-module__list--0h2bZ {
     margin-top: 16px;
@@ -305,12 +306,15 @@ td {
   .notifications-panel-module__clearAll--w1Y1V {
     margin-left: 16px;
   }
-  .notification-module__prefix--TZDE- {
-    padding-right: 12px;
-    padding-left: 6px;
-  }
   .notification-module__close--wgZ0z {
     margin-left: 4px;
+  }
+  .empty-state-module__tt-empty-state-title--rIV48 {
+    line-height: 1.2em;
+    text-align: center;
+  }
+  .empty-state-module__tt-empty-state-body--Bls\+d {
+    line-height: 1.2em;
   }
   /* Store Visit summary */
   .store-visits-summary-comments-module__tabs--yDApq,
@@ -343,6 +347,17 @@ td {
 }
 
 /* COMMON RULES */
+
+/* Post 2.17 fixes */
+/* text-wrap */
+.content-module__cell--joWX-,
+.support-ticket-title-module__root--unwMv,
+.support-ticket-title-module__container--H0k3n,
+.support-ticket-title-module__titleContainer--toKCA,
+.support-ticket-title-module__title--3g752,
+.support-ticket-title-module__read--VETIB {
+  text-wrap: balance;
+}
 
 /* Users list width fix */
 .adminPage .mainContentContainer .contentAdminContainer {
@@ -490,13 +505,21 @@ Older fix for News widget only
 .notifications-panel-module__panel--X7E\+K {
   height: unset;
 }
-/* .notifications-panel-module__body--\+aC\+K, */
 .notifications-panel-module__list--0h2bZ {
-/* .notifications-list-module__list--16c-V { */
   height: auto;
   max-height: calc(100vh *2 / 3);
-  /* overflow: hidden; */
 }
+.notification-module__circle--4yBeT {
+  background-color: yellowgreen;
+} 
+.notifications-list-module__item--pR5ZC {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.notification-module__body--N5jXV {
+  line-height: 1.2em;
+}
+/* 
 .notifications-panel-module__header--VXCNa {
   display: flex;
   justify-content: space-between;
@@ -504,7 +527,6 @@ Older fix for News widget only
 }
 .notifications-list-module__item--pR5ZC:not(:last-child) {
   margin-bottom: 20px;
-  /* padding: 8px 0 !important; */
 }
 .notification-module__body--N5jXV {
   line-height: 20px;
@@ -512,10 +534,7 @@ Older fix for News widget only
 .notifications-panel-module__body--\+aC\+K tt-empty-state span:nth-child(2) {
   text-align: center;
 }
-.notification-module__circle--4yBeT {
-  /* box-shadow: 0 0 6px 4px lightgreen; */
-  background-color: yellowgreen;
-}
+*/
 
 /* Article space between paragraphs */
 .article-section-module__body--kqMjE p+* {
@@ -604,23 +623,20 @@ li {
   margin-bottom: 5px;
 }
 
-/* Editable areas are resizeable and have inner shadow*/
+/* Editable areas are resizeable and have inner shadow and min-height */
 .k-editable-area,
-textarea {
+textarea:not(.learn-editor-title-module__title--gvDZh) {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
   border-radius: 5px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 300px;
 }
 /* Lighter outline for focused text areas */
 .k-editable-area:focus-visible,
 textarea:focus-visible {
   outline-color: gainsboro;
-}
-
-textarea {
-  min-height: 300px;
 }
 
 /* Article title text area */
@@ -1097,13 +1113,14 @@ button.postBtn.postBtn-alt.m-r-10 {
 
 /* Links hover */
 a:hover,
-button:hover,
+button:not(.table-module__sortButtonHeading--TCxz5):hover,
 .btn:hover,
 button.postBtn.postBtn-alt.m-r-10:hover,
 .k-dropzone:hover,
 .k-item:hover,
 .kb-tile--content:hover,
-.tt-button-primary.legacy:hover {
+.tt-button-primary.legacy:hover,
+.content-module__headCell--P3N55:hover {
   text-decoration: none;
   color: var(--link-color);
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
@@ -1119,7 +1136,10 @@ a:not(.btn):not(.kb-link):hover,
 #sLabel:hover,
 #label-item-Support:hover,
 #label-item-Execute:hover,
-#label-item-Insights:hover {
+#label-item-Insights:hover,
+.content-module__headCell--P3N55:hover,
+button.tabs-module__tab--tZjgY:hover,
+button.tabs-module__item_active--VFgmX {
   border-radius: 4px;
 }
 
