@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+On hover highlight border fixes
 TT v2.17.1.0 fixes
 
 */
@@ -1139,7 +1140,8 @@ a:not(.btn):not(.kb-link):hover,
 #label-item-Insights:hover,
 .content-module__headCell--P3N55:hover,
 button.tabs-module__tab--tZjgY:hover,
-button.tabs-module__item_active--VFgmX {
+button.tabs-module__item_active--VFgmX:hover
+{
   border-radius: 4px;
 }
 
