@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Temporary fix for gray background in ticket
 Notification area tex-wrap
 List item spacing in notification bell
 ">" at the and of breadcrumbs deleted
@@ -22,6 +23,11 @@ TT v2.17.1.0 fixes
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
   --link-color: #4369dc;
+}
+
+/* Temporary fix for gray background in ticket */
+.sidebar-module__ttSidebarBackdrop--k-08z {
+  background-color: initial;
 }
 
 /* (+) icon bg color */
