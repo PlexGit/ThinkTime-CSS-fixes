@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+List item spacing in notification bell
 ">" at the and of breadcrumbs deleted
 List element margins setup now excludes navigation bar
 On hover highlight border fixes
@@ -522,7 +523,7 @@ Older fix for News widget only
 .notification-module__circle--4yBeT {
   background-color: yellowgreen;
 } 
-.notifications-list-module__item--pR5ZC {
+li.notifications-list-module__item--pR5ZC {
   margin-top: 0;
   margin-bottom: 12px;
 }
