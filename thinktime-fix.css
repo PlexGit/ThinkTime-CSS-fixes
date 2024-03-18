@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+Articles list side section height
+KB list header position static
 Temporary fix for gray background in ticket
 Notification area tex-wrap
 List item spacing in notification bell
@@ -395,6 +397,11 @@ th, td {
 /* KB home header height */
 .kb-home-header-module__headerWrapper--Ve8Z0 {
   height: 160px;
+}
+
+/* KB list header position static */
+.kb-list-module__header--oDUQs {
+  position: static;
 }
 
 /* Store Visit summary */
@@ -1170,6 +1177,14 @@ div.kb-article-footnote-module__footnote--Z\+Q-l {
   padding-top: 30px;
   padding-bottom: 30px;
   flex-direction: column;
+}
+
+/* Articles list side section height */
+.kb-articles-module__articlesSidebar--NFi3u {
+    top: 16px;
+}
+.kb-articles-module__fullMaxHeight--oWL2Z {
+    max-height: calc(100vh - 32px);
 }
 
 /* List selector*/
