@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Learn translation - Language selector width
 Notification bell - Timestamp styling
 Articles list side section height
 KB list header position static
@@ -708,6 +709,16 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 
 .tox-toolbar-overlord {
   background-color: cornsilk;
+}
+
+/* Learn translation - Language selector width */
+.multilingual-dropdown-module__langTitle--Nv4NJ {
+overflow: visible;
+max-width: unset;
+}
+.multilingual-dropdown-module__menu--clNoI {
+    width: fit-content;
+    max-height: calc(100vh - 100vh/3);
 }
 
 .learn-editor-form-module__settings--SzIKp {
