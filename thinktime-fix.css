@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Notification bell - Timestamp styling
 Articles list side section height
 KB list header position static
 Temporary fix for gray background in ticket
@@ -543,6 +544,12 @@ li.notifications-list-module__item--pR5ZC {
 }
 .notification-module__body--N5jXV {
   line-height: 1.2em;
+}
+.notification-module__time--lckz2 {
+  text-align: right;
+  font-size: smaller;
+  font-style: italic;
+  margin-top: 4px;
 }
 /* 
 .notifications-panel-module__header--VXCNa {
