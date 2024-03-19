@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Dropdown lists height fix + more text wraps
 Learn translation - Language selector width
 Notification bell - Timestamp styling
 Articles list side section height
@@ -377,8 +378,31 @@ th, td {
 .support-ticket-title-module__container--H0k3n,
 .support-ticket-title-module__titleContainer--toKCA,
 .support-ticket-title-module__title--3g752,
-.support-ticket-title-module__read--VETIB {
+.support-ticket-title-module__read--VETIB,
+.tabs-module__item_text--Sb4vG,
+.container-module__label--Pe7Z2 {
   text-wrap: balance;
+}
+
+/* User languages list height */
+.user-panel-select-module__menu--RhHa0 {
+  max-height: calc(100vh / 2);
+}
+
+/* Dropdown lists height fix */
+.k-list-scroller {
+  height: unset;
+  max-height: calc(100vh / 3);
+}
+.k-animation-container .k-list-container {
+  height: fit-content;
+}
+.k-listbox .k-item, .k-popup .k-list .k-item {
+  line-height: 1.2em !important;
+  padding-top: 5px !important;
+    /* padding-bottom: 10px !important; */
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* Users list width fix */
