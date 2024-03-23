@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Task Creation checkboxes at the top of line
 Some text wraps fixes
 Height of KB sections menu
 Dropdown lists line height and vertical align fix
@@ -766,6 +767,11 @@ max-width: unset;
 .collapsible-sidebar-module__content--lvHFx {
     top: 0;
     max-height: 100vh;
+}
+
+/* Task Creation checboxes at the start */
+.checkbox-module__field--d3oiT {
+  align-items: flex-start;
 }
 
 /* Left menu with articles tree */
