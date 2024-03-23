@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Dropdown lists paddings and vertical align fix
 Dropdown lists height fix + more text wraps
 Learn translation - Language selector width
 Notification bell - Timestamp styling
@@ -398,9 +399,10 @@ th, td {
   height: fit-content;
 }
 .k-listbox .k-item, .k-popup .k-list .k-item {
-  line-height: 1.2em !important;
+  /* vertical-align: middle;
+  line-height: 1.2em !important; */
   padding-top: 5px !important;
-    /* padding-bottom: 10px !important; */
+  padding-bottom: 5px !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
