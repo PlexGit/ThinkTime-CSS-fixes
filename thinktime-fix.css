@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Height of KB sections menu
 Dropdown lists line height and vertical align fix
 Calendar and Work - Fixes and text wrappings
 Calendar header static
@@ -358,6 +359,11 @@ th *, td * {
 .tabs-module__item_text--Sb4vG,
 .container-module__label--Pe7Z2 {
   text-wrap: balance;
+}
+
+/* Height of KB sections menu */
+.kb-list-element-module__wrapper--ayYH\+ {
+  height: auto;
 }
 
 /* User languages list height */
