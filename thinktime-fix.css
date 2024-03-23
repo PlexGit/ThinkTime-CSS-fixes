@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB tree height
 Task Creation checkboxes at the top of line
 Some text wraps fixes
 Height of KB sections menu
@@ -545,7 +546,7 @@ Older fix for News widget only
 }
 .notifications-panel-module__list--0h2bZ {
   height: auto;
-  max-height: calc(100vh *2 / 3);
+  max-height: calc(100vh * 2 / 3);
 }
 .notification-module__circle--4yBeT {
   background-color: yellowgreen;
@@ -1386,6 +1387,12 @@ span.hiddenOnHover.ng-binding,
 /* .breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type */
 .breadcrumbs-module__breadcrumbs--4SQyq I.icon-module__icon--c7d2Y.breadcrumbs-module__chevronIcon--CdyGM:last-of-type {
   display: none;
+}
+
+/* KB tree height */
+.knowledge-bases-sidebar-module__fullScreenSidebar--GmTax {
+  top: 0;
+  height: calc(100vh + (var(--app-header-height)));
 }
 
 /* KB folders max width */
