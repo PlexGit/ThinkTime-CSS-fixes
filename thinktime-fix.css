@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Calendar fixes for mobile view
 KB tree height
 Task Creation checkboxes at the top of line
 Some text wraps fixes
@@ -1321,7 +1322,10 @@ span.hiddenOnHover.ng-binding,
 .ticketsListPage .titleSection .titlePart h1,
 .ticketDetailsPage .titleSection .leftPart h1,
 .notification-module__body--N5jXV,
-.text-ellipsis
+.text-ellipsis,
+/* Task from calendar */
+.item-modal-module__modalTitle--VD9I8,
+.item-bar-module__title--HjJEw
 {
   /* white-space: normal; */
   text-wrap: balance;
@@ -1333,11 +1337,42 @@ span.hiddenOnHover.ng-binding,
   text-wrap: nowrap;
 }
 
-/* Calendar items word wrap and items height in mobile view */
+/* Calendar items word wrap and items height*/
 .filter-on-radiobuttons-module__optionValue--OovSS {
   /* white-space: normal; */
   text-wrap: balance;
   line-height: 1.2;
+}
+
+/* Calendar tasks list font size */
+.item-bar-module__title--HjJEw {
+  font-size: 16px;
+}
+
+/* Calendar - task list height */
+.list-view-module__view--LZDb2 div {
+  height: unset;
+}
+
+/* Calendar filter button */
+.facet-filters-module__filterButton--J1oMt.facet-filters-module__filterButton--J1oMt {
+    margin: 16px 24px;
+}
+
+/* Calendar navigation arrows margins */
+.arrows-nav-module__navButton--p01ji {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Calendar items date margin */
+.item-bar-module__description--dMQ4N {
+  margin-top: 8px;
+}
+
+/* Calendar items width */
+.item-bar-module__content--SxPY6 {
+  width: 100%;
 }
 
 /* Store Visit summary */
