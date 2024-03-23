@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Some text wraps fixes
 Height of KB sections menu
 Dropdown lists line height and vertical align fix
 Calendar and Work - Fixes and text wrappings
@@ -90,6 +91,7 @@ html {
   scrollbar-color: unset;
 }
 
+/* All tables items text-wrap */
 th *, td * {
   /* white-space: normal; */
   text-wrap: balance;
@@ -1283,7 +1285,7 @@ div.ticketDetailsContent p.ng-binding {
   color: whitesmoke;
 }
 
-/* Word wraps */
+/* TEXT-WRAP */
 a.ng-binding,
 ._1gobrn0,
 ._1ayhren,
@@ -1311,11 +1313,17 @@ span.hiddenOnHover.ng-binding,
 .titleWidget,
 .ticketsListPage .titleSection .titlePart h1,
 .ticketDetailsPage .titleSection .leftPart h1,
-.notification-module__body--N5jXV
+.notification-module__body--N5jXV,
+.text-ellipsis
 {
   /* white-space: normal; */
   text-wrap: balance;
   line-height: 1.2;
+}
+
+/* Some fixes where text-wrap not needed */
+.dueFilter {
+  text-wrap: nowrap;
 }
 
 /* Calendar items word wrap and items height in mobile view */
