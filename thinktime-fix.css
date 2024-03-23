@@ -1,6 +1,9 @@
 /* 
 LATEST FIXES
 
+Dropdown lists line height and vertical align fix
+Calendar and Work - Fixes and text wrappings
+Calendar header static
 Dropdown lists paddings and vertical align fix
 Dropdown lists height fix + more text wraps
 Learn translation - Language selector width
@@ -86,7 +89,7 @@ html {
   scrollbar-color: unset;
 }
 
-th, td {
+th *, td * {
   /* white-space: normal; */
   text-wrap: balance;
 }
@@ -340,34 +343,6 @@ th, td {
   .empty-state-module__tt-empty-state-body--Bls\+d {
     line-height: 1.2em;
   }
-  /* Store Visit summary */
-  .store-visits-summary-comments-module__tabs--yDApq,
-  .store-visits-summary-task-module__title--T3Iho,
-  .store-visits-summary-task-module__taskWrapper--PZqVd,
-  .store-visits-summary-task-module__titleNamePart--627MF {
-    display: block;
-  }
-  ._ievr4j {
-    padding: 0px 10px;
-  }
-  .question-module__headerQuestion--e6xI\+ {
-    padding: 14px 22px;
-  }
-  .question-module__questionField--rWeDO {
-    padding: 0 22px 10px;
-  }
-  /* Calendar items */
-  ._ub61tk {
-    /* white-space: normal; */
-    text-wrap: balance;
-  }
-  .list-view-module__event--TmLUh {
-    height: fit-content;
-  }
-  /* My Work smaller header */
-  .header-module__header--TFCkR {
-    padding: 10px 12px;
-  }
 }
 
 /* COMMON RULES */
@@ -399,8 +374,9 @@ th, td {
   height: fit-content;
 }
 .k-listbox .k-item, .k-popup .k-list .k-item {
-  /* vertical-align: middle;
-  line-height: 1.2em !important; */
+  display: flex;
+  align-items: center;
+  line-height: 1.2em !important;
   padding-top: 5px !important;
   padding-bottom: 5px !important;
   margin-top: 0 !important;
@@ -1341,6 +1317,38 @@ span.hiddenOnHover.ng-binding,
   /* white-space: normal; */
   text-wrap: balance;
   line-height: 1.2;
+}
+
+/* Store Visit summary */
+.store-visits-summary-comments-module__tabs--yDApq,
+.store-visits-summary-task-module__title--T3Iho,
+.store-visits-summary-task-module__taskWrapper--PZqVd,
+.store-visits-summary-task-module__titleNamePart--627MF {
+  display: block;
+}
+._ievr4j {
+  padding: 0px 10px;
+}
+.question-module__headerQuestion--e6xI\+ {
+  padding: 14px 22px;
+}
+.question-module__questionField--rWeDO {
+  padding: 0 22px 10px;
+}
+/* Calendar items */
+._1c22eiy {
+  position: static;
+}
+._ub61tk {
+  /* white-space: normal; */
+  text-wrap: balance;
+}
+.list-view-module__event--TmLUh {
+  height: fit-content;
+}
+/* My Work smaller header */
+.header-module__header--TFCkR {
+  padding: 10px 12px;
 }
 
 /* Breadcrumps fix for small screen */
