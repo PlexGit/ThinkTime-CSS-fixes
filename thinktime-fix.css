@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket actions dropdown menu fix
 Calendar fixes for mobile view
 KB tree height
 Task Creation checkboxes at the top of line
@@ -217,6 +218,13 @@ th *, td * {
 }
 
 /* MOBILE VIEW */
+
+@media (max-width: 480px) {
+/* Ticket actions dropdown menu fix */
+#titleSection .dropdown-menu, .dropdown-to-left {
+    left: -80px !important;
+}
+}
 
 @media only screen and (max-width: 768px) {
   /* Main content area paddings */
