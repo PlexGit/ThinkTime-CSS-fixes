@@ -47,7 +47,7 @@ TT v2.17.1.0 fixes
 
 /* (+) icon bg color */
 .tt-icon-button {
-  background-color: var(--icon-button-background);
+  background-color: var(--primary-color);
 }
 
 /* Removing awkward ";" symbol on bottom of the page */
@@ -222,7 +222,9 @@ th *, td * {
 @media (max-width: 480px) {
 /* Ticket actions dropdown menu fix */
 #titleSection .dropdown-menu, .dropdown-to-left {
-    left: -80px !important;
+  left: auto !important;
+  right: 0 !important;
+  overflow: hidden !important;
 }
 }
 
