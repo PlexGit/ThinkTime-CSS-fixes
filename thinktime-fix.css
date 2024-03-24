@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+Knowlege Base search results header static
+Knowlege Base search results badge paddings
 Ticket actions dropdown menu fix
 Calendar fixes for mobile view
 KB tree height
@@ -908,6 +910,24 @@ a.text-ellipsis.ng-binding {
 /* Knowlege Base search results color */
 .knowledge-base-search-item-module__title--XNTUf {
   color: var(--link-color);
+}
+
+/* Knowlege Base search results header static */
+.unified-search-page-module__title--vc2Hl {
+  position: static;
+}
+
+/* Knowlege Base search results badge paddings */
+.result-type-badge-module__badgeContainer--F0KAc {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* Knowlege Base search results filter top */
+.unified-search-page-module__facetsScroll--wKLvZ {
+    position: sticky;
+    top: 0;
+    height: auto;
 }
 
 div.knowledge-base-search-item-module__titleRow--RbSt8 a span {
