@@ -1,30 +1,12 @@
 /* 
 LATEST FIXES
 
+Breadcrumps larger KB icon
 Knowlege Base search results header static
 Knowlege Base search results badge paddings
 Ticket actions dropdown menu fix
 Calendar fixes for mobile view
 KB tree height
-Task Creation checkboxes at the top of line
-Some text wraps fixes
-Height of KB sections menu
-Dropdown lists line height and vertical align fix
-Calendar and Work - Fixes and text wrappings
-Calendar header static
-Dropdown lists paddings and vertical align fix
-Dropdown lists height fix + more text wraps
-Learn translation - Language selector width
-Notification bell - Timestamp styling
-Articles list side section height
-KB list header position static
-Temporary fix for gray background in ticket
-Notification area tex-wrap
-List item spacing in notification bell
-">" at the and of breadcrumbs deleted
-List element margins setup now excludes navigation bar
-On hover highlight border fixes
-TT v2.17.1.0 fixes
 
 */
 
@@ -1452,6 +1434,12 @@ span.hiddenOnHover.ng-binding,
 /* .breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type */
 .breadcrumbs-module__breadcrumbs--4SQyq I.icon-module__icon--c7d2Y.breadcrumbs-module__chevronIcon--CdyGM:last-of-type {
   display: none;
+}
+
+/* Breadcrumps larger KB icon */
+.breadcrumbs-leaf-module__icon--AvD1U {
+  height: 24px;
+  width: 24px;
 }
 
 /* KB tree height */
