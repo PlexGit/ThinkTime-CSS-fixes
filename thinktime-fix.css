@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Checkbox texts centered
 Breadcrumps larger KB icon
 Knowlege Base search results header static
 Knowlege Base search results badge paddings
@@ -768,6 +769,11 @@ max-width: unset;
 /* Task Creation checboxes at the start */
 .checkbox-module__field--d3oiT {
   align-items: flex-start;
+}
+
+/* Checbox texts centered */
+.checkbox-module__content--51n6l {
+  line-height: 32px;
 }
 
 /* Left menu with articles tree */
