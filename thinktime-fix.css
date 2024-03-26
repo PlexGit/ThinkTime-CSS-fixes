@@ -351,7 +351,7 @@ th *, td * {
 @media (max-width: 1024px) {
   /* Support module fixes for mobile */
   .support-ticket-title-module__container--H0k3n {
-    flex-direction: row !important;
+    /* flex-direction: row !important; */
     justify-content: space-between !important;
   }
   .accordion-table-row-module__expandedRow--x30hM {
