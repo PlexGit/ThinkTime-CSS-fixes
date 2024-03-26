@@ -1,7 +1,8 @@
 /* 
 LATEST FIXES
 
-Checkbox texts centered
+Ticket custom form labels text wrap
+Checbox texts centered
 Breadcrumps larger KB icon
 Knowlege Base search results header static
 Knowlege Base search results badge paddings
@@ -261,7 +262,7 @@ th *, td * {
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  /* Line height 1 for all headings */
+  /* Line height for all headings */
   h1, h2, h3, h4, h5, h6,
   .learn-item-view-info-wrapper-module__title--nh30A,
   .article-section-module__title--5j05X {
@@ -1343,7 +1344,9 @@ span.hiddenOnHover.ng-binding,
 .text-ellipsis,
 /* Task from calendar */
 .item-modal-module__modalTitle--VD9I8,
-.item-bar-module__title--HjJEw
+.item-bar-module__title--HjJEw,
+/* Ticlet custom form labels */
+.labelCustomField
 {
   /* white-space: normal; */
   text-wrap: balance;
