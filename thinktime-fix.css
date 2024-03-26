@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+a focus outline none
 Ticket actions dropdown menu fix (2)
 Support module fixes for mobile
 Ticlet custom form labels text wrap
@@ -947,6 +948,10 @@ a {
 
 a:not([class]):not([id]) {
   color: var(--link-color);
+}
+
+a:focus {
+  outline: none;
 }
 
 span.textOverflow.ng-binding {
