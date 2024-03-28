@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Task title text-wrap
 Support module status fixes
 Article editor Add buton margins fix
 Article editor sections margin
@@ -1399,7 +1400,9 @@ span.hiddenOnHover.ng-binding,
 .item-modal-module__modalTitle--VD9I8,
 .item-bar-module__title--HjJEw,
 /* Ticlet custom form labels */
-.labelCustomField
+.labelCustomField,
+/* Task title */
+.header-builder-module__title--ygQuI
 {
   /* white-space: normal; */
   text-wrap: balance;
