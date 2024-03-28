@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Support module status fixes
 Article editor Add buton margins fix
 Article editor sections margin
 Tasks list items no line at the bottom
@@ -383,6 +384,12 @@ th *, td * {
 .tabs-module__item_text--Sb4vG,
 .container-module__label--Pe7Z2 {
   text-wrap: balance;
+}
+/* Support module staus fixes */
+.support-ticket-status-module__root--la0KN {
+  line-height: 1.2em;
+  text-align: center;
+  width: min-content;
 }
 
 /* Height of KB sections menu */
