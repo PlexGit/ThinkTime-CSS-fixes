@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+Article editor Add buton margins fix
+Article editor sections margin
 Tasks list items no line at the bottom
 Tasks list items display block
 Tasks list items no line on hover
@@ -763,8 +765,16 @@ max-width: unset;
   background-color: ghostwhite;
 }
 
+/* Article editor sections shadow and margins*/
 .article-section-edit-module__section--2\+QX7 {
   box-shadow: 0 0 10px gainsboro;
+  margin-top: 12px;
+}
+
+/* Article editor Add buton margins fix */
+.article-section-add-button-module__separatorBlock--gWsRX {
+  margin-top: -32px;
+  margin-bottom: -24px;
 }
 
 /* Static top on scroll */
