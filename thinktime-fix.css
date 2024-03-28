@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Tasks list items display block
 Tasks list items no line on hover
 a focus outline none
 Ticket actions dropdown menu fix (2)
@@ -843,9 +844,10 @@ a.link.ng-binding {
   color: var(--link-color);
 }
 
-/* Tasks list items color */
+/* Tasks list items color and display block */
 .task-title-module__taskTitle--2eMeT {
   color: var(--link-color);
+  display: block;
 }
 
 /* Tasks list items no line on hover */
