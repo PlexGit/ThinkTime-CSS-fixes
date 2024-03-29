@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Task details comment field paddings
 Task title text-wrap
 Support module status fixes
 Article editor Add buton margins fix
@@ -1364,6 +1365,17 @@ div.ticketDetailsContent p.ng-binding {
 /* Task requrements summaby button */
 .requirementsSummaryButton {
   color: whitesmoke;
+}
+
+/* Task details comment field paddings */
+.comment-form-module__field--37Nzf {
+  padding: 0 !important;
+}
+.comment-field-module__textarea--ct\+dC.comment-field-module__textarea--ct\+dC {
+  padding: 8px 16px;
+}
+.drop-zone-module__attach--wnoce {
+  margin-left: 0;
 }
 
 /* TEXT-WRAP */
