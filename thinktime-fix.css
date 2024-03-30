@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Unified search text block one line
 Unified search items width fit content
 Knowlege Base search results text align
 Unified search items display block and line height
@@ -958,6 +959,11 @@ a.text-ellipsis.ng-binding {
   display: block;
   line-height: 1.2em;
   width: fit-content;
+}
+
+/* Unified search text block one line */
+.article-module__textBlock--02C6I {
+  text-wrap: nowrap;
 }
 
 /* Knowlege Base search results color */
