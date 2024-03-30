@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Knowlege Base search results text align
 Unified search items display block and line height
 Task details comment field paddings
 Task title text-wrap
@@ -967,10 +968,11 @@ a.text-ellipsis.ng-binding {
   position: static;
 }
 
-/* Knowlege Base search results badge paddings */
+/* Knowlege Base search results badge paddings and text align */
 .result-type-badge-module__badgeContainer--F0KAc {
   padding-top: 16px;
   padding-bottom: 16px;
+  text-align: center;
 }
 
 /* Knowlege Base search results filter top */
