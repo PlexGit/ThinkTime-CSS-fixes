@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Unified search items width fit content
 Knowlege Base search results text align
 Unified search items display block and line height
 Task details comment field paddings
@@ -956,6 +957,7 @@ a.text-ellipsis.ng-binding {
 .search-result-item-module__title--\+Ckj6 a {
   display: block;
   line-height: 1.2em;
+  width: fit-content;
 }
 
 /* Knowlege Base search results color */
