@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Unified search items display block and line height
 Task details comment field paddings
 Task title text-wrap
 Support module status fixes
@@ -945,6 +946,15 @@ a.link.ng-binding {
 a.text-ellipsis.ng-binding {
   white-space: normal;
   color: var(--link-color);
+}
+
+/* Unified search items display block and line height */
+.search-result-item-module__title--\+Ckj6 {
+  margin-bottom: 4px;
+}
+.search-result-item-module__title--\+Ckj6 a {
+  display: block;
+  line-height: 1.2em;
 }
 
 /* Knowlege Base search results color */
