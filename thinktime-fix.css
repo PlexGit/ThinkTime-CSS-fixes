@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Break word for attachment names
 Unified search text block one line
 Unified search items width fit content
 Knowlege Base search results text align
@@ -439,6 +440,7 @@ th *, td * {
   line-height: 1.2;
   /* white-space: normal; */
   text-wrap: balance;
+  word-wrap: break-word;
 }
 
 /* KB home header height */
@@ -852,6 +854,7 @@ a.ng-binding.ng-scope {
   /* white-space: normal; */
   text-wrap: balance;
   color: var(--link-color);
+  word-wrap: break-word;
 }
 
 /* Forms list title word wrap */
