@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+All TR TD word-wrap break-word
+Attachment name in table of task refults brak word
 Break word for attachment names
 Unified search text block one line
 Unified search items width fit content
@@ -101,6 +103,7 @@ html {
 th *, td * {
   /* white-space: normal; */
   text-wrap: balance;
+  word-wrap: break-word;
 }
 
 /* PRINTABLE */
@@ -436,7 +439,9 @@ th *, td * {
 .attachmentsList li .attachmentDescription,
 .attachmentsPanel li .attachDescription .labelAttach,
 .uploaded-attachment-module__title--bGOfT,
-.attachment-preview-module__name--xryIZ {
+.attachment-preview-module__name--xryIZ,
+[data-ng-bind='item.attachment.displayName']
+{
   line-height: 1.2;
   /* white-space: normal; */
   text-wrap: balance;
