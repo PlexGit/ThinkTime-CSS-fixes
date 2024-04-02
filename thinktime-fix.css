@@ -1,32 +1,7 @@
 /* 
 LATEST FIXES
 
-All TR TD word-wrap break-word
-Attachment name in table of task refults brak word
-Break word for attachment names
-Unified search text block one line
-Unified search items width fit content
-Knowlege Base search results text align
-Unified search items display block and line height
-Task details comment field paddings
-Task title text-wrap
-Support module status fixes
-Article editor Add buton margins fix
-Article editor sections margin
-Tasks list items no line at the bottom
-Tasks list items display block
-Tasks list items no line on hover
-a focus outline none
-Ticket actions dropdown menu fix (2)
-Support module fixes for mobile
-Ticlet custom form labels text wrap
-Checbox texts centered
-Breadcrumps larger KB icon
-Knowlege Base search results header static
-Knowlege Base search results badge paddings
-Ticket actions dropdown menu fix
-Calendar fixes for mobile view
-KB tree height
+Task description and comments text formatting
 
 */
 
@@ -1084,6 +1059,16 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   border: none;
   background-color: var(--link-color);
   color: lightgoldenrodyellow;
+}
+
+/* Task description and comments text font */
+.task-view-module__description--aelqr,
+.comment-item-module__content--4aqEF,
+.description-content,
+.commentContent {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5
 }
 
 /* Tickets text size etc*/
