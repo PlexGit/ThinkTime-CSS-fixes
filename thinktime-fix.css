@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Fix
 Task description and comments text formatting
 
 */
@@ -1063,9 +1064,11 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 
 /* Task description and comments text font */
 .task-view-module__description--aelqr,
-.comment-item-module__content--4aqEF,
+.comment-item-module__content--4aqEF
+/* ,
 .description-content,
-.commentContent {
+.commentContent */
+{
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5
