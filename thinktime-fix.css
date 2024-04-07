@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Task status label formatting
 Fix
 Task description and comments text formatting
 
@@ -850,6 +851,14 @@ a.link.ng-binding {
   /* white-space: normal; */
   text-wrap: balance;
   color: var(--link-color);
+}
+
+/* Task status label formatting */
+.task-status-module__taskStatus--1XQG5 {
+  height: fit-content;
+  width: min-content;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 /* Tasks list items color and display block */
