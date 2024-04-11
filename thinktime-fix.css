@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket title - "edit allowed" icon removed
 Task status label formatting
 Fix
 Task description and comments text formatting
@@ -629,6 +630,11 @@ span.ticketName a,
 /* Success edit button BG */
 .btn-success {
     background-color: mediumseagreen;
+}
+
+/* Ticket title - "edit allowed" icon removed */
+.allowEdit.editIcon {
+  display: none;
 }
 
 /* Ticket button color variations */
