@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket status label (before 2.17) line height
 Ticket title - "edit allowed" icon removed
 Task status label formatting
 Fix
@@ -420,10 +421,15 @@ th *, td * {
 .attachment-preview-module__name--xryIZ,
 [data-ng-bind='item.attachment.displayName']
 {
-  line-height: 1.2;
+  line-height: 1.2em;
   /* white-space: normal; */
   text-wrap: balance;
   word-wrap: break-word;
+}
+
+/* Ticket status label (before 2.17) line height */
+[data-ng-bind='TicketStatusStr(ticket)'] {
+  line-height: 1.2em;
 }
 
 /* KB home header height */
