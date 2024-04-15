@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+Article settings checbox item margin
+Article settings checkbox line height
 Ticket status label (before 2.17) line height
 Ticket title - "edit allowed" icon removed
 Task status label formatting
@@ -616,6 +618,17 @@ li.notifications-list-module__item--pR5ZC {
   line-height: 1.5;
 }
 
+/* Article settings checbox item margin */
+.checkbox-module__field--d3oiT:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+
+/* Article settings checkbox line height */
+.checkbox-module__content--51n6l {
+  line-height: 1.2em !important;
+}
+
 /* Links are inline-blocks */
 a.ng-binding,
 span.ticketName a,
@@ -805,16 +818,6 @@ max-width: unset;
 .collapsible-sidebar-module__content--lvHFx {
     top: 0;
     max-height: 100vh;
-}
-
-/* Task Creation checboxes at the start */
-.checkbox-module__field--d3oiT {
-  align-items: flex-start;
-}
-
-/* Checbox texts centered */
-.checkbox-module__content--51n6l {
-  line-height: 32px;
 }
 
 /* Left menu with articles tree */
