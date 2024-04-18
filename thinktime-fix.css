@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Single row widget fix 2
 Article settings checbox item margin
 Article settings checkbox line height
 Ticket status label (before 2.17) line height
@@ -557,6 +558,9 @@ Older fix for News widget only
   flex: 3; /* Set the first column to take some width */
 }
 /* Single row widget fix */
+.tableOverdue th {
+    border: none !important;
+}
 .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer table.tableOverdue tr:not(:last-child) td {
   border-top: none;
   border-bottom: none;
