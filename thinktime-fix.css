@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Line height and margin for all headings
 Single row widget fix 2
 Article settings checbox item margin
 Article settings checkbox line height
@@ -263,11 +264,13 @@ th *, td * {
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  /* Line height for all headings */
+  /* Line height and margin for all headings */
   h1, h2, h3, h4, h5, h6,
+  #section_title_539215,
   .learn-item-view-info-wrapper-module__title--nh30A,
   .article-section-module__title--5j05X {
-    line-height: 1.2;
+    line-height: 1.2em;
+    margin-bottom: 24px;
   }
   /* Widget title */
   .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
@@ -631,6 +634,15 @@ li.notifications-list-module__item--pR5ZC {
 /* Article settings checkbox line height */
 .checkbox-module__content--51n6l {
   line-height: 1.2em !important;
+}
+
+/* Line height and margin for all headings */
+h1, h2, h3, h4, h5, h6,
+#section_title_539215,
+.learn-item-view-info-wrapper-module__title--nh30A,
+.article-section-module__title--5j05X {
+  line-height: 1.2em;
+  margin-bottom: 24px;
 }
 
 /* Links are inline-blocks */
