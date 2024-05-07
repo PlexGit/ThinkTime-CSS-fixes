@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Dropdown lists
 Fix
 Line height and margin for all headings
 Single row widget fix 2
@@ -418,6 +419,11 @@ th *, td * {
   padding-bottom: 5px !important;
   margin-top: 0 !important;
   margin-bottom: 0 !important;
+}
+
+/* c */
+.k-animation-container span.k-state-default.ng-binding {
+    margin: 8px;
 }
 
 /* Users list width fix */
