@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+.text-ellipsis line height back to TT-default
 Dropdown lists
 Fix
 Line height and margin for all headings
@@ -1478,7 +1479,6 @@ span.hiddenOnHover.ng-binding,
 .ticketsListPage .titleSection .titlePart h1,
 .ticketDetailsPage .titleSection .leftPart h1,
 .notification-module__body--N5jXV,
-.text-ellipsis,
 /* Task from calendar */
 .item-modal-module__modalTitle--VD9I8,
 .item-bar-module__title--HjJEw,
@@ -1490,6 +1490,10 @@ span.hiddenOnHover.ng-binding,
   /* white-space: normal; */
   text-wrap: balance;
   line-height: 1.2;
+}
+
+.text-ellipsis {
+  text-wrap: balance;
 }
 
 /* Some fixes where text-wrap not needed */
