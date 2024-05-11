@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Print-view - Ticket print view fixed now
 Print view - All class selectors changed to more universal for TT cross-version changes
 
 */
@@ -44,7 +45,6 @@ Print view - All class selectors changed to more universal for TT cross-version 
   max-width: fit-content;
 }
 
-
 /* List spacing */
 li:not(.navigation-bar-module__item--CWjB8) {
   margin-top: 5px;
@@ -84,14 +84,11 @@ th *, td * {
 /* PRINTABLE */
 @media print {
   /* PRINTABLE COMMON CLEANUP */
-  /* Headers always with content */
-  h1, h2, h3, h4, h5, h6 {
-    -webkit-break-after: avoid;
-    break-after: avoid
-  }
-  * {
+  [class^="kb-item-content-wrapper-module__container--"],
+  [class^="kb-item-content-wrapper-module__main--"] {
     visibility: hidden;
   }
+  aside,
   iframe,
   [class^="icon-button-module__iconButton--"],
   [class^="icon-button-module__medium--"],
@@ -103,18 +100,32 @@ th *, td * {
     text-wrap: balance;
   }
 
-  /* PRINTABLE Article */
-  [class^="kb-item-content-wrapper-module__body--"] {
-    padding: 0;
+  /* Headers always with content */
+  h1, h2, h3, h4, h5, h6 {
+    -webkit-break-after: avoid;
+    break-after: avoid
   }
+
+  /* PRINTABLE Article */
   [class^="kb-item-content-wrapper-module__body--"],
   [class^="kb-item-content-wrapper-module__body--"] * {
     visibility: visible;
   }
+  [class^="app-content-module__content--"],
+  [class^="knowledge-base-module__kb--"],
+  [class^="kb-item-content-wrapper-module__main--"],
+  [class^="kb-item-content-wrapper-module__container--"],
+  [class^="kb-item-content-wrapper-module__content--"],
+  [class^="kb-item-content-wrapper-module__article--"],
   [class^="kb-item-content-wrapper-module__body--"] {
     position: absolute;
     left: 0;
     top: 0;
+    /* position: static;
+    width: 100vw; */
+    padding: 0;
+    margin: 0;
+    border: none;
   }
   #app-header,
   [class^="kb-item-page-header-module__container--"],
@@ -123,6 +134,9 @@ th *, td * {
   [class^="kb-article-view-module__expand--"],
   [class^="kb-item-view-info-module__sections--"] {
     display: none;
+  }
+  #titleSection {
+    border: none;
   }
   h1,
   h2,
@@ -165,13 +179,18 @@ th *, td * {
   .contentContainer * {
     visibility: visible;
   }
-  .contentContainer {
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
   .commentsPanel .existComment .commentTitle .addInfo .agent::after {
     display: none;
+  }
+  .ticketDetailsPage .contentSection .mainArea .contentContainer {
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    position: static;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    border: none;
   }
 
   /* PRINTABLE Task */
