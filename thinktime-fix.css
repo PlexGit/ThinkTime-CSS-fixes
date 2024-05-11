@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+More print hacks
+Print-view - Allow some parts to be split between pages
 Print-view - Ticket print view fixed now
 Print view - All class selectors changed to more universal for TT cross-version changes
 
@@ -85,14 +87,16 @@ th *, td * {
 @media print {
   /* PRINTABLE COMMON CLEANUP */
   [class^="kb-item-content-wrapper-module__container--"],
-  [class^="kb-item-content-wrapper-module__main--"] {
+  [class^="kb-item-content-wrapper-module__main--"]
+  {
     visibility: hidden;
   }
   aside,
   iframe,
   [class^="icon-button-module__iconButton--"],
   [class^="icon-button-module__medium--"],
-  [class^="kb-article-view-module__expand--"] {
+  [class^="kb-article-view-module__expand--"]
+  {
     display: none;
   }
   .tableGlobal tr td {
@@ -106,6 +110,12 @@ th *, td * {
     break-after: avoid
   }
 
+  /* Allow some parts to be split between pages */
+  pre,
+  .commentsPanel .existComment {
+    page-break-inside: auto;
+  }
+
   /* PRINTABLE Article */
   [class^="kb-item-content-wrapper-module__body--"],
   [class^="kb-item-content-wrapper-module__body--"] * {
@@ -117,15 +127,21 @@ th *, td * {
   [class^="kb-item-content-wrapper-module__container--"],
   [class^="kb-item-content-wrapper-module__content--"],
   [class^="kb-item-content-wrapper-module__article--"],
-  [class^="kb-item-content-wrapper-module__body--"] {
+  [class^="kb-item-content-wrapper-module__body--"]
+  {
     position: absolute;
     left: 0;
     top: 0;
-    /* position: static;
-    width: 100vw; */
+    /* position: static; */
+    width: 100vw;
+    max-width: 100%;
     padding: 0;
     margin: 0;
     border: none;
+  }
+  .kb-article-view-module__section--MEUXI {
+    width: 100vw !important;
+    max-width: 100% !important;
   }
   #app-header,
   [class^="kb-item-page-header-module__container--"],
@@ -188,9 +204,10 @@ th *, td * {
     top: 0; */
     position: static;
     width: 100vw;
-    padding: 0;
-    margin: 0;
-    border: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    max-width: 100%;
   }
 
   /* PRINTABLE Task */
