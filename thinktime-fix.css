@@ -120,6 +120,7 @@ th *, td * {
   [class^="kb-item-content-wrapper-module__body--"],
   [class^="kb-item-content-wrapper-module__body--"] * {
     visibility: visible;
+    page-break-inside: auto !important;
   }
   [class^="app-content-module__content--"],
   [class^="knowledge-base-module__kb--"],
