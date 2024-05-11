@@ -1,18 +1,7 @@
 /* 
 LATEST FIXES
 
-.text-ellipsis line height back to TT-default
-Dropdown lists
-Fix
-Line height and margin for all headings
-Single row widget fix 2
-Article settings checbox item margin
-Article settings checkbox line height
-Ticket status label (before 2.17) line height
-Ticket title - "edit allowed" icon removed
-Task status label formatting
-Fix
-Task description and comments text formatting
+Print view - All class selectors changed to more universal for TT cross-version changes
 
 */
 
@@ -103,7 +92,10 @@ th *, td * {
   * {
     visibility: hidden;
   }
-  iframe {
+  iframe,
+  [class^="icon-button-module__iconButton--"],
+  [class^="icon-button-module__medium--"],
+  [class^="kb-article-view-module__expand--"] {
     display: none;
   }
   .tableGlobal tr td {
@@ -112,34 +104,34 @@ th *, td * {
   }
 
   /* PRINTABLE Article */
-  .kb-item-content-wrapper-module__body--n6jg5 {
+  [class^="kb-item-content-wrapper-module__body--"] {
     padding: 0;
   }
-  .kb-item-content-wrapper-module__body--n6jg5,
-  .kb-item-content-wrapper-module__body--n6jg5 * {
+  [class^="kb-item-content-wrapper-module__body--"],
+  [class^="kb-item-content-wrapper-module__body--"] * {
     visibility: visible;
   }
-  .kb-item-content-wrapper-module__body--n6jg5 {
+  [class^="kb-item-content-wrapper-module__body--"] {
     position: absolute;
     left: 0;
     top: 0;
   }
   #app-header,
-  .kb-item-page-header-module__container--5atFF,
-  .header-module__header--X182v,
-  .app-header-module__header--dp0Gt,
-  .kb-article-view-module__expand--NI8XI,
-  .kb-item-view-info-module__sections--nSuJh {
+  [class^="kb-item-page-header-module__container--"],
+  [class^="header-module__header--"],
+  [class^="app-header-module__header--"],
+  [class^="kb-article-view-module__expand--"],
+  [class^="kb-item-view-info-module__sections--"] {
     display: none;
   }
   h1,
   h2,
-  .kb-item-view-info-module__date--C5ez8,
-  .kb-item-owner-view-module__owner--1NH48,
-  .kb-article-footnote-module__publishDate--cC4wY {
+  [class^="kb-item-view-info-module__date--"],
+  [class^="kb-item-owner-view-module__owner--"],
+  [class^="kb-article-footnote-module__publishDate--"] {
     font-family: Verdana;
   }
-  .kb-article-view-module__section--MEUXI {
+  .article-section-module__section--J0H2P {
     max-width: 100%;
   }
   
