@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Print view fixed for articles, tasks, tickets
 More print hacks
 Print-view - Allow some parts to be split between pages
 Print-view - Ticket print view fixed now
@@ -86,6 +87,10 @@ th *, td * {
 /* PRINTABLE */
 @media print {
   /* PRINTABLE COMMON CLEANUP */
+  body {
+    position: unset;
+    height: unset;
+  }
   [class^="kb-item-content-wrapper-module__container--"],
   [class^="kb-item-content-wrapper-module__main--"]
   {
@@ -200,10 +205,10 @@ th *, td * {
     display: none;
   }
   .ticketDetailsPage .contentSection .mainArea .contentContainer {
-    /* position: absolute;
-    left: 0;
-    top: 0; */
     position: static;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
     width: 100vw;
     padding: 0 !important;
     margin: 0 !important;
@@ -234,6 +239,14 @@ th *, td * {
   span.ttBadge,
   span.ttBadge * {
     visibility: visible;
+  }
+  .ticketDetailsPage .ticketDetailsTitle .titleDetails,
+  .taskDetailsPage .contentSection .mainArea {
+    width: 100vw;
+    max-width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
   }
 }
 
