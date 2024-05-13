@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+File upload drop zone margins
 Print view fixed for articles, tasks, tickets
 More print hacks
 Print-view - Allow some parts to be split between pages
@@ -1303,6 +1304,10 @@ span.pull-right {
   margin: 0;
 }
 
+/* File upload drop zone */
+.k-upload .k-upload-files {
+  margin: 8px;
+}
 .k-upload .k-upload-files .k-file.k-file-success .k-file-name {
   color: var(--link-color)
 }
