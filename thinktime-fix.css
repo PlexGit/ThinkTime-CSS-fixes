@@ -20,7 +20,7 @@ ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
 }
 
 /* Temporary fix for gray background in ticket */
-.sidebar-module__ttSidebarBackdrop--k-08z {
+[class^="sidebar-module__ttSidebarBackdrop--"] {
   background-color: initial;
 }
 
@@ -45,7 +45,7 @@ ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
 }
 
 /* List spacing */
-li:not([class^="navigation-bar-module__item--"]) {
+li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -657,22 +657,6 @@ Older fix for News widget only
   font-style: italic;
   margin-top: 4px;
 }
-/* 
-.notifications-panel-module__header--VXCNa {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.notifications-list-module__item--pR5ZC:not(:last-child) {
-  margin-bottom: 20px;
-}
-.notification-module__body--N5jXV {
-  line-height: 20px;
-}
-.notifications-panel-module__body--\+aC\+K tt-empty-state span:nth-child(2) {
-  text-align: center;
-}
-*/
 
 /* Article space between paragraphs */
 [class^="article-section-module__body--"] p+* {
@@ -686,10 +670,12 @@ Older fix for News widget only
 }
 
 /* Article settings checbox item margin */
-.checkbox-module__field--d3oiT:not(:last-child) {
+/* div[class^="learn-editor-settings-module__subheading--"] > label[class^="checkbox-module__field--"]:not(:last-child) */
+[class^="checkbox-module__content--"]
+{
+  margin-top: 8px;
   margin-bottom: 8px;
 }
-
 
 /* Article settings checkbox line height */
 [class^="checkbox-module__content--"] {
@@ -786,7 +772,10 @@ span.ticketName a,
 
 /* Editable areas are resizeable and have inner shadow and min-height */
 .k-editable-area,
-textarea:not(.learn-editor-title-module__title--UeLog) {
+.commentsPanel .postComment textarea,
+/* textarea:not(class*=" learn-editor-title-module__title--"), */
+textarea:not([id^="title."])
+{
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
   border-radius: 5px;
@@ -851,7 +840,8 @@ overflow: visible;
 max-width: unset;
 }
 /* .multilingual-dropdown-module__menu--rH94o */
-[class^="menu-module__menu--"][class*=" multilingual-dropdown-module__menu--"]
+/* [class^="menu-module__menu--"] */
+[class*=" multilingual-dropdown-module__menu--"]
 {
   width: fit-content;
   max-height: calc(100vh - 100vh/3);
@@ -1320,42 +1310,32 @@ span.pull-right {
 .k-state-focused {
   outline: none;
 }
-
 div.k-widget.k-upload.k-header.k-upload-empty {
   margin-top: 3px;
 }
-
 label.checkBox.labelPost {
   margin-top: 6px;
 }
-
 .validation-modal--contents {
   height: 100%;
 }
-
 .postPanel {
   border: none;
 }
-
 .commentsPanel .postComment .postPanel .notifyAllcheckBox {
   margin-top: 12px;
 }
-
 .commentsPanel .postComment {
   margin-top: 25px;
   border: none;
 }
-
 .commentsPanel .postComment .postPanel .postBtn {
   border: 0;
 }
-
 button.postBtn {
-  background-color: lightseagreen;
-  border-radius: 4px;
+  background-color: lightseagreen;  border-radius: 4px;
   margin: 4px;
 }
-
 button.postBtn.postBtn-alt.m-r-10 {
   background-color: lightcoral;
   color: white;
@@ -1372,7 +1352,7 @@ button.postBtn.postBtn-alt.m-r-10:hover,
 .k-item:hover,
 .kb-tile--content:hover,
 .tt-button-primary.legacy:hover,
-.content-module__headCell--P3N55:hover {
+[class^="content-module__headCell"]:hover {
   text-decoration: none;
   color: var(--link-color);
   /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
@@ -1491,13 +1471,13 @@ div.ticketDetailsContent p.ng-binding {
 }
 
 /* Task details comment field paddings */
-[class^="comment-form-module__field--"] {
+/* [class*="comment-form-module__field--"] {
   padding: 0 !important;
-}
-[class^="comment-field-module__textarea--ct\+dC.comment-field-module__textarea--"] {
+} */
+[class*=" comment-field-module__textarea--"] {
   padding: 8px 16px;
 }
-.drop-zone-module__attach--wnoce {
+[class*=" drop-zone-module__attach--"] {
   margin-left: 0;
 }
 
@@ -1632,15 +1612,15 @@ span.hiddenOnHover.ng-binding,
 /* Not to display last breadcrump's ">" sign in Learn */
 /* .breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type */
 /* [class^="breadcrumbs-module__breadcrumbs--"] I[class^="icon-module__icon--"][class^="breadcrumbs-module__chevronIcon--"]:last-of-type, */
-.breadcrumbs-module__chevronIcon--VOtTj:last-of-type
+[class*=" breadcrumbs-module__chevronIcon--"]:last-of-type
 {
   display: none;
 }
 
 /* Breadcrumps larger KB icon */
 /* i[class^="icon-module__icon--"][class^="breadcrumbs-leaf-module__icon--"], */
-.breadcrumbs-leaf-module__icon--ejlHT
-/* [class^="breadcrumbs-leaf-module__icon--"] */
+/* .breadcrumbs-leaf-module__icon--ejlHT */
+[class*=" breadcrumbs-leaf-module__icon--"]
 {
   width: 24px !important;
   height: 24px !important;
@@ -1662,14 +1642,14 @@ span.hiddenOnHover.ng-binding,
 [class^="knowledge-base-articles-in-folder-module__article--"] {
   max-height: fit-content;
 }
-[class^="knowledge-base-articles-in-folder-module__article--"]:hover {
+/* [class^="knowledge-base-articles-in-folder-module__article--"]:hover {
   background-color: initial;
   padding: initial;
   margin-left: initial;
   margin-right: initial;
   margin-top: 5px;
   margin-bottom: 5px;
-}
+} */
 
 /* Calendar on wide screens - items word wrap and line height, row height */
 [class^="event-module__event--"] span:last-child {
