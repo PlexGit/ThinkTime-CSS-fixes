@@ -347,7 +347,8 @@ th *, td * {
     max-width: 85px;
   }
   /* Notification bell */
-  [class^="notification-module__avatar--"] {
+  [class^="notification-module__avatar--"],
+  .notification-module__avatar--sAion {
     display: none;
   }
   [class^="notification-module__prefix--"] {
@@ -415,7 +416,8 @@ th *, td * {
 
 /* Post 2.18 fixes */
 /* text-wrap */
-[class^="knowledge-base-sidebar-item-module__title--"] {
+[class^="knowledge-base-sidebar-item-module__title--"],
+[class^="support-ticket-row-title-module__title--"] {
   text-wrap: balance;
 }
 
@@ -1616,10 +1618,6 @@ span.hiddenOnHover.ng-binding,
 [class^="list-view-module__event--"] {
   height: fit-content;
 }
-/* My Work smaller header */
-[class^="header-module__header--"] {
-  padding: 10px 12px;
-}
 
 /* Breadcrumps fix for small screen */
 [class^="breadcrumbs-leaf-module__breadcrumbsItem--"] {
@@ -1634,20 +1632,26 @@ span.hiddenOnHover.ng-binding,
 }
 /* Not to display last breadcrump's ">" sign in Learn */
 /* .breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type */
-[class^="breadcrumbs-module__breadcrumbs--"] I[class^="icon-module__icon--"][class^="breadcrumbs-module__chevronIcon--"]:last-of-type {
+/* [class^="breadcrumbs-module__breadcrumbs--"] I[class^="icon-module__icon--"][class^="breadcrumbs-module__chevronIcon--"]:last-of-type, */
+.breadcrumbs-module__chevronIcon--VOtTj:last-of-type
+{
   display: none;
 }
 
 /* Breadcrumps larger KB icon */
-[class^="breadcrumbs-leaf-module__icon--"] {
-  height: 24px;
-  width: 24px;
+/* i[class^="icon-module__icon--"][class^="breadcrumbs-leaf-module__icon--"], */
+.breadcrumbs-leaf-module__icon--ejlHT
+/* [class^="breadcrumbs-leaf-module__icon--"] */
+{
+  width: 24px !important;
+  height: 24px !important;
 }
 
 /* KB tree height */
 [class^="knowledge-bases-sidebar-module__fullScreenSidebar--"] {
   top: 0;
-  height: calc(100vh + (var(--app-header-height)));
+  /* height: calc(100vh + (var(--app-header-height))); */
+  height: 100vh;
 }
 
 /* KB folders max width */
@@ -1674,7 +1678,8 @@ span.hiddenOnHover.ng-binding,
   text-wrap: balance;
   line-height: 1.2;
 }
-[class^="event-module__shortEvent--"] {
+[class^="event-module__shortEvent--"],
+[class^="event-module__event--"] {
     height: fit-content;
 }
 [class^="scheduler-row-module__layers--"] {
