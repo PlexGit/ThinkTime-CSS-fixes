@@ -786,7 +786,7 @@ span.ticketName a,
 
 /* Editable areas are resizeable and have inner shadow and min-height */
 .k-editable-area,
-textarea:not([class^="learn-editor-title-module__title--"]) {
+textarea:not(.learn-editor-title-module__title--UeLog) {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
   border-radius: 5px;
@@ -850,19 +850,18 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
 overflow: visible;
 max-width: unset;
 }
-[class^="multilingual-dropdown-module__menu--"] {
-    width: fit-content;
-    max-height: calc(100vh - 100vh/3);
+/* .multilingual-dropdown-module__menu--rH94o */
+[class^="menu-module__menu--"][class*=" multilingual-dropdown-module__menu--"]
+{
+  width: fit-content;
+  max-height: calc(100vh - 100vh/3);
 }
-
 [class^="learn-editor-form-module__settings--"] {
   background-color: ghostwhite;
 }
-
 [class^="learn-editor-form-header-module__header--"] {
   background-color: lightskyblue;
 }
-
 [class^="learn-editor-translation-form-module__primary--"] {
   background-color: ghostwhite;
 }
