@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Printable ticket fixes
 Few fixes for printable task
 KB grid - Width of columns to fit some screens
 Collapsible sidebar - Max width
@@ -209,6 +210,9 @@ th *, td * {
   }
   .commentsPanel .existComment .commentTitle .addInfo .agent::after {
     display: none;
+  }
+  .ticketDetailsPage .contentSection .mainArea {
+    padding: 0;
   }
   .ticketDetailsPage .contentSection .mainArea .contentContainer {
     position: static;
