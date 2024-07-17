@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Collapsible sidebar - Max width
 Tasks view - Collapsible sidebar fixes
 Print View - Aerticle body width fixed
 Buttons removed from Print View
@@ -517,6 +518,7 @@ th *, td * {
 /* Tasks collapsible sidebar */
 [class*=" collapsible-sidebar-module__sidebar--"] {
   padding: 8px;
+  max-width: fit-content;
 }
 [class*=" task-type-module__task--"] {
   display: none;
