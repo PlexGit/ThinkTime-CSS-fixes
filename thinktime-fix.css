@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Tasks view - Collapsible sidebar fixes
 Print View - Aerticle body width fixed
 Buttons removed from Print View
 ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
@@ -511,6 +512,27 @@ th *, td * {
 /* KB list header position static */
 [class^="kb-list-module__header--"] {
   position: static;
+}
+
+/* Tasks collapsible sidebar */
+[class*=" collapsible-sidebar-module__sidebar--"] {
+  padding: 8px;
+}
+[class*=" task-type-module__task--"] {
+  display: none;
+}
+[class^="facets-module__facetItem--"] {
+  padding: 8px 16px;
+}
+[class^="slideout-facets-module__sideBarWrapper--"] {
+  padding-top: 24px;
+}
+
+/* Tasks summary badge width */
+[class^="summary-module__type--"] {
+  width: min-content;
+  text-align: center;
+  line-height: 1.2em;
 }
 
 /* Store Visit summary */
