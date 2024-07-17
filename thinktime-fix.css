@@ -1,6 +1,8 @@
 /* 
 LATEST FIXES
 
+Print View - Aerticle body width fixed
+Buttons removed from Print View
 ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
 
 */
@@ -94,9 +96,11 @@ th *, td * {
   }
   aside,
   iframe,
+  button,
   [class^="icon-button-module__iconButton--"],
   [class^="icon-button-module__medium--"],
-  [class^="kb-article-view-module__expand--"]
+  [class^="icon-button-module__kindDefault--"],
+  [class*=" kb-article-view-module__expand--"]
   {
     display: none;
   }
@@ -141,7 +145,8 @@ th *, td * {
     margin: 0;
     border: none;
   }
-  [class^="kb-article-view-module__section--"] {
+  [class*=" kb-article-view-module__section--"]
+  {
     width: 100vw !important;
     max-width: 100% !important;
   }
