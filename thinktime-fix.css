@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Printable task fixes
 Printable ticket fixes
 Few fixes for printable task
 KB grid - Width of columns to fit some screens
@@ -255,15 +256,32 @@ th *, td * {
   span.ttBadge * {
     visibility: visible;
   }
+  [class^="task-view-module__wrapper--"] {
+    height: 100%;
+  }
   .ticketDetailsPage .ticketDetailsTitle .titleDetails,
   .taskDetailsPage .contentSection .mainArea,
+  [class^="task-view-module__wrapper--"],
   [class^="task-view-module__leftSide--"],
-  [class^="task-view-module__content--"] {
+  [class^="task-view-module__content--"]
+  {
     width: 100vw;
     max-width: 100%;
     padding: 0 !important;
     margin: 0 !important;
     border: none !important;
+  }
+  [class*=" description-module__descriptionWrapper--"],
+  [class*=" section-row-module__sectionMobile--"]
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  [class*=" task-view-module__tabsSection--"]
+  {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -535,7 +553,9 @@ th *, td * {
   max-width: fit-content;
 }
 [class*=" task-type-module__task--"] {
-  display: none;
+  /* display: contents; */
+  width: 0;
+  height: 0;
 }
 [class^="facets-module__facetItem--"] {
   padding: 8px 16px;
@@ -1000,7 +1020,8 @@ a.link.ng-binding {
 }
 
 /* Tasks list items no line on hover */
-[class^="task-title-module__taskTitle--"]:hover {
+[class^="task-title-module__taskTitle--"]:hover,
+[class^="summary-module__summaryTitle--"]:hover {
   border: none;
 }
 
