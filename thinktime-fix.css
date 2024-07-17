@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB grid - Width of columns to fit some screens
 Collapsible sidebar - Max width
 Tasks view - Collapsible sidebar fixes
 Print View - Aerticle body width fixed
@@ -1665,6 +1666,11 @@ span.hiddenOnHover.ng-binding,
 /* KB folders max width */
 [class^="knowledge-base-folders-module__folder--"] {
   max-width: calc(100vw - 48px);
+}
+
+/* KB grid - Width of columns to fit some screens */
+[class^="knowledge-base-folders-module__list--"] {
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
 /* KB folders - items max height */
