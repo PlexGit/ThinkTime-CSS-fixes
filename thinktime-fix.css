@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Few fixes for printable task
 KB grid - Width of columns to fit some screens
 Collapsible sidebar - Max width
 Tasks view - Collapsible sidebar fixes
@@ -99,7 +100,8 @@ th *, td * {
   }
   aside,
   iframe,
-  button,
+  button, input[type="button"], input[type="submit"], input[type="reset"],
+  [type="button"],
   [class^="icon-button-module__iconButton--"],
   [class^="icon-button-module__medium--"],
   [class^="icon-button-module__kindDefault--"],
@@ -223,7 +225,12 @@ th *, td * {
   /* PRINTABLE Task */
   .contentContainer.corporateLongHeight,
   .taskSettingLine,
-  p.lightColor.small {
+  p.lightColor.small,
+  [class^="task-view-module__rightSide--"],
+  /* [class^="comment-item-module__row--"] */
+  [data-cy="task-comment-form"],
+  [class^="task-view-module__contentTabsWrapper--"]
+  {
     display: none;
   }
   h1.status,
@@ -245,7 +252,9 @@ th *, td * {
     visibility: visible;
   }
   .ticketDetailsPage .ticketDetailsTitle .titleDetails,
-  .taskDetailsPage .contentSection .mainArea {
+  .taskDetailsPage .contentSection .mainArea,
+  [class^="task-view-module__leftSide--"],
+  [class^="task-view-module__content--"] {
     width: 100vw;
     max-width: 100%;
     padding: 0 !important;
