@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Fixes for top of the pages to be static
 Printable task fixes
 Printable ticket fixes
 Few fixes for printable task
@@ -933,14 +934,24 @@ max-width: unset;
 
 /* Static top on scroll */
 #app-header,
+[class^="header-module__header--"],
 [class^="app-header-legacy-module__withFlexContainer--"],
 [class^="header-module__header--"],
 [class^="knowledge-base-view-header-module__header--"],
 [class^="app-header-module__header--"],
 [class^="kb-item-page-header-module__container--"],
 [class^="kb-item-page-header-module__expired--"],
-[class^="task-creation-page-header-module__wrapper--"] {
+[class^="task-creation-page-header-module__wrapper--"],
+[class^="task-creation-page-header-module__root--"],
+[class*=" support-page-module__header--"] {
   position: static;
+}
+[class^="support-page-module__root--"] {
+  max-height: unset;
+  height: unset;
+}
+[class^="sidebar-module__sidebar--"] {
+  max-height: unset;
 }
 
 /* Tack Creation Sidebar positioning */
