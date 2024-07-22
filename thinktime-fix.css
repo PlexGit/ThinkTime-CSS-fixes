@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Notification items bottom margin
 Fixes for top of the pages to be static
 Printable task fixes
 Printable ticket fixes
@@ -720,6 +721,7 @@ Older fix for News widget only
   font-size: smaller;
   font-style: italic;
   margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 /* Article space between paragraphs */
