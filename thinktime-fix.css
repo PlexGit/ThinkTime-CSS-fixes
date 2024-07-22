@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Margins in notification in mobile view
 Notification items bottom margin
 Fixes for top of the pages to be static
 Printable task fixes
@@ -414,8 +415,8 @@ th *, td * {
   }
   [class^="notifications-panel-module__list--"] {
     margin-top: 16px;
-    margin-right: -16px;
-    margin-left: -16px;
+    margin-right: -32px;
+    margin-left: -32px;
     height: auto;
     max-height: calc(100vh - 200px);
     min-width: calc(100vw - 108px);
