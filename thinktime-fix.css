@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Margins in notification in mobile view (2)
 Margins in notification in mobile view
 Notification items bottom margin
 Fixes for top of the pages to be static
@@ -426,6 +427,9 @@ th *, td * {
   }
   [class^="notifications-panel-module__clearAll--"] {
     margin-left: 16px;
+  }
+  [class^="notifications-panel-module__header--"] {
+    margin-bottom: 0;
   }
   [class^="notification-module__close--"] {
     margin-left: 4px;
