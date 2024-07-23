@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+KB grid - View more color
 Margins in notification in mobile view (2)
 Margins in notification in mobile view
 Notification items bottom margin
@@ -1723,6 +1724,11 @@ span.hiddenOnHover.ng-binding,
 /* KB grid - Width of columns to fit some screens */
 [class^="knowledge-base-folders-module__list--"] {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+/* KB grid - View more color */
+[class^="knowledge-base-folders-module__viewMore--"] {
+  color: var(--link-color);
 }
 
 /* KB folders - items max height */
