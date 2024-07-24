@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Reports and Administration top fixed
 KB grid - View more color
 Margins in notification in mobile view (2)
 Margins in notification in mobile view
@@ -1230,6 +1231,16 @@ div.k-widget.k-window.k-window-titleless.k-editor-widget {
 /* Article editor toolbar */
 div.editorToolbarWindow.k-header.k-window-content.k-content {
   background-color: #cccccc;
+}
+
+/* Administration top fixed */
+[class^="administration-header-section-module__administrationHeader--"] {
+  position: static;
+}
+
+/* Reports top fixed */
+[class*=" report-layout-header-module__root--"] {
+  position: static;
 }
 
 .k-button.k-state-selected {
