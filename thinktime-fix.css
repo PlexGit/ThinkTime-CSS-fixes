@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Breadcrumbs in task distribution - Fixes
 Reports and Administration top fixed
 KB grid - View more color
 Margins in notification in mobile view (2)
@@ -465,8 +466,15 @@ th *, td * {
 /* Post 2.18 fixes */
 /* text-wrap */
 [class^="knowledge-base-sidebar-item-module__title--"],
-[class^="support-ticket-row-title-module__title--"] {
+[class^="support-ticket-row-title-module__title--"],
+[class*=" distribution-breadcrumbs-module__location--"] > *,
+[class^="distribution-breadcrumbs-module__currentLocation--"]
+{
   text-wrap: balance;
+}
+/* Breadcrumbs in task distribution - Center */
+[class^="distribution-breadcrumbs-module__currentLocation--"] {
+  display: flex;
 }
 
 /* Post 2.17 fixes */
