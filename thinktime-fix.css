@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+No text decoration for agent name in printable ticket
 Printable task fixes
 Task header static in mobile view
 Breadcrumbs in task distribution - Fixes
@@ -234,6 +235,9 @@ th *, td * {
     margin: 0 !important;
     border: none !important;
     max-width: 100%;
+  }
+  [data-ng-bind="recentComment.user.name"] {
+    text-decoration: none;
   }
 
   /* PRINTABLE Task */
