@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Task header static in mobile view
 Breadcrumbs in task distribution - Fixes
 Reports and Administration top fixed
 KB grid - View more color
@@ -443,6 +444,10 @@ th *, td * {
   }
   [class^="empty-state-module__tt-empty-state-body--"] {
     line-height: 1.2em;
+  }
+  /* Task header static */
+  [class^="header-builder-module__topSideMobile--"] {
+    position: static;
   }
 }
 
