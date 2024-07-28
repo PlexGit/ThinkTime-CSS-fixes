@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Article table of contents active link highlight
 No text decoration for agent name in printable ticket
 Printable task fixes
 Task header static in mobile view
@@ -1112,7 +1113,7 @@ a.link.ng-binding {
     border-bottom: 2px solid var(--layout-border-color);
 }
 /* Active link more intense black */
-[class^="article-side-content-wrapper-module__articleSectionActiveLink--"] {
+[class*=" article-side-content-wrapper-module__articleSectionActiveLink--"] {
     text-shadow: 0px 0px 1px mediumblue;
 }
 
