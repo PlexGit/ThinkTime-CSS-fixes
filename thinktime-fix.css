@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+"MORE" button fix for custom forms
 Printable ticket - More underlines removed
 "MORE" buttons darkgoldenrod color
 "MORE" buttons goldenrod color
@@ -207,7 +208,9 @@ th *, td * {
   div.sideArea,
   .attachDescription,
   .attachmentsPanel,
-  .ticketDetailsPage .contentSection .sideArea {
+  .ticketDetailsPage .contentSection .sideArea,
+  .collapseMore
+  {
     display: none;
   }
   h1.state1,
@@ -1190,11 +1193,13 @@ a {
 /* Task attashments roll color */
 .attachmentsCollapse a,
 div.commentContent p.attachmentsCollapse a,
-div.commentsPanel p.commentsCollapse.text-uppercase.ng-scope a
+div.commentsPanel p.commentsCollapse.text-uppercase.ng-scope a,
+div.customFieldsTicket.ng-scope p.collapseMore a
 {
   /* white-space: normal; */
   text-wrap: balance;
   color: var(--more-trigger-color) !important;
+  font-weight: bold;
   word-wrap: break-word;
 }
 
