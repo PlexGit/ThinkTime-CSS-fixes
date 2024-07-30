@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+"MORE" buttons goldenrod color
 No border, color and bold for "Read more" button
 Color for "Read more" button
 --layout-border-color for table of contents title
@@ -40,6 +41,7 @@ ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
   --primary-text: #223355;
   --link-color: #4369dc;
   --layout-border-color: gainsboro;
+  --more-trigger-color: goldenrod;
 }
 
 /* Temporary fix for gray background in ticket */
@@ -839,7 +841,7 @@ span.ticketName a,
 /* No border, color and bold for "Read more" button */
 .ticketDetailsPage .description-content--trigger {
   border: none;
-  color: goldenrod;
+  color: var(--more-trigger-color);
   font-weight: bold;
 }
 /*.btn-default-custom,*/
@@ -1026,15 +1028,6 @@ a.ng-binding.ng-scope {
   color: var(--primary-color);
 }
 
-
-/* Task attashments roll color */
-.attachmentsCollapse a {
-  /* white-space: normal; */
-  text-wrap: balance;
-  color: var(--link-color);
-  word-wrap: break-word;
-}
-
 /* Forms list title word wrap */
 a.link.ng-binding {
   /* white-space: normal; */
@@ -1187,6 +1180,17 @@ a.text-ellipsis.ng-binding {
 
 a {
   transition: background 300ms ease-out;
+}
+
+/* Task attashments roll color */
+.attachmentsCollapse a,
+div.commentContent p.attachmentsCollapse a,
+div.commentsPanel p.commentsCollapse.text-uppercase.ng-scope a
+{
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--more-trigger-color) !important;
+  word-wrap: break-word;
 }
 
 a:not([class]):not([id]) {
