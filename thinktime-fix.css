@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Color for "Read more" button
 --layout-border-color for table of contents title
 Article table of contents active link highlight
 No text decoration for agent name in printable ticket
@@ -834,9 +835,10 @@ span.ticketName a,
 .btnTT {
   border: 1px solid var(--control-border-color);
 }
-/* No border for "Read more" button */
+/* No border and - */
 .ticketDetailsPage .description-content--trigger {
   border: none;
+  color: goldenrod;
 }
 /*.btn-default-custom,*/
 .btn-primary,
