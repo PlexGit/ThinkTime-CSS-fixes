@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Printable ticket - More underlines removed
 "MORE" buttons darkgoldenrod color
 "MORE" buttons goldenrod color
 No border, color and bold for "Read more" button
@@ -244,7 +245,10 @@ th *, td * {
     border: none !important;
     max-width: 100%;
   }
-  [data-ng-bind="recentComment.user.name"] {
+  [data-ng-bind="recentComment.user.name"],
+  [data-ng-bind="comment.user.name"],
+  [data-ng-click="setVisibleAttachments($event, comment, true)"]
+  {
     text-decoration: none;
   }
 
