@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+--layout-border-color for table of contents title
 Article table of contents active link highlight
 No text decoration for agent name in printable ticket
 Printable task fixes
@@ -36,6 +37,7 @@ ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
   --link-color: #4369dc;
+  --layout-border-color: gainsboro;
 }
 
 /* Temporary fix for gray background in ticket */
