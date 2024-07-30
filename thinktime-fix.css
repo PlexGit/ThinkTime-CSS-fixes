@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+No border, color and bold for "Read more" button
 Color for "Read more" button
 --layout-border-color for table of contents title
 Article table of contents active link highlight
@@ -835,10 +836,11 @@ span.ticketName a,
 .btnTT {
   border: 1px solid var(--control-border-color);
 }
-/* No border and - */
+/* No border, color and bold for "Read more" button */
 .ticketDetailsPage .description-content--trigger {
   border: none;
   color: goldenrod;
+  font-weight: bold;
 }
 /*.btn-default-custom,*/
 .btn-primary,
