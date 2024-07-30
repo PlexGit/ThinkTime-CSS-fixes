@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+"MORE" buttons darkgoldenrod color
 "MORE" buttons goldenrod color
 No border, color and bold for "Read more" button
 Color for "Read more" button
@@ -41,7 +42,7 @@ ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
   --primary-text: #223355;
   --link-color: #4369dc;
   --layout-border-color: gainsboro;
-  --more-trigger-color: goldenrod;
+  --more-trigger-color: darkgoldenrod;
 }
 
 /* Temporary fix for gray background in ticket */
