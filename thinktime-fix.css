@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Printable ticket - More underlines removed (2)
 "MORE" button fix for custom forms
 Printable ticket - More underlines removed
 "MORE" buttons darkgoldenrod color
@@ -248,9 +249,12 @@ th *, td * {
     border: none !important;
     max-width: 100%;
   }
+  .attachmentsCollapse a,
   [data-ng-bind="recentComment.user.name"],
   [data-ng-bind="comment.user.name"],
-  [data-ng-click="setVisibleAttachments($event, comment, true)"]
+  [data-ng-click="setVisibleAttachments($event, comment, true)"],
+  [data-ng-click="setVisibleAttachments($event, model.ticket, true)"],
+  [data-ng-click="setVisibleAttachments($event, recentComment, true)"]
   {
     text-decoration: none;
   }
