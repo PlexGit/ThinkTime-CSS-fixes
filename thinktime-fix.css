@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Printable ticket - External form fixes
 Printable ticket - More underlines removed (2)
 "MORE" button fix for custom forms
 Printable ticket - More underlines removed
@@ -136,6 +137,20 @@ th *, td * {
     /* white-space: normal; */
     text-wrap: balance;
   }
+  table {
+    -webkit-page-break-inside: auto;
+    page-break-inside: auto;
+  }
+  div.ng-binding.ng-isolate-scope table tbody tr {
+    -webkit-page-break-inside: auto;
+    page-break-inside: auto;
+  }
+  tr {
+    -webkit-page-break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-page-break-after: auto;
+    page-break-after: auto;
+  }
 
   /* Headers always with content */
   h1, h2, h3, h4, h5, h6 {
@@ -210,9 +225,10 @@ th *, td * {
   .attachDescription,
   .attachmentsPanel,
   .ticketDetailsPage .contentSection .sideArea,
-  .collapseMore
+  .collapseMore,
+  .btn.btn-link.description-content--trigger.ng-binding
   {
-    display: none;
+    display: none !important;
   }
   h1.state1,
   h1.state1 *,
