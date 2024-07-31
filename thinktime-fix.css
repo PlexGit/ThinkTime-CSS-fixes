@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Footer color for edit users page
 Printable ticket - External form fixes
 Printable ticket - More underlines removed (2)
 "MORE" button fix for custom forms
@@ -524,6 +525,10 @@ th *, td * {
 /* Breadcrumbs in task distribution - Center */
 [class^="distribution-breadcrumbs-module__currentLocation--"] {
   display: flex;
+}
+/* Footer color for edit users page */
+.edit-page-footer {
+  background-color: aliceblue;
 }
 
 /* Post 2.17 fixes */
