@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Breadcrumbs in task - Several lines
 Footer color for edit users page
 Printable ticket - External form fixes
 Printable ticket - More underlines removed (2)
@@ -525,6 +526,10 @@ th *, td * {
 /* Breadcrumbs in task distribution - Center */
 [class^="distribution-breadcrumbs-module__currentLocation--"] {
   display: flex;
+}
+/* Breadcrumbs in task - Several lines */
+[class^="distribution-breadcrumbs-module__breadcrumbsWrapper--"] {
+  flex-wrap: wrap;
 }
 /* Footer color for edit users page */
 .edit-page-footer {
