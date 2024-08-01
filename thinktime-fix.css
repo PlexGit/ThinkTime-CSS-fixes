@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Gap for ticket buttons in mobile view
 Breadcrumbs in task - Several lines
 Footer color for edit users page
 Printable ticket - External form fixes
@@ -364,6 +365,7 @@ th *, td * {
   .ticketDetailsPage .titleSection .rightPart {
     flex-flow: wrap;
     justify-content: end;
+    gap: 4px;
   }
   /* Ticket filter button width */
   .ticketsListPage .ticketsList .ticketsListHead .ticketsFilter2Mobile .filterBtn span {
