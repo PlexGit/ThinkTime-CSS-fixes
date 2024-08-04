@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Ticket custom form - Swap to make label first
 Gap for ticket buttons in mobile view
 Breadcrumbs in task - Several lines
 Footer color for edit users page
@@ -1690,6 +1691,16 @@ span.hiddenOnHover.ng-binding,
   /* white-space: normal; */
   text-wrap: balance;
   line-height: 1.2;
+}
+
+/* Ticket custom form - Swap to make label first */
+[data-ng-repeat="field in group"] {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 16px;
+}
+div.labelCustomField.ng-binding {
+  margin-bottom: 0;
 }
 
 .text-ellipsis {
