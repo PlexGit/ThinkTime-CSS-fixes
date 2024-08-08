@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Tasks collapsible sidebar - Back to fixed width
 Store Visit and Task comments fields margins
 Ticket custom form - Swap to make label first
 Gap for ticket buttons in mobile view
@@ -630,7 +631,7 @@ th *, td * {
 /* Tasks collapsible sidebar */
 [class*=" collapsible-sidebar-module__sidebar--"] {
   padding: 8px;
-  max-width: fit-content;
+  /* max-width: fit-content; */
 }
 [class*=" task-type-module__task--"] {
   /* display: contents; */
