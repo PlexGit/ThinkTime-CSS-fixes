@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+fix for: Tasks "Reopen" button colors
 Tasks "Reopen" button colors
 Tasks collapsible sidebar - Back to fixed width
 Store Visit and Task comments fields margins
@@ -876,12 +877,13 @@ span.ticketName a,
 }
 
 /* Ticket and Task button color variations */
-[data-ng-if="model.AllowedActions.assignToMe && !model.ticket.agent"] {
+[data-ng-if="model.AllowedActions.assignToMe && !model.ticket.agent"],
+[data-ng-if="model.AllowedActions.assign && !model.AllowedActions.assignToMe && !model.ticket.agent"] {
   background-color: goldenrod;
 }
 [data-ng-switch-when="Resolved"],
-[class^="button-module__kindSuccess--"],
-.btn.btn-success {
+[data-ng-show="model.details.rel.reopen"],
+[class^="button-module__kindSuccess--"] {
   background-color: firebrick;
 }
 
