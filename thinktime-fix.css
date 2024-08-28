@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Tasks "Reopen" button colors
 Tasks collapsible sidebar - Back to fixed width
 Store Visit and Task comments fields margins
 Ticket custom form - Swap to make label first
@@ -874,11 +875,13 @@ span.ticketName a,
   display: none;
 }
 
-/* Ticket button color variations */
+/* Ticket and Task button color variations */
 [data-ng-if="model.AllowedActions.assignToMe && !model.ticket.agent"] {
   background-color: goldenrod;
 }
-[data-ng-switch-when="Resolved"] {
+[data-ng-switch-when="Resolved"],
+[class^="button-module__kindSuccess--"],
+.btn.btn-success {
   background-color: firebrick;
 }
 
