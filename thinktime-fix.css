@@ -1,45 +1,15 @@
 /* 
+Check for newest version:
+https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
+
 LATEST FIXES
 
+29.08.2024
+----------
 fix for: Corporate font fixes
 Corporate font fixes
 fix for: Tasks "Reopen" button colors
 Tasks "Reopen" button colors
-Tasks collapsible sidebar - Back to fixed width
-Store Visit and Task comments fields margins
-Ticket custom form - Swap to make label first
-Gap for ticket buttons in mobile view
-Breadcrumbs in task - Several lines
-Footer color for edit users page
-Printable ticket - External form fixes
-Printable ticket - More underlines removed (2)
-"MORE" button fix for custom forms
-Printable ticket - More underlines removed
-"MORE" buttons darkgoldenrod color
-"MORE" buttons goldenrod color
-No border, color and bold for "Read more" button
-Color for "Read more" button
---layout-border-color for table of contents title
-Article table of contents active link highlight
-No text decoration for agent name in printable ticket
-Printable task fixes
-Task header static in mobile view
-Breadcrumbs in task distribution - Fixes
-Reports and Administration top fixed
-KB grid - View more color
-Margins in notification in mobile view (2)
-Margins in notification in mobile view
-Notification items bottom margin
-Fixes for top of the pages to be static
-Printable task fixes
-Printable ticket fixes
-Few fixes for printable task
-KB grid - Width of columns to fit some screens
-Collapsible sidebar - Max width
-Tasks view - Collapsible sidebar fixes
-Print View - Aerticle body width fixed
-Buttons removed from Print View
-ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
 
 */
 
