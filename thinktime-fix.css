@@ -6,6 +6,7 @@ LATEST FIXES
 
 29.08.2024
 ----------
+Store Visit summary wrapping the title elements to fit mobile screen
 fix for: Corporate font fixes
 Corporate font fixes
 fix for: Tasks "Reopen" button colors
@@ -643,6 +644,9 @@ th *, td * {
 }
 [class^="store-visits-summary-score-by-section-module__wrapper--"] {
   padding: 20px 24px 28px;
+}
+[class^="store-visits-summary-header-module__heading--"] {
+  flex-wrap: wrap;
 }
 
 /* Store Visit completion percentage items */
