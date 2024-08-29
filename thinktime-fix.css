@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+fix for: Corporate font fixes
 Corporate font fixes
 fix for: Tasks "Reopen" button colors
 Tasks "Reopen" button colors
@@ -1348,8 +1349,11 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 }
 
 /* Task description text font */
-[class^="store-visits-summary-task-module__title--"],
-[class^="store-visits-summary-task-module__titleSection--"],
+[class^="field-values-presenters-module__text--"],
+[class*="event-description-module__rtfContents--"],
+/* [class^="store-visits-summary-task-module__title--"], */
+[class^="store-visits-summary-task-module__titleNamePart--"],
+/* [class^="store-visits-summary-task-module__titleSection--"], */
 [class^="task-view-module__description--"],
 [class*="task-view-module__description--"],
 [class*="description-module__description--"] *
