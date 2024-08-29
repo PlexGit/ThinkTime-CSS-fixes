@@ -1,6 +1,7 @@
 /* 
 LATEST FIXES
 
+Corporate font fixes
 fix for: Tasks "Reopen" button colors
 Tasks "Reopen" button colors
 Tasks collapsible sidebar - Back to fixed width
@@ -217,7 +218,7 @@ th *, td * {
   [class^="kb-item-view-info-module__date--"],
   [class^="kb-item-owner-view-module__owner--"],
   [class^="kb-article-footnote-module__publishDate--"] {
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   [class^="article-section-module__section--"] {
     max-width: 100%;
@@ -502,6 +503,13 @@ th *, td * {
   [class^="header-builder-module__topSideMobile--"] {
     position: static;
   }
+  /* Store Visit summary */
+  /* [class^="store-visits-summary-comments-module__tabs--"],
+  [class^="store-visits-summary-task-module__title--"],
+  [class^="store-visits-summary-task-module__taskWrapper--"],
+  [class^="store-visits-summary-task-module__titleNamePart--"] {
+    display: block;
+  } */
 }
 
 @media (max-width: 1024px) {
@@ -659,7 +667,7 @@ th *, td * {
 [class^="store-visits-summary-score-by-section-module__questionTitle--"],
 [class^="store-visits-summary-task-module__titleNamePart--"],
 ._afpq1s {
-  /* white-space: normal; */
+  display: block;
   text-wrap: balance;
 }
 [class^="store-visits-summary-score-by-section-module__wrapper--"] {
@@ -1339,20 +1347,25 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   color: lightgoldenrodyellow;
 }
 
-/* Task description and comments text font */
+/* Task description text font */
+[class^="store-visits-summary-task-module__title--"],
+[class^="store-visits-summary-task-module__titleSection--"],
 [class^="task-view-module__description--"],
-[class^="comment-item-module__content--"]
-/* ,
-.description-content,
-.commentContent */
+[class*="task-view-module__description--"],
+[class*="description-module__description--"] *
 {
-  font-size: 16px;
+  /* font-size: 16px; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5
 }
 
-/* Tickets text size etc*/
-.ng-binding.ng-isolate-scope {
+/* Tickets and comments text size etc*/
+.ng-binding.ng-isolate-scope,
+[class*="comment-item-module__content--"],
+[class*="comment-view-module__text--"],
+[class*="store-visits-summary-score-by-section-module__description--C9jm5"],
+.commentContent
+{
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5
@@ -1765,12 +1778,6 @@ div.labelCustomField.ng-binding {
 }
 
 /* Store Visit summary */
-[class^="store-visits-summary-comments-module__tabs--"],
-[class^="store-visits-summary-task-module__title--"],
-[class^="store-visits-summary-task-module__taskWrapper--"],
-[class^="store-visits-summary-task-module__titleNamePart--"] {
-  display: block;
-}
 ._ievr4j {
   padding: 0px 10px;
 }
