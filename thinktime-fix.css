@@ -645,7 +645,10 @@ th *, td * {
 [class^="store-visits-summary-score-by-section-module__wrapper--"] {
   padding: 20px 24px 28px;
 }
-[class^="store-visits-summary-header-module__heading--"] {
+[class^="store-visits-summary-header-module__heading--"],
+[class^="comment-module__commentActivities--"],
+[class^="comment-module__meta--"]
+{
   flex-wrap: wrap;
 }
 
