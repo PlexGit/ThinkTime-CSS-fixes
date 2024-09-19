@@ -4,6 +4,10 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+19.09.2024
+----------
+Dashboard 2.0 text wrap for some sections
+
 29.08.2024
 ----------
 Store Visit summary wrapping the title elements to fit mobile screen
@@ -532,7 +536,8 @@ th *, td * {
 [class^="support-ticket-title-module__title--"],
 [class^="support-ticket-title-module__read--"],
 [class^="tabs-module__item_text--"],
-[class^="container-module__label--"]
+[class^="container-module__label--"],
+[class^="ticket-list-agent-table-module__mobileTicketTitle--"]
 {
   text-wrap: balance;
 }
