@@ -1,8 +1,13 @@
-/* 
+/*
+
 Check for newest version:
 https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
+
+30.09.2024
+----------
+KB folders - Articles quantity border
 
 19.09.2024
 ----------
@@ -1847,6 +1852,14 @@ div.labelCustomField.ng-binding {
   margin-top: 5px;
   margin-bottom: 5px;
 } */
+
+/* KB folders - Articles quantity border */
+[class^="knowledge-base-folders-module__articleCount--"] {
+    width: fit-content;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
 
 /* Calendar on wide screens - items word wrap and line height, row height */
 [class^="event-module__event--"] span:last-child {
