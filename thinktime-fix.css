@@ -9,6 +9,7 @@ LATEST FIXES
 ----------
 Dashboard 2.0 fixes - Mobile View - Tickets list
 DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS)
+DASHBOARD 2.0 Mobile View - Tasks list
 
 30.09.2024
 ----------
@@ -543,6 +544,20 @@ th *, td * {
 }
 [class^="org-tools-table-module__listItemTitle--"] {
     font-weight: bold;
+}
+
+/* DASHBOARD 2.0 Mobile View - Tasks list */
+[class*=" title-cell-module__mobileTitle--"] {
+    text-wrap: balance;
+    font-weight: bold;
+}
+[class^="general-tasks-table-module__detailsRow--"] {
+    flex-wrap: wrap;
+    gap: unset;
+    column-gap: 8px;
+}
+[class^="general-tasks-table-module__listRow--"] {
+    gap: 8px;
 }
 
 /* --------------------------------------------------------------------------------------- */
