@@ -9,6 +9,7 @@ LATEST FIXES
 ----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
 DASHBOARD 2.0 Desktop View - Links fix
+DASHBOARD 2.0 Desktop View - Links height and line height swapped
 
 02.10.2024
 ----------
@@ -563,6 +564,8 @@ th *, td * {
 }
 [class*="org-tools-table-module__titleWrapper--"] {
     font-weight: bold;
+    line-height: inherit;
+    height: 31px;
 }
 
 /* DASHBOARD 2.0 Mobile View - Tasks list */
