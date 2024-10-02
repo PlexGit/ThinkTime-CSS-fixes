@@ -5,11 +5,16 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+03.10.2024
+----------
+DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
+
 02.10.2024
 ----------
 Dashboard 2.0 fixes - Mobile View - Tickets list
 DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS)
 DASHBOARD 2.0 Mobile View - Tasks list
+DASHBOARD 2.0 Mobile View - Links fix
 
 30.09.2024
 ----------
@@ -79,10 +84,10 @@ li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) 
 /* SCROLLBARS */
 html {
   /* Chrome, Safari, Edge */
-  ::-webkit-scrollbar {
+  /* ::-webkit-scrollbar {
     height: 1rem;
     width: .5rem;
-  }
+  } */
   ::-webkit-scrollbar-track {
     background-color: transparent;
     border-radius: 9999px;
@@ -535,15 +540,19 @@ th *, td * {
     font-weight: bold;
 }
 
-/* DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS) */
+/* DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS) and LINKS */
 [class^="org-tools-table-module__listItemInfo--"] > div {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 8px;
-    align-items: center;
+    column-gap: 8px;
+    align-items: left;
 }
 [class^="org-tools-table-module__listItemTitle--"] {
     font-weight: bold;
+}
+[class^="org-tools-table-module__listItemCategory--"] {
+    display: none;
 }
 
 /* DASHBOARD 2.0 Mobile View - Tasks list */
