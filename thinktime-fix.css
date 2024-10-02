@@ -5,6 +5,10 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+02.10.2024
+----------
+Dashboard 2.0 fixes - Mobile View - Tickets list
+
 30.09.2024
 ----------
 KB folders - Articles quantity border
@@ -510,6 +514,25 @@ th *, td * {
 
 /* COMMON RULES */
 
+/* --------------------------------------------------------------------------------------- */
+/* DASHBOARD 2.0 FIXES */
+
+/* DASHBOARD 2.0 Mobile View - Tickets list */
+[class^="ticket-list-agent-table-module__mobileInlineCell--"] {
+    justify-content: center;
+}
+[class^="ticket-list-agent-table-module__tooltipContainer--"] {
+    overflow: visible;
+    max-height: unset;
+    flex-wrap: wrap;
+}
+[class^="ticket-list-agent-table-module__mobileInlineCell--"] {
+    gap: 8px;
+}
+[class^="ticket-list-agent-table-module__mobileTicketTitle--"] {
+    font-weight: bold;
+}
+
 /* Post 2.18 fixes */
 /* text-wrap */
 [class^="knowledge-base-sidebar-item-module__title--"],
@@ -531,6 +554,8 @@ th *, td * {
 .edit-page-footer {
   background-color: aliceblue;
 }
+
+/* --------------------------------------------------------------------------------------- */
 
 /* Post 2.17 fixes */
 /* text-wrap */
