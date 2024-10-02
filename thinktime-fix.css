@@ -10,6 +10,7 @@ LATEST FIXES
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
 DASHBOARD 2.0 Desktop View - Links fix
 DASHBOARD 2.0 Desktop View - Links height and line height swapped
+DASHBOARD 2.0 Desktop View - Task name Bold
 
 02.10.2024
 ----------
@@ -580,6 +581,11 @@ th *, td * {
 }
 [class^="general-tasks-table-module__listRow--"] {
     gap: 8px;
+}
+
+/* DASHBOARD 2.0 Desktop View - Task name Bold */
+[class*=" general-tasks-table-module__titleCell--"] {
+    font-weight: bold;
 }
 
 /* --------------------------------------------------------------------------------------- */
