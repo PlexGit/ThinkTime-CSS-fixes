@@ -12,6 +12,7 @@ DASHBOARD 2.0 Desktop View - Links fix
 DASHBOARD 2.0 Desktop View - Links height and line height swapped
 DASHBOARD 2.0 Desktop View - Task name Bold
 DASHBOARD 2.0 Desktop View - Ticket name Bold
+DASHBOARD 2.0 Tables in widgets - Head cells text wrap
 
 02.10.2024
 ----------
@@ -527,6 +528,11 @@ th *, td * {
 
 /* --------------------------------------------------------------------------------------- */
 /* DASHBOARD 2.0 FIXES */
+
+/* DASHBOARD 2.0 Tables in widgets - Head cells text wrap */
+[class^="table-module__headCell--"] {
+    text-wrap: balance;
+}
 
 /* DASHBOARD 2.0 Mobile View - Tickets list */
 [class^="ticket-list-agent-table-module__mobileInlineCell--"] {
