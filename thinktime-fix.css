@@ -8,6 +8,7 @@ LATEST FIXES
 03.10.2024
 ----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
+DASHBOARD 2.0 Desktop View - Links fix
 
 02.10.2024
 ----------
@@ -553,6 +554,15 @@ th *, td * {
 }
 [class^="org-tools-table-module__listItemCategory--"] {
     display: none;
+}
+
+/* DASHBOARD 2.0 Desktop View - Links fix */
+[class*="org-tools-module__wrapper"] table tr td:nth-child(2),
+[class*="org-tools-module__wrapper"] table tr th:nth-child(2) {
+    display: none;
+}
+[class*="org-tools-table-module__titleWrapper--"] {
+    font-weight: bold;
 }
 
 /* DASHBOARD 2.0 Mobile View - Tasks list */
