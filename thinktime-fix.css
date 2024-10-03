@@ -20,6 +20,7 @@ DASHBOARD 2.0 Bulbs and other image-links paddings
 DASHBOARD 2.0 Org tools paddings
 DASHBOARD 2.0 Added exclusion for breadcrumbs styles in the Tasks widget
 DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
+DASHBOARD 2.0 News section (new one) - Header static
 
 02.10.2024
 ----------
@@ -534,6 +535,11 @@ th *, td * {
 /* COMMON RULES */
 
 /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+
+/* DASHBOARD 2.0 News section (new one) - Header static */
+[class*=" top-bar-module__root--"] {
+  position: static;
+}
 
 /* DASHBOARD 2.0 Bulbs and other image-links paddings */
 [class*=" wysiwyg-view-module__view--"] a {
