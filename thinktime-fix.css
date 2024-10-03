@@ -14,6 +14,7 @@ DASHBOARD 2.0 Desktop View - Task name Bold
 DASHBOARD 2.0 Desktop View - Ticket name Bold
 DASHBOARD 2.0 Tables in widgets - Head cells text wrap
 DASHBOARD 2.0 News widget readability fix
+DASHBOARD 2.0 System Status widget readability fix
 
 02.10.2024
 ----------
@@ -540,6 +541,15 @@ th *, td * {
 [class^="list-with-images-module__wrapper--"] {
     gap: 8px;
     justify-content: center;
+}
+
+/* DASHBOARD 2.0 System Status widget readability fix */
+[class^="list-without-images-module__title--"] {
+    text-wrap: balance;
+}
+
+[class^="list-without-images-module__infoWrapper--"] {
+    gap: 4px;
 }
 
 /* DASHBOARD 2.0 Tables in widgets - Head cells text wrap */
