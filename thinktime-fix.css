@@ -23,6 +23,7 @@ DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
 DASHBOARD 2.0 News section (new one) - Header static
 News article - Footnote left align and italic
 News article - Header static (line)
+News section - Fixes for small screens
 
 02.10.2024
 ----------
@@ -547,6 +548,20 @@ th *, td * {
 /* News article - Header static (line) */
 [class^="news-article-view-page-module__divider--"] {
     position: static;
+}
+
+/* News section - Fixes for small screens */
+@media only screen and (max-width: 768px) {
+    [class^="article-module__wrapper--"] {
+        border: solid 2px lightgray;
+        border-radius: 16px;
+        padding: 16px;
+    }
+    [class^="engage-news-page-module__infoPanel--"] {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
 }
 
 /* DASHBOARD 2.0 News section (new one) - Header static */
