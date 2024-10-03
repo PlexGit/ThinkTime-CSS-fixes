@@ -21,6 +21,7 @@ DASHBOARD 2.0 Org tools paddings
 DASHBOARD 2.0 Added exclusion for breadcrumbs styles in the Tasks widget
 DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
 DASHBOARD 2.0 News section (new one) - Header static
+News article - Footnote left align and italic
 
 02.10.2024
 ----------
@@ -535,6 +536,12 @@ th *, td * {
 /* COMMON RULES */
 
 /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+
+/* News article - Footnote left allighn and italic */
+[class^="news-article-view-footnote-module__footnote--"] {
+    text-align: right;
+    font-style: italic;
+}
 
 /* DASHBOARD 2.0 News section (new one) - Header static */
 [class*=" top-bar-module__root--"] {
