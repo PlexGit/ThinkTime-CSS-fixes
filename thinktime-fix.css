@@ -17,6 +17,7 @@ DASHBOARD 2.0 News widget readability fix
 DASHBOARD 2.0 System Status widget readability fix
 DASHBOARD 2.0 News widget readability fix for some width
 DASHBOARD 2.0 Bulbs and other image-links paddings
+DASHBOARD 2.0 Org tools paddings
 
 02.10.2024
 ----------
@@ -536,6 +537,11 @@ th *, td * {
 [class*=" wysiwyg-view-module__view--"] a {
     padding-left: 8px;
     padding-right: 8px;
+}
+
+/* DASHBOARD 2.0 Org tools paddings */
+a[class^="org-tools-grid-module__orgTool--"] {
+    padding: 8px;
 }
 
 /* DASHBOARD 2.0 News widget readability fix */
