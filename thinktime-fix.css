@@ -533,7 +533,7 @@ th *, td * {
 /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
 
 /* DASHBOARD 2.0 Bulbs and other image-links paddings */
-[class^="wysiwyg-view-module__view--"] a {
+[class*=" wysiwyg-view-module__view--"] a {
     padding-left: 8px;
     padding-right: 8px;
 }
