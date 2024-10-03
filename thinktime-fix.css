@@ -18,6 +18,7 @@ DASHBOARD 2.0 System Status widget readability fix
 DASHBOARD 2.0 News widget readability fix for some width
 DASHBOARD 2.0 Bulbs and other image-links paddings
 DASHBOARD 2.0 Org tools paddings
+DASHBOARD 2.0 Added exlusion for breadcrumps styles in Tasks widget
 
 02.10.2024
 ----------
@@ -446,7 +447,7 @@ th *, td * {
     padding-top: 8px;
     padding-bottom: 8px;
   }
-  [class^="breadcrumbs-leaf-module__breadcrumbsItem--"] {
+  [class^="breadcrumbs-leaf-module__breadcrumbsItem--"]:not([class^="tasks-table-breadcrumbs-module__breadcrumbs--"] *) {
     max-width: 85px;
   }
   /* Notification bell */
@@ -1932,13 +1933,13 @@ div.labelCustomField.ng-binding {
   /* max-width: min-content; */
 }
 /* Not to display last breadcrump in Learn */
-[class^="breadcrumbs-module__breadcrumbs--"]>*:last-child {
+[class^="breadcrumbs-module__breadcrumbs--"]>*:last-child:not([class^="tasks-table-breadcrumbs-module__breadcrumbs--"] *) {
     display: none;
 }
 /* Not to display last breadcrump's ">" sign in Learn */
 /* .breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type */
 /* [class^="breadcrumbs-module__breadcrumbs--"] I[class^="icon-module__icon--"][class^="breadcrumbs-module__chevronIcon--"]:last-of-type, */
-[class*=" breadcrumbs-module__chevronIcon--"]:last-of-type
+[class*=" breadcrumbs-module__chevronIcon--"]:last-of-type:not([class^="tasks-table-breadcrumbs-module__breadcrumbs--"] *)
 {
   display: none;
 }
