@@ -16,6 +16,7 @@ DASHBOARD 2.0 Tables in widgets - Head cells text wrap
 DASHBOARD 2.0 News widget readability fix
 DASHBOARD 2.0 System Status widget readability fix
 DASHBOARD 2.0 News widget readability fix for some width
+DASHBOARD 2.0 Bulbs and other image-links paddings
 
 02.10.2024
 ----------
@@ -530,6 +531,12 @@ th *, td * {
 /* COMMON RULES */
 
 /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+
+/* DASHBOARD 2.0 Bulbs and other image-links paddings */
+[class^="wysiwyg-view-module__view--"] a {
+    padding-left: 8px;
+    padding-right: 8px;
+}
 
 /* DASHBOARD 2.0 News widget readability fix */
 [class^="list-with-images-module__newsTitle--"] {
