@@ -13,6 +13,7 @@ DASHBOARD 2.0 Desktop View - Links height and line height swapped
 DASHBOARD 2.0 Desktop View - Task name Bold
 DASHBOARD 2.0 Desktop View - Ticket name Bold
 DASHBOARD 2.0 Tables in widgets - Head cells text wrap
+DASHBOARD 2.0 News widget readability fix
 
 02.10.2024
 ----------
@@ -526,8 +527,20 @@ th *, td * {
 
 /* COMMON RULES */
 
-/* --------------------------------------------------------------------------------------- */
-/* DASHBOARD 2.0 FIXES */
+/* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+
+/* DASHBOARD 2.0 News widget readability fix */
+[class^="list-with-images-module__newsTitle--"] {
+    text-wrap: balance;
+    line-height: 1.2;
+}
+[class^="list-with-images-module__articleHeader--"] {
+    display: none;
+}
+[class^="list-with-images-module__wrapper--"] {
+    gap: 8px;
+    justify-content: center;
+}
 
 /* DASHBOARD 2.0 Tables in widgets - Head cells text wrap */
 [class^="table-module__headCell--"] {
