@@ -645,9 +645,9 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 
 /* DASHBOARD 2.0 Task widget breadcrumps for small screen fix */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
   [class^="breadcrumbs-leaf-module__breadcrumb--"] {
-    max-width: 140px;
+    max-width: 100px;
     text-align: left;
   }
 }
