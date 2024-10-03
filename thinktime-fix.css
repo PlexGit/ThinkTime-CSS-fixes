@@ -1,6 +1,6 @@
 /*
 
-Check for newest version:
+Check for the newest version:
 https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
@@ -9,7 +9,7 @@ LATEST FIXES
 ----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
 DASHBOARD 2.0 Desktop View - Links fix
-DASHBOARD 2.0 Desktop View - Links height and line height swapped
+DASHBOARD 2.0 Desktop View - Links height and line-height swapped
 DASHBOARD 2.0 Desktop View - Task name Bold
 DASHBOARD 2.0 Desktop View - Ticket name Bold
 DASHBOARD 2.0 Tables in widgets - Head cells text wrap
@@ -18,7 +18,8 @@ DASHBOARD 2.0 System Status widget readability fix
 DASHBOARD 2.0 News widget readability fix for some width
 DASHBOARD 2.0 Bulbs and other image-links paddings
 DASHBOARD 2.0 Org tools paddings
-DASHBOARD 2.0 Added exlusion for breadcrumps styles in Tasks widget
+DASHBOARD 2.0 Added exclusion for breadcrumbs styles in the Tasks widget
+DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
 
 02.10.2024
 ----------
@@ -37,7 +38,7 @@ Dashboard 2.0 text wrap for some sections
 
 29.08.2024
 ----------
-Store Visit summary wrapping the title elements to fit mobile screen
+Store Visit summary wrapping the title elements to fit a mobile screen
 fix for: Corporate font fixes
 Corporate font fixes
 fix for: Tasks "Reopen" button colors
@@ -641,6 +642,14 @@ a[class^="org-tools-grid-module__orgTool--"] {
 /* DASHBOARD 2.0 Desktop View - Task name Bold */
 [class*=" general-tasks-table-module__titleCell--"] {
     font-weight: bold;
+}
+
+/* DASHBOARD 2.0 Task widget breadcrumps for small screen fix */
+@media only screen and (max-width: 768px) {
+  [class^="breadcrumbs-leaf-module__breadcrumb--"] {
+    max-width: 140px;
+    text-align: left;
+  }
 }
 
 /* --------------------------------------------------------------------------------------- */
