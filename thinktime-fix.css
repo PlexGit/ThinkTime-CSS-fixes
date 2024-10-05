@@ -10,6 +10,7 @@ LATEST FIXES
 News article - Home button sticky
 Legacy article editor toolbar fixes
 News article - Sidebar position fix
+News article - Additional info on widget fixes
 
 03.10.2024
 ----------
@@ -559,6 +560,17 @@ th *, td * {
 /* News article - Header static (line) */
 [class^="news-article-view-page-module__divider--"] {
     position: static;
+}
+
+/* News article - Additional info on widget fixes */
+[class^="list-with-images-module__additionalInfo--"] {
+    gap: unset;
+    column-gap: 16px;
+    flex-wrap: wrap;
+}
+[class*=" list-with-images-module__mobileItemWrapper--"] {
+    max-height: fit-content;
+    height: unset;
 }
 
 /* News article - Home button sticky */
