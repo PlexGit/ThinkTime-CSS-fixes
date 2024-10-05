@@ -11,6 +11,7 @@ News article - Home button sticky
 Legacy article editor toolbar fixes
 News article - Sidebar position fix
 News article - Additional info on widget fixes
+News page - Category selector width fix
 
 03.10.2024
 ----------
@@ -31,6 +32,7 @@ DASHBOARD 2.0 News section (new one) - Header static
 News article - Footnote left align and italic
 News article - Header static (line)
 News section - Fixes for small screens
+News page - Category selector width fix
 
 02.10.2024
 ----------
@@ -571,6 +573,11 @@ th *, td * {
 [class*=" list-with-images-module__mobileItemWrapper--"] {
     max-height: fit-content;
     height: unset;
+}
+
+/* News page - Category selector width fix */
+[class*=" category-facet-module__trigger--"] {
+  max-width: fit-content;
 }
 
 /* News article - Home button sticky */
