@@ -9,6 +9,7 @@ LATEST FIXES
 ----------
 News article - Home button sticky
 Legacy article editor toolbar fixes
+News article - Sidebar position fix
 
 03.10.2024
 ----------
@@ -543,6 +544,11 @@ th *, td * {
 /* COMMON RULES */
 
 /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+
+/* News article - Sidebar position fix */
+[class^="news-article-view-page-module__sidebar--"] {
+    top: 0;
+}
 
 /* News article - Footnote left allighn and italic */
 [class^="news-article-view-footnote-module__footnote--"] {
