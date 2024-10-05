@@ -12,6 +12,7 @@ Legacy article editor toolbar fixes
 News article - Sidebar position fix
 News article - Additional info on widget fixes
 News page - Category selector width fix
+News article - Additional info on widget fixes (2)
 
 03.10.2024
 ----------
@@ -599,6 +600,9 @@ th *, td * {
         align-items: flex-start;
         gap: 8px;
     }
+}
+[class^="article-module__articleSubTitleItem--"] {
+    flex-wrap: wrap;
 }
 
 /* DASHBOARD 2.0 News section (new one) - Header static */
