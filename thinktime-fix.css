@@ -5,6 +5,11 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+05.10.2024
+----------
+News article - Home button sticky
+Legacy article editor toolbar fixes
+
 03.10.2024
 ----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
@@ -548,6 +553,13 @@ th *, td * {
 /* News article - Header static (line) */
 [class^="news-article-view-page-module__divider--"] {
     position: static;
+}
+
+/* News article - Home button sticky */
+@media only screen and (max-width: 768px) {
+    .news-item-content-wrapper-module__homePanel--zdoza {
+        position: sticky;
+    }
 }
 
 /* News section - Fixes for small screens */
@@ -1142,6 +1154,10 @@ textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
   z-index: 4; */
 }
 
+.tox-toolbar__overflow {
+    background-color: cornsilk;
+}
+
 .tox-statusbar__branding {
   display: none;
 }
@@ -1483,18 +1499,27 @@ section.kb--top-section {
   padding-top: 15px;
 }
 
-/* Article editor toolbar CONTAINER */
+/* Legacy article editor toolbar CONTAINER */
 div.k-widget.k-window.k-window-titleless.k-editor-widget {
   position: fixed;
   top: 30px;
   left: 30px;
-  height: 125px;
   width: 900px;
+  max-width: calc(100vw - 15%);
+  max-height: fit-content;
 }
 
-/* Article editor toolbar */
+/* Legacy article editor toolbar */
 div.editorToolbarWindow.k-header.k-window-content.k-content {
-  background-color: #cccccc;
+  background-color: cornsilk;
+}
+/* .k-editor-toolbar .k-tool {
+  background-color: unset;
+} */
+
+/* Legacy editor drag handle remove */
+.k-editortoolbar-dragHandle {
+  display: none;
 }
 
 /* Administration top fixed */
