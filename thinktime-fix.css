@@ -5,6 +5,10 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+06.10.2024
+----------
+PRINTABLE - News article + Common fixes
+
 05.10.2024
 ----------
 News article - Home button sticky
@@ -139,6 +143,59 @@ th *, td * {
 
 /* PRINTABLE */
 @media print {
+  /* Forced corporate styles */
+        * {
+            font-family: "Verdana", "Arial", sans-serif;
+            line-height: 1.5;
+        }
+        h1 {
+          border: none;
+        }
+        h1, h2 {
+            line-height: 1.2;
+        }
+        h2 {
+            border-top: 1px solid lightgray;
+            margin-top: 1.75em;
+            padding-top: 0.75em;
+        }
+        h2::first-child {
+            margin-top: 0;
+        }
+        h1 {
+            font-size: 1.8em !important;
+        }
+        h2 {
+            font-size: 1.35em !important;
+        }
+        figcaption {
+            font-size: smaller;
+            color: gray;
+        }
+        li {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        img {
+            max-width: 100%;
+        }
+        @media print {
+            p {
+                -webkit-break-inside: avoid;
+                break-inside: avoid;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                -webkit-break-after: avoid;
+                -webkit-break-inside: avoid;
+                break-after: avoid;
+                break-inside: avoid;
+            }
+            a[href^='http']:after {
+                content: ' > ' attr(href);
+                font-family: Monospace;
+            }
+        }
+
   /* PRINTABLE COMMON CLEANUP */
   body {
     position: unset;
@@ -241,6 +298,62 @@ th *, td * {
   [class^="article-section-module__section--"] {
     max-width: 100%;
   }
+  [class^="kb-item-view-info-module__meta--"] {
+    align-items: flex-start;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt;
+  }
+  [class^="learn-item-view-info-wrapper-module__details--"] {
+    margin-bottom: 16px;
+  }
+
+  /* PRINTABLE News */
+  /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+  [class^="news-article-view-page-module__aside--"],
+  [class^="news-item-content-wrapper-module__header--"],
+  [class^="news-item-content-wrapper-module__homePanel--"],
+  [class^="news-item-view-info-module__avatar--"],
+  [class*=" news-item-view-info-module__attachment--"],
+  [class^="news-item-view-info-module__metaInfo--"],
+  [class*=" news-item-view-info-module__dot--"],
+  [class^="news-article-view-page-module__divider--"],
+  .Collapsible {
+    display: none !important;
+  }
+  [class^="news-item-view-info-module__meta--"] {
+    align-items: flex-start;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt;
+  }
+  [class^="news-item-content-wrapper-module__body--"] {
+      visibility: visible;
+      page-break-inside: auto !important;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      border: none;
+  }
+  [class*=" news-article-view-page-module__section--"]
+  {
+      width: 100vw !important;
+      max-width: 100% !important;
+  }
+  [class^="learn-item-view-info-wrapper-module__articleHeader--"] {
+      border: none;
+  }
+  [class*=" news-article-view-module__details--"] {
+    margin-bottom: 16px;
+  }
+
+  /* --------------------------------------------------------------------------------------- */
   
   /* PRINTABLE Ticket */
   ul.k-tabstrip-items.k-reset,
