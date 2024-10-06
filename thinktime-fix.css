@@ -8,6 +8,7 @@ LATEST FIXES
 06.10.2024
 ----------
 PRINTABLE - News article + Common fixes
+PRINTABLE - News article footer
 
 05.10.2024
 ----------
@@ -324,6 +325,13 @@ th *, td * {
   }
   [class^="news-item-view-info-module__meta--"] {
     align-items: flex-start;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt;
+  }
+  [class^="news-article-view-footnote-module__footnote--"] {
+    align-items: flex-end;
     gap: unset;
     flex-direction: column;
     font-style: italic;
