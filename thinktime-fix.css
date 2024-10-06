@@ -9,6 +9,7 @@ LATEST FIXES
 ----------
 PRINTABLE - News article + Common fixes
 PRINTABLE - News article footer
+PRINTABLE - Excessive border lines fix
 
 05.10.2024
 ----------
@@ -156,7 +157,7 @@ th *, td * {
             line-height: 1.2;
         }
         h2 {
-            border-top: 1px solid lightgray;
+            border-top: 0.5px solid var(--layout-border-color);
             margin-top: 1.75em;
             padding-top: 0.75em;
         }
@@ -286,8 +287,9 @@ th *, td * {
   [class^="kb-item-view-info-module__sections--"] {
     display: none;
   }
-  #titleSection {
-    border: none;
+  #titleSection,
+  [class^="article-section-module__section--"] {
+    border: none !important;
   }
   h1,
   h2,
