@@ -25,7 +25,7 @@ News article - Additional info on widget fixes (2)
 ----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
 DASHBOARD 2.0 Desktop View - Links fix
-DASHBOARD 2.0 Desktop View - Links height and line height swapped
+DASHBOARD 2.0 Desktop View - Links height and line-height swapped
 DASHBOARD 2.0 Desktop View - Task name Bold
 DASHBOARD 2.0 Desktop View - Ticket name Bold
 DASHBOARD 2.0 Tables in widgets - Head cells text wrap
@@ -159,8 +159,8 @@ th *, td * {
         }
         h2 {
             border-top: 0.5px solid var(--layout-border-color);
-            margin-top: 1.75em;
-            padding-top: 0.75em;
+            margin-top: 0.25em;
+            padding-top: 1.25em;
         }
         h2::first-child {
             margin-top: 0;
