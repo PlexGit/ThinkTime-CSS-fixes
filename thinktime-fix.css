@@ -10,6 +10,7 @@ LATEST FIXES
 PRINTABLE - News article + Common fixes
 PRINTABLE - News article footer
 PRINTABLE - Excessive border lines fix
+PRINTABLE - Section margin fix
 
 05.10.2024
 ----------
@@ -24,7 +25,7 @@ News article - Additional info on widget fixes (2)
 ----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
 DASHBOARD 2.0 Desktop View - Links fix
-DASHBOARD 2.0 Desktop View - Links height and line-height swapped
+DASHBOARD 2.0 Desktop View - Links height and line height swapped
 DASHBOARD 2.0 Desktop View - Task name Bold
 DASHBOARD 2.0 Desktop View - Ticket name Bold
 DASHBOARD 2.0 Tables in widgets - Head cells text wrap
@@ -308,8 +309,18 @@ th *, td * {
     font-style: italic;
     font-size: 10pt;
   }
+  [class^="kb-article-footnote-module__footnote--"] * {
+    align-items: flex-end;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt !important;
+  }
   [class^="learn-item-view-info-wrapper-module__details--"] {
     margin-bottom: 16px;
+  }
+  [class*=" article-section-module__body--"] {
+    margin-bottom: 0;
   }
 
   /* PRINTABLE News */
@@ -332,12 +343,12 @@ th *, td * {
     font-style: italic;
     font-size: 10pt;
   }
-  [class^="news-article-view-footnote-module__footnote--"] {
+  [class^="news-article-view-footnote-module__footnote--"] * {
     align-items: flex-end;
     gap: unset;
     flex-direction: column;
     font-style: italic;
-    font-size: 10pt;
+    font-size: 10pt !important;
   }
   [class^="news-item-content-wrapper-module__body--"] {
       visibility: visible;
