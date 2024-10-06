@@ -83,6 +83,10 @@ Tasks "Reopen" button colors
   --more-trigger-color: darkgoldenrod;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
 /* Temporary fix for gray background in ticket */
 [class^="sidebar-module__ttSidebarBackdrop--"] {
   background-color: initial;
@@ -191,7 +195,6 @@ th *, td * {
       -webkit-break-inside: avoid;
       break-after: avoid;
       break-inside: avoid;
-      text-wrap: balance;
   }
   a[href^='http']:after {
       content: ' > ' attr(href);
