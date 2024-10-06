@@ -147,57 +147,56 @@ th *, td * {
 /* PRINTABLE */
 @media print {
   /* Forced corporate styles */
-        * {
-            font-family: "Verdana", "Arial", sans-serif;
-            line-height: 1.5;
-        }
-        h1 {
-          border: none;
-        }
-        h1, h2 {
-            line-height: 1.2;
-        }
-        h2 {
-            border-top: 0.5px solid var(--layout-border-color);
-            margin-top: 0.25em;
-            padding-top: 1.25em;
-        }
-        h2::first-child {
-            margin-top: 0;
-        }
-        h1 {
-            font-size: 1.8em !important;
-        }
-        h2 {
-            font-size: 1.35em !important;
-        }
-        figcaption {
-            font-size: smaller;
-            color: gray;
-        }
-        li {
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        img {
-            max-width: 100%;
-        }
-        @media print {
-            p {
-                -webkit-break-inside: avoid;
-                break-inside: avoid;
-            }
-            h1, h2, h3, h4, h5, h6 {
-                -webkit-break-after: avoid;
-                -webkit-break-inside: avoid;
-                break-after: avoid;
-                break-inside: avoid;
-            }
-            a[href^='http']:after {
-                content: ' > ' attr(href);
-                font-family: Monospace;
-            }
-        }
+  * {
+      font-family: "Verdana", "Arial", sans-serif;
+      line-height: 1.5;
+  }
+  h1 {
+    border: none;
+  }
+  h1, h2 {
+      line-height: 1.2;
+  }
+  h2 {
+      border-top: 0.5px solid var(--layout-border-color);
+      margin-top: 0.25em;
+      padding-top: 1.25em;
+  }
+  h2::first-child {
+      margin-top: 0;
+  }
+  h1 {
+      font-size: 1.8em !important;
+  }
+  h2 {
+      font-size: 1.35em !important;
+  }
+  figcaption {
+      font-size: smaller;
+      color: gray;
+  }
+  li {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  img {
+      max-width: 100%;
+  }
+  p {
+      -webkit-break-inside: avoid;
+      break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      -webkit-break-after: avoid;
+      -webkit-break-inside: avoid;
+      break-after: avoid;
+      break-inside: avoid;
+      text-wrap: balance;
+  }
+  a[href^='http']:after {
+      content: ' > ' attr(href);
+      font-family: Monospace;
+  }
 
   /* PRINTABLE COMMON CLEANUP */
   body {
