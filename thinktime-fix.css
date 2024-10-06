@@ -343,7 +343,7 @@ th *, td * {
     font-style: italic;
     font-size: 10pt;
   }
-  [class^="news-article-view-footnote-module__footnote--"] * {
+  [class^="news-article-view-footnote-module__footnote--"] {
     align-items: flex-end;
     gap: unset;
     flex-direction: column;
