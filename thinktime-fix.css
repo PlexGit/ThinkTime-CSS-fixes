@@ -8,6 +8,7 @@ LATEST FIXES
 08.10.2024
 ----------
 Desktop view news widget items height fix (for mid-size screens)
+Learn and News header elements placing + Edit mode fixes for mobile view
 
 07.10.2024
 ----------
@@ -15,7 +16,7 @@ fix for DASHBOARD 2.0 Bulbs and other image-links paddings
 
 06.10.2024
 ----------
-PRINTABLE - News article + Common fixes
+PRINTABLE - News article + Common fixesa
 PRINTABLE - News article footer
 PRINTABLE - Excessive border lines fix
 PRINTABLE - Section margin fix
@@ -1059,6 +1060,24 @@ a[class^="org-tools-grid-module__orgTool--"] {
     padding-bottom: 8px;
 }
 
+/* Learn and News header elements placing */
+.knowledgeBaseArticle .titleSection .mainTitleArea {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.knowledgeBaseArticle .titleSection .rightPart {
+    flex-shrink: unset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.knowledgeBaseArticle .titleSection .rightPart * {
+    margin-left: 0;
+}
+
 /* Store Visit and Tickets header elements placing */
 .ticketDetailsPage .titleSection .mainTitleArea {
     display: flex;
@@ -1083,6 +1102,8 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-header-module__title--"] {
     line-height: 1.2;
 }
+
+
 
 /* Dashboard tables header */
 .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
@@ -1391,6 +1412,19 @@ max-width: unset;
   margin-bottom: -24px;
 }
 
+/* Article editor - Mobile fixes */
+[class^="learn-editor-form-header-module__header--"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+[class^="learn-editor-content-module__header--"] {
+    top: 90px;
+}
+
 /* Static top on scroll */
 #app-header,
 [class^="header-module__header--"],
@@ -1674,6 +1708,16 @@ section.kb--top-section {
 }
 
 /* Legacy article editor toolbar CONTAINER */
+@media (max-width: 1366px) {
+  div.k-widget.k-window.k-window-titleless.k-editor-widget {
+    position: absolute;
+    top: initial; 
+    left: initial;
+  }
+  .k-editortoolbar-dragHandle {
+    display: block;
+  }
+}
 div.k-widget.k-window.k-window-titleless.k-editor-widget {
   position: fixed;
   top: 30px;
