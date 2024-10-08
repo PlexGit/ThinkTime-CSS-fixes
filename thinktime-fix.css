@@ -5,6 +5,10 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+08.10.2024
+----------
+Desktop view news widget items height fix (for mid-size screens)
+
 07.10.2024
 ----------
 fix for DASHBOARD 2.0 Bulbs and other image-links paddings
@@ -711,7 +715,8 @@ th *, td * {
     column-gap: 16px;
     flex-wrap: wrap;
 }
-[class*=" list-with-images-module__mobileItemWrapper--"] {
+[class*=" list-with-images-module__mobileItemWrapper--"],
+[class^="list-with-images-module__itemWrapper--"] {
     max-height: fit-content;
     height: unset;
 }
