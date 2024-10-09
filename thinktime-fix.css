@@ -511,6 +511,23 @@ th *, td * {
 
 /* MOBILE VIEW */
 
+@media (max-width: 1366px) {
+  div.k-widget.k-window.k-window-titleless.k-editor-widget {
+    position: absolute;
+    top: unset; 
+    left: unset;
+  }
+  .k-editortoolbar-dragHandle {
+    display: block;
+  }
+}
+
+@media (max-width: 920px) {
+  [class^="learn-editor-content-module__header--"] {
+      top: 90px;
+  }
+}
+
 @media (max-width: 480px) {
 /* Ticket actions dropdown menu fix */
   #titleSection .dropdown-menu, .dropdown-to-left {
@@ -1421,9 +1438,6 @@ max-width: unset;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-[class^="learn-editor-content-module__header--"] {
-    top: 90px;
-}
 
 /* Static top on scroll */
 #app-header,
@@ -1708,16 +1722,6 @@ section.kb--top-section {
 }
 
 /* Legacy article editor toolbar CONTAINER */
-@media (max-width: 1366px) {
-  div.k-widget.k-window.k-window-titleless.k-editor-widget {
-    position: absolute;
-    top: initial; 
-    left: initial;
-  }
-  .k-editortoolbar-dragHandle {
-    display: block;
-  }
-}
 div.k-widget.k-window.k-window-titleless.k-editor-widget {
   position: fixed;
   top: 30px;
