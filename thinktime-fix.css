@@ -5,6 +5,10 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+11.10.2024
+----------
+Printable News fix - Now scrollable
+
 08.10.2024
 ----------
 Desktop view news widget items height fix (for mid-size screens)
@@ -361,10 +365,14 @@ th *, td * {
     font-style: italic;
     font-size: 10pt !important;
   }
+  [class^="news-article-view-page-module__body--"] {
+    padding: 0;
+    margin: 0;
+  }
   [class^="news-item-content-wrapper-module__body--"] {
       visibility: visible;
       page-break-inside: auto !important;
-      position: fixed;
+      position: relative;
       left: 0;
       top: 0;
       width: 100vw;
