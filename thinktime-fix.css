@@ -8,6 +8,7 @@ LATEST FIXES
 11.10.2024
 ----------
 Printable News fix - Now scrollable
+Printable - Attachments block in News
 
 08.10.2024
 ----------
@@ -231,7 +232,8 @@ th *, td * {
   [class^="icon-button-module__iconButton--"],
   [class^="icon-button-module__medium--"],
   [class^="icon-button-module__kindDefault--"],
-  [class*=" kb-article-view-module__expand--"]
+  [class*=" kb-article-view-module__expand--"],
+  [class^="article-attachments-module__sectionBlock--"]
   {
     display: none;
   }
