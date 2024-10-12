@@ -5,6 +5,10 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 
 LATEST FIXES
 
+12.10.2024
+----------
+Printable Ticket - Allow page breaks inside comments
+
 11.10.2024
 ----------
 Printable News fix - Now scrollable
@@ -200,7 +204,7 @@ th *, td * {
   img {
       max-width: 100%;
   }
-  p {
+  p:not([data-ng-bind-html="trustHtml(recentComment.text)"]) {
       -webkit-break-inside: avoid;
       break-inside: avoid;
   }
