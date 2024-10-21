@@ -12,6 +12,10 @@ https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
 
 LATEST FIXES
 
+21.10.2024
+----------
+Articles list - Unpublished changes mark fixes
+
 12.10.2024
 ----------
 Printable Ticket - Allow page breaks inside comments
@@ -2032,6 +2036,17 @@ div[class^="kb-article-footnote-module__footnote--"] {
 }
 [class^="kb-articles-module__fullMaxHeight--"] {
     max-height: calc(100vh - 32px);
+}
+
+/* Articles list - Unpublished changes mark fixes */
+[data-ng-if="article.hasUnpublishedChanges"] {
+    align-content: center;
+    height: fit-content;
+    text-align: center;
+    word-break: break-word;
+}
+div:has(> [data-ng-if="article.hasUnpublishedChanges"]) {
+    align-items: center;
 }
 
 /* List selector*/
