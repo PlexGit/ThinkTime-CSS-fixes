@@ -6,3 +6,6 @@ I was tested only in Chrome from my side.
 
 Public list (easy to share and copy)
 https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
+
+Relatively full changelog (updated periodically):
+https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
