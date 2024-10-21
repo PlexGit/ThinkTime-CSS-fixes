@@ -1,3 +1,543 @@
+---------- Oct 12, 2024
+Printable Ticket - Allow page breaks inside comments
+
+---------- Oct 11, 2024
+Printable - Attachments block in News
+Printable News fix - Now scrollable
+
+---------- Oct 8, 2024
+Learn and News header elements placing + Edit mode fixes for mobile view
+Desktop view news widget items height fix (for mid-size screens)
+
+---------- Oct 7, 2024
+ for DASHBOARD 2.0 Bulbs and other image-links paddings
+
+---------- Oct 6, 2024
+PRINTABLE - Section margin fix
+PRINTABLE - Excessive border lines fix
+PRINTABLE - News article footer
+PRINTABLE - News article + Common fixes
+
+---------- Oct 5, 2024
+News article - Additional info on widget fixes (2)
+News page - Category selector width fix
+News article - Additional info on widget fixes
+News article - Sidebar position fix
+Legacy article editor toolbar fixes
+
+---------- Oct 3, 2024
+News section - Fixes for small screens
+News article - Header static (line)
+News article - Footnote left align and italic
+DASHBOARD 2.0 News section (new one) - Header static
+DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
+DASHBOARD 2.0 Added exclusion for breadcrumbs styles in Tasks widget
+DASHBOARD 2.0 Org tools paddings
+DASHBOARD 2.0 Bulbs and other image-links paddings
+DASHBOARD 2.0 News widget readability fix for some width
+DASHBOARD 2.0 System Status widget readability fix
+DASHBOARD 2.0 News widget readability fix
+DASHBOARD 2.0 Tables in widgets - Head cells text wrap
+DASHBOARD 2.0 Desktop View - Ticket name Bold
+
+---------- Oct 3, 2024
+DASHBOARD 2.0 Desktop View - Task name Bold
+DASHBOARD 2.0 Desktop View - Links height and line height swapped
+DASHBOARD 2.0 Desktop View - Links fix
+DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
+DASHBOARD 2.0 Mobile View - Tasks list
+
+---------- Oct 2, 2024
+DASHBOARD 2.0 Mobile View - Organization tools list (MYJYSKDOCS)
+Dashboard 2.0 fixes - Mobile View - Tickets list
+
+---------- Sep 30, 2024
+KB folders - Articles quantity border
+
+---------- Sep 19, 2024
+Dashboard 2.0 text wrap for some sections
+
+---------- Aug 29, 2024
+Store Visit summary wrapping the title elements to fit mobile screen
+Gist link added to comments
+ for: Corporate font fixes
+Corporate font fixes
+
+---------- Aug 28, 2024
+ for: Tasks "Reopen" button colors
+Tasks "Reopen" button colors
+
+---------- Aug 8, 2024
+Tasks collapsible sidebar - Back to fixed width
+
+---------- Aug 7, 2024
+Store Visit and Task comments fields margins
+
+---------- Aug 4, 2024
+Ticket custom form - Swap to make label first
+
+---------- Aug 1, 2024
+Gap for ticket buttons in mobile view
+Breadcrumbs in task - Several lines
+
+---------- Jul 31, 2024
+Footer color for edit users page
+
+---------- Jul 30, 2024
+Printable ticket - External form fixes
+Printable ticket - More underlines removed (2)
+"MORE" button fix for custom forms
+Printable ticket - More underlines removed
+"MORE" buttons “darkgoldenrod” color
+"MORE" buttons goldenrod color
+No border, color and bold for "Read more" button
+Color for "Read more" button
+--layout-border-color for table of contents title
+
+---------- Jul 28, 2024
+Article table of contents active link highlight
+
+---------- Jul 27, 2024
+No text decoration for agent name in printable ticket
+Printable task fixes
+Task header static in mobile view
+
+---------- Jul 25, 2024
+Breadcrumbs in task distribution - Fixes
+
+---------- Jul 24, 2024
+Reports and Administration top fixed
+
+---------- Jul 23, 2024
+KB grid - View more color
+
+---------- Jul 22, 2024
+Margins in notification in mobile view (2)
+Margins in notification in mobile view
+Notification items bottom margin
+
+---------- Jul 18, 2024
+es for top of the pages to be static
+
+---------- Jul 17, 2024
+Printable fixes
+Printable ticket fixes
+Few fixes for printable task
+KB grid - Width of columns to fit some screens
+Collapsible sidebar - Max width
+Tasks view - Collapsible sidebar fixes
+Print View fixes
+
+---------- Jul 16, 2024
+All selectors are universal and more fixes
+Post 2.18 fixes and universal selectors
+Post 2.18 fixes
+ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
+
+---------- May 13, 2024
+File uploads drop zone margins
+
+---------- May 12, 2024
+Print view fixed for articles, tasks, tickets
+
+---------- May 11, 2024
+Minor fixes
+More print hacks
+Print-view - Ticket print view fixed now
+Print view - All class selectors changed to more universal for TT cross-version changes
+
+---------- May 10, 2024
+.text-ellipsis line height back to TT-default
+
+---------- May 7, 2024
+Dropdown list agent name margin
+
+---------- May 4, 2024
+Line height and margin for all headings
+
+---------- Apr 18, 2024
+Single row widget fix 2
+
+---------- Apr 15, 2024
+Article settings checkbox item margin and checkbox line height
+
+---------- Apr 14, 2024
+Ticket status label (before 2.17) line height
+
+---------- Apr 11, 2024
+Ticket title - "edit allowed" icon removed
+
+---------- Apr 7, 2024
+Task status label formatting
+
+---------- Apr 2, 2024
+Task description and comments text formatting
+
+---------- Mar 31, 2024
+All TR TD word-wrap break-word
+Break word for attachment names
+
+---------- Mar 30, 2024
+Unified search text block one line
+Unified search items width fit content
+Knowledge Base search results text align
+Unified search items display block and line height
+
+---------- Mar 29, 2024
+Task details comment field paddings
+
+---------- Mar 28, 2024
+Task title text-wrap
+Support module status fixes
+Article editor sections and Add button margins fix
+Tasks list items no line at the bottom
+Tasks list items display block
+
+---------- Mar 27, 2024
+Tasks list items no line on hover
+
+---------- Mar 26, 2024
+<a> focus outline none
+Ticket actions dropdown menu fix (2)
+Support module fixes for mobile (2)
+Support module fixes for mobile
+Ticket custom form labels text wrap
+Checkbox texts centered
+
+---------- Mar 24, 2024
+Breadcrumbs larger KB icon
+Knowledge Base search results header static + search results badge paddings
+
+---------- Mar 23, 2024
+Ticket actions dropdown menu fix (2)
+Ticket actions dropdown menu fix
+Calendar fixes for mobile vie
+KB tree height
+Task Creation checkboxes at the top of line
+Some text wraps fixes
+Height of KB sections menu
+Dropdown lists line height and vertical align fix
+Dropdown lists paddings and vertical align fix
+
+---------- Mar 19, 2024
+Dropdown lists height fix + more text wraps
+Learn translation - Language selector width
+Notification bell - Timestamp styling
+
+---------- Mar 18, 2024
+Articles list side section height + KB list header position static
+
+---------- Mar 14, 2024
+Temporary fix for gray background in ticket
+
+---------- Mar 14, 2024
+Notification area text-wrap
+List item spacing in notification bell
+">" at the end of breadcrumbs deleted
+
+---------- Mar 13, 2024
+List element margins setup now excludes navigation bar
+On hover highlight border fixes
+TT v2.17.1.0 fixes
+
+---------- Feb 25, 2024
+KB main page scrollbar fix
+
+---------- Feb 21, 2024
+No border for "Read more" button
+Table width inside ticket
+
+---------- Feb 20, 2024
+Forms field settings upload button (2)
+Forms field settings upload button
+
+---------- Feb 8, 2024
+Default buttons border
+
+---------- Feb 7, 2024
+All content containers - No additional margin on top
+
+---------- Feb 6, 2024
+Hovered items now have bolder text using text-shadow
+
+---------- Feb 2, 2024
+Table of contents - Active link more intense black (2)
+Users list width fix
+
+---------- Jan 31, 2024
+Mobile: KB articles list smaller paddings
+
+---------- Jan 30, 2024
+KB folders - items max height (v3)
+line-height: 1.2 for all forced text wraps
+
+---------- Jan 29, 2024
+article-summary-list text wrap
+Side section on small displays full height
+
+---------- Jan 27, 2024
+Word wrap method changed to {text-wrap: balance} everywhere
+
+---------- Jan 26, 2024
+Attachments labels fix
+
+---------- Jan 25, 2024
+Table of contents - Active link more intense black
+Table of contents color (3)
+Table of contents color (2)
+Table of contents color
+
+---------- Jan 22, 2024
+Lighter outline for focused text areas
+KB folders - items max height (v2)
+KB folders - items max height
+
+---------- Jan 16, 2024
+Table of contents space for scroller
+
+---------- Jan 14, 2024
+KB home header height in mobile
+
+---------- Jan 13, 2024
+KB home header height
+
+---------- Jan 11, 2024
+Breadcrumbs max-width in mobile
+
+---------- Jan 9, 2024
+Input fields reverted to Averta font to save design
+
+---------- Jan 9, 2024
+Store Visit and Tickets header elements - Left part was bigger than the viewport
+My Work smaller header in mobile
+My Work tasks line wrap
+
+---------- Jan 8, 2024
+Not to display last breadcrumbs' ">" sign in Learn
+Reversed
+Breadcrumbs fix for the small screen - min to the content width
+Not to display the last breadcrumb in Learn because it is the title of page
+Store Visit completion title width + Store Visit completion percentage items
+Store Visit header line height
+(+) icon background color
+Store Visit and Tickets header elements placing - Header line height 1.2
+Store Visit and Tickets header elements placing
+Store Visit comment text area
+
+---------- Jan 7, 2024
+Update thinktime-fix.css
+Calendar on wide screens - items word wrap and line height, row height
+Calendar filter options word wrap and line height
+Calendar items word wrap and items height in mobile view
+
+---------- Jan 5, 2024
+Ticket filter button width
+
+---------- Jan 4, 2024
+Tack Creation Sidebar positioning
+Tickets list heading width to fit one line
+Tickets List Page - removed awkward ";" symbol
+Ticket tabs group margin in mobile view
+Ticket tabs layout in mobile view
+Task agent name “not-link-colored” now + Task attachments roll color
+Static top menu in task creation menu
+
+---------- Jan 3, 2024
+Article title text area font fix and non-resizable, input font Verdana
+All text areas Verdana 16px
+Removing the awkward ";" symbol at the bottom of the page
+Removed ";" at the end of page - did not work as expected
+Removed ";" at the end of page (2)
+Removed ";" at the end of page
+
+---------- Dec 30, 2023
+Ticket buttons layout fix
+
+---------- Dec 26, 2023
+Knowledge Base search results color and word-wrap
+
+---------- Dec 22, 2023
+Main area paddings 0 in mobile view
+
+---------- Dec 21, 2023
+Article section title line height in mobile
+
+---------- Dec 21, 2023
+Update thinktime-fix.css
+Ticket side panel - useless sections removed (3)
+Ticket side panel and Task additional info - useless sections removed (2)
+Ticket side panel and Task additional info - useless sections removed
+Ticket side panel useless time section removed
+Ticket button colors changed
+Multiple changes
+
+---------- Dec 15, 2023
+Notification circle
+Store Visit summary 3
+Store Visit summary 2
+Store Visit summary
+
+---------- Dec 14, 2023
+Paddings in notification
+Letter spacing in widgets
+Minor widget borders fixes
+All dashboard widgets tables 3+1+1 columns width
+GLOBAL TD white-space normal
+Dashboard tables rows - More space for the article name
+Some recession fixes
+
+---------- Dec 13, 2023
+Word-wrap regression fix 2
+Word-wrap regression fix
+More and more titles word-wrap
+More titles word-wrap
+Survey table cell word-wrap
+Dashboard widget title word-wrap and font size
+Notification bell headers letter spacing
+Notification bell headers margins
+Another way to fix Dashboard table headers
+Dashboard table headers
+
+---------- Dec 12, 2023
+Bell dropdown menu size
+Text align in empty notification bell
+Header margin in notification bell menu in mobile view
+More space for texts in mobile view
+More text fits in notification
+Notification bell greenish circle
+More bell menu fixes for mobile view
+
+---------- Dec 12, 2023
+More notification bell menu fixes for mobile view
+Dropdown bell menu in mobile view
+
+---------- Dec 11, 2023
+Article table of contents - Display block
+
+---------- Dec 10, 2023
+KB folders max width
+Breadcrumbs fix for small screen
+TinyMCE back to edited text area
+
+---------- Dec 9, 2023
+Tasks list items color
+Aside menu fixes
+minor fixes
+Static header in articles
+Padding in KB sections menu
+Breadcrumbs word wrap
+More word wraps and blue link colors
+Word wraps
+No word wrap in dropdown menus
+Task requirements summary button text color
+
+---------- Nov 20, 2023
+Update thinktime-fix.css
+
+---------- Oct 18, 2023
+Update thinktime-fix.css
+Update thinktime-fix.css
+
+---------- Sep 5, 2023
+Text area rounded
+
+---------- Aug 24, 2023
+Ticket is printable again
+
+---------- Aug 3, 2023
+Support Module - Finished uploading file now colored blue
+
+---------- Aug 2, 2023
+KB word wraps
+
+---------- Jul 31, 2023
+Tickets list font size 16px
+
+---------- Jul 29, 2023
+small code formatting fixes
+
+---------- Jul 28, 2023
+News Item is not inline-block, so not to break design
+List spacing and default option paddings in dropdown lists
+List containers reverted to original sizes
+
+---------- Jul 27, 2023
+Neat scrollbars
+Table of contents height made to fit visible area
+
+---------- Jul 26, 2023
+Aside table of contents yellow styling
+Verdana in tickets
+color
+Ticket module title bar greenish color
+Original navigation color is back
+
+---------- Jul 26, 2023
+Blueish primary dark text
+Another dark colors, now blueish
+Global dark colors
+Global variables – “darkslategray” instead of “black”
+
+---------- Jul 25, 2023
+Knowledge Base contents tree word wrap
+Scrollable table of contents on small display
+Ticket comment post button FONT color
+Aside section moved to the left
+Table of contents and Related Articles section gaps fix
+Table of contents fixes
+MYJYSK 2.15 fixes
+
+---------- Apr 28, 2023
+Task source code editor fitting
+
+---------- Apr 22, 2023
+Regression fix
+“Contents” button sticks to the top in the mobile view
+
+---------- Apr 20, 2023
+Printable - Headers always with the following content
+
+---------- Apr 19, 2023
+Article expired header static
+
+---------- Apr 11, 2023
+Line height 1.5 (used for section, not P)
+Line height 1.5
+Space between paragraphs in articles
+
+---------- Apr 7, 2023
+Search border
+
+---------- Apr 6, 2023
+Modal window color
+
+---------- Apr 5, 2023
+Lighter colors for buttons
+Display: inline-block - For the most A
+Reverted back - Rounding everything 4px
+Everything rounded 4px
+
+---------- Apr 4, 2023
+Title paddings - Calendar
+More rounded items on hover - Learn section
+Title paddings
+Hiver with rounded border
+Hover action fixes
+Links and buttons border shadow on hover
+
+---------- Apr 3, 2023
+<a> new color
+“Mediumblue” color for <a>
+Text areas in posting comment sections
+
+---------- Apr 3, 2023
+Ticket action modal right - Color added
+
+---------- Apr 2, 2023
+Subtasks word wrap on print
+Printable Tickets, Tasks and Articles
+Printable articles done via "media print" styles
+
 --------------------------------------------------------------------------------
 Before Jan 4, 2023
 
