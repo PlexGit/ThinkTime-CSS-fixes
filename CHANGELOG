@@ -325,7 +325,6 @@ Store Visit and Tickets header elements placing
 Store Visit comment text area
 
 ---------- Jan 7, 2024
-Update thinktime-fix.css
 Calendar on wide screens - items word wrap and line height, row height
 Calendar filter options word wrap and line height
 Calendar items word wrap and items height in mobile view
@@ -363,7 +362,6 @@ Main area paddings 0 in mobile view
 Article section title line height in mobile
 
 ---------- Dec 21, 2023
-Update thinktime-fix.css
 Ticket side panel - useless sections removed (3)
 Ticket side panel and Task additional info - useless sections removed (2)
 Ticket side panel and Task additional info - useless sections removed
@@ -430,13 +428,6 @@ More word wraps and blue link colors
 Word wraps
 No word wrap in dropdown menus
 Task requirements summary button text color
-
----------- Nov 20, 2023
-Update thinktime-fix.css
-
----------- Oct 18, 2023
-Update thinktime-fix.css
-Update thinktime-fix.css
 
 ---------- Sep 5, 2023
 Text area rounded
@@ -557,7 +548,6 @@ Ticket buttons layout fix
 Knowledge Base search results color and word-wrap
 Main area paddings 0 in mobile view
 Article section title line height in mobile
-Update thinktime-fix.css
 Ticket side panel useless time section removed
 Ticket button colors changed
 Multiple changes
@@ -606,7 +596,6 @@ Texarea rouded
 Ticket is printable again
 Support Module - Finished uploading file now colored blue
 KB word wraps
-Update README.md
 Tickets list font size 16px
 News Item is not inline-block not to break design
 List spacing and default option paddings in dropdown lists
