@@ -1,644 +1,2347 @@
----------- Oct 21, 2024
+/*
+
+Fixes for usability and design issues on the ThinkTime platform's web interface.
+This CSS file or its content can be used inside any style-changing extension, e.g., Stylebot (personal recommendation), Styler, or Tampermonkey.
+It mostly tested only in Chrome desktop and Kiwi mobile browsers from my side.
+
+Check for the newest version:
+https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
+
+Relatively full changelog (updated periodically):
+https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
+
+LATEST FIXES
+
+22.10.2024
+----------
+Legacy tickets list - Ticket name line-height 1.2
+
+21.10.2024
+----------
 Articles list - Unpublished changes mark fixes (2)
 Articles list - Unpublished changes mark fixes
 
----------- Oct 12, 2024
+12.10.2024
+----------
 Printable Ticket - Allow page breaks inside comments
 
----------- Oct 11, 2024
-Printable - Attachments block in News
+11.10.2024
+----------
 Printable News fix - Now scrollable
+Printable - Attachments block in News
 
----------- Oct 8, 2024
-Learn and News header elements placing + Edit mode fixes for mobile view
+08.10.2024
+----------
 Desktop view news widget items height fix (for mid-size screens)
+Learn and News header elements placing + Edit mode fixes for mobile view
 
----------- Oct 7, 2024
- for DASHBOARD 2.0 Bulbs and other image-links paddings
+07.10.2024
+----------
+fix for DASHBOARD 2.0 Bulbs and other image-links paddings
 
----------- Oct 6, 2024
-PRINTABLE - Section margin fix
-PRINTABLE - Excessive border lines fix
+06.10.2024
+----------
+PRINTABLE - News article + Common fixesa
 PRINTABLE - News article footer
-PRINTABLE - News article + Common fixes
+PRINTABLE - Excessive border lines fix
+PRINTABLE - Section margin fix
 
----------- Oct 5, 2024
-News article - Additional info on widget fixes (2)
-News page - Category selector width fix
-News article - Additional info on widget fixes
-News article - Sidebar position fix
+05.10.2024
+----------
+News article - Home button sticky
 Legacy article editor toolbar fixes
+News article - Sidebar position fix
+News article - Additional info on widget fixes
+News page - Category selector width fix
+News article - Additional info on widget fixes (2)
 
----------- Oct 3, 2024
-News section - Fixes for small screens
-News article - Header static (line)
-News article - Footnote left align and italic
-DASHBOARD 2.0 News section (new one) - Header static
-DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
-DASHBOARD 2.0 Added exclusion for breadcrumbs styles in Tasks widget
-DASHBOARD 2.0 Org tools paddings
-DASHBOARD 2.0 Bulbs and other image-links paddings
-DASHBOARD 2.0 News widget readability fix for some width
-DASHBOARD 2.0 System Status widget readability fix
-DASHBOARD 2.0 News widget readability fix
-DASHBOARD 2.0 Tables in widgets - Head cells text wrap
-DASHBOARD 2.0 Desktop View - Ticket name Bold
-
----------- Oct 3, 2024
-DASHBOARD 2.0 Desktop View - Task name Bold
-DASHBOARD 2.0 Desktop View - Links height and line height swapped
-DASHBOARD 2.0 Desktop View - Links fix
+03.10.2024
+----------
 DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
-DASHBOARD 2.0 Mobile View - Tasks list
+DASHBOARD 2.0 Desktop View - Links fix
+DASHBOARD 2.0 Desktop View - Links height and line-height swapped
+DASHBOARD 2.0 Desktop View - Task name Bold
+DASHBOARD 2.0 Desktop View - Ticket name Bold
+DASHBOARD 2.0 Tables in widgets - Head cells text wrap
+DASHBOARD 2.0 News widget readability fix
+DASHBOARD 2.0 System Status widget readability fix
+DASHBOARD 2.0 News widget readability fix for some width
+DASHBOARD 2.0 Bulbs and other image-links paddings
+DASHBOARD 2.0 Org tools paddings
+DASHBOARD 2.0 Added exclusion for breadcrumbs styles in the Tasks widget
+DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
+DASHBOARD 2.0 News section (new one) - Header static
+News article - Footnote left align and italic
+News article - Header static (line)
+News section - Fixes for small screens
+News page - Category selector width fix
 
----------- Oct 2, 2024
-DASHBOARD 2.0 Mobile View - Organization tools list (MYJYSKDOCS)
+02.10.2024
+----------
 Dashboard 2.0 fixes - Mobile View - Tickets list
+DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS)
+DASHBOARD 2.0 Mobile View - Tasks list
+DASHBOARD 2.0 Mobile View - Links fix
 
----------- Sep 30, 2024
+30.09.2024
+----------
 KB folders - Articles quantity border
 
----------- Sep 19, 2024
+19.09.2024
+----------
 Dashboard 2.0 text wrap for some sections
 
----------- Aug 29, 2024
-Store Visit summary wrapping the title elements to fit mobile screen
-Gist link added to comments
- for: Corporate font fixes
+29.08.2024
+----------
+Store Visit summary wrapping the title elements to fit a mobile screen
+fix for: Corporate font fixes
 Corporate font fixes
-
----------- Aug 28, 2024
- for: Tasks "Reopen" button colors
+fix for: Tasks "Reopen" button colors
 Tasks "Reopen" button colors
 
----------- Aug 8, 2024
-Tasks collapsible sidebar - Back to fixed width
-
----------- Aug 7, 2024
-Store Visit and Task comments fields margins
-
----------- Aug 4, 2024
-Ticket custom form - Swap to make label first
-
----------- Aug 1, 2024
-Gap for ticket buttons in mobile view
-Breadcrumbs in task - Several lines
-
----------- Jul 31, 2024
-Footer color for edit users page
-
----------- Jul 30, 2024
-Printable ticket - External form fixes
-Printable ticket - More underlines removed (2)
-"MORE" button fix for custom forms
-Printable ticket - More underlines removed
-"MORE" buttons “darkgoldenrod” color
-"MORE" buttons goldenrod color
-No border, color and bold for "Read more" button
-Color for "Read more" button
---layout-border-color for table of contents title
-
----------- Jul 28, 2024
-Article table of contents active link highlight
-
----------- Jul 27, 2024
-No text decoration for agent name in printable ticket
-Printable task fixes
-Task header static in mobile view
-
----------- Jul 25, 2024
-Breadcrumbs in task distribution - Fixes
-
----------- Jul 24, 2024
-Reports and Administration top fixed
-
----------- Jul 23, 2024
-KB grid - View more color
-
----------- Jul 22, 2024
-Margins in notification in mobile view (2)
-Margins in notification in mobile view
-Notification items bottom margin
-
----------- Jul 18, 2024
-es for top of the pages to be static
-
----------- Jul 17, 2024
-Printable fixes
-Printable ticket fixes
-Few fixes for printable task
-KB grid - Width of columns to fit some screens
-Collapsible sidebar - Max width
-Tasks view - Collapsible sidebar fixes
-Print View fixes
-
----------- Jul 16, 2024
-All selectors are universal and more fixes
-Post 2.18 fixes and universal selectors
-Post 2.18 fixes
-ALL CLASSES REPLACED WITH UNIVERSAL SELECTORS
-
----------- May 13, 2024
-File uploads drop zone margins
-
----------- May 12, 2024
-Print view fixed for articles, tasks, tickets
-
----------- May 11, 2024
-Minor fixes
-More print hacks
-Print-view - Ticket print view fixed now
-Print view - All class selectors changed to more universal for TT cross-version changes
-
----------- May 10, 2024
-.text-ellipsis line height back to TT-default
-
----------- May 7, 2024
-Dropdown list agent name margin
-
----------- May 4, 2024
-Line height and margin for all headings
-
----------- Apr 18, 2024
-Single row widget fix 2
-
----------- Apr 15, 2024
-Article settings checkbox item margin and checkbox line height
-
----------- Apr 14, 2024
-Ticket status label (before 2.17) line height
-
----------- Apr 11, 2024
-Ticket title - "edit allowed" icon removed
-
----------- Apr 7, 2024
-Task status label formatting
-
----------- Apr 2, 2024
-Task description and comments text formatting
-
----------- Mar 31, 2024
-All TR TD word-wrap break-word
-Break word for attachment names
-
----------- Mar 30, 2024
-Unified search text block one line
-Unified search items width fit content
-Knowledge Base search results text align
-Unified search items display block and line height
-
----------- Mar 29, 2024
-Task details comment field paddings
-
----------- Mar 28, 2024
-Task title text-wrap
-Support module status fixes
-Article editor sections and Add button margins fix
-Tasks list items no line at the bottom
-Tasks list items display block
-
----------- Mar 27, 2024
-Tasks list items no line on hover
-
----------- Mar 26, 2024
-<a> focus outline none
-Ticket actions dropdown menu fix (2)
-Support module fixes for mobile (2)
-Support module fixes for mobile
-Ticket custom form labels text wrap
-Checkbox texts centered
-
----------- Mar 24, 2024
-Breadcrumbs larger KB icon
-Knowledge Base search results header static + search results badge paddings
-
----------- Mar 23, 2024
-Ticket actions dropdown menu fix (2)
-Ticket actions dropdown menu fix
-Calendar fixes for mobile vie
-KB tree height
-Task Creation checkboxes at the top of line
-Some text wraps fixes
-Height of KB sections menu
-Dropdown lists line height and vertical align fix
-Dropdown lists paddings and vertical align fix
-
----------- Mar 19, 2024
-Dropdown lists height fix + more text wraps
-Learn translation - Language selector width
-Notification bell - Timestamp styling
-
----------- Mar 18, 2024
-Articles list side section height + KB list header position static
-
----------- Mar 14, 2024
-Temporary fix for gray background in ticket
-
----------- Mar 14, 2024
-Notification area text-wrap
-List item spacing in notification bell
-">" at the end of breadcrumbs deleted
-
----------- Mar 13, 2024
-List element margins setup now excludes navigation bar
-On hover highlight border fixes
-TT v2.17.1.0 fixes
-
----------- Feb 25, 2024
-KB main page scrollbar fix
-
----------- Feb 21, 2024
-No border for "Read more" button
-Table width inside ticket
-
----------- Feb 20, 2024
-Forms field settings upload button (2)
-Forms field settings upload button
-
----------- Feb 8, 2024
-Default buttons border
-
----------- Feb 7, 2024
-All content containers - No additional margin on top
-
----------- Feb 6, 2024
-Hovered items now have bolder text using text-shadow
-
----------- Feb 2, 2024
-Table of contents - Active link more intense black (2)
-Users list width fix
-
----------- Jan 31, 2024
-Mobile: KB articles list smaller paddings
-
----------- Jan 30, 2024
-KB folders - items max height (v3)
-line-height: 1.2 for all forced text wraps
-
----------- Jan 29, 2024
-article-summary-list text wrap
-Side section on small displays full height
-
----------- Jan 27, 2024
-Word wrap method changed to {text-wrap: balance} everywhere
-
----------- Jan 26, 2024
-Attachments labels fix
-
----------- Jan 25, 2024
-Table of contents - Active link more intense black
-Table of contents color (3)
-Table of contents color (2)
-Table of contents color
-
----------- Jan 22, 2024
-Lighter outline for focused text areas
-KB folders - items max height (v2)
-KB folders - items max height
-
----------- Jan 16, 2024
-Table of contents space for scroller
-
----------- Jan 14, 2024
-KB home header height in mobile
-
----------- Jan 13, 2024
-KB home header height
-
----------- Jan 11, 2024
-Breadcrumbs max-width in mobile
-
----------- Jan 9, 2024
-Input fields reverted to Averta font to save design
-
----------- Jan 9, 2024
-Store Visit and Tickets header elements - Left part was bigger than the viewport
-My Work smaller header in mobile
-My Work tasks line wrap
-
----------- Jan 8, 2024
-Not to display last breadcrumbs' ">" sign in Learn
-Reversed
-Breadcrumbs fix for the small screen - min to the content width
-Not to display the last breadcrumb in Learn because it is the title of page
-Store Visit completion title width + Store Visit completion percentage items
-Store Visit header line height
-(+) icon background color
-Store Visit and Tickets header elements placing - Header line height 1.2
-Store Visit and Tickets header elements placing
-Store Visit comment text area
-
----------- Jan 7, 2024
-Calendar on wide screens - items word wrap and line height, row height
-Calendar filter options word wrap and line height
-Calendar items word wrap and items height in mobile view
-
----------- Jan 5, 2024
-Ticket filter button width
-
----------- Jan 4, 2024
-Tack Creation Sidebar positioning
-Tickets list heading width to fit one line
-Tickets List Page - removed awkward ";" symbol
-Ticket tabs group margin in mobile view
-Ticket tabs layout in mobile view
-Task agent name “not-link-colored” now + Task attachments roll color
-Static top menu in task creation menu
-
----------- Jan 3, 2024
-Article title text area font fix and non-resizable, input font Verdana
-All text areas Verdana 16px
-Removing the awkward ";" symbol at the bottom of the page
-Removed ";" at the end of page - did not work as expected
-Removed ";" at the end of page (2)
-Removed ";" at the end of page
-
----------- Dec 30, 2023
-Ticket buttons layout fix
-
----------- Dec 26, 2023
-Knowledge Base search results color and word-wrap
-
----------- Dec 22, 2023
-Main area paddings 0 in mobile view
-
----------- Dec 21, 2023
-Article section title line height in mobile
-
----------- Dec 21, 2023
-Ticket side panel - useless sections removed (3)
-Ticket side panel and Task additional info - useless sections removed (2)
-Ticket side panel and Task additional info - useless sections removed
-Ticket side panel useless time section removed
-Ticket button colors changed
-Multiple changes
-
----------- Dec 15, 2023
-Notification circle
-Store Visit summary 3
-Store Visit summary 2
-Store Visit summary
-
----------- Dec 14, 2023
-Paddings in notification
-Letter spacing in widgets
-Minor widget borders fixes
-All dashboard widgets tables 3+1+1 columns width
-GLOBAL TD white-space normal
-Dashboard tables rows - More space for the article name
-Some recession fixes
-
----------- Dec 13, 2023
-Word-wrap regression fix 2
-Word-wrap regression fix
-More and more titles word-wrap
-More titles word-wrap
-Survey table cell word-wrap
-Dashboard widget title word-wrap and font size
-Notification bell headers letter spacing
-Notification bell headers margins
-Another way to fix Dashboard table headers
-Dashboard table headers
-
----------- Dec 12, 2023
-Bell dropdown menu size
-Text align in empty notification bell
-Header margin in notification bell menu in mobile view
-More space for texts in mobile view
-More text fits in notification
-Notification bell greenish circle
-More bell menu fixes for mobile view
-
----------- Dec 12, 2023
-More notification bell menu fixes for mobile view
-Dropdown bell menu in mobile view
-
----------- Dec 11, 2023
-Article table of contents - Display block
-
----------- Dec 10, 2023
-KB folders max width
-Breadcrumbs fix for small screen
-TinyMCE back to edited text area
-
----------- Dec 9, 2023
-Tasks list items color
-Aside menu fixes
-minor fixes
-Static header in articles
-Padding in KB sections menu
-Breadcrumbs word wrap
-More word wraps and blue link colors
-Word wraps
-No word wrap in dropdown menus
-Task requirements summary button text color
-
----------- Sep 5, 2023
-Text area rounded
-
----------- Aug 24, 2023
-Ticket is printable again
-
----------- Aug 3, 2023
-Support Module - Finished uploading file now colored blue
-
----------- Aug 2, 2023
-KB word wraps
-
----------- Jul 31, 2023
-Tickets list font size 16px
-
----------- Jul 29, 2023
-small code formatting fixes
-
----------- Jul 28, 2023
-News Item is not inline-block, so not to break design
-List spacing and default option paddings in dropdown lists
-List containers reverted to original sizes
-
----------- Jul 27, 2023
-Neat scrollbars
-Table of contents height made to fit visible area
-
----------- Jul 26, 2023
-Aside table of contents yellow styling
-Verdana in tickets
-color
-Ticket module title bar greenish color
-Original navigation color is back
-
----------- Jul 26, 2023
-Blueish primary dark text
-Another dark colors, now blueish
-Global dark colors
-Global variables – “darkslategray” instead of “black”
-
----------- Jul 25, 2023
-Knowledge Base contents tree word wrap
-Scrollable table of contents on small display
-Ticket comment post button FONT color
-Aside section moved to the left
-Table of contents and Related Articles section gaps fix
-Table of contents fixes
-MYJYSK 2.15 fixes
-
----------- Apr 28, 2023
-Task source code editor fitting
-
----------- Apr 22, 2023
-Regression fix
-“Contents” button sticks to the top in the mobile view
-
----------- Apr 20, 2023
-Printable - Headers always with the following content
-
----------- Apr 19, 2023
-Article expired header static
-
----------- Apr 11, 2023
-Line height 1.5 (used for section, not P)
-Line height 1.5
-Space between paragraphs in articles
-
----------- Apr 7, 2023
-Search border
-
----------- Apr 6, 2023
-Modal window color
-
----------- Apr 5, 2023
-Lighter colors for buttons
-Display: inline-block - For the most A
-Reverted back - Rounding everything 4px
-Everything rounded 4px
-
----------- Apr 4, 2023
-Title paddings - Calendar
-More rounded items on hover - Learn section
-Title paddings
-Hiver with rounded border
-Hover action fixes
-Links and buttons border shadow on hover
-
----------- Apr 3, 2023
-<a> new color
-“Mediumblue” color for <a>
-Text areas in posting comment sections
-
----------- Apr 3, 2023
-Ticket action modal right - Color added
-
----------- Apr 2, 2023
-Subtasks word wrap on print
-Printable Tickets, Tasks and Articles
-Printable articles done via "media print" styles
-
---------------------------------------------------------------------------------
-Before Jan 4, 2023
-
-Calendar items word wrap and items height in mobile view
-Ticket filter button width
-Tack Creation Sidebar positioning
-Tickets list heading width to fit one line
-Tickets List Page - removed awkward ";" symbol
-Ticket tabs group margin in mobile view
-Ticket tabs layout in mobile view
-Task agent name not link colored now + Task attachments roll color
-Static top menu in task creation menu
-Article title text area font fix and non-resizeable, input font Verdana
-All text areas Verdana 16px
-Removing the awkward ";" symbol at the bottom of the page
-Ticket buttons layout fix
-Knowledge Base search results color and word-wrap
-Main area paddings 0 in mobile view
-Article section title line height in mobile
-Ticket side panel useless time section removed
-Ticket button colors changed
-Multiple changes
-Notification cyrcle
-Store Visit summary
-Paddings in notification
-Letter spacing in widgets
-Minor widget borders fixes
-All dashboard widgets tables 3+1+1 columns width
-GLOBAL TD white-space normal
-Dashboard tables rows - More space for the article name
-Some recession fixes
-Word-wrap regression fix 2
-Word-wrap regression fix
-More and more titles word-wrap
-More titles word-wrap
-Survey table cell word-wrap
-Dashboard widget title word-wrap and font size
-Notification bell headers letter spacing
-Notification bell headers margins
-Another way to fix Dashboard table headers
-Dashboard table headers
-Bell dropdown menu size
-Text allign in empty notification bell
-Header margin in notification bell menu in mobile view
-More space for texts in mobile view
-More text fits in notification
-Notification bell greenish circle
-More bell menu fixes for mibile view
-More notification bell menu fixes for mobile view
-Dropdown bell menu in mobile view
-Article table of contents - Display block
-KB folders max width
-Breadcrumps fix for small scrren
-TinyMCE back to edited text area
-Tasks list items color
-Aside menu fixes
-Static header in articles
-Padding in KB sections menu
-Breadcrumps word wrap
-More word wraps and blue link colors
-Word wraps
-No wordwrap in dropdown menus
-Task requirements summary button text color
-Texarea rouded
-Ticket is printable again
-Support Module - Finished uploading file now colored blue
-KB word wraps
-Tickets list font size 16px
-News Item is not inline-block not to break design
-List spacing and default option paddings in dropdown lists
-List containers reverted to original sizes
-Neat scrollbars
-Table of contents height made to fit visible area
-Aside table of contents yellow styling
-Verdana in tickets
-Ticket module title bar greenish color
-Original navigation color is back
-Blueish primary dark text
-Another dark colors, now blueish
-Global dark colors
-Global variables - Darkslategray instead of Black
-Knowlege Base contents tree word wrap
-Scrollable table of contents on small display
-Ticket comment post button FONT color
-Aside section moved to the left
-Table of contents and Related Articles section gaps fix
-Table of contents fixes
-MYJYSK 2.15 fixes
-Task source code editor fitting
-Regression fix
-Contents button stick to the top in mobile view
-Printable - Headers always with following content
-Article expired header static
-Line height 1.5 (used for section, not P)
-Line height 1.5
-Space between paragraphs in atricles
-Search border
-Modal window color
-Lighter colors for buttons
-Display: inline-block - For the most A
-Reverted back - Rounding everything 4px
-Everything rounded 4px
-Title paddings - Calendar
-More rounded items on hover - Learn section
-Title paddings
-Hiver with rounded border
-Hover action fixes
-Links and buttons border shadow on hover
-<a> new color
+*/
+
+/* GLOBAL */
+* {
+  /* --stylebot-color-ticket-title: #dae3d8; */
+  --stylebot-color-ticket-title: #d3e8e6;
+  /* --knowledge-base-color: #547084;
+  --primary-color: #547084; */
+  --knowledge-base-color: #223355;
+  --primary-color: #223355;
+  /* --navigation-active-background-color: #143c8a; */
+  /* --navigation-active-background-color: #00a6e2; */
+  --primary-text: #223355;
+  --link-color: #4369dc;
+  --layout-border-color: gainsboro;
+  --more-trigger-color: darkgoldenrod;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/* Temporary fix for gray background in ticket */
+[class^="sidebar-module__ttSidebarBackdrop--"] {
+  background-color: initial;
+}
+
+/* (+) icon bg color */
+.tt-icon-button {
+  background-color: var(--primary-color);
+}
+
+/* Removing awkward ";" symbol on bottom of the page */
+.ticketDetailsPage,
+.ticketsListPage {
+    visibility: hidden;
+}
+.ticketDetailsPage *,
+.ticketsListPage * {
+    visibility: visible;
+}
+
+/* Table width inside ticket */
+.ng-binding table:not(.k-table) {
+  max-width: fit-content;
+}
+
+/* List spacing */
+li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* SCROLLBARS */
+html {
+  /* Chrome, Safari, Edge */
+  /* ::-webkit-scrollbar {
+    height: 1rem;
+    width: .5rem;
+  } */
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb {
+    --tw-border-opacity: 1;
+    background-color: rgba(217,217,232,.8);
+    border-color: rgba(255,255,255,var(--tw-border-opacity));
+    border-radius: 9999px;
+    border-width: 1px;
+  }
+}
+[class^="knowledge-bases-sidebar-module__sidebar--"] {
+  scrollbar-color: unset;
+}
+
+/* All tables items text-wrap */
+th *, td * {
+  /* white-space: normal; */
+  text-wrap: balance;
+  word-wrap: break-word;
+}
+
+/* PRINTABLE */
+@media print {
+  /* Forced corporate styles */
+  * {
+      font-family: "Verdana", "Arial", sans-serif;
+      line-height: 1.5;
+  }
+  h1 {
+    border: none;
+  }
+  h1, h2 {
+      line-height: 1.2;
+  }
+  h2 {
+      border-top: 0.5px solid var(--layout-border-color);
+      margin-top: 0.25em;
+      padding-top: 1.25em;
+  }
+  h2::first-child {
+      margin-top: 0;
+  }
+  h1 {
+      font-size: 1.8em !important;
+  }
+  h2 {
+      font-size: 1.35em !important;
+  }
+  figcaption {
+      font-size: smaller;
+      color: gray;
+  }
+  li {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
+  img {
+      max-width: 100%;
+  }
+  p:not([data-ng-bind-html="trustHtml(recentComment.text)"]) {
+      -webkit-break-inside: avoid;
+      break-inside: avoid;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      -webkit-break-after: avoid;
+      -webkit-break-inside: avoid;
+      break-after: avoid;
+      break-inside: avoid;
+  }
+  a[href^='http']:after {
+      content: ' > ' attr(href);
+      font-family: Monospace;
+  }
+
+  /* PRINTABLE COMMON CLEANUP */
+  body {
+    position: unset;
+    height: unset;
+  }
+  [class^="kb-item-content-wrapper-module__container--"],
+  [class^="kb-item-content-wrapper-module__main--"]
+  {
+    visibility: hidden;
+  }
+  aside,
+  iframe,
+  button, input[type="button"], input[type="submit"], input[type="reset"],
+  [type="button"],
+  [class^="icon-button-module__iconButton--"],
+  [class^="icon-button-module__medium--"],
+  [class^="icon-button-module__kindDefault--"],
+  [class*=" kb-article-view-module__expand--"],
+  [class^="article-attachments-module__sectionBlock--"]
+  {
+    display: none;
+  }
+  .tableGlobal tr td {
+    /* white-space: normal; */
+    text-wrap: balance;
+  }
+  table {
+    -webkit-page-break-inside: auto;
+    page-break-inside: auto;
+  }
+  div.ng-binding.ng-isolate-scope table tbody tr {
+    -webkit-page-break-inside: auto;
+    page-break-inside: auto;
+  }
+  tr {
+    -webkit-page-break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-page-break-after: auto;
+    page-break-after: auto;
+  }
+
+  /* Headers always with content */
+  h1, h2, h3, h4, h5, h6 {
+    -webkit-break-after: avoid;
+    break-after: avoid
+  }
+
+  /* Allow some parts to be split between pages */
+  pre,
+  .commentsPanel .existComment {
+    page-break-inside: auto;
+  }
+
+  /* PRINTABLE Article */
+  [class^="kb-item-content-wrapper-module__body--"],
+  [class^="kb-item-content-wrapper-module__body--"] * {
+    visibility: visible;
+    page-break-inside: auto !important;
+  }
+  [class^="app-content-module__content--"],
+  [class^="knowledge-base-module__kb--"],
+  [class^="kb-item-content-wrapper-module__main--"],
+  [class^="kb-item-content-wrapper-module__container--"],
+  [class^="kb-item-content-wrapper-module__content--"],
+  [class^="kb-item-content-wrapper-module__article--"],
+  [class^="kb-item-content-wrapper-module__body--"]
+  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* position: static; */
+    width: 100vw;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+  [class*=" kb-article-view-module__section--"]
+  {
+    width: 100vw !important;
+    max-width: 100% !important;
+  }
+  #app-header,
+  [class^="kb-item-page-header-module__container--"],
+  [class^="header-module__header--"],
+  [class^="app-header-module__header--"],
+  [class^="kb-article-view-module__expand--"],
+  [class^="kb-item-view-info-module__sections--"] {
+    display: none;
+  }
+  #titleSection,
+  [class^="article-section-module__section--"] {
+    border: none !important;
+  }
+  h1,
+  h2,
+  [class^="kb-item-view-info-module__date--"],
+  [class^="kb-item-owner-view-module__owner--"],
+  [class^="kb-article-footnote-module__publishDate--"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  [class^="article-section-module__section--"] {
+    max-width: 100%;
+  }
+  [class^="kb-item-view-info-module__meta--"] {
+    align-items: flex-start;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt;
+  }
+  [class^="kb-article-footnote-module__footnote--"] * {
+    align-items: flex-end;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt !important;
+  }
+  [class^="learn-item-view-info-wrapper-module__details--"] {
+    margin-bottom: 16px;
+  }
+  [class*=" article-section-module__body--"] {
+    margin-bottom: 0;
+  }
+
+  /* PRINTABLE News */
+  /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+  [class^="news-article-view-page-module__aside--"],
+  [class^="news-item-content-wrapper-module__header--"],
+  [class^="news-item-content-wrapper-module__homePanel--"],
+  [class^="news-item-view-info-module__avatar--"],
+  [class*=" news-item-view-info-module__attachment--"],
+  [class^="news-item-view-info-module__metaInfo--"],
+  [class*=" news-item-view-info-module__dot--"],
+  [class^="news-article-view-page-module__divider--"],
+  .Collapsible {
+    display: none !important;
+  }
+  [class^="news-item-view-info-module__meta--"] {
+    align-items: flex-start;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt;
+  }
+  [class^="news-article-view-footnote-module__footnote--"] {
+    align-items: flex-end;
+    gap: unset;
+    flex-direction: column;
+    font-style: italic;
+    font-size: 10pt !important;
+  }
+  [class^="news-article-view-page-module__body--"] {
+    padding: 0;
+    margin: 0;
+  }
+  [class^="news-item-content-wrapper-module__body--"] {
+      visibility: visible;
+      page-break-inside: auto !important;
+      position: relative;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      border: none;
+  }
+  [class*=" news-article-view-page-module__section--"]
+  {
+      width: 100vw !important;
+      max-width: 100% !important;
+  }
+  [class^="learn-item-view-info-wrapper-module__articleHeader--"] {
+      border: none;
+  }
+  [class*=" news-article-view-module__details--"] {
+    margin-bottom: 16px;
+  }
+
+  /* --------------------------------------------------------------------------------------- */
+  
+  /* PRINTABLE Ticket */
+  ul.k-tabstrip-items.k-reset,
+  button.btn.btn-link.description-content--trigger.ng-binding,
+  p.commentsCollapse.text-uppercase.ng-scope,
+  ul.attachmentsList,
+  div.postComment.ng-scope,
+  div.sideArea,
+  .attachDescription,
+  .attachmentsPanel,
+  .ticketDetailsPage .contentSection .sideArea,
+  .collapseMore,
+  .btn.btn-link.description-content--trigger.ng-binding
+  {
+    display: none !important;
+  }
+  h1.state1,
+  h1.state1 *,
+  h1.state2,
+  h1.state2 *,
+  h1.state3,
+  h1.state3 *,
+  h1.state4,
+  h1.state4 *,
+  h1.state5,
+  h1.state5 *,
+  h1.state6,
+  h1.state6 *,
+  span.ttBadge.ng-binding,
+  span.ttBadge.ng-binding *,
+  .contentContainer,
+  .contentContainer * {
+    visibility: visible;
+  }
+  .commentsPanel .existComment .commentTitle .addInfo .agent::after {
+    display: none;
+  }
+  .ticketDetailsPage .contentSection .mainArea {
+    padding: 0;
+  }
+  .ticketDetailsPage .contentSection .mainArea .contentContainer {
+    position: static;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    width: 100vw;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    max-width: 100%;
+  }
+  .attachmentsCollapse a,
+  [data-ng-bind="recentComment.user.name"],
+  [data-ng-bind="comment.user.name"],
+  [data-ng-click="setVisibleAttachments($event, comment, true)"],
+  [data-ng-click="setVisibleAttachments($event, model.ticket, true)"],
+  [data-ng-click="setVisibleAttachments($event, recentComment, true)"]
+  {
+    text-decoration: none;
+  }
+
+  /* PRINTABLE Task */
+  .contentContainer.corporateLongHeight,
+  .taskSettingLine,
+  p.lightColor.small,
+  [class^="task-view-module__rightSide--"],
+  /* [class^="comment-item-module__row--"] */
+  [data-cy="task-comment-form"],
+  [class^="task-view-module__contentTabsWrapper--"]
+  {
+    display: none;
+  }
+  h1.status,
+  h1.status *,
+  h1.status.state1,
+  h1.status.state1 *,
+  h1.status.state2,
+  h1.status.state2 *,
+  h1.status.state3,
+  h1.status.state3 *,
+  h1.status.state4,
+  h1.status.state4 *,
+  h1.status.state5,
+  h1.status.state5 *,
+  h1.status.state6,
+  h1.status.state6 *,
+  span.ttBadge,
+  span.ttBadge * {
+    visibility: visible;
+  }
+  [class^="task-view-module__wrapper--"] {
+    height: 100%;
+  }
+  .ticketDetailsPage .ticketDetailsTitle .titleDetails,
+  .taskDetailsPage .contentSection .mainArea,
+  [class^="task-view-module__wrapper--"],
+  [class^="task-view-module__leftSide--"],
+  [class^="task-view-module__content--"]
+  {
+    width: 100vw;
+    max-width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    border-radius: unset !important;
+  }
+  [class*=" description-module__descriptionWrapper--"],
+  [class*=" section-row-module__sectionMobile--"]
+  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  [class*=" task-view-module__tabsSection--"]
+  {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+  [class^="header-builder-module__headerDesktop--"] {
+    background: unset;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media (max-width: 1366px) {
+  div.k-widget.k-window.k-window-titleless.k-editor-widget {
+    position: absolute;
+    top: unset; 
+    left: unset;
+  }
+  .k-editortoolbar-dragHandle {
+    display: block;
+  }
+}
+
+@media (max-width: 920px) {
+  [class^="learn-editor-content-module__header--"] {
+      top: 90px;
+  }
+}
+
+@media (max-width: 480px) {
+/* Ticket actions dropdown menu fix */
+  #titleSection .dropdown-menu, .dropdown-to-left {
+    left: auto !important;
+    right: auto !important;
+    overflow: hidden !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* Main content area paddings */
+  .ticketDetailsPage .contentSection .mainArea {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* KB home header height */
+  [class^="kb-home-header-module__headerWrapper"] {
+    height: 160px;
+  }
+  /* Ticket buttons layout fix */
+  .ticketDetailsPage .titleSection .rightPart {
+    flex-flow: wrap;
+    justify-content: end;
+    gap: 4px;
+  }
+  /* Ticket filter button width */
+  .ticketsListPage .ticketsList .ticketsListHead .ticketsFilter2Mobile .filterBtn span {
+    width: fit-content;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  /* Ticket tabs layout */
+  .ttTabStrip .k-header .k-tabstrip-items {
+    border: none;
+    margin-bottom: 8px;
+  }
+  ul.k-tabstrip-items.k-reset {
+    margin-left: 0;
+    margin-right: 0;
+    display: inline-flex;
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .ttTabStrip .k-header .k-tabstrip-items .k-item {
+    background: none;
+    border: solid 1px lightgray;
+    border-radius: 8px;
+    padding: 0;
+    margin: 4px;
+  }
+  .ttTabStrip .k-header .k-tabstrip-items .k-item.k-state-active {
+    border-radius: 8px;
+    background-color: lightskyblue;
+  }
+  .ttTabStrip .k-header .k-tabstrip-items .k-item .k-link {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  /* Line height and margin for all headings */
+  h1, h2, h3, h4, h5, h6,
+  #section_title_539215,
+  [class^="learn-item-view-info-wrapper-module__title--"],
+  [class^="article-section-module__title--"] {
+    line-height: 1.2em;
+  }
+  #section_title_539215,
+  [class^="learn-item-view-info-wrapper-module__title--"],
+  [class^="article-section-module__title--"] {
+    margin-bottom: 24px;
+  }
+  /* Widget title */
+  .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
+    font-size: 0.8rem;
+  }
+  /* Contents button stick to the top in mobile view */
+  [class^="kb-item-side-content-layout-module__expandButton--"] {
+    position: static;
+  }
+  /* Padding in KB sections menu */
+  [class^="kb-list-element-module__wrapper--"] {
+    height: auto;
+  }
+  [class^="kb-list-element-module__card--"] {
+    padding: 20px 5px;
+  }
+  [class^="knowledge-base-folders-module__folder--"] {
+    padding: 12px 16px 16px 20px;
+  }
+  [class^="knowledge-base-article-list-module__article--"] {
+    padding: 12px 16px;
+  }
+  /* Breadcrumbs max-width */
+  [class^="knowledge-base-view-header-module__header--"] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  [class^="breadcrumbs-leaf-module__breadcrumbsItem--"]:not([class^="tasks-table-breadcrumbs-module__breadcrumbs--"] *) {
+    max-width: 85px;
+  }
+  /* Notification bell */
+  [class^="notification-module__avatar--"],
+  .notification-module__avatar--sAion {
+    display: none;
+  }
+  [class^="notification-module__prefix--"] {
+    padding-right: 12px;
+    padding-left: 6px;
+    margin-right: 0;
+  }
+  [class^="notification-module__indicator--"] {
+    margin-right: 2px;
+  }
+  [class^="notifications-panel-module__panel--"] {
+    height: unset;
+    width: 100%;
+    padding: 8px;
+  }
+  [class^="notifications-panel-module__heading--"] {
+    font-size: 18px;
+  }
+  [class^="notifications-list-module__list--"] {
+    padding-left: 16px;
+    padding-right: 8px;
+  }
+  [class^="notifications-panel-module__list--"] {
+    margin-top: 16px;
+    margin-right: -32px;
+    margin-left: -32px;
+    height: auto;
+    max-height: calc(100vh - 200px);
+    min-width: calc(100vw - 108px);
+  }
+  [class^="notifications-panel-module__body--"] tt-empty-state tt-svg-icon {
+    padding-top: 36px;
+  }
+  [class^="notifications-panel-module__clearAll--"] {
+    margin-left: 16px;
+  }
+  [class^="notifications-panel-module__header--"] {
+    margin-bottom: 0;
+  }
+  [class^="notification-module__close--"] {
+    margin-left: 4px;
+  }
+  [class^="empty-state-module__tt-empty-state-title--"] {
+    line-height: 1.2em;
+    text-align: center;
+  }
+  [class^="empty-state-module__tt-empty-state-body--"] {
+    line-height: 1.2em;
+  }
+  /* Task header static */
+  [class^="header-builder-module__topSideMobile--"] {
+    position: static;
+  }
+  /* Store Visit summary */
+  /* [class^="store-visits-summary-comments-module__tabs--"],
+  [class^="store-visits-summary-task-module__title--"],
+  [class^="store-visits-summary-task-module__taskWrapper--"],
+  [class^="store-visits-summary-task-module__titleNamePart--"] {
+    display: block;
+  } */
+}
+
+@media (max-width: 1024px) {
+  /* Support module fixes for mobile */
+  [class^="support-ticket-title-module__container--"] {
+    /* flex-direction: row !important; */
+    justify-content: space-between !important;
+  }
+  [class^="accordion-table-row-module__expandedRow--"] {
+    row-gap: 8px;
+  }
+  [class^="accordion-table-row-module__row--"] {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/* COMMON RULES */
+
+/* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+
+/* News article - Sidebar position fix */
+[class^="news-article-view-page-module__sidebar--"] {
+    top: 0;
+}
+
+/* News article - Footnote left allighn and italic */
+[class^="news-article-view-footnote-module__footnote--"] {
+    text-align: right;
+    font-style: italic;
+}
+
+/* News article - Header static (line) */
+[class^="news-article-view-page-module__divider--"] {
+    position: static;
+}
+
+/* News article - Additional info on widget fixes */
+[class^="list-with-images-module__additionalInfo--"] {
+    gap: unset;
+    column-gap: 16px;
+    flex-wrap: wrap;
+}
+[class*=" list-with-images-module__mobileItemWrapper--"],
+[class^="list-with-images-module__itemWrapper--"] {
+    max-height: fit-content;
+    height: unset;
+}
+
+/* News page - Category selector width fix */
+[class*=" category-facet-module__trigger--"] {
+  max-width: fit-content;
+}
+
+/* News article - Home button sticky */
+@media only screen and (max-width: 768px) {
+    .news-item-content-wrapper-module__homePanel--zdoza {
+        position: sticky;
+    }
+}
+
+/* News section - Fixes for small screens */
+@media only screen and (max-width: 768px) {
+    [class^="article-module__wrapper--"] {
+        border: solid 2px lightgray;
+        border-radius: 16px;
+        padding: 16px;
+    }
+    [class^="engage-news-page-module__infoPanel--"] {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+[class^="article-module__articleSubTitleItem--"] {
+    flex-wrap: wrap;
+}
+
+/* DASHBOARD 2.0 News section (new one) - Header static */
+[class*=" top-bar-module__root--"] {
+  position: static;
+}
+
+/* DASHBOARD 2.0 Bulbs and other image-links paddings */
+[class*=" wysiwyg-widget-view-module__view--"] a {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* DASHBOARD 2.0 Org tools paddings */
+a[class^="org-tools-grid-module__orgTool--"] {
+    padding: 8px;
+}
+
+/* DASHBOARD 2.0 News widget readability fix */
+[class^="list-with-images-module__newsTitle--"] {
+    text-wrap: balance;
+    line-height: 1.2;
+}
+[class^="list-with-images-module__articleHeader--"] {
+    display: none;
+}
+[class^="list-with-images-module__wrapper--"] {
+    gap: 8px;
+    justify-content: center;
+}
+[class^="list-with-images-module__wrapper--"] > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* DASHBOARD 2.0 System Status widget readability fix */
+[class^="list-without-images-module__title--"] {
+    text-wrap: balance;
+}
+
+[class^="list-without-images-module__infoWrapper--"] {
+    gap: 4px;
+}
+
+/* DASHBOARD 2.0 Tables in widgets - Head cells text wrap */
+[class^="table-module__headCell--"] {
+    text-wrap: balance;
+}
+
+/* DASHBOARD 2.0 Mobile View - Tickets list */
+[class^="ticket-list-agent-table-module__mobileInlineCell--"] {
+    justify-content: center;
+}
+[class^="ticket-list-agent-table-module__tooltipContainer--"] {
+    overflow: visible;
+    max-height: unset;
+    flex-wrap: wrap;
+}
+[class^="ticket-list-agent-table-module__mobileInlineCell--"] {
+    gap: 8px;
+}
+[class^="ticket-list-agent-table-module__mobileTicketTitle--"] {
+    font-weight: bold;
+}
+
+/* DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS) and LINKS */
+[class^="org-tools-table-module__listItemInfo--"] > div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    align-items: left;
+}
+[class^="org-tools-table-module__listItemTitle--"] {
+    font-weight: bold;
+}
+[class^="org-tools-table-module__listItemCategory--"] {
+    display: none;
+}
+
+/* DASHBOARD 2.0 Desktop View - Links fix */
+[class*="org-tools-module__wrapper"] table tr td:nth-child(2),
+[class*="org-tools-module__wrapper"] table tr th:nth-child(2) {
+    display: none;
+}
+[class*="org-tools-table-module__titleWrapper--"] {
+    font-weight: bold;
+    line-height: inherit;
+    height: 31px;
+}
+
+/* DASHBOARD 2.0 Mobile View - Tasks list */
+[class*=" title-cell-module__mobileTitle--"] {
+    text-wrap: balance;
+    font-weight: bold;
+}
+[class^="general-tasks-table-module__detailsRow--"] {
+    flex-wrap: wrap;
+    gap: unset;
+    column-gap: 8px;
+}
+[class^="general-tasks-table-module__listRow--"] {
+    gap: 8px;
+}
+
+/* DASHBOARD 2.0 Desktop View - Ticket name Bold */
+[class^="ticket-list-agent-table-module__ticketTitle--"] {
+    font-weight: bold;
+}
+
+/* DASHBOARD 2.0 Desktop View - Task name Bold */
+[class*=" general-tasks-table-module__titleCell--"] {
+    font-weight: bold;
+}
+
+/* DASHBOARD 2.0 Task widget breadcrumps for small screen fix */
+@media only screen and (max-width: 480px) {
+  [class^="breadcrumbs-leaf-module__breadcrumb--"] {
+    max-width: 100px;
+    text-align: left;
+  }
+}
+
+/* --------------------------------------------------------------------------------------- */
+
+/* Post 2.18 fixes */
+/* text-wrap */
+[class^="knowledge-base-sidebar-item-module__title--"],
+[class^="support-ticket-row-title-module__title--"],
+[class*=" distribution-breadcrumbs-module__location--"] > *,
+[class^="distribution-breadcrumbs-module__currentLocation--"]
+{
+  text-wrap: balance;
+}
+/* Breadcrumbs in task distribution - Center */
+[class^="distribution-breadcrumbs-module__currentLocation--"] {
+  display: flex;
+}
+/* Breadcrumbs in task - Several lines */
+[class^="distribution-breadcrumbs-module__breadcrumbsWrapper--"] {
+  flex-wrap: wrap;
+}
+/* Footer color for edit users page */
+.edit-page-footer {
+  background-color: aliceblue;
+}
+
+/* Post 2.17 fixes */
+/* text-wrap */
+[class^="content-module__cell--"],
+[class^="support-ticket-title-module__root--"],
+[class^="support-ticket-title-module__container--"],
+[class^="support-ticket-title-module__titleContainer--"],
+[class^="support-ticket-title-module__title--"],
+[class^="support-ticket-title-module__read--"],
+[class^="tabs-module__item_text--"],
+[class^="container-module__label--"],
+[class^="ticket-list-agent-table-module__mobileTicketTitle--"]
+{
+  text-wrap: balance;
+}
+
+/* Support module staus fixes */
+[class^="support-ticket-status-module__root--"] {
+  line-height: 1.2em;
+  text-align: center;
+  width: min-content;
+}
+
+/* Height of KB sections menu */
+[class^="kb-list-element-module__wrapper--"] {
+  height: auto;
+}
+
+/* User languages list height */
+[class^="user-panel-select-module__menu--"] {
+  max-height: calc(100vh / 2);
+}
+
+/* Dropdown lists height fix */
+.k-list-scroller {
+  height: unset;
+  max-height: calc(100vh / 3);
+}
+.k-animation-container .k-list-container {
+  height: fit-content;
+}
+.k-listbox .k-item, .k-popup .k-list .k-item {
+  display: flex;
+  align-items: center;
+  line-height: 1.2em !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* c */
+.k-animation-container span.k-state-default.ng-binding {
+    margin: 8px;
+}
+
+/* Users list width fix */
+.adminPage .mainContentContainer .contentAdminContainer {
+  flex: 1;
+}
+
+/* Attachments labels fix */
+.attachmentsList li .attachmentDescription,
+.attachmentsPanel li .attachDescription .labelAttach,
+[class^="uploaded-attachment-module__title--"],
+[class^="attachment-preview-module__name--"],
+[data-ng-bind='item.attachment.displayName']
+{
+  line-height: 1.2em;
+  /* white-space: normal; */
+  text-wrap: balance;
+  word-wrap: break-word;
+}
+
+/* Ticket status label (before 2.17) line height */
+[data-ng-bind='TicketStatusStr(ticket)'] {
+  line-height: 1.2em;
+}
+
+/* KB home header height */
+[class^="kb-home-header-module__headerWrapper--"] {
+  height: 160px;
+}
+
+/* KB list header position static */
+[class^="kb-list-module__header--"] {
+  position: static;
+}
+
+/* Tasks collapsible sidebar */
+[class*=" collapsible-sidebar-module__sidebar--"] {
+  padding: 8px;
+  /* max-width: fit-content; */
+}
+[class*=" task-type-module__task--"] {
+  /* display: contents; */
+  width: 0;
+  height: 0;
+}
+[class^="facets-module__facetItem--"] {
+  padding: 8px 16px;
+}
+[class^="slideout-facets-module__sideBarWrapper--"] {
+  padding-top: 24px;
+}
+
+/* Tasks summary badge width */
+[class^="summary-module__type--"] {
+  width: min-content;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+/* Store Visit summary */
+[class^="store-visits-summary-header-module__title--"],
+[class^="store-visits-summary-score-by-section-module__questionTitle--"],
+[class^="store-visits-summary-task-module__titleNamePart--"],
+._afpq1s {
+  display: block;
+  text-wrap: balance;
+}
+[class^="store-visits-summary-score-by-section-module__wrapper--"] {
+  padding: 20px 24px 28px;
+}
+[class^="store-visits-summary-header-module__heading--"],
+[class^="comment-module__commentActivities--"],
+[class^="comment-module__meta--"]
+{
+  flex-wrap: wrap;
+}
+
+/* Store Visit completion percentage items */
+[class^="store-visits-summary-score-by-section-module__questionSection--"] {
+    flex-wrap: wrap;
+}
+[class^="store-visits-summary-score-by-section-module__questionSectionScore--"] {
+  margin-top: 8px;
+}
+
+/* Store Visit completion title width */
+[class^="store-visits-summary-score-by-section-module__questionTitle--"] {
+  max-width: 75%;
+}
+[class^="store-visits-summary-score-by-section-module__failText--"],
+[class^="store-visits-summary-score-by-section-module__questionsRatio--"] {
+  /* white-space: normal; */
+  text-wrap: balance;
+}
+
+/* Store Visit comment texarea */
+[class^="comment-edit-module__textarea--"] {
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+[class^="comment-edit-module__field--"] {
+  padding-top: 8px;
+  /* padding-bottom: 8px; */
+}
+
+/* Tast comment textarea */
+[class*="comment-field-module__field--"][class*="comment-form-module__field--"] {
+    padding-bottom: 8px;
+}
+
+/* Learn and News header elements placing */
+.knowledgeBaseArticle .titleSection .mainTitleArea {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.knowledgeBaseArticle .titleSection .rightPart {
+    flex-shrink: unset;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.knowledgeBaseArticle .titleSection .rightPart * {
+    margin-left: 0;
+}
+
+/* Store Visit and Tickets header elements placing */
+.ticketDetailsPage .titleSection .mainTitleArea {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.ticketDetailsPage .titleSection .mainTitleArea .leftPart {
+    flex: 1;
+    margin-right: auto;
+}
+.ticketDetailsPage .titleSection .mainTitleArea .leftPart h1 {
+  line-height: 1.2;
+}
+.titleSection h1 {
+  line-height: 1.2;
+}
+
+/* Store Visit header line height */
+[class^="store-visits-summary-header-module__title--"] {
+    line-height: 1.2;
+}
+
+
+
+/* Dashboard tables header */
+.dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer th {
+  font-size: 10px;
+}
+
+/* Dashboar tables rows and columns */
+/* 
+Older fix for News widget only
+.dashboard .news-no-summary-table tbody tr {
+  width: 100%;
+  box-sizing: border-box; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dashboard .news-no-summary-table tbody td {
+  display: flex;
+  align-items: center; 
+} */
+
+/* All dashdoard widgets tables */
+.widgetTable {
+  display: flex;
+  flex-direction: column;
+}
+/* .widgetTable thead,
+.widgetTable tbody {
+  display: flex;
+  width: 100%;
+} */
+.widgetTable thead tr,
+.widgetTable tbody tr {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.widgetTable th,
+.widgetTable td {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border-top: none;
+  border-bottom: none;
+}
+/* Adjust the width of the first column */
+.widgetTable th:first-child,
+.widgetTable td:first-child {
+  flex: 3; /* Set the first column to take some width */
+}
+/* Single row widget fix */
+.tableOverdue th {
+    border: none !important;
+}
+.dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer table.tableOverdue tr:not(:last-child) td {
+  border-top: none;
+  border-bottom: none;
+}
+/* Letter spacing */
+.widgetTable td.text-ellipsis {
+  letter-spacing: -0.03em;
+}
+
+/* Notification bell */
+[class^="notifications-panel-module__panel--"] {
+  height: unset;
+}
+[class^="notifications-panel-module__list--"] {
+  height: auto;
+  max-height: calc(100vh * 2 / 3);
+}
+[class^="notification-module__circle--"] {
+  background-color: yellowgreen;
+} 
+[class^="notifications-list-module__item--"] {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+[class^="notification-module__body--"] {
+  line-height: 1.2em;
+}
+[class^="notification-module__time--"] {
+  text-align: right;
+  font-size: smaller;
+  font-style: italic;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+/* Article space between paragraphs */
+[class^="article-section-module__body--"] p+* {
+  margin-block-start: 0.85em;
+  /* margin-block-end: .85em*/
+}
+
+/* Article space between lines */
+[class^="article-section-module__body--"] {
+  line-height: 1.5;
+}
+
+/* Article settings checbox item margin */
+/* div[class^="learn-editor-settings-module__subheading--"] > label[class^="checkbox-module__field--"]:not(:last-child) */
+[class^="checkbox-module__content--"]
+{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* Article settings checkbox line height */
+[class^="checkbox-module__content--"] {
+  line-height: 1.2em !important;
+}
+
+/* Line height and margin for all headings */
+h1, h2, h3, h4, h5, h6,
+#section_title_539215,
+[class^="learn-item-view-info-wrapper-module__title--"],
+[class^="article-section-module__title--"] {
+  line-height: 1.2em;
+}
+#section_title_539215,
+[class^="learn-item-view-info-wrapper-module__title--"],
+[class^="article-section-module__title--"] {
+  margin-bottom: 24px;
+}
+
+/* Links are inline-blocks */
+a.ng-binding,
+span.ticketName a,
+.ng-scope td a {
+  display: inline-block;
+}
+
+/* External articles names fix - not inline-block */
+.newsItemAlone > h3 > .ng-binding {
+  display: inline;
+}
+
+/* No word wrap in dropdown menu */
+.dropdown-menu>li>a, .dropdown-menu>li>button {
+  white-space: nowrap;
+}
+
+/* Success edit button BG */
+.btn-success {
+    background-color: mediumseagreen;
+}
+
+/* Ticket title - "edit allowed" icon removed */
+.allowEdit.editIcon {
+  display: none;
+}
+
+/* Ticket and Task button color variations */
+[data-ng-if="model.AllowedActions.assignToMe && !model.ticket.agent"],
+[data-ng-if="model.AllowedActions.assign && !model.AllowedActions.assignToMe && !model.ticket.agent"] {
+  background-color: goldenrod;
+}
+[data-ng-switch-when="Resolved"],
+[data-ng-show="model.details.rel.reopen"],
+[class^="button-module__kindSuccess--"] {
+  background-color: firebrick;
+}
+
+/* MORE buttons */
+/* Default buttons border */
+.btn,
+.btnTT {
+  border: 1px solid var(--control-border-color);
+}
+/* No border, color and bold for "Read more" button */
+.ticketDetailsPage .description-content--trigger {
+  border: none;
+  color: var(--more-trigger-color);
+  font-weight: bold;
+}
+/*.btn-default-custom,*/
+.btn-primary,
+.btn-primary-invert,
+.langItem.active,
+.searchButton,
+.postBtn,
+.hamburgerIcon,
+.dashboard .tabsDashboards .k-tabstrip > .k-tabstrip-items .k-item.k-state-active {
+    border-width: 0;
+    background-color: var(--primary-color);
+}
+
+/* Search border dark */
+.searchPanelKnwoledgeBase, .searchPanelKnwoledgeBaseV2 {
+    border-color: var(--primary-color);
+}
+
+.k-item.k-state-active {
+  border-width: 0;
+}
+
+.dashboard .tabsDashboards .k-tabstrip>.k-tabstrip-items .k-item.k-state-active>.k-link {
+    text-shadow: none;
+}
+
+.tt-button-primary.legacy,
+._lbsrge {
+    background-color: royalblue;
+}
+
+/* Editable areas are resizeable and have inner shadow and min-height */
+.k-editable-area,
+.commentsPanel .postComment textarea,
+/* textarea:not(class*=" learn-editor-title-module__title--"), */
+textarea:not([id^="title."])
+{
+  box-shadow: inset 0px 0px 10px gainsboro;
+  resize: vertical;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  min-height: 300px;
+}
+/* Lighter outline for focused text areas */
+.k-editable-area:focus-visible,
+textarea:focus-visible {
+  outline-color: gainsboro;
+}
+
+/* Article title text area */
+textarea.tt-textarea.tt-input.tt-textarea-auto-resize.tt-textarea-none-resize {
+  min-height: auto;
+  resize: none;
+  font-size: 32px;
+  font-family: "Averta","Futura","Gothic",sans-serif;
+}
+
+/* TinyMCE hacks */
+.tox-editor-header {
+  background-color: cornsilk;
+  /* box-shadow: 0 0 10px darkgoldenrod;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  margin: 0 auto;
+  max-width: calc(100vw - 20px);
+  z-index: 4; */
+}
+
+.tox-toolbar__overflow {
+    background-color: cornsilk;
+}
+
+.tox-statusbar__branding {
+  display: none;
+}
+
+.tox-edit-area__iframe {
+  box-shadow: inset 0px 0px 10px gainsboro;
+}
+
+.tt-field-label {
+  color: transparent;
+}
+
+.tox-menubar {
+  background-color: cornsilk;
+}
+
+
+.tox-toolbar__primary {
+  background-color: cornsilk;
+}
+
+.tox-toolbar-overlord {
+  background-color: cornsilk;
+}
+
+/* Learn translation - Language selector width */
+[class^="multilingual-dropdown-module__langTitle--"] {
+overflow: visible;
+max-width: unset;
+}
+/* .multilingual-dropdown-module__menu--rH94o */
+/* [class^="menu-module__menu--"] */
+[class*=" multilingual-dropdown-module__menu--"]
+{
+  width: fit-content;
+  max-height: calc(100vh - 100vh/3);
+}
+[class^="learn-editor-form-module__settings--"] {
+  background-color: ghostwhite;
+}
+[class^="learn-editor-form-header-module__header--"] {
+  background-color: lightskyblue;
+}
+[class^="learn-editor-translation-form-module__primary--"] {
+  background-color: ghostwhite;
+}
+
+/* Article editor sections shadow and margins*/
+[class^="article-section-edit-module__section--"] {
+  box-shadow: 0 0 10px gainsboro;
+  margin-top: 12px;
+}
+
+/* Article editor Add buton margins fix */
+[class^="article-section-add-button-module__separatorBlock--"] {
+  margin-top: -32px;
+  margin-bottom: -24px;
+}
+
+/* Article editor - Mobile fixes */
+[class^="learn-editor-form-header-module__header--"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Static top on scroll */
+#app-header,
+[class^="header-module__header--"],
+[class^="app-header-legacy-module__withFlexContainer--"],
+[class^="header-module__header--"],
+[class^="knowledge-base-view-header-module__header--"],
+[class^="app-header-module__header--"],
+[class^="kb-item-page-header-module__container--"],
+[class^="kb-item-page-header-module__expired--"],
+[class^="task-creation-page-header-module__wrapper--"],
+[class^="task-creation-page-header-module__root--"],
+[class*=" support-page-module__header--"] {
+  position: static;
+}
+[class^="support-page-module__root--"] {
+  max-height: unset;
+  height: unset;
+}
+[class^="sidebar-module__sidebar--"] {
+  max-height: unset;
+}
+
+/* Tack Creation Sidebar positioning */
+[class^="task-creation-module__sidebarContent--"] {
+    top: auto;
+}
+[class^="collapsible-sidebar-module__content--"] {
+    top: 0;
+    max-height: 100vh;
+}
+
+/* Left menu with articles tree */
+[class^="knowledge-bases-sidebar-module__sidebar--"] {
+  top: 0;
+  height: 100vh;
+}
+
+/* Article header color */
+[class^="kb-item-page-header-module__container--"] {
+  background-color: #d1e1f1;
+}
+
+/* Task title color */
+a.ng-binding.ng-scope {
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--link-color);
+}
+
+/* Task agent name not link colored now */
+.addInfo a.agent.ng-binding {
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--primary-color);
+}
+
+/* Forms list title word wrap */
+a.link.ng-binding {
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--link-color);
+}
+
+/* Article title word wrap */
+.article-title__title {
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--link-color);
+}
+
+/* Task status label formatting */
+[class^="task-status-module__taskStatus--"] {
+  height: fit-content;
+  width: min-content;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+/* Tasks list items color and display block */
+[class^="task-title-module__taskTitle--"] {
+  color: var(--link-color);
+  display: block;
+}
+
+/* Tasks list items no line at the bottom */
+[class^="task-title-module__taskTitle--"] {
+  border: none;
+}
+
+/* Tasks list items no line on hover */
+[class^="task-title-module__taskTitle--"]:hover,
+[class^="summary-module__summaryTitle--"]:hover {
+  border: none;
+}
+
+/* Table of contents word wrap */
+[class^="article-side-content-wrapper-module__articleSectionLink--"] {
+  overflow: visible;
+  display: block;
+}
+
+/* Table of contents space for scroller */
+[class^="article-side-content-wrapper-module__articleSections--"] {
+  margin-right: 8px;
+}
+
+/* Neat and balanced word-wrap in every section name */
+[class^="article-side-content-wrapper-module__articleSections--"] li {
+  /* white-space: normal; */
+  text-wrap: balance;
+}
+
+/* Related articles REMOVAL */
+[class^="related-articles-module__relatedArticles--"] {
+  display: none;
+}
+
+/* Article aside section */
+[class^="kb-item-content-wrapper-module__content--"] {
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+[class^="kb-item-content-wrapper-module__rightSideBarSections--"] {
+    /* max-height: calc(90vh - (var(--app-header-height) + var(--breadcrumbs-height))); */
+    max-height: calc(100vh - 40px);
+    gap: 20px;
+    background-color: #ddeeff;
+    padding: 0 20px 0 20px;
+    /* margin: 20px 0 20px 0; */
+    /* border: 2px gainsboro solid; */
+    border-radius: 12px;
+    top: 20px;
+}
+[class^="article-side-content-wrapper-module__tableOfContents--"] {
+    padding: 20px 0 20px 0;
+}
+[class^="article-side-content-wrapper-module__tableOfContentsTitle--"] {
+    border-bottom: 2px solid var(--layout-border-color);
+}
+/* Active link more intense black */
+[class*=" article-side-content-wrapper-module__articleSectionActiveLink--"] {
+    text-shadow: 0px 0px 1px mediumblue;
+}
+
+/* Side section on small displays scrollable and full height */
+[class^="kb-item-side-content-layout-module__content--"] {
+    overflow: scroll;
+    top: 0;
+    height: 100vh;
+}
+
+/* Table of contents max-width */
+[class^="article-table-of-contents-module__container--"] {
+  max-width: 25%;
+}
+
+/* Knowlege Base articles list word wrap */
+a.text-ellipsis.ng-binding {
+  white-space: normal;
+  color: var(--link-color);
+}
+
+/* Unified search items display block and line height */
+[class^="search-result-item-module__title--"] {
+  margin-bottom: 4px;
+}
+[class^="search-result-item-module__title--"] a {
+  display: block;
+  line-height: 1.2em;
+  width: fit-content;
+}
+
+/* Unified search text block one line */
+[class^="article-module__textBlock--"] {
+  text-wrap: nowrap;
+}
+
+/* Knowlege Base search results color */
+[class^="knowledge-base-search-item-module__title--"] {
+  color: var(--link-color);
+}
+
+/* Knowlege Base search results header static */
+[class^="unified-search-page-module__title--"] {
+  position: static;
+}
+
+/* Knowlege Base search results badge paddings and text align */
+[class^="result-type-badge-module__badgeContainer--"] {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+/* Knowlege Base search results filter top */
+[class^="unified-search-page-module__facetsScroll--"] {
+    position: sticky;
+    top: 0;
+    height: auto;
+}
+
+[class^="knowledge-base-search-item-module__titleRow--"] a span {
+  /* white-space: normal; */
+  text-wrap: balance;
+}
+
+a {
+  transition: background 300ms ease-out;
+}
+
+/* Task attashments roll color */
+.attachmentsCollapse a,
+div.commentContent p.attachmentsCollapse a,
+div.commentsPanel p.commentsCollapse.text-uppercase.ng-scope a,
+div.customFieldsTicket.ng-scope p.collapseMore a
+{
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--more-trigger-color) !important;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+a:not([class]):not([id]) {
+  color: var(--link-color);
+}
+
+a:focus {
+  outline: none;
+}
+
+span.textOverflow.ng-binding {
+  color: #000000;
+}
+
+span.counter.ng-binding {
+  color: #000000;
+}
+
+span.textOverflow {
+  color: #000000;
+}
+
+div span a {
+  /* font-weight: 700; */
+  font-style: normal;
+  /* font-size: 18px; */
+  /* white-space: normal; */
+  text-wrap: balance;
+  /* color: var(--link-color); */
+}
+
+span.linkStyle.hiddenOnHover.ng-binding {
+  font-weight: 700;
+  font-style: normal;
+  /* font-size: 18px; */
+  /* white-space: normal; */
+  text-wrap: balance;
+  color: var(--link-color);
+}
+
+div ul hr {
+  display: none;
+}
+
+button.user-utils-button {
+  display: none;
+}
+
+[class^="notifications-button-legacy-module__button--"] {
+  display: none;
+}
+
+h2.kb--top-section-title {
+  display: none;
+}
+
+section.kb--top-section {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+/* Legacy article editor toolbar CONTAINER */
+div.k-widget.k-window.k-window-titleless.k-editor-widget {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+  width: 900px;
+  max-width: calc(100vw - 15%);
+  max-height: fit-content;
+}
+
+/* Legacy article editor toolbar */
+div.editorToolbarWindow.k-header.k-window-content.k-content {
+  background-color: cornsilk;
+}
+/* .k-editor-toolbar .k-tool {
+  background-color: unset;
+} */
+
+/* Legacy editor drag handle remove */
+.k-editortoolbar-dragHandle {
+  display: none;
+}
+
+/* Administration top fixed */
+[class^="administration-header-section-module__administrationHeader--"] {
+  position: static;
+}
+
+/* Reports top fixed */
+[class*=" report-layout-header-module__root--"] {
+  position: static;
+}
+
+.k-button.k-state-selected {
+  border: none;
+  background-color: var(--link-color);
+  color: lightgoldenrodyellow;
+}
+
+/* Task description text font */
+[class^="field-values-presenters-module__text--"],
+[class*="event-description-module__rtfContents--"],
+/* [class^="store-visits-summary-task-module__title--"], */
+[class^="store-visits-summary-task-module__titleNamePart--"],
+/* [class^="store-visits-summary-task-module__titleSection--"], */
+[class^="task-view-module__description--"],
+[class*="task-view-module__description--"],
+[class*="description-module__description--"] *
+{
+  /* font-size: 16px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5
+}
+
+/* Tickets and comments text size etc*/
+.ng-binding.ng-isolate-scope,
+[class*="comment-item-module__content--"],
+[class*="comment-view-module__text--"],
+[class*="store-visits-summary-score-by-section-module__description--C9jm5"],
+.commentContent
+{
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5
+}
+
+/* Tickets list font size */
+span.ticketName a {
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* Tickets list heading width to fit one line */
+.ticketsListPage .titleSection .titlePart {
+  width: auto;
+}
+
+a.ng-binding, span.ticketName a, .ng-scope td a {
+  color: var(--link-color);
+}
+
+/* Tickets list end */
+td.goesEnd {
+  color: #cccccc;
+}
+
+/* Title with buttons padding 
+section.titleSection.ng-scope {
+  padding-top: 5px;
+  padding-bottom: 5px
+} */
+
+/* Ticket title section color */
+section.titleSection.ng-scope {
+  background-color: var(--stylebot-color-ticket-title);
+}
+
+.titleSection,
+._tz7wgn {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* Fixed size of paddings in all text containers */
+div.contentContainer {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* All content conteiners - No additional margin on top */
+.contentContainer+.contentContainer {
+  margin-top: auto;
+}
+
+/* Agent name in comments */
+a.agent.ng-binding {
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Comment is private */
+span.pull-right {
+  background-color: mistyrose;
+  border-radius: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+/* Ticket action modal right */
+.actionModalTicket.moved {
+  background-color: mintcream;
+  box-shadow: 0 0 10px gainsboro;
+}
+
+.textAreaModal {
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textAreaModal .bottomBlock {
+  border-top: none;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textAreaModal textarea {
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Attachment add in Tickets */
+.k-dropzone {
+  width: fit-content;
+  background-color: blanchedalmond;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  padding-bottom: 2px;
+}
+
+.k-upload .k-dropzone .k-upload-button .fa {
+  margin-left: 0;
+}
+
+.k-upload .k-dropzone .k-upload-button {
+  width: 100%;
+}
+
+.k-upload .k-dropzone .k-upload-button span {
+  padding-top: 4px;
+}
+
+/* Forms field settings upload button */
+.customFormsManage .tabSubSections .k-upload .k-dropzone .k-upload-button {
+  border: 0;
+  margin: 0;
+}
+
+/* File upload drop zone */
+.k-upload .k-upload-files {
+  margin: 8px;
+}
+.k-upload .k-upload-files .k-file.k-file-success .k-file-name {
+  color: var(--link-color)
+}
+
+/* Tickets post area and buttons */
+.k-state-focused {
+  outline: none;
+}
+div.k-widget.k-upload.k-header.k-upload-empty {
+  margin-top: 3px;
+}
+label.checkBox.labelPost {
+  margin-top: 6px;
+}
+.validation-modal--contents {
+  height: 100%;
+}
+.postPanel {
+  border: none;
+}
+.commentsPanel .postComment .postPanel .notifyAllcheckBox {
+  margin-top: 12px;
+}
+.commentsPanel .postComment {
+  margin-top: 25px;
+  border: none;
+}
+.commentsPanel .postComment .postPanel .postBtn {
+  border: 0;
+}
+button.postBtn {
+  background-color: lightseagreen;  border-radius: 4px;
+  margin: 4px;
+}
+button.postBtn.postBtn-alt.m-r-10 {
+  background-color: lightcoral;
+  color: white;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+/* Links hover */
+a:hover,
+button:not(.table-module__sortButtonHeading--TCxz5):hover,
+.btn:hover,
+button.postBtn.postBtn-alt.m-r-10:hover,
+.k-dropzone:hover,
+.k-item:hover,
+.kb-tile--content:hover,
+.tt-button-primary.legacy:hover,
+[class^="content-module__headCell"]:hover {
+  text-decoration: none;
+  color: var(--link-color);
+  /* box-shadow: inset 0px 0px 0px 1px rgb(70,  130, 180, 0.25); */
+  box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.5);
+  background: papayawhip;
+  text-shadow: 0 0 1px currentColor;
+}
+
+a:not(.btn):not(.kb-link):hover,
+.ticketDetailsPage .description-content--trigger:hover,
+#iLabel:hover,
+#eLabel:hover,
+#sLabel:hover,
+#label-item-Support:hover,
+#label-item-Execute:hover,
+#label-item-Insights:hover,
+[class^="content-module__headCell--"]:hover,
+button[class^="tabs-module__tab--"]:hover,
+button[class^="tabs-module__item_active--"]:hover
+{
+  border-radius: 4px;
+}
+
+/* Widgets bottom hide */
+div.dashboardPlatesConclusion {
+  display: none;
+}
+
+/* Article - Author name and date */
+div[class^="kb-article-footnote-module__footnote--"] {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  flex-direction: column;
+}
+
+/* Articles list side section height */
+[class^="kb-articles-module__articlesSidebar--"] {
+    top: 16px;
+}
+[class^="kb-articles-module__fullMaxHeight--"] {
+    max-height: calc(100vh - 32px);
+}
+
+/* Articles list - Unpublished changes mark fixes */
+[data-ng-if="article.hasUnpublishedChanges"] {
+    height: fit-content;
+    margin-left: 0;
+    margin-top: 6px;
+    align-content: center;
+    text-align: center;
+    word-break: break-word;
+}
+div:has(> [data-ng-if="article.hasUnpublishedChanges"]) {
+    align-items: start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* List selector*/
+.k-list-optionlabel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* .k-animation-container {
+  height: 402px;
+}
+
+.k-list-container {
+  height: 400px;
+}
+
+.k-list-scroller {
+  height: 332px;
+} */
+
+/* My Work tasks line wrap */
+._5kaapu {
+  flex-wrap: wrap;
+}
+._1wzyfkw {
+  flex-shrink: 2;
+  margin-bottom: 8px;
+}
+
+/* Tasks editor toolbar */
+ul.k-toolbar.k-editor-toolbar {
+  background-color: cornsilk;
+  box-shadow: 0 0 2px darkgoldenrod;
+  /* display: none; */
+}
+
+/* Task source code editor window fitting */
+div.k-widget.k-window.k-display-inline-flex {
+  width: fit-content;
+   height: fit-content;
+}
+
+/* Ticket side panel and Task additionsl info - useless sections removed */
+.sideArea div:nth-child(2) ul h2,
+.logPanel {
+  display: none;
+}
+
+.ticketDetailsTitle {
+  padding-top: 16px;
+}
+
+.ticketDetailsContent {
+  padding-bottom: 16px;
+}
+
+div.k-content.k-state-active {
+  margin-top: 0;
+}
+
+/* Task description content */
+div.ticketDetailsContent p.ng-binding {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5
+}
+
+/* Task requrements summaby button */
+.requirementsSummaryButton {
+  color: whitesmoke;
+}
+
+/* Task details comment field paddings */
+/* [class*="comment-form-module__field--"] {
+  padding: 0 !important;
+} */
+[class*=" comment-field-module__textarea--"] {
+  padding: 8px 16px;
+}
+[class*=" drop-zone-module__attach--"] {
+  margin-left: 0;
+}
+
+/* TEXT-WRAP */
+a.ng-binding,
+._1gobrn0,
+._1ayhren,
+[class^="checkbox-option-with-addon-module__row--"]>[class^="checkbox-option-with-addon-module__optionLabel--"],
+[class^="checkbox-option-with-addon-module__row--"][class^="checkbox-option-with-addon-module__active--"]>[class^="checkbox-option-with-addon-module__optionLabel--"],
+[class^="checkbox-option-with-addon-module__row--"][class^="checkbox-option-with-addon-module__active--"]>[class^="checkbox-option-with-addon-module__count--"],
+[class^="checkbox-option-with-addon-module__row--"]:hover[class^="checkbox-option-with-addon-module__active--"]>[class^="checkbox-option-with-addon-module__optionLabel--"],
+[class^="checkbox-option-with-addon-module__row--"]:hover[class^="checkbox-option-with-addon-module__active--"]>[class^="checkbox-option-with-addon-module__count--"],
+[class^="checkbox-option-module__label--"],
+/* Users list */
+span.hiddenOnHover.ng-binding,
+/* Related articles word-wrap */
+[class^="knowledge-base-item-link-module__title--"],
+/* Knowlege Base contents tree */
+[class^="knowledge-base-sidebar-item-module__title--"],
+[class^="kb-list-element-module__title--"],
+[class^="kb-list-element-module__description--"],
+[class^="kb-list-element-module__count--"],
+[class^="article-summary-list-module__title--"],
+/* Breadcrumps */
+[class^="breadcrumbs-module__highlightedText--"],
+[class^="breadcrumbs-leaf-module__highlightedText--"],
+[class^="breadcrumbs-leaf-module__breadcrumb--"],
+.survey-table--cell,
+.titleWidget,
+.ticketsListPage .titleSection .titlePart h1,
+.ticketDetailsPage .titleSection .leftPart h1,
+[class^="notification-module__body--"],
+/* Task from calendar */
+[class^="item-modal-module__modalTitle--"],
+[class^="item-bar-module__title--"],
+/* Ticlet custom form labels */
+.labelCustomField,
+/* Task title */
+[class^="header-builder-module__title--"]
+{
+  /* white-space: normal; */
+  text-wrap: balance;
+  line-height: 1.2;
+}
+
+/* Ticket custom form - Swap to make label first */
+[data-ng-repeat="field in group"] {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 16px;
+}
+div.labelCustomField.ng-binding {
+  margin-bottom: 0;
+}
+
+.text-ellipsis {
+  text-wrap: balance;
+}
+
+/* Some fixes where text-wrap not needed */
+.dueFilter {
+  text-wrap: nowrap;
+}
+
+/* Calendar items word wrap and items height*/
+[class^="filter-on-radiobuttons-module__optionValue--"] {
+  /* white-space: normal; */
+  text-wrap: balance;
+  line-height: 1.2;
+}
+
+/* Calendar tasks list font size */
+[class^="item-bar-module__title--"] {
+  font-size: 16px;
+}
+
+/* Calendar - task list height */
+[class^="list-view-module__view--"] div {
+  height: unset;
+}
+
+/* Calendar filter button */
+[class^="facet-filters-module__filterButton--"][class^="facet-filters-module__filterButton--"] {
+    margin: 16px 24px;
+}
+
+/* Calendar navigation arrows margins */
+[class^="arrows-nav-module__navButton--"] {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Calendar items date margin */
+[class^="item-bar-module__description--"] {
+  margin-top: 8px;
+}
+
+/* Calendar items width */
+[class^="item-bar-module__content--"] {
+  width: 100%;
+}
+
+/* Store Visit summary */
+._ievr4j {
+  padding: 0px 10px;
+}
+[class^="question-module__headerQuestion--"] {
+  padding: 14px 22px;
+}
+[class^="question-module__questionField--"] {
+  padding: 0 22px 10px;
+}
+/* Calendar items */
+._1c22eiy {
+  position: static;
+}
+._ub61tk {
+  /* white-space: normal; */
+  text-wrap: balance;
+}
+[class^="list-view-module__event--"] {
+  height: fit-content;
+}
+
+/* Breadcrumps fix for small screen */
+[class^="breadcrumbs-leaf-module__breadcrumbsItem--"] {
+  max-height: 48px;
+  flex-wrap: wrap;
+  line-height: 1.2;
+  /* max-width: min-content; */
+}
+/* Not to display last breadcrump in Learn */
+[class^="breadcrumbs-module__breadcrumbs--"]>*:last-child:not([class^="tasks-table-breadcrumbs-module__breadcrumbs--"] *) {
+    display: none;
+}
+/* Not to display last breadcrump's ">" sign in Learn */
+/* .breadcrumbs-module__breadcrumbs--4SQyq tt-svg-icon.breadcrumbs-module__chevronIcon--CdyGM:last-of-type */
+/* [class^="breadcrumbs-module__breadcrumbs--"] I[class^="icon-module__icon--"][class^="breadcrumbs-module__chevronIcon--"]:last-of-type, */
+[class*=" breadcrumbs-module__chevronIcon--"]:last-of-type:not([class^="tasks-table-breadcrumbs-module__breadcrumbs--"] *)
+{
+  display: none;
+}
+
+/* Breadcrumps larger KB icon */
+/* i[class^="icon-module__icon--"][class^="breadcrumbs-leaf-module__icon--"], */
+/* .breadcrumbs-leaf-module__icon--ejlHT */
+[class*=" breadcrumbs-leaf-module__icon--"]
+{
+  width: 24px !important;
+  height: 24px !important;
+}
+
+/* KB tree height */
+[class^="knowledge-bases-sidebar-module__fullScreenSidebar--"] {
+  top: 0;
+  /* height: calc(100vh + (var(--app-header-height))); */
+  height: 100vh;
+}
+
+/* KB folders max width */
+[class^="knowledge-base-folders-module__folder--"] {
+  max-width: calc(100vw - 48px);
+}
+
+/* KB grid - Width of columns to fit some screens */
+[class^="knowledge-base-folders-module__list--"] {
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+/* KB grid - View more color */
+[class^="knowledge-base-folders-module__viewMore--"] {
+  color: var(--link-color);
+}
+
+/* KB folders - items max height */
+[class^="knowledge-base-articles-in-folder-module__article--"] {
+  max-height: fit-content;
+}
+/* [class^="knowledge-base-articles-in-folder-module__article--"]:hover {
+  background-color: initial;
+  padding: initial;
+  margin-left: initial;
+  margin-right: initial;
+  margin-top: 5px;
+  margin-bottom: 5px;
+} */
+
+/* KB folders - Articles quantity border */
+[class^="knowledge-base-folders-module__articleCount--"] {
+    width: fit-content;
+    border: solid 2px lightgray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Calendar on wide screens - items word wrap and line height, row height */
+[class^="event-module__event--"] span:last-child {
+  /* white-space: normal; */
+  text-wrap: balance;
+  line-height: 1.2;
+}
+[class^="event-module__shortEvent--"],
+[class^="event-module__event--"] {
+    height: fit-content;
+}
+[class^="scheduler-row-module__layers--"] {
+    height: fit-content;
+}
