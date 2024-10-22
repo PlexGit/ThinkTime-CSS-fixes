@@ -12,6 +12,10 @@ https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
 
 LATEST FIXES
 
+22.10.2024
+----------
+Legacy tickets list - Ticket name line-height 1.2
+
 21.10.2024
 ----------
 Articles list - Unpublished changes mark fixes (2)
@@ -1816,6 +1820,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 /* Tickets list font size */
 span.ticketName a {
   font-size: 16px;
+  line-height: 1.2;
 }
 
 /* Tickets list heading width to fit one line */
