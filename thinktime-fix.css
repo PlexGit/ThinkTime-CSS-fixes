@@ -14,6 +14,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+Recent tickets list in "New Ticket" pop-up - gaps and text-wrap
 Task header - Smaller paddings
 Ticket detail - Left part of title - items centered
 Legacy tickets list - Ticket name line-height 1.2
@@ -929,7 +930,8 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="knowledge-base-sidebar-item-module__title--"],
 [class^="support-ticket-row-title-module__title--"],
 [class*=" distribution-breadcrumbs-module__location--"] > *,
-[class^="distribution-breadcrumbs-module__currentLocation--"]
+[class^="distribution-breadcrumbs-module__currentLocation--"],
+[class^="recent-support-ticket-card-module__name--"]
 {
   text-wrap: balance;
 }
@@ -944,6 +946,10 @@ a[class^="org-tools-grid-module__orgTool--"] {
 /* Footer color for edit users page */
 .edit-page-footer {
   background-color: aliceblue;
+}
+/* Recent tickets list in "New Ticket" pop-up - gaps */
+[class^="recent-support-ticket-card-module__textWrapper--"] {
+  gap: 8px;
 }
 
 /* Post 2.17 fixes */
