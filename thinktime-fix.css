@@ -14,6 +14,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+Task header - Smaller paddings
 Ticket detail - Left part of title - items centered
 Legacy tickets list - Ticket name line-height 1.2
 
@@ -1851,7 +1852,8 @@ section.titleSection.ng-scope {
 }
 
 .titleSection,
-._tz7wgn {
+._tz7wgn,
+[class^="header-builder-module__headerDesktop--"] {
   padding-top: 6px;
   padding-bottom: 6px;
 }
