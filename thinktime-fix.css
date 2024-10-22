@@ -14,6 +14,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+DASHBOARD 2.0 Desktop View - Ticket status - No break word
 Recent tickets statuses wrap and other fixes
 Recent tickets list in "New Ticket" pop-up - gaps and text-wrap
 Task header - Smaller paddings
@@ -909,6 +910,11 @@ a[class^="org-tools-grid-module__orgTool--"] {
 /* DASHBOARD 2.0 Desktop View - Ticket name Bold */
 [class^="ticket-list-agent-table-module__ticketTitle--"] {
     font-weight: bold;
+}
+
+/* DASHBOARD 2.0 Desktop View - Ticket status - No break word */
+[class^="ticket-list-agent-table-module__ticketPriorityDescription--"] {
+    overflow: visible;
 }
 
 /* DASHBOARD 2.0 Desktop View - Task name Bold */
