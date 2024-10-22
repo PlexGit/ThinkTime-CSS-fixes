@@ -14,6 +14,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+Task list - Margin after task name
 DASHBOARD 2.0 Desktop View - Ticket status - No break word
 Recent tickets statuses wrap and other fixes
 Recent tickets list in "New Ticket" pop-up - gaps and text-wrap
@@ -1591,6 +1592,11 @@ a.link.ng-binding {
 [class^="task-title-module__taskTitle--"]:hover,
 [class^="summary-module__summaryTitle--"]:hover {
   border: none;
+}
+
+/* Task list - Margin after task name */
+[class^="task-title-module__taskTitle--"] {
+  margin-bottom: 8px;
 }
 
 /* Table of contents word wrap */
