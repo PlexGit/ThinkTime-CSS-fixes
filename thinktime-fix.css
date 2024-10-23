@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Ticket comment - Edit buttons fix for small screens
 rtf-sandbox-module__wrapper - Break word option to fit comments with awkwardly long text data in small screens
 MYJYSK v2.19 - Attachments in ticket subject - Width for small screens to keep two columns
 Textarea - Size and shadows effects only when focused
@@ -766,6 +767,23 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.19 foxes */
+
+/* Ticket comment - Edit buttons fix for small screens */
+[class^="support-ticket-comment-field-module__textareaFooter--"],
+[class^="support-ticket-comment-field-module__controls--"],
+[class^="support-ticket-comment-field-module__buttons--"] {
+    flex-wrap: wrap;
+}
+[class^="support-ticket-comment-field-module__buttons--"] {
+    justify-content: flex-end;
+}
+[class^="support-ticket-comment-field-module__controls--"] {
+    justify-content: space-between;
+}
+[class^="support-ticket-comment-field-module__controls--"] {
+    column-gap: 16px;
+    row-gap: 4px;
+}
 
 /* Attachments in ticket subject - Width for small screens to keep two columns */
 [class^="attachments-previews-list-module__attachment--"] {
