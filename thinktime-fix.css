@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Tickets and comments text size etc
 MYJYSK v2.19 - Printable Ticket - Display buttons Yes/No in custom form
 MYJYSK v2.19 - Printable Ticket - Activity tab content and Attachments preview block removed
 MYJYSK v2.19 - Printable Ticket - Sidebar removed
@@ -499,6 +500,10 @@ th *, td * {
   /* Display buttons Yes/No in custom form */
   [class^="yes-no-field-module__root--"] button {
     display: initial;
+  }
+  /* Custom form gap 0 */
+  [class^="support-custom-form-module__customForm--"] {
+    /* gap: 0; */
   }
 
   /* PRINTABLE Task */
@@ -1858,12 +1863,14 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   line-height: 1.5
 }
 
-/* Tickets and comments text size etc*/
+/* Tickets and comments text size etc */
 .ng-binding.ng-isolate-scope,
 [class*="comment-item-module__content--"],
 [class*="comment-view-module__text--"],
 [class*="store-visits-summary-score-by-section-module__description--C9jm5"],
-.commentContent
+.commentContent,
+[class*=" support-ticket-description-module__description--"],
+[class^="rtf-sandbox-module__wrapper--"]
 {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
