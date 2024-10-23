@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Ticket comment - Expty avatar fix
 MYJYSK v2.19 - Ticket comment - Edit buttons fix for small screens
 rtf-sandbox-module__wrapper - Break word option to fit comments with awkwardly long text data in small screens
 MYJYSK v2.19 - Attachments in ticket subject - Width for small screens to keep two columns
@@ -767,6 +768,12 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.19 foxes */
+
+/* Ticket comment - Expty avatar fix */
+[class^="support-ticket-comment-module__comment--"] [class^="avatar-module__emptyAvatar--"] {
+    min-width: 36px;
+    min-height: 36px;
+}
 
 /* Ticket comment - Edit buttons fix for small screens */
 [class^="support-ticket-comment-field-module__textareaFooter--"],
