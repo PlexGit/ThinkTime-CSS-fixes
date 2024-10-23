@@ -1930,8 +1930,8 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
     word-break: break-word;
 }
 /* External form table - Fix width */
-div[class^="rtf-sandbox-module__wrapper--"] table {
-    width: auto !important;
+[class^="support-ticket-description-module__root--"] div[class^="rtf-sandbox-module__wrapper--"] table {
+    width: initial !important;
 }
 
 /* Tickets list font size */
