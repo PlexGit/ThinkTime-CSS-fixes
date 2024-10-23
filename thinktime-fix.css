@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+External form table - Fix width
 Few color fixes
 MYJYSK v2.19 - Ticket comment - Expty avatar fix
 MYJYSK v2.19 - Ticket comment - Edit buttons fix for small screens
@@ -456,6 +457,7 @@ th *, td * {
   .btn.btn-link.description-content--trigger.ng-binding,
   [class^="support-ticket-page-sidebar-module__sidebar--"],
   [class^="attachment-preview-module__buttonsWrapper--"],
+  [class^="attachments-grid-preview-module__wrapper--"],
   /* [class^="support-ticket-info-section-module__root--"]:nth-child(2) */
   [class^="support-ticket-page-module__contentCard--"] > div:last-child
   {
@@ -1910,6 +1912,10 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 }
 [class^="rtf-sandbox-module__wrapper--"] {
     word-break: break-word;
+}
+/* External form table - Fix width */
+div[class^="rtf-sandbox-module__wrapper--"] table {
+    width: auto !important;
 }
 
 /* Tickets list font size */
