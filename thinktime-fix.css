@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Attachments in ticket subject - Width for small screens to keep two columns
 Textarea - Size and shadows effects only when focused
 MYJYSK v2.19 - Attached pictures in ticket comments - Border and shadow
 MYJYSK v2.19 - Names colors in ticket
@@ -765,11 +766,17 @@ th *, td * {
 
 /* POST v2.19 foxes */
 
+/* Attachments in ticket subject - Width for small screens to keep two columns */
+[class^="attachments-previews-list-module__attachment--"] {
+    max-width: 40%;
+}
+
 /* Attached pictures in ticket comments - Border and shadow */
 [class^="attachments-grid-preview-module__container--"] {
     box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
     border: 1px solid lightgray;
     margin: 4px;
+    max-width: 100%;
 }
 
 /* Names colors in ticket */
