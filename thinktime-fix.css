@@ -10,10 +10,15 @@ https://gist.github.com/PlexGit/7909725f0b4df49ec0d69e2d0568cf2a
 Relatively full changelog (updated periodically):
 https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
 
+KNOWN BUGS
+Last comment is not displayed or displayed partially
+- after: MYJYSK v2.19 - Printable Ticket - Activity tab content and Attachments preview block removed
+
 LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Printable Ticket - Display buttons Yes/No in custom form
 MYJYSK v2.19 - Printable Ticket - Activity tab content and Attachments preview block removed
 MYJYSK v2.19 - Printable Ticket - Sidebar removed
 
@@ -490,6 +495,10 @@ th *, td * {
   [data-ng-click="setVisibleAttachments($event, recentComment, true)"]
   {
     text-decoration: none;
+  }
+  /* Display buttons Yes/No in custom form */
+  [class^="yes-no-field-module__root--"] button {
+    display: initial;
   }
 
   /* PRINTABLE Task */
