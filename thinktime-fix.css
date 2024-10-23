@@ -14,6 +14,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Printable Ticket - Activity tab content and Attachments preview block removed
 MYJYSK v2.19 - Printable Ticket - Sidebar removed
 
 22.10.2024
@@ -439,7 +440,10 @@ th *, td * {
   .ticketDetailsPage .contentSection .sideArea,
   .collapseMore,
   .btn.btn-link.description-content--trigger.ng-binding,
-  [class^="support-ticket-page-sidebar-module__sidebar--"]
+  [class^="support-ticket-page-sidebar-module__sidebar--"],
+  [class^="attachment-preview-module__buttonsWrapper--"],
+  /* [class^="asupport-ticket-info-section-module__root--"]:nth-child(2) */
+  [class^="support-ticket-page-module__contentCard--"] > div:last-child
   {
     display: none !important;
   }
