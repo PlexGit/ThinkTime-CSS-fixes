@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+MYJYSK v2.19 - Attached pictures in ticket comments - Border and shadow
 MYJYSK v2.19 - Names colors in ticket
 MYJYSK v2.19 - Tickets and comments text size etc
 MYJYSK v2.19 - Printable Ticket - Display buttons Yes/No in custom form
@@ -762,6 +763,13 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.19 foxes */
+
+/* Attached pictures in ticket comments - Border and shadow */
+[class^="attachments-grid-preview-module__container--"] {
+    box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
+    border: 1px solid lightgray;
+    margin: 4px;
+}
 
 /* Names colors in ticket */
 [class^="support-ticket-description-module__name--"],
