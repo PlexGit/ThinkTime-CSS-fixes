@@ -762,9 +762,6 @@ th *, td * {
   [class^="list-with-images-module__thumbnail--"] {
     display: none;
   }
-  [class^="list-with-images-module__additionalInfo--"] {
-    /* justify-content: space-between; */
-  }
 }
 
 @media (max-width: 1024px) {
@@ -921,6 +918,9 @@ a[class^="org-tools-grid-module__orgTool--"] {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+[class^="list-with-images-module__additionalInfo--"] {
+    justify-content: flex-end;
 }
 
 /* DASHBOARD 2.0 System Status widget readability fix */
