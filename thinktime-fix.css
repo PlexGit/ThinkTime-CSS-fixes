@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+Textarea - Size and shadows effects only when focused
 MYJYSK v2.19 - Attached pictures in ticket comments - Border and shadow
 MYJYSK v2.19 - Names colors in ticket
 MYJYSK v2.19 - Tickets and comments text size etc
@@ -1406,8 +1407,7 @@ span.ticketName a,
 /* Editable areas are resizeable and have inner shadow and min-height */
 .k-editable-area,
 .commentsPanel .postComment textarea,
-/* textarea:not(class*=" learn-editor-title-module__title--"), */
-textarea:not([id^="title."])
+textarea:not([id^="title."]):focus
 {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
@@ -1415,6 +1415,10 @@ textarea:not([id^="title."])
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   min-height: 300px;
+}
+textarea:not([id^="title."]){
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Lighter outline for focused text areas */
 .k-editable-area:focus-visible,
