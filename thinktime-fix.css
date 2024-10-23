@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+DASHBOARD 2.0 News widget readability and mobile view fix
 Custom form gap 0 in print view
 External form page breaks
 --primary-color reverted do original
@@ -758,6 +759,12 @@ th *, td * {
   [class^="header-builder-module__topSideMobile--"] {
     position: static;
   }
+  [class^="list-with-images-module__thumbnail--"] {
+    display: none;
+  }
+  [class^="list-with-images-module__additionalInfo--"] {
+    /* justify-content: space-between; */
+  }
 }
 
 @media (max-width: 1024px) {
@@ -901,7 +908,9 @@ a[class^="org-tools-grid-module__orgTool--"] {
     text-wrap: balance;
     line-height: 1.2;
 }
-[class^="list-with-images-module__articleHeader--"] {
+[class^="list-with-images-module__articleHeader--"],
+[class^="list-with-images-module__description--"],
+[class^="list-with-images-module__additionalInfo--"] span:last-child {
     display: none;
 }
 [class^="list-with-images-module__wrapper--"] {
