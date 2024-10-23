@@ -449,7 +449,7 @@ th *, td * {
   .btn.btn-link.description-content--trigger.ng-binding,
   [class^="support-ticket-page-sidebar-module__sidebar--"],
   [class^="attachment-preview-module__buttonsWrapper--"],
-  /* [class^="asupport-ticket-info-section-module__root--"]:nth-child(2) */
+  /* [class^="support-ticket-info-section-module__root--"]:nth-child(2) */
   [class^="support-ticket-page-module__contentCard--"] > div:last-child
   {
     display: none !important;
@@ -512,7 +512,6 @@ th *, td * {
   .taskSettingLine,
   p.lightColor.small,
   [class^="task-view-module__rightSide--"],
-  /* [class^="comment-item-module__row--"] */
   [data-cy="task-comment-form"],
   [class^="task-view-module__contentTabsWrapper--"]
   {
@@ -1212,21 +1211,6 @@ a[class^="org-tools-grid-module__orgTool--"] {
   font-size: 10px;
 }
 
-/* Dashboar tables rows and columns */
-/* 
-Older fix for News widget only
-.dashboard .news-no-summary-table tbody tr {
-  width: 100%;
-  box-sizing: border-box; 
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.dashboard .news-no-summary-table tbody td {
-  display: flex;
-  align-items: center; 
-} */
-
 /* All dashdoard widgets tables */
 .widgetTable {
   display: flex;
@@ -1307,7 +1291,6 @@ Older fix for News widget only
 }
 
 /* Article settings checbox item margin */
-/* div[class^="learn-editor-settings-module__subheading--"] > label[class^="checkbox-module__field--"]:not(:last-child) */
 [class^="checkbox-module__content--"]
 {
   margin-top: 8px;
@@ -1872,7 +1855,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 [class*="store-visits-summary-score-by-section-module__description--C9jm5"],
 .commentContent,
 [class*=" support-ticket-description-module__description--"],
-[class^="rtf-sandbox-module__wrapper--"]
+[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"]
 {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1898,12 +1881,6 @@ a.ng-binding, span.ticketName a, .ng-scope td a {
 td.goesEnd {
   color: #cccccc;
 }
-
-/* Title with buttons padding 
-section.titleSection.ng-scope {
-  padding-top: 5px;
-  padding-bottom: 5px
-} */
 
 /* Ticket title section color */
 section.titleSection.ng-scope {
@@ -2127,18 +2104,6 @@ div:has(> [data-ng-if="article.hasUnpublishedChanges"]) {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
-/* .k-animation-container {
-  height: 402px;
-}
-
-.k-list-container {
-  height: 400px;
-}
-
-.k-list-scroller {
-  height: 332px;
-} */
 
 /* My Work tasks line wrap */
 ._5kaapu {
@@ -2378,14 +2343,6 @@ div.labelCustomField.ng-binding {
 [class^="knowledge-base-articles-in-folder-module__article--"] {
   max-height: fit-content;
 }
-/* [class^="knowledge-base-articles-in-folder-module__article--"]:hover {
-  background-color: initial;
-  padding: initial;
-  margin-left: initial;
-  margin-right: initial;
-  margin-top: 5px;
-  margin-bottom: 5px;
-} */
 
 /* KB folders - Articles quantity border */
 [class^="knowledge-base-folders-module__articleCount--"] {
