@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+External form page breaks
 --primary-color reverted do original
 External form table - Fix width
 Few color fixes
@@ -511,6 +512,10 @@ th *, td * {
   /* Display buttons Yes/No in custom form */
   [class^="yes-no-field-module__root--"] button {
     display: initial;
+  }
+  /* External form page breaks */
+  div[class^="rtf-sandbox-module__wrapper--"] table * {
+    break-inside: auto;
   }
   /* Custom form gap 0 */
   [class^="support-custom-form-module__customForm--"] {
