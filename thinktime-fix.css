@@ -849,7 +849,7 @@ th *, td * {
 /* News article - Additional info on widget fixes */
 [class^="list-with-images-module__additionalInfo--"] {
     gap: unset;
-    column-gap: 16px;
+    column-gap: 8px;
     flex-wrap: wrap;
 }
 [class*=" list-with-images-module__mobileItemWrapper--"],
@@ -910,7 +910,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 [class^="list-with-images-module__articleHeader--"],
 [class^="list-with-images-module__description--"],
-[class^="list-with-images-module__additionalInfo--"] span:last-child {
+[class^="list-with-images-module__additionalInfo--"] span:nth-last-child(-n+3) {
     display: none;
 }
 [class^="list-with-images-module__wrapper--"] {
