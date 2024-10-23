@@ -18,6 +18,7 @@ LATEST FIXES
 
 22.10.2024
 ----------
+--primary-color reverted do original
 External form table - Fix width
 Few color fixes
 MYJYSK v2.19 - Ticket comment - Expty avatar fix
@@ -134,7 +135,7 @@ Tasks "Reopen" button colors
   /* --knowledge-base-color: #547084;
   --primary-color: #547084; */
   --knowledge-base-color: #223355;
-  --primary-color: #223355;
+  /* --primary-color: #223355; */
   /* --navigation-active-background-color: #143c8a; */
   /* --navigation-active-background-color: #00a6e2; */
   --primary-text: #223355;
