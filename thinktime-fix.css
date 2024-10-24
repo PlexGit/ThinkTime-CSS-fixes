@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Printable Ticket - Smaller margin at the top
 Task View - Now scrollable again with fixed top
 MYJYSK v2.19 - Ticket module - Header buttons fix
 Tickets - Filter margins fix for small screens
@@ -539,6 +540,10 @@ th *, td * {
   /* Custom form gap 0 */
   [class^="support-custom-form-module__customForm--"] {
     gap: 0;
+  }
+  /* Smaller margin at the top */
+  [class^="support-ticket-page-module__titleSection--"] {
+    margin-top: 0;
   }
 
   /* PRINTABLE Task */
