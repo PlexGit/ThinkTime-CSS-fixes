@@ -2052,7 +2052,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 }
 [class^="rtf-sandbox-module__wrapper--"] {
     word-break: break-word;
-    color: hsl(0, 0%, 30%);
+    color: hsl(0, 0%, 25%);
 }
 /* External form table - Fix width */
 [class^="support-ticket-description-module__root--"] div[class^="rtf-sandbox-module__wrapper--"] table {
