@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+DASHBOARD 2.0 - Ticket list - Title 1.2 height
 DASHBOARD 2.0 - Agent data in the widget is now wrappable
 Store Visit - Filter fixes
 Store Visit - Summary header gaps
@@ -975,6 +976,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 [class^="ticket-list-agent-table-module__mobileTicketTitle--"] {
     font-weight: bold;
+    line-height: 1.2;
 }
 
 /* DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS) and LINKS */
