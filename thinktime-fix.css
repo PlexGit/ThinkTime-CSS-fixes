@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Notification bell - Controls in header fix for mobile view
 Notification bell content is now flex vertical
 DASHBOARD 2.0 - Task list - Title 1.2 height
 DASHBOARD 2.0 - Ticket list - Title 1.2 height
@@ -765,6 +766,9 @@ th *, td * {
   }
   [class^="notifications-panel-module__header--"] {
     margin-bottom: 0;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 2px;
   }
   [class^="notification-module__close--"] {
     margin-left: 4px;
