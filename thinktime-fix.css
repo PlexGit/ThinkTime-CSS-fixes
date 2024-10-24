@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+DASHBOARD 2.0 - Agent data in the widget is now wrappable
 Store Visit - Filter fixes
 Store Visit - Summary header gaps
 Store Visit list of tasks - Type of task now under the name of task
@@ -798,7 +799,13 @@ th *, td * {
 
 /* COMMON RULES */
 
-/* POST v2.19 foxes */
+/* POST v2.19 fixes */
+
+/* DASHBOARD 2.0 - Agent data in widget now wrappable */
+[class^="ticket-list-agent-table-module__mobileTextWrapper--"] {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
 
 /* Ticket comment - Expty avatar fix */
 [class^="support-ticket-comment-module__comment--"] [class^="avatar-module__emptyAvatar--"] {
