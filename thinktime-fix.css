@@ -24,7 +24,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
-rtf-sandbox-module__wrapper - dark gray color
+Dimmed text colors in ticket
 KB filter and counter - Fix for small screens
 KB articles list - Title text bold
 Printable Ticket - Smaller margin at the top
@@ -2052,8 +2052,15 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 }
 [class^="rtf-sandbox-module__wrapper--"], [class^="rtf-sandbox-module__wrapper--"] * {
     word-break: break-word;
-    color: hsl(0, 0%, 25%);
 }
+/* Dimmed text colors in ticket */
+[class*=" support-ticket-description-module__description--"],
+[class*=" support-ticket-description-module__description--"] *,
+[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"],
+[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"] * {
+  opacity: 0.85;
+}
+
 /* External form table - Fix width */
 [class^="support-ticket-description-module__root--"] div[class^="rtf-sandbox-module__wrapper--"] table {
     width: initial !important;
