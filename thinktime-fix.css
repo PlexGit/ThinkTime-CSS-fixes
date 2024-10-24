@@ -24,6 +24,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+KB articles list - Title text bold
 Printable Ticket - Smaller margin at the top
 Task View - Now scrollable again with fixed top
 MYJYSK v2.19 - Ticket module - Header buttons fix
@@ -827,6 +828,12 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.19 fixes */
+
+/* KB articles list - Title text bold */
+.knowledge-base-article-list-module__title--nay2c {
+    /* text-shadow: 0px 0px 1px lightslategray; */
+    font-weight: 600;
+}
 
 /* Task View - Now scrollable again with fixed top */
 [class^="task-view-module__wrapper--"] {
