@@ -2050,7 +2050,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5
 }
-[class^="rtf-sandbox-module__wrapper--"] {
+[class^="rtf-sandbox-module__wrapper--"], [class^="rtf-sandbox-module__wrapper--"] * {
     word-break: break-word;
     color: hsl(0, 0%, 25%);
 }
