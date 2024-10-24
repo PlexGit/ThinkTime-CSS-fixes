@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+DASHBOARD 2.0 - Task list - Title 1.2 height
 DASHBOARD 2.0 - Ticket list - Title 1.2 height
 DASHBOARD 2.0 - Agent data in the widget is now wrappable
 Store Visit - Filter fixes
@@ -1009,6 +1010,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class*=" title-cell-module__mobileTitle--"] {
     text-wrap: balance;
     font-weight: bold;
+    line-height: 1.2;
 }
 [class^="general-tasks-table-module__detailsRow--"] {
     flex-wrap: wrap;
