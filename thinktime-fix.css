@@ -24,6 +24,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+KB filter and counter - Fix for small screens
 KB articles list - Title text bold
 Printable Ticket - Smaller margin at the top
 Task View - Now scrollable again with fixed top
@@ -826,6 +827,11 @@ th *, td * {
 }
 
 /* COMMON RULES */
+
+/* KB filter and counter - Fix for small screens */
+[class^="kb-search-module__wrapper--"] {
+  min-width: auto;
+}
 
 /* POST v2.19 fixes */
 
