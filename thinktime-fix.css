@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Task View - Now scrollable again with fixed top
 MYJYSK v2.19 - Ticket module - Header buttons fix
 Tickets - Filter margins fix for small screens
 Notification bell - Controls in header fix for mobile view
@@ -816,6 +817,11 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.19 fixes */
+
+/* Task View - Now scrollable again with fixed top */
+[class^="task-view-module__wrapper--"] {
+  height: initial;
+}
 
 /* Ticket module - Header buttons fix */
 [class^="page-header-module__trailingContent--"] {
