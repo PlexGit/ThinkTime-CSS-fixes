@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Notification bell content is now flex vertical
 DASHBOARD 2.0 - Task list - Title 1.2 height
 DASHBOARD 2.0 - Ticket list - Title 1.2 height
 DASHBOARD 2.0 - Agent data in the widget is now wrappable
@@ -1405,6 +1406,10 @@ a[class^="org-tools-grid-module__orgTool--"] {
   font-style: italic;
   margin-top: 4px;
   margin-bottom: 8px;
+}
+[class^="notification-module__content--"] {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Article space between paragraphs */
