@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Store Visit - Filter fixes
 Store Visit - Summary header gaps
 Store Visit list of tasks - Type of task now under the name of task
 
@@ -1249,6 +1250,26 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-header-module__heading--"] {
     column-gap: 20px;
     row-gap: 4px;
+}
+[class^="page-header-module__title--"] {
+    min-width: initial;
+}
+[class^="page-header-module__header--"] {
+    justify-content: flex-end;
+}
+
+/* Store Visit - Filter fixes */
+[class^="facet-filters-module__unorderedListedItems--"] {
+    list-style: initial;
+}
+[class^="facet-filters-module__listItem--"] {
+    padding: 8px 16px;
+}
+[class^="filter-chip-module__label--"] {
+    margin-right: 8px;
+    text-wrap: balance;
+    text-align: left;
+    line-height: 1;
 }
 
 /* Tast comment textarea */
