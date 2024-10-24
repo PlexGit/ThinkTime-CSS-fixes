@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Store Visit - Summary header gaps
 Store Visit list of tasks - Type of task now under the name of task
 
 23.10.2024
@@ -1242,6 +1243,12 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-task-module__title--"],
 [class^="store-visits-summary-task-module__inactiveTitle--"] {
     flex-direction: column;
+}
+
+/* Store Visit - Summary header gaps */
+[class^="store-visits-summary-header-module__heading--"] {
+    column-gap: 20px;
+    row-gap: 4px;
 }
 
 /* Tast comment textarea */
