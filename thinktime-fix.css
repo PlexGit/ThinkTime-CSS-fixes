@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+Tickets - Filter margins fix for small screens
 Notification bell - Controls in header fix for mobile view
 Notification bell content is now flex vertical
 DASHBOARD 2.0 - Task list - Title 1.2 height
@@ -801,6 +802,13 @@ th *, td * {
   [class^="accordion-table-row-module__row--"] {
     padding-top: 12px;
     padding-bottom: 12px;
+  }
+  /* Filter */
+  .filters-module__facet--zUbp8 {
+    padding: 8px;
+  }
+  .filters-module__header--ivSGb {
+    padding: 0 8px;
   }
 }
 
