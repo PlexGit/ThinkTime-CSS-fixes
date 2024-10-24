@@ -19,6 +19,7 @@ LATEST FIXES
 
 24.10.2024
 ----------
+MYJYSK v2.19 - Ticket module - Header buttons fix
 Tickets - Filter margins fix for small screens
 Notification bell - Controls in header fix for mobile view
 Notification bell content is now flex vertical
@@ -815,6 +816,15 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.19 fixes */
+
+/* Ticket module - Header buttons fix */
+[class^="page-header-module__trailingContent--"] {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 
 /* DASHBOARD 2.0 - Agent data in widget now wrappable */
 [class^="ticket-list-agent-table-module__mobileTextWrapper--"] {
