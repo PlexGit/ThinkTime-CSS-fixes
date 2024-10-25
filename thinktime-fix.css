@@ -24,6 +24,10 @@ LATEST FIXES
 
 24.10.2024
 ----------
+News page - Buttons regress fix
+
+24.10.2024
+----------
 Dimmed text colors in ticket
 KB filter and counter - Fix for small screens
 KB articles list - Title text bold
@@ -852,7 +856,7 @@ th *, td * {
     display: flex;
     align-items: center;
     gap: 8px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: flex-end;
 }
 
