@@ -24,6 +24,7 @@ LATEST FIXES
 
 25.10.2024
 ----------
+Dimmed text colors in ticket - Another approach
 KB search (not the unified search) - Results font-weight
 MYJYSK v2.19 - Articles and news - H1 and H2 font size
 News page - Buttons regress fix
@@ -167,6 +168,7 @@ Tasks "Reopen" button colors
 * {
   /* --stylebot-color-ticket-title: #dae3d8; */
   --stylebot-color-ticket-title: #d3e8e6;
+  --stylebot-ticket-text: #4d4d4d;
   /* --knowledge-base-color: #547084;
   --primary-color: #547084; */
   --knowledge-base-color: #223355;
@@ -2077,11 +2079,15 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 }
 /* Dimmed text colors in ticket */
 [class*=" support-ticket-description-module__description--"],
+[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"] {
+  color: var(--stylebot-ticket-text);
+}
+/* [class*=" support-ticket-description-module__description--"],
 [class*=" support-ticket-description-module__description--"] *,
 [class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"],
 [class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"] * {
   opacity: 0.85;
-}
+} */
 
 /* External form table - Fix width */
 [class^="support-ticket-description-module__root--"] div[class^="rtf-sandbox-module__wrapper--"] table {
