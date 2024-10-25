@@ -21,6 +21,7 @@ LATEST FIXES
 
 25.10.2024
 ----------
+HR was undisplayed - Reverted back
 Notification bell info redesigned for small screens
 Dimmed text colors in ticket - Another approach
 KB search (not the unified search) - Results font-weight
@@ -1987,9 +1988,9 @@ span.linkStyle.hiddenOnHover.ng-binding {
   color: var(--link-color);
 }
 
-div ul hr {
+/* div ul hr {
   display: none;
-}
+} */
 
 button.user-utils-button {
   display: none;
