@@ -630,7 +630,7 @@ th *, td * {
 
 /* MOBILE VIEW */
 
-@media (max-width: 1366px) {
+@media only screen and (max-width: 1366px) {
   div.k-widget.k-window.k-window-titleless.k-editor-widget {
     position: absolute;
     top: unset; 
@@ -641,13 +641,13 @@ th *, td * {
   }
 }
 
-@media (max-width: 920px) {
+@media only screen and (max-width: 920px) {
   [class^="learn-editor-content-module__header--"] {
       top: 90px;
   }
 }
 
-@media (max-width: 480px) {
+@media only screen and (max-width: 480px) {
 /* Ticket actions dropdown menu fix */
   #titleSection .dropdown-menu, .dropdown-to-left {
     left: auto !important;
@@ -810,7 +810,14 @@ th *, td * {
   }
 }
 
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+  /* Articles and news - H1 and H2 font size
+  h1[class^="learn-item-view-info-wrapper-module__title--"] {
+      font-size: 1.50em;
+  }
+  h2[class^="article-section-module__title--"] {
+      font-size: 1.25em;
+  } */
   /* Support module fixes for mobile */
   [class^="support-ticket-title-module__container--"] {
     /* flex-direction: row !important; */
@@ -954,7 +961,7 @@ h2[class^="article-section-module__title--"] {
 
 /* News article - Home button sticky */
 @media only screen and (max-width: 768px) {
-    .news-item-content-wrapper-module__homePanel--zdoza {
+    [class^="news-item-content-wrapper-module__homePanel--"] {
         position: sticky;
     }
 }
