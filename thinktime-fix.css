@@ -22,8 +22,9 @@ KNOWN BUGS
 
 LATEST FIXES
 
-24.10.2024
+25.10.2024
 ----------
+KB search (not the unified search) - Results font-weight
 MYJYSK v2.19 - Articles and news - H1 and H2 font size
 News page - Buttons regress fix
 
@@ -1924,6 +1925,7 @@ a.text-ellipsis.ng-binding {
 [class^="knowledge-base-search-item-module__titleRow--"] a span {
   /* white-space: normal; */
   text-wrap: balance;
+  font-weight: 600;
 }
 
 a {
