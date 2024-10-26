@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+More flew wraps in the pages headers
 Task dropdown menus and filters text wrap
 
 25.10.2024
@@ -859,6 +860,14 @@ th *, td * {
 [class*=" dropdown-chip-module__optionTitle--"] ,
 [class^="dropdown-chip-module__optionMenuTitle--"] {
     text-wrap: balance;
+}
+
+/* More flew wraps in the pages headers */
+[class^="page-header-module__header--"],
+[class^="page-header-module__leadingContent--"],
+[class^="page-header-module__trailingContent--"]
+{
+    flex-wrap: wrap;
 }
 
 /* POST v2.19 fixes */
