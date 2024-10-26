@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+DASHBOARD 2.0 - Hide single text line news preview
 DASHBOARD 2.0 - System staus widget items - Date wrap
 MYJYSK v2.19 - Articles and news - H1 and H2 font size (2)
 Headers - break-inside fix
@@ -914,9 +915,15 @@ h2[class^="article-section-module__title--"] {
     justify-content: flex-end;
 }
 
+/* DASHBOARD 2.0 - Hide single text line news preview */
+[class*=" list-without-images-module__singleLine--"] {
+    display: none;
+}
+
 /* DASHBOARD 2.0 - System staus widget items - Date wrap */
 [class^="list-without-images-module__descriptionWrapper--"] {
     flex-direction: column;
+    gap: 0;
 }
 
 /* DASHBOARD 2.0 - Agent data in widget now wrappable */
