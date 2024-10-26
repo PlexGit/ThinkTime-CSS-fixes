@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+Attachments - New border and shadow
 All text-wrap changed from pretty to balance
 All text-wrap changed from balance to pretty
 MYJYSK v2.19 - Ticket Module - Dialog buttons re-flow
@@ -892,6 +893,12 @@ th *, td * {
 
 /* POST v2.19 fixes */
 
+/* Attachment border and shadow */
+[class^="attachment-preview-module__content--"] {
+    border: 1px solid lightgray;
+    box-shadow: 0 0 4px lightblue;
+}
+
 /* Ticket Module - Dialog buttons re-flow */
 [class^="dialog-module__footer--"] button:not(:last-child) {
     margin-right: 0px;
@@ -990,7 +997,7 @@ h2[class^="article-section-module__title--"] {
 
 /* Attached pictures in ticket comments - Border and shadow */
 [class^="attachments-grid-preview-module__container--"] {
-    box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
+    box-shadow: 0 0 4px lightblue;
     border: 1px solid lightgray;
     margin: 4px;
     max-width: 100%;
