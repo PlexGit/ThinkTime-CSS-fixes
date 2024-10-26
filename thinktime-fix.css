@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+All text-wrap changed from pretty to balance
 All text-wrap changed from balance to pretty
 MYJYSK v2.19 - Ticket Module - Dialog buttons re-flow
 ⚠️ EXPERIMENTAL - DASHBOARD 2.0 - Widgets fit to content - NOT IMPLEMENTED
@@ -195,7 +196,7 @@ Tasks "Reopen" button colors
 }
 
 h1, h2, h3, h4, h5, h6 {
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 /* Temporary fix for gray background in ticket */
@@ -255,7 +256,7 @@ html {
 /* All tables items text-wrap */
 th *, td * {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   word-wrap: break-word;
 }
 
@@ -336,7 +337,7 @@ th *, td * {
   }
   .tableGlobal tr td {
     /* white-space: normal; */
-    text-wrap: pretty;
+    text-wrap: balance;
   }
   table {
     -webkit-page-break-inside: auto;
@@ -868,7 +869,7 @@ th *, td * {
 /* Task dropdown menus and filters text wrap */
 [class*=" dropdown-chip-module__optionTitle--"] ,
 [class^="dropdown-chip-module__optionMenuTitle--"] {
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 
 /* More flew wraps in the pages headers */
@@ -1078,7 +1079,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 
 /* DASHBOARD 2.0 News widget readability fix */
 [class^="list-with-images-module__newsTitle--"] {
-    text-wrap: pretty;
+    text-wrap: balance;
     line-height: 1.2;
 }
 [class^="list-with-images-module__articleHeader--"],
@@ -1101,7 +1102,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 
 /* DASHBOARD 2.0 System Status widget readability fix */
 [class^="list-without-images-module__title--"] {
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 
 [class^="list-without-images-module__infoWrapper--"] {
@@ -1110,7 +1111,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 
 /* DASHBOARD 2.0 Tables in widgets - Head cells text wrap */
 [class^="table-module__headCell--"] {
-    text-wrap: pretty;
+    text-wrap: balance;
 }
 
 /* DASHBOARD 2.0 Mobile View - Tickets list */
@@ -1158,7 +1159,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 
 /* DASHBOARD 2.0 Mobile View - Tasks list */
 [class*=" title-cell-module__mobileTitle--"] {
-    text-wrap: pretty;
+    text-wrap: balance;
     font-weight: bold;
     line-height: 1.2;
 }
@@ -1204,7 +1205,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="distribution-breadcrumbs-module__currentLocation--"],
 [class^="recent-support-ticket-card-module__name--"]
 {
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 /* Breadcrumbs in task distribution - Center */
 [class^="distribution-breadcrumbs-module__currentLocation--"] {
@@ -1225,7 +1226,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 /* Recent tickets statuses wrap and other fixes */
 [class^="recent-support-ticket-card-module__statusText--"],
 [class^="status-module__statusText--"] {
-    text-wrap: pretty;
+    text-wrap: balance;
     line-height: 1;
     text-align: center;
     width: min-content;
@@ -1248,7 +1249,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="container-module__label--"],
 [class^="ticket-list-agent-table-module__mobileTicketTitle--"]
 {
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 /* Support module staus fixes */
@@ -1305,7 +1306,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 {
   line-height: 1.2em;
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   word-wrap: break-word;
 }
 
@@ -1354,7 +1355,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-task-module__titleNamePart--"],
 ._afpq1s {
   display: block;
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 [class^="store-visits-summary-score-by-section-module__wrapper--"] {
   padding: 20px 24px 28px;
@@ -1388,7 +1389,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-score-by-section-module__failText--"],
 [class^="store-visits-summary-score-by-section-module__questionsRatio--"] {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 /* Store Visit comment texarea */
@@ -1428,7 +1429,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 [class^="filter-chip-module__label--"] {
     margin-right: 8px;
-    text-wrap: pretty;
+    text-wrap: balance;
     text-align: left;
     line-height: 1;
 }
@@ -1837,28 +1838,28 @@ max-width: unset;
 /* Task title color */
 a.ng-binding.ng-scope {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   color: var(--link-color);
 }
 
 /* Task agent name not link colored now */
 .addInfo a.agent.ng-binding {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   color: var(--primary-color);
 }
 
 /* Forms list title word wrap */
 a.link.ng-binding {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   color: var(--link-color);
 }
 
 /* Article title word wrap */
 .article-title__title {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   color: var(--link-color);
 }
 
@@ -1906,7 +1907,7 @@ a.link.ng-binding {
 /* Neat and balanced word-wrap in every section name */
 [class^="article-side-content-wrapper-module__articleSections--"] li {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 /* Related articles REMOVAL */
@@ -2000,7 +2001,7 @@ a.text-ellipsis.ng-binding {
 
 [class^="knowledge-base-search-item-module__titleRow--"] a span {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   font-weight: 600;
 }
 
@@ -2016,7 +2017,7 @@ div.customFieldsTicket.ng-scope p.collapseMore a,
 [class^="support-ticket-attachments-module__title--"]
 {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   color: var(--more-trigger-color) !important;
   font-weight: bold;
   word-wrap: break-word;
@@ -2047,7 +2048,7 @@ div span a {
   font-style: normal;
   /* font-size: 18px; */
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   /* color: var(--link-color); */
 }
 
@@ -2056,7 +2057,7 @@ span.linkStyle.hiddenOnHover.ng-binding {
   font-style: normal;
   /* font-size: 18px; */
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   color: var(--link-color);
 }
 
@@ -2512,7 +2513,7 @@ span.hiddenOnHover.ng-binding,
 [class^="header-builder-module__title--"]
 {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   line-height: 1.2;
 }
 
@@ -2527,7 +2528,7 @@ div.labelCustomField.ng-binding {
 }
 
 .text-ellipsis {
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 
 /* Some fixes where text-wrap not needed */
@@ -2538,7 +2539,7 @@ div.labelCustomField.ng-binding {
 /* Calendar items word wrap and items height*/
 [class^="filter-on-radiobuttons-module__optionValue--"] {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   line-height: 1.2;
 }
 
@@ -2589,7 +2590,7 @@ div.labelCustomField.ng-binding {
 }
 ._ub61tk {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
 }
 [class^="list-view-module__event--"] {
   height: fit-content;
@@ -2661,7 +2662,7 @@ div.labelCustomField.ng-binding {
 /* Calendar on wide screens - items word wrap and line height, row height */
 [class^="event-module__event--"] span:last-child {
   /* white-space: normal; */
-  text-wrap: pretty;
+  text-wrap: balance;
   line-height: 1.2;
 }
 [class^="event-module__shortEvent--"],
