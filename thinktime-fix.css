@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+Headers - break-inside fix
 Calendar filter fixes for small screen
 More flew wraps in the pages headers
 Task dropdown menus and filters text wrap
@@ -359,7 +360,7 @@ th *, td * {
 
   /* PRINTABLE Article */
   [class^="kb-item-content-wrapper-module__body--"],
-  [class^="kb-item-content-wrapper-module__body--"] * {
+  [class^="kb-item-content-wrapper-module__body--"] *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
     visibility: visible;
     page-break-inside: auto !important;
   }
