@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+Calendar filter fixes for small screen
 More flew wraps in the pages headers
 Task dropdown menus and filters text wrap
 
@@ -868,6 +869,16 @@ th *, td * {
 [class^="page-header-module__trailingContent--"]
 {
     flex-wrap: wrap;
+}
+
+/* Calendar filter fixes for small screen */
+[class^="range-controls-module__controlsSecondary--"] {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 4px;
 }
 
 /* POST v2.19 fixes */
