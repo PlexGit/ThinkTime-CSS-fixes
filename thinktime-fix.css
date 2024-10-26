@@ -865,8 +865,8 @@ th *, td * {
 
 /* More flew wraps in the pages headers */
 [class^="page-header-module__header--"],
-[class^="page-header-module__leadingContent--"],
-[class^="page-header-module__trailingContent--"]
+[class^="page-header-module__leadingContent--"]
+/* [class^="page-header-module__trailingContent--"] */
 {
     flex-wrap: wrap;
 }
