@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+26.10.2024
+----------
+Task dropdown menus and filters text wrap
+
 25.10.2024
 ----------
 HR was undisplayed - Reverted back
@@ -848,7 +852,13 @@ th *, td * {
 
 /* KB filter and counter - Fix for small screens */
 [class^="kb-search-module__wrapper--"] {
-  min-width: auto;
+    min-width: auto;
+}
+
+/* Task dropdown menus and filters text wrap */
+[class*=" dropdown-chip-module__optionTitle--"] ,
+[class^="dropdown-chip-module__optionMenuTitle--"] {
+    text-wrap: balance;
 }
 
 /* POST v2.19 fixes */
