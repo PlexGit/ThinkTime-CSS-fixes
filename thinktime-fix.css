@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+MYJYSK v2.19 - Articles and news - H1 and H2 font size (2)
 Headers - break-inside fix
 Calendar filter fixes for small screen
 More flew wraps in the pages headers
@@ -886,10 +887,10 @@ th *, td * {
 
 /* Articles and news - H1 and H2 font size */
 h1[class^="learn-item-view-info-wrapper-module__title--"] {
-    font-size: 2.5em;
+    font-size: 2em;
 }
 h2[class^="article-section-module__title--"] {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 /* KB articles list - Title text bold */
