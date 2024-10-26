@@ -1,3 +1,6 @@
+---------- Oct 26, 2024
+Task dropdown menus and filters text wrap
+
 ---------- Oct 25, 2024
 HR was undisplayed - Reverted back
 Notification bell info redesigned for small screens
