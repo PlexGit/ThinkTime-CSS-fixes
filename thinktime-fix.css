@@ -21,6 +21,7 @@ LATEST FIXES
 
 27.10.2024
 ----------
+Attachments in article subject - Width for small screens to keep two columns
 Success ticket status badge - Redesign
 
 26.10.2024
@@ -1010,7 +1011,8 @@ h2[class^="article-section-module__title--"] {
 }
 
 /* Attachments in ticket subject - Width for small screens to keep two columns */
-[class^="attachments-previews-list-module__attachment--"] {
+[class^="attachments-previews-list-module__attachment--"],
+[class^="article-attachments-module__attachment--"] {
     max-width: 40%;
 }
 
