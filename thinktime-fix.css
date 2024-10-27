@@ -900,8 +900,8 @@ th *, td * {
 
 /* Success ticket status badge - Redesign */
 [class*=" status-module__success--"] {
-    color: brown;
-    background-color: pink;
+    color: crimson;
+    background-color: mistyrose;
 }
 
 /* Attachment border and shadow */
