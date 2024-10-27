@@ -21,6 +21,7 @@ LATEST FIXES
 
 26.10.2024
 ----------
+Attachments - New border and shadow (2)
 Attachments - New border and shadow
 All text-wrap changed from pretty to balance
 All text-wrap changed from balance to pretty
@@ -896,7 +897,15 @@ th *, td * {
 /* Attachment border and shadow */
 [class^="attachment-preview-module__content--"] {
     border: 1px solid lightgray;
-    box-shadow: 0 0 4px lightblue;
+    box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
+}
+
+/* Attached pictures in ticket comments - Border and shadow */
+[class^="attachments-grid-preview-module__container--"] {
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
+    margin: 4px;
+    max-width: 100%;
 }
 
 /* Ticket Module - Dialog buttons re-flow */
@@ -993,14 +1002,6 @@ h2[class^="article-section-module__title--"] {
 /* Attachments in ticket subject - Width for small screens to keep two columns */
 [class^="attachments-previews-list-module__attachment--"] {
     max-width: 40%;
-}
-
-/* Attached pictures in ticket comments - Border and shadow */
-[class^="attachments-grid-preview-module__container--"] {
-    box-shadow: 0 0 4px lightblue;
-    border: 1px solid lightgray;
-    margin: 4px;
-    max-width: 100%;
 }
 
 /* Names colors in ticket */
