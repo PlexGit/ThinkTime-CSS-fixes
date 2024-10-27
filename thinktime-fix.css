@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+27.10.2024
+----------
+Success ticket status badge - Redesign
+
 26.10.2024
 ----------
 Attachments - New border and shadow (2)
@@ -893,6 +897,12 @@ th *, td * {
 }
 
 /* POST v2.19 fixes */
+
+/* Success ticket status badge - Redesign */
+[class*=" status-module__success--"] {
+    color: brown;
+    background-color: pink;
+}
 
 /* Attachment border and shadow */
 [class^="attachment-preview-module__content--"] {
