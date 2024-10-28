@@ -905,6 +905,11 @@ th *, td * {
 
 /* POST v2.19 fixes */
 
+/* Tasks widget font 14px */
+[class^="title-cell-module__baseTitle--"] {
+  font-size: 14px;
+}
+
 /* All tickets list - Wrap header controls elements */
 [class^="main-module__headerBottom--"] {
     flex-wrap: wrap;
@@ -1202,7 +1207,6 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 [class^="general-tasks-table-module__listRow--"] {
     gap: 8px;
-    font-size: 14px;
 }
 
 /* DASHBOARD 2.0 Desktop View - Ticket name Bold */
