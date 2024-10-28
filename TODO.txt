@@ -4,3 +4,5 @@ KNOWN BUGS
 Think about making attachments in tickets displayed in print view
 
 Possibly forced height of text fields is not needed anymore
+
+Printable ticket - break-after: avoid for some elements
