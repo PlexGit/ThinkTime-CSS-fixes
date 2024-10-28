@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+28.10.2024
+----------
+All tickets list - Wrap header controls elements
+
 27.10.2024
 ----------
 Attachments in article subject - Width for small screens to keep two columns
@@ -898,6 +902,12 @@ th *, td * {
 }
 
 /* POST v2.19 fixes */
+
+/* All tickets list - Wrap header controls elements */
+[class^="main-module__headerBottom--"] {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
 
 /* Success ticket status badge - Redesign */
 [class*=" status-module__success--"] {
