@@ -21,6 +21,7 @@ LATEST FIXES
 
 28.10.2024
 ----------
+Printable fixes
 Printable task and ticket - Fixes for header elements
 
 28.10.2024
@@ -602,6 +603,11 @@ th *, td * {
   }
 
   /* PRINTABLE Task */
+  [class^="status-module__status--"] {
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
   [class*=" header-builder-module__iconTaskType--"] {
     display: flex;
   }
@@ -649,7 +655,7 @@ th *, td * {
     border: none !important;
     border-radius: unset !important;
   }
-  [class^="task-view-module__wrapper--"] * {
+  [class^="task-view-module__wrapper--"] {
     width: 100vw;
     max-width: 100%;
   }
