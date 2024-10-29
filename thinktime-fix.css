@@ -21,6 +21,10 @@ LATEST FIXES
 
 28.10.2024
 ----------
+Printable task and ticket - Fixes for header elements
+
+28.10.2024
+----------
 font-weight 600 instead of bold
 Tasks widget font 14px
 All tickets list - Wrap header controls elements
@@ -509,6 +513,14 @@ th *, td * {
   /* --------------------------------------------------------------------------------------- */
   
   /* PRINTABLE Ticket */
+  [class^="support-ticket-page-title-module__icon--"] {
+    display: flex;
+  }
+  [class*=" support-ticket-status-module__status--"] {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
   ul.k-tabstrip-items.k-reset,
   button.btn.btn-link.description-content--trigger.ng-binding,
   p.commentsCollapse.text-uppercase.ng-scope,
@@ -590,6 +602,9 @@ th *, td * {
   }
 
   /* PRINTABLE Task */
+  [class*=" header-builder-module__iconTaskType--"] {
+    display: flex;
+  }
   .contentContainer.corporateLongHeight,
   .taskSettingLine,
   p.lightColor.small,
@@ -655,6 +670,11 @@ th *, td * {
   }
   [class^="header-builder-module__headerDesktop--"] {
     background: unset;
+  }
+  [class*=" header-module__status--"] {
+    width: fit-content;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 
