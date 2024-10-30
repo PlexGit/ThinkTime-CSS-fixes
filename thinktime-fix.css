@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+30.10.2024
+----------
+Ticket duration - Aling items center
+
 29.10.2024
 ----------
 Ticket mobile modal window - Buttons gap
@@ -935,7 +939,12 @@ th *, td * {
 
 /* POST v2.19 fixes */
 
-/* Ticket modile modal window - Buttons gap */
+/* Ticket duration - Aling items center */
+[class^="support-ticket-duration-elements-module__element--"] {
+    align-items: center;
+}
+
+/* Ticket mobile modal window - Buttons gap */
 [class^="support-ticket-action-dialog-module__footer--"] {
     gap: 8px;
 }
