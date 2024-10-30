@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+29.10.2024
+----------
+Ticket mobile modal window - Buttons gap
+
 28.10.2024
 ----------
 Printable fixes
@@ -931,9 +935,14 @@ th *, td * {
 
 /* POST v2.19 fixes */
 
+/* Ticket modile modal window - Buttons gap */
+[class^="support-ticket-action-dialog-module__footer--"] {
+    gap: 8px;
+}
+
 /* Tasks widget font 14px */
 [class^="title-cell-module__baseTitle--"] {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 /* All tickets list - Wrap header controls elements */
