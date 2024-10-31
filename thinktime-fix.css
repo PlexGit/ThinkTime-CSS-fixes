@@ -21,7 +21,7 @@ LATEST FIXES
 
 30.10.2024
 ----------
-Textfield now has no forced min-height
+Textfield now have no forced min-height
 
 30.10.2024
 ----------
@@ -30,9 +30,6 @@ Ticket duration - Align items center
 29.10.2024
 ----------
 Ticket mobile modal window - Buttons gap
-
-28.10.2024
-----------
 Printable fixes
 Printable task and ticket - Fixes for header elements
 
@@ -943,7 +940,7 @@ th *, td * {
 
 /* POST v2.19 fixes */
 
-/* Ticket duration - Aling items center */
+/* Ticket duration - Align items center */
 [class^="support-ticket-duration-elements-module__element--"] {
     align-items: center;
 }
