@@ -21,7 +21,11 @@ LATEST FIXES
 
 30.10.2024
 ----------
-Ticket duration - Aling items center
+Textfield now has no forced min-height
+
+30.10.2024
+----------
+Ticket duration - Align items center
 
 29.10.2024
 ----------
@@ -1769,7 +1773,7 @@ textarea:not([id^="title."]):focus
   border-radius: 5px;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  min-height: 300px;
+  /* min-height: 300px; */
 }
 textarea:not([id^="title."]){
   font-size: 16px;
