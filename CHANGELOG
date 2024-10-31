@@ -1,5 +1,6 @@
 ---------- Oct 29, 2024
-Ticket duration - Aling items center
+Textfield now has no forced min-height
+Ticket duration - Align items center
 Ticket mobile modal window - Buttons gap
 Printable fixes
 Printable task and ticket - Fixes for header elements
