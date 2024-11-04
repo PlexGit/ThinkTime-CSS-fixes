@@ -21,6 +21,8 @@ LATEST FIXES
 
 04.11.2024
 ----------
+DASHBOARD 2.0 - Widget overflow-x set to hidden
+Scrollbars fixes
 Printable Ticket - Attachments now visible
 
 30.10.2024
@@ -264,10 +266,10 @@ li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) 
 /* SCROLLBARS */
 html {
   /* Chrome, Safari, Edge */
-  /* ::-webkit-scrollbar {
+  ::-webkit-scrollbar {
     height: 1rem;
     width: .5rem;
-  } */
+  }
   ::-webkit-scrollbar-track {
     background-color: transparent;
     border-radius: 9999px;
@@ -1145,6 +1147,11 @@ h2[class^="article-section-module__title--"] {
 }
 [class^="article-module__articleSubTitleItem--"] {
     flex-wrap: wrap;
+}
+
+/* DASHBOARD 2.0 - Widget overflow-x set to hidden */
+[class^="widget-module__body--"] {
+    overflow-x: hidden;
 }
 
 /* DASHBOARD 2.0 News section (new one) - Header static */
