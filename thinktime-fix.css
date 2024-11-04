@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+04.11.2024
+----------
+Printable Ticket - Attachments now visible
+
 30.10.2024
 ----------
 Textfield now has no forced min-height
@@ -352,8 +356,9 @@ th *, td * {
   }
   aside,
   iframe,
-  button, input[type="button"], input[type="submit"], input[type="reset"],
-  [type="button"],
+  button:not([class^="attachments-grid-preview-module__attachmentButton--"]):not([class^="attachment-preview-module__button--"]),
+  input[type="button"], input[type="submit"], input[type="reset"],
+  [type="button"]:not([class^="attachments-grid-preview-module__attachmentButton--"]):not([class^="attachment-preview-module__button--"]),
   [class^="icon-button-module__iconButton--"],
   [class^="icon-button-module__medium--"],
   [class^="icon-button-module__kindDefault--"],
@@ -530,7 +535,6 @@ th *, td * {
     padding-left: 12px;
     padding-right: 12px;
   }
-  
   ul.k-tabstrip-items.k-reset,
   button.btn.btn-link.description-content--trigger.ng-binding,
   p.commentsCollapse.text-uppercase.ng-scope,
@@ -544,7 +548,7 @@ th *, td * {
   .btn.btn-link.description-content--trigger.ng-binding,
   [class^="support-ticket-page-sidebar-module__sidebar--"],
   [class^="attachment-preview-module__buttonsWrapper--"],
-  [class^="attachments-grid-preview-module__wrapper--"],
+  /* [class^="attachments-grid-preview-module__wrapper--"], */
   /* [class^="support-ticket-info-section-module__root--"]:nth-child(2) */
   [class^="support-ticket-page-module__contentCard--"] > div:last-child
   {
