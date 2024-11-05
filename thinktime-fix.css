@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+05.11.2024
+----------
+Printable fixes - No forced fonts throughout all
+
 04.11.2024
 ----------
 DASHBOARD 2.0 - Widget overflow-x set to hidden
@@ -296,10 +300,10 @@ th *, td * {
 /* PRINTABLE */
 @media print {
   /* Forced corporate styles */
-  * {
+  /* * {
       font-family: "Verdana", "Arial", sans-serif;
       line-height: 1.5;
-  }
+  } */
   h1 {
     border: none;
   }
@@ -674,9 +678,9 @@ th *, td * {
     width: 100vw;
     max-width: 100%;
   }
-  [class^="history-module__dateTime--"] {
+  /* [class^="history-module__dateTime--"] {
     margin: 0;
-  }
+  } */
   [class*=" description-module__descriptionWrapper--"],
   [class*=" section-row-module__sectionMobile--"]
   {
@@ -2236,7 +2240,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 [class*="store-visits-summary-score-by-section-module__description--C9jm5"],
 .commentContent,
 [class*=" support-ticket-description-module__description--"],
-[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"]
+[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"]:not(pre)
 {
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -2250,12 +2254,6 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 [class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"] {
   color: var(--stylebot-ticket-text);
 }
-/* [class*=" support-ticket-description-module__description--"],
-[class*=" support-ticket-description-module__description--"] *,
-[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"],
-[class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"] * {
-  opacity: 0.85;
-} */
 
 /* External form table - Fix width */
 [class^="support-ticket-description-module__root--"] div[class^="rtf-sandbox-module__wrapper--"] table {
