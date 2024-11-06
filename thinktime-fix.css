@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+06.11.2024
+----------
+Printable Task - View Result button removed from requirements section
+
 05.11.2024
 ----------
 Printable fixes - No forced fonts throughout all
@@ -635,7 +639,8 @@ th *, td * {
   p.lightColor.small,
   [class^="task-view-module__rightSide--"],
   [data-cy="task-comment-form"],
-  [class^="task-view-module__contentTabsWrapper--"]
+  [class^="task-view-module__contentTabsWrapper--"],
+  [class^="requirements-module__viewResultsLink--"]
   {
     display: none;
   }
