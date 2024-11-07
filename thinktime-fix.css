@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+07.11.2024
+----------
+Header inner shadow
+
 06.11.2024
 ----------
 Printable Task - View Result button removed from requirements section
@@ -32,190 +36,6 @@ Printable fixes - No forced fonts throughout all
 DASHBOARD 2.0 - Widget overflow-x set to hidden
 Scrollbars fixes
 Printable Ticket - Attachments now visible
-
-30.10.2024
-----------
-Textfield now has no forced min-height
-
-30.10.2024
-----------
-Ticket duration - Align items center
-
-29.10.2024
-----------
-Ticket mobile modal window - Buttons gap
-Printable fixes
-Printable task and ticket - Fixes for header elements
-
-28.10.2024
-----------
-font-weight 600 instead of bold
-Tasks widget font 14px
-All tickets list - Wrap header controls elements
-
-27.10.2024
-----------
-Attachments in article subject - Width for small screens to keep two columns
-Success ticket status badge - Redesign
-
-26.10.2024
-----------
-Attachments - New border and shadow (2)
-Attachments - New border and shadow
-All text-wrap changed from pretty to balance
-All text-wrap changed from balance to pretty
-MYJYSK v2.19 - Ticket Module - Dialog buttons re-flow
-⚠️ EXPERIMENTAL - DASHBOARD 2.0 - Widgets fit to content - NOT IMPLEMENTED
-DASHBOARD 2.0 - System status widget items - Date color
-DASHBOARD 2.0 - Hide single text line news preview
-DASHBOARD 2.0 - System status widget items - Date wrap
-MYJYSK v2.19 - Articles and news - H1 and H2 font size (2)
-Headers - break-inside fix
-Calendar filter fixes for small screen
-More flew wraps in the pages headers
-Task dropdown menus and filters text wrap
-
-25.10.2024
-----------
-HR was undisplayed - Reverted back
-Notification bell info redesigned for small screens
-Dimmed text colors in ticket - Another approach
-KB search (not the unified search) - Results font-weight
-MYJYSK v2.19 - Articles and news - H1 and H2 font size
-News page - Buttons regress fix
-
-24.10.2024
-----------
-Dimmed text colors in ticket
-KB filter and counter - Fix for small screens
-KB articles list - Title text bold
-Printable Ticket - Smaller margin at the top
-Task View - Now scrollable again with fixed top
-MYJYSK v2.19 - Ticket module - Header buttons fix
-Tickets - Filter margins fix for small screens
-Notification bell - Controls in header fix for mobile view
-Notification bell content is now flex vertical
-DASHBOARD 2.0 - Task list - Title 1.2 height
-DASHBOARD 2.0 - Ticket list - Title 1.2 height
-DASHBOARD 2.0 - Agent data in the widget is now wrappable
-Store Visit - Filter fixes
-Store Visit - Summary header gaps
-Store Visit list of tasks - Type of task now under the name of task
-
-23.10.2024
-----------
-Store Visit summary - Bulk edit button now visible and centered
-Printable task fixed
-DASHBOARD 2.0 News widget readability and mobile view fix
-Custom form gap 0 in print view
-External form page breaks
---primary-color reverted do original
-External form table - Fix width
-Few color fixes
-MYJYSK v2.19 - Ticket comment - Expty avatar fix
-MYJYSK v2.19 - Ticket comment - Edit buttons fix for small screens
-rtf-sandbox-module__wrapper - Break word option to fit comments with awkwardly long text data in small screens
-MYJYSK v2.19 - Attachments in ticket subject - Width for small screens to keep two columns
-Textarea - Size and shadows effects only when focused
-MYJYSK v2.19 - Attached pictures in ticket comments - Border and shadow
-MYJYSK v2.19 - Names colors in ticket
-MYJYSK v2.19 - Tickets and comments text size etc
-MYJYSK v2.19 - Printable Ticket - Display buttons Yes/No in custom form
-MYJYSK v2.19 - Printable Ticket - Activity tab content and Attachments preview block removed
-MYJYSK v2.19 - Printable Ticket - Sidebar removed
-
-22.10.2024
-----------
-Task list - Margin after task name
-DASHBOARD 2.0 Desktop View - Ticket status - No break word
-Recent tickets statuses wrap and other fixes
-Recent tickets list in "New Ticket" pop-up - gaps and text-wrap
-Task header - Smaller paddings
-Ticket detail - Left part of title - items centered
-Legacy tickets list - Ticket name line-height 1.2
-
-21.10.2024
-----------
-Articles list - Unpublished changes mark fixes (2)
-Articles list - Unpublished changes mark fixes
-
-12.10.2024
-----------
-Printable Ticket - Allow page breaks inside comments
-
-11.10.2024
-----------
-Printable News fix - Now scrollable
-Printable - Attachments block in News
-
-08.10.2024
-----------
-Desktop view news widget items height fix (for mid-size screens)
-Learn and News header elements placing + Edit mode fixes for mobile view
-
-07.10.2024
-----------
-fix for DASHBOARD 2.0 Bulbs and other image-links paddings
-
-06.10.2024
-----------
-PRINTABLE - News article + Common fixesa
-PRINTABLE - News article footer
-PRINTABLE - Excessive border lines fix
-PRINTABLE - Section margin fix
-
-05.10.2024
-----------
-News article - Home button sticky
-Legacy article editor toolbar fixes
-News article - Sidebar position fix
-News article - Additional info on widget fixes
-News page - Category selector width fix
-News article - Additional info on widget fixes (2)
-
-03.10.2024
-----------
-DASHBOARD 2.0 - Extensive scrollbars on widgets - Temporary fix
-DASHBOARD 2.0 Desktop View - Links fix
-DASHBOARD 2.0 Desktop View - Links height and line-height swapped
-DASHBOARD 2.0 Desktop View - Task name Bold
-DASHBOARD 2.0 Desktop View - Ticket name Bold
-DASHBOARD 2.0 Tables in widgets - Head cells text wrap
-DASHBOARD 2.0 News widget readability fix
-DASHBOARD 2.0 System Status widget readability fix
-DASHBOARD 2.0 News widget readability fix for some width
-DASHBOARD 2.0 Bulbs and other image-links paddings
-DASHBOARD 2.0 Org tools paddings
-DASHBOARD 2.0 Added exclusion for breadcrumbs styles in the Tasks widget
-DASHBOARD 2.0 Task widget - Breadcrumbs for small screen fix
-DASHBOARD 2.0 News section (new one) - Header static
-News article - Footnote left align and italic
-News article - Header static (line)
-News section - Fixes for small screens
-News page - Category selector width fix
-
-02.10.2024
-----------
-Dashboard 2.0 fixes - Mobile View - Tickets list
-DASHBOARD 2.0 Mobile View - Organisation tools list (MYJYSKDOCS)
-DASHBOARD 2.0 Mobile View - Tasks list
-DASHBOARD 2.0 Mobile View - Links fix
-
-30.09.2024
-----------
-KB folders - Articles quantity border
-
-19.09.2024
-----------
-Dashboard 2.0 text wrap for some sections
-
-29.08.2024
-----------
-Store Visit summary wrapping the title elements to fit a mobile screen
-fix for: Corporate font fixes
-Corporate font fixes
-fix for: Tasks "Reopen" button colors
-Tasks "Reopen" button colors
 
 */
 
@@ -923,6 +743,11 @@ th *, td * {
 }
 
 /* COMMON RULES */
+
+/* Header inner shadow */
+[class^="header-module__header--"] {
+  box-shadow: inset 4px 4px 16px rgb(20 60 138 / 30%), inset -4px -4px 16px rgb(20 60 138 / 30%);
+}
 
 /* KB filter and counter - Fix for small screens */
 [class^="kb-search-module__wrapper--"] {
