@@ -746,7 +746,7 @@ th *, td * {
 
 /* Header inner shadow */
 [class^="header-module__header--"] {
-  box-shadow: inset 4px 4px 16px rgb(20 60 138 / 30%), inset -4px -4px 16px rgb(20 60 138 / 30%);
+  box-shadow: inset 4px 4px 16px rgb(20 60 138 / 50%), inset -4px -4px 16px rgb(20 60 138 / 50%);
 }
 
 /* KB filter and counter - Fix for small screens */
