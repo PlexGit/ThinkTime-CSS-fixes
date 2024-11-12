@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+12.11.2024
+----------
+fix for Header inner shadow
+
 07.11.2024
 ----------
 Header inner shadow
@@ -745,7 +749,8 @@ th *, td * {
 /* COMMON RULES */
 
 /* Header inner shadow */
-[class^="header-module__header--"] {
+/* [class^="header-module__header--"] */
+[data-test-distinct="header"] {
   box-shadow: inset 4px 4px 16px rgb(20 60 138 / 50%), inset -4px -4px 16px rgb(20 60 138 / 50%);
 }
 
