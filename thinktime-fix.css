@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+03.12.2024
+----------
+Fixes for names in tickets
+
 12.11.2024
 ----------
 fix for Header inner shadow
@@ -927,6 +931,13 @@ h2[class^="article-section-module__title--"] {
 [class^="support-ticket-description-module__name--"],
 [class^="support-ticket-comment-module__name--"] {
     color: var(--accent-color);
+    line-height: 1.2em;
+}
+
+/* Fixes for names in tickets */
+[class^="support-ticket-description-module__title--"] {
+    display: flex;
+    column-gap: 8px;
 }
 
 /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
