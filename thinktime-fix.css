@@ -19,7 +19,7 @@ MAIN FOCUS
 
 LATEST FIXES
 
-09.01.2025
+09.01.2024
 ----------
 Lock icon now reddish (eg for pricvate comments)
 
@@ -2179,6 +2179,7 @@ span.pull-right {
     border-radius: 2px;
     width: 18px !important;
     height: 18px !important;
+    opacity: .5;
 }
 
 /* Ticket action modal right */
