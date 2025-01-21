@@ -19,7 +19,11 @@ MAIN FOCUS
 
 LATEST FIXES
 
-09.01.2024
+21.01.2025
+----------
+Impersonation header - Static
+
+09.01.2025
 ----------
 Lock icon now reddish (eg for pricvate comments)
 
@@ -1751,7 +1755,9 @@ max-width: unset;
 [class^="kb-item-page-header-module__expired--"],
 [class^="task-creation-page-header-module__wrapper--"],
 [class^="task-creation-page-header-module__root--"],
-[class*=" support-page-module__header--"] {
+[class*=" support-page-module__header--"],
+[class^="impersonation-header-module__impersonationHeaderContainer--"]
+{
   position: static;
 }
 [class^="support-page-module__root--"] {
