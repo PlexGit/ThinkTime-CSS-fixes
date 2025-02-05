@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+05.02.2025
+----------
+Printable Ticket - Width and margins fix
+
 28.01.2025
 ----------
 User photo upload button - Text wrap
@@ -463,6 +467,11 @@ th *, td * {
   /* Smaller margin at the top */
   [class^="support-ticket-page-module__titleSection--"] {
     margin-top: 0;
+  }
+  /* Width and margins fix */
+  [class^="support-ticket-page-module__contentCard--"] {
+    margin: 0;
+    max-width: unset;
   }
 
   /* PRINTABLE Task */
