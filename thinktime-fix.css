@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+09.02.2025
+----------
+Ticket text color now matches articles and news text color
+
 05.02.2025
 ----------
 Printable Ticket - Width and margins fix
@@ -67,7 +71,8 @@ Printable Ticket - Attachments now visible
 * {
   /* --stylebot-color-ticket-title: #dae3d8; */
   --stylebot-color-ticket-title: #d3e8e6;
-  --stylebot-ticket-text: #4d4d4d;
+  /* --stylebot-ticket-text: #4d4d4d; */
+  --stylebot-ticket-text: #2b2f49;
   /* --knowledge-base-color: #547084;
   --primary-color: #547084; */
   --knowledge-base-color: #223355;
@@ -459,6 +464,11 @@ th *, td * {
   /* External form page breaks */
   div[class^="rtf-sandbox-module__wrapper--"] table * {
     break-inside: auto;
+  }
+  [class^="rtf-sandbox-module__wrapper--"], [class^="rtf-sandbox-module__wrapper--"] * {
+    page-break-inside: auto;
+    page-break-before: auto;
+    page-break-after: auto;
   }
   /* Custom form gap 0 */
   [class^="support-custom-form-module__customForm--"] {
