@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+12.02.2025
+----------
+Fix wrapping for Summary under elements in tables like My Work
+
 09.02.2025
 ----------
 Ticket text color now matches articles and news text color
@@ -1352,7 +1356,13 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-tasks-module__headingItem--"] {
   align-items: center;
 }
-
+[class^="summary-meta-module__metaItem--"] {
+    display: flex;
+    flex-wrap: wrap;
+}
+[class^="summary-meta-module__metaText--"] {
+    line-height: 1.2em;
+}
 
 /* Store Visit completion percentage items */
 [class^="store-visits-summary-score-by-section-module__questionSection--"] {
