@@ -23,6 +23,10 @@ LATEST FIXES
 ----------
 H1 and H2 size fixes in articles
 
+12.02.2025
+----------
+Fix wrapping for Summary under elements in tables like My Work
+
 09.02.2025
 ----------
 Ticket text color now matches articles and news text color
@@ -1357,7 +1361,6 @@ a[class^="org-tools-grid-module__orgTool--"] {
   align-items: center;
 }
 
-
 /* Store Visit completion percentage items */
 [class^="store-visits-summary-score-by-section-module__questionSection--"] {
     flex-wrap: wrap;
@@ -1416,6 +1419,15 @@ a[class^="org-tools-grid-module__orgTool--"] {
     text-wrap: balance;
     text-align: left;
     line-height: 1;
+}
+
+/* Fix wrapping for Summary under elements in tables like My Work */
+[class^="summary-meta-module__metaItem--"] {
+    display: flex;
+    flex-wrap: wrap;
+}
+[class^="summary-meta-module__metaText--"] {
+    line-height: 1.2em;
 }
 
 /* Tast comment textarea */
