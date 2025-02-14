@@ -19,9 +19,9 @@ MAIN FOCUS
 
 LATEST FIXES
 
-12.02.2025
+14.02.2025
 ----------
-Fix wrapping for Summary under elements in tables like My Work
+H! and H2 size fixes in articles
 
 09.02.2025
 ----------
@@ -883,10 +883,10 @@ th *, td * {
 
 /* Articles and news - H1 and H2 font size */
 h1[class^="learn-item-view-info-wrapper-module__title--"] {
-    font-size: 2em;
+    font-size: 2.25em;
 }
 h2[class^="article-section-module__title--"] {
-    font-size: 1.5em;
+    font-size: 1.75em;
 }
 
 /* KB articles list - Title text bold */
@@ -1356,13 +1356,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 [class^="store-visits-summary-tasks-module__headingItem--"] {
   align-items: center;
 }
-[class^="summary-meta-module__metaItem--"] {
-    display: flex;
-    flex-wrap: wrap;
-}
-[class^="summary-meta-module__metaText--"] {
-    line-height: 1.2em;
-}
+
 
 /* Store Visit completion percentage items */
 [class^="store-visits-summary-score-by-section-module__questionSection--"] {
