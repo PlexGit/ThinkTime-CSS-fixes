@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+19.02.2025
+----------
+Unpublished changes label text wrappable and centered
+
 14.02.2025
 ----------
 H1 and H2 size fixes in articles
@@ -790,6 +794,12 @@ th *, td * {
 }
 
 /* COMMON RULES */
+
+/* Unpublished changes label text wrappable and centered */
+[class^="unpublished-label-module__unpublishedLabel--"] {
+    text-wrap: balance;
+    text-align: center;
+}
 
 /* User photo upload button - Text wrap */
 .extendedPage .wrapperNewTicket .contentExtendedPage .userPhoto .btnTT.btn-primary {
