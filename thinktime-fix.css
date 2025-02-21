@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+21.02.2025
+----------
+DASHBOARD 2.0 - System status widget items - Date wrap now reverted to "row"
+
 19.02.2025
 ----------
 Unpublished changes label text wrappable and centered
@@ -938,7 +942,7 @@ h2[class^="article-section-module__title--"] {
 
 /* DASHBOARD 2.0 - System status widget items - Date wrap */
 [class^="list-without-images-module__descriptionWrapper--"] {
-    flex-direction: column;
+    flex-direction: row;
     gap: 0;
 }
 
