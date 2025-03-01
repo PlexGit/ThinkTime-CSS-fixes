@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+01.03.2025
+----------
+Attachments in ticket comments - Width
+
 21.02.2025
 ----------
 DASHBOARD 2.0 - System status widget items - Date wrap now reverted to "row"
@@ -881,12 +885,13 @@ th *, td * {
     box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
 }
 
-/* Attached pictures in ticket comments - Border and shadow */
+/* Attachments in ticket comments - Border, shadow and width */
 [class^="attachments-grid-preview-module__container--"] {
     border: 1px solid lightgray;
     box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
     margin: 4px;
     max-width: 100%;
+    width: fit-content;
 }
 
 /* Ticket Module - Dialog buttons re-flow */
