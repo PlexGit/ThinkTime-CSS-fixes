@@ -22,6 +22,7 @@ LATEST FIXES
 03.03.2025
 ----------
 h2[class^="article-section-module__title--"] color dimgray to differ from H1
+Experiment: Making lower widgets height fit to content
 
 01.03.2025
 ----------
@@ -806,6 +807,26 @@ th *, td * {
 }
 
 /* COMMON RULES */
+
+/* ⚠️ Experiment: Making lower widgets height fit to content */
+[data-widget-id="c852e28b-dd9f-469f-9fd5-1983a8050d1e"],
+[data-widget-id="8ee9b98d-842d-401d-aecc-5d1fad3412e5"],
+[data-widget-id="f7d30543-701b-4534-a0b0-082799ed2fac"],
+[data-widget-id="e6f0928d-0088-45f3-bbb8-bd14301cd07d"],
+[data-widget-id="64a3a0ed-0f79-447c-baa4-d5fbb27f1753"],
+[data-widget-id="1342ec8b-0378-4d83-8b5a-2fa4741bcf83"],
+[data-widget-id="08b22cfa-8d27-4afd-8f92-9b95b9dcdde6"],
+[data-widget-id="274cc08c-36c1-4cdc-bf9d-bdd29ffd01a7"],
+[data-widget-id="af37d790-314b-4401-be8f-f4cac78f80c6"],
+[data-widget-id="cb3d5912-0327-4abd-befd-54d024204011"],
+[data-widget-id="57352163-efe6-455d-aa66-51cafc3db0a8"],
+[data-widget-id="edad5831-29a4-4e48-bed1-6851450aa51e"],
+[data-widget-id="38056a42-bc59-4919-b0a1-d8e75bbac9ca"],
+[data-widget-id="7da0c073-bd20-40eb-8879-4ae60b4c6d83"],
+[data-widget-id="8cff1c3b-5d8b-4834-90a2-cd5f7d8e939a"]
+{
+  height: fit-content;
+}
 
 /* Unpublished changes label text wrappable and centered */
 [class^="unpublished-label-module__unpublishedLabel--"] {
