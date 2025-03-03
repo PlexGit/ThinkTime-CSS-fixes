@@ -809,6 +809,7 @@ th *, td * {
 /* COMMON RULES */
 
 /* ⚠️ Experiment: Making lower widgets height fit to content */
+[class*=" dashboard-layout-module__layout--"],
 [data-widget-id="c852e28b-dd9f-469f-9fd5-1983a8050d1e"],
 [data-widget-id="8ee9b98d-842d-401d-aecc-5d1fad3412e5"],
 [data-widget-id="f7d30543-701b-4534-a0b0-082799ed2fac"],
@@ -825,7 +826,7 @@ th *, td * {
 [data-widget-id="7da0c073-bd20-40eb-8879-4ae60b4c6d83"],
 [data-widget-id="8cff1c3b-5d8b-4834-90a2-cd5f7d8e939a"]
 {
-  height: fit-content;
+  height: fit-content !important;
 }
 
 /* Unpublished changes label text wrappable and centered */
