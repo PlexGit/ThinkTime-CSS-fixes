@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+03.03.2025
+----------
+h2[class^="article-section-module__title--"] color dimgray to differ from H1
+
 01.03.2025
 ----------
 Attachments in ticket comments - Width
@@ -910,6 +914,7 @@ h1[class^="learn-item-view-info-wrapper-module__title--"] {
 }
 h2[class^="article-section-module__title--"] {
     font-size: 1.75em;
+    color: dimgray;
 }
 
 /* KB articles list - Title text bold */
