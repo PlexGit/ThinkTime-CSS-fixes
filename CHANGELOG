@@ -4,6 +4,10 @@ MYJYSK v2.20 - Making truncated texts in Calendar not truncated
 MYJYSK v2.20 - Store Visit creation - Gaps and reflow of buttons
 MYJYSK v2.20 - Store Visit - My visits dashboard buttons reflow
 Attachments in ticket comments - Width reverted back from "fit-content" to TT default
+Notification bell - Margins of time removed
+Notification bell - Heading margins added
+Notification bell - Toggle unread - Centered
+Notification bell - Mobile screen fixes
 
 03.03.2025
 ----------
