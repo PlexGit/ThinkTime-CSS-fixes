@@ -19,6 +19,12 @@ MAIN FOCUS
 
 LATEST FIXES
 
+04.03.2025
+----------
+MYJYSK v2.20 - Making truncated texts in Calendar not truncated
+MYJYSK v2.20 - Store Visit creation - Gaps and reflow of buttons
+MYJYSK v2.20 - Store Visit - My visits dashboard buttons reflow
+
 03.03.2025
 ----------
 h2[class^="article-section-module__title--"] color dimgray to differ from H1
@@ -809,7 +815,7 @@ th *, td * {
 /* COMMON RULES */
 
 /* ⚠️ Experiment: Making lower widgets height fit to content */
-[class*=" dashboard-layout-module__layout--"],
+/* [class*=" dashboard-layout-module__layout--"],
 [data-widget-id="c852e28b-dd9f-469f-9fd5-1983a8050d1e"],
 [data-widget-id="8ee9b98d-842d-401d-aecc-5d1fad3412e5"],
 [data-widget-id="f7d30543-701b-4534-a0b0-082799ed2fac"],
@@ -827,6 +833,18 @@ th *, td * {
 [data-widget-id="8cff1c3b-5d8b-4834-90a2-cd5f7d8e939a"]
 {
   height: fit-content !important;
+} */
+
+/* MYJYSK v2.20 - Store Visit - My visits dashboard buttons reflow */
+[class^="schedule-empty-view-module__emptyViewActions--"] {
+  flex-wrap: wrap;
+}
+
+/* MYJYSK v2.20 - Store Visit creation - Gaps and reflow of buttons  */
+[class^="store-visit-edit-modal-module__footer--"] {
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 8px;
 }
 
 /* Unpublished changes label text wrappable and centered */
@@ -2583,6 +2601,11 @@ div.labelCustomField.ng-binding {
 /* Some fixes where text-wrap not needed */
 .dueFilter {
   text-wrap: nowrap;
+}
+
+/* MYJYSK v2.20 - Making truncated texts in Calendar not truncated */
+[class^="truncated-text-with-tooltip-module__content--"] {
+    text-wrap: balance;
 }
 
 /* Calendar items word wrap and items height*/
