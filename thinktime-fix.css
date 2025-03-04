@@ -1611,6 +1611,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 /* Notification bell */
 [class^="notifications-actions-module__actions--"] {
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 [class^="toggle-module__ttToggleWrapper--"] {
     align-items: center;
