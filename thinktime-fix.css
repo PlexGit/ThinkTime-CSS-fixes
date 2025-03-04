@@ -29,6 +29,7 @@ Notification bell - Margins of time removed
 Notification bell - Heading margins added
 Notification bell - Toggle unread - Centered
 Notification bell - Mobile screen fixes
+Notification bell - Mark read button wrap
 
 03.03.2025
 ----------
@@ -1608,6 +1609,9 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 
 /* Notification bell */
+[class^="notifications-actions-module__actions--"] {
+    flex-wrap: wrap;
+}
 [class^="toggle-module__ttToggleWrapper--"] {
     align-items: center;
 }
