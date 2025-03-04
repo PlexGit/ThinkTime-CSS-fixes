@@ -746,6 +746,10 @@ th *, td * {
     height: unset;
     width: 100%;
     padding: 8px;
+    /* gap: 8px; */
+  }
+  [class*=" empty-view-module__icon--"] {
+    margin-top: 16px;
   }
   [class^="notifications-panel-module__heading--"] {
     font-size: 18px;
