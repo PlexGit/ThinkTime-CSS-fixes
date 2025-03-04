@@ -24,6 +24,7 @@ LATEST FIXES
 MYJYSK v2.20 - Making truncated texts in Calendar not truncated
 MYJYSK v2.20 - Store Visit creation - Gaps and reflow of buttons
 MYJYSK v2.20 - Store Visit - My visits dashboard buttons reflow
+Attachments in ticket comments - Width reverted back from "fit-content" to TT default
 
 03.03.2025
 ----------
@@ -935,7 +936,7 @@ th *, td * {
     box-shadow: 2px 2px 4px rgba(22, 50, 63, 0.25);
     margin: 4px;
     max-width: 100%;
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 /* Ticket Module - Dialog buttons re-flow */
