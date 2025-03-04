@@ -25,6 +25,10 @@ MYJYSK v2.20 - Making truncated texts in Calendar not truncated
 MYJYSK v2.20 - Store Visit creation - Gaps and reflow of buttons
 MYJYSK v2.20 - Store Visit - My visits dashboard buttons reflow
 Attachments in ticket comments - Width reverted back from "fit-content" to TT default
+Notification bell - Margins of time removed
+Notification bell - Heading margins added
+Notification bell - Toggle unread - Centered
+Notification bell - Mobile screen fixes
 
 03.03.2025
 ----------
@@ -718,6 +722,12 @@ th *, td * {
     max-width: 85px;
   }
   /* Notification bell */
+  [class^="notification-module__innerWrapper--"] {
+    padding: 6px 26px 16px 0px;
+  }  
+  [class^="notification-module__readToggleButton--"] {
+    margin-right: 10px;
+  }
   [class^="notification-module__avatar--"],
   .notification-module__avatar--sAion {
     display: none;
@@ -738,6 +748,8 @@ th *, td * {
   }
   [class^="notifications-panel-module__heading--"] {
     font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   [class^="notifications-list-module__list--"] {
     padding-left: 0;
@@ -751,7 +763,7 @@ th *, td * {
     padding-right: 0;
     height: auto;
     max-height: calc(100vh - 200px);
-    min-width: calc(100vw - 108px);
+    min-width: calc(100vw - 128px);
   }
   [class^="notifications-panel-module__body--"] tt-empty-state tt-svg-icon {
     padding-top: 36px;
@@ -765,8 +777,10 @@ th *, td * {
     column-gap: 8px;
     row-gap: 2px;
   }
-  [class^="notification-module__close--"] {
+  [class*=" notification-module__close--"] {
     margin-left: 4px;
+    right: 12px;
+    top: 4px;
   }
   [class^="empty-state-module__tt-empty-state-title--"] {
     line-height: 1.2em;
@@ -1594,6 +1608,9 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 
 /* Notification bell */
+[class^="toggle-module__ttToggleWrapper--"] {
+    align-items: center;
+}
 [class^="notifications-panel-module__panel--"] {
   height: unset;
 }
@@ -1615,8 +1632,8 @@ a[class^="org-tools-grid-module__orgTool--"] {
   text-align: right;
   font-size: smaller;
   font-style: italic;
-  margin-top: 4px;
-  margin-bottom: 8px;
+  /* margin-top: 4px;
+  margin-bottom: 8px; */
 }
 [class^="notification-module__content--"] {
     display: flex;
