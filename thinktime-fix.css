@@ -1,6 +1,6 @@
 /*
 
-Fixes for usability and design issues on the ThinkTime platform's web interface.
+Fixes and patches for styles for usability and design issues on the ThinkTime platform's web interface.
 This CSS file or its content can be used inside any style-changing extension, e.g., Stylebot (personal recommendation), Styler, or Tampermonkey.
 It mostly tested only in Chrome desktop and Kiwi mobile browsers from my side.
 
@@ -11,7 +11,7 @@ Relatively full changelog (updated periodically):
 https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
 
 MAIN FOCUS
-- Word wraps and elements re-flow to make many labels, names, and captions visible
+- Word wraps and elements reflow to make many labels, names, and captions visible
 - Fixed headers on almost all pages to have enough space for content
 - Redesigned article view
 - Printable styles (CTRL+P) for articles, news, tickets, and task details
@@ -51,60 +51,6 @@ DASHBOARD 2.0 - System status widget items - Date wrap now reverted to "row"
 19.02.2025
 ----------
 Unpublished changes label text wrappable and centered
-
-14.02.2025
-----------
-H1 and H2 size fixes in articles
-
-12.02.2025
-----------
-Fix wrapping for Summary under elements in tables like My Work
-
-09.02.2025
-----------
-Ticket text color now matches articles and news text color
-
-05.02.2025
-----------
-Printable Ticket - Width and margins fix
-
-28.01.2025
-----------
-User photo upload button - Text wrap
-
-21.01.2025
-----------
-Impersonation header - Static
-
-09.01.2025
-----------
-Lock icon now reddish (eg for pricvate comments)
-
-03.12.2024
-----------
-Fixes for names in tickets
-
-12.11.2024
-----------
-fix for Header inner shadow
-
-07.11.2024
-----------
-Header inner shadow
-
-06.11.2024
-----------
-Printable Task - View Result button removed from requirements section
-
-05.11.2024
-----------
-Printable fixes - No forced fonts throughout all
-
-04.11.2024
-----------
-DASHBOARD 2.0 - Widget overflow-x set to hidden
-Scrollbars fixes
-Printable Ticket - Attachments now visible
 
 */
 
