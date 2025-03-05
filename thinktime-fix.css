@@ -30,6 +30,7 @@ Notification bell - Heading margins added
 Notification bell - Toggle unread - Centered
 Notification bell - Mobile screen fixes
 Notification bell - Mark read button wrap
+File size in News article in Edit mode - Slightly moved to make "Download" visible
 
 03.03.2025
 ----------
@@ -854,6 +855,11 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* File size in News article in Edit mode - Slightly moved to make "Download" visible */
+.k-file-size {
+  margin-left: 96px;
+}
 
 /* MYJYSK v2.20 - Store Visit - My visits dashboard buttons reflow */
 [class^="schedule-empty-view-module__emptyViewActions--"] {
