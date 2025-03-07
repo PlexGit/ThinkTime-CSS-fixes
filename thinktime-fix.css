@@ -19,9 +19,13 @@ MAIN FOCUS
 
 LATEST FIXES
 
+07.03.2025
+----------
+MYJYSK v2.20 - Notification bell header wrap
+
 06.03.2025
 ----------
-Fix for MYJYSK v2.20 - Making truncated texts in Calendar not truncated
+Fix for: MYJYSK v2.20 - Making truncated texts in Calendar not truncated
 Articles and news - H1 and H2 font color "darkslategray"
 
 05.03.2025
@@ -809,6 +813,11 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* MYJYSK v2.20 - Notification bell header wrap */
+[class^="notifications-panel-module__header--"] {
+  flex-wrap: wrap;
+}
 
 /* File size in News article in Edit mode - Slightly moved to make "Download" visible */
 .k-file-size {
