@@ -22,6 +22,7 @@ LATEST FIXES
 07.03.2025
 ----------
 MYJYSK v2.20 - Notification bell header wrap
+MYJYSK v2.20 - Making truncated filter options in Calendar not truncated
 
 06.03.2025
 ----------
@@ -813,6 +814,11 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* MYJYSK v2.20 - Making truncated filter options in Calendar not truncated */
+[class^="filter-on-radiobuttons-module__optionValue--"] [class^="truncated-text-with-tooltip-module__content--"] {
+  text-wrap: balance;
+}
 
 /* MYJYSK v2.20 - Notification bell header wrap */
 [class^="notifications-panel-module__header--"] {
