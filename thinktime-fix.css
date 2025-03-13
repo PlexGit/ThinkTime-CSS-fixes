@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+13.03.2025
+----------
+Attachment actions buttons overlay fix
+
 07.03.2025
 ----------
 MYJYSK v2.20 - Notification bell header wrap
@@ -916,6 +920,12 @@ th *, td * {
 [class*=" status-module__success--"] {
     color: crimson;
     background-color: mistyrose;
+}
+
+/* Attachment actions buttons overlay fix */
+[class*=" attachment-preview-module__actionsOverlay--"] a {
+    height: fit-content;
+    width: fit-content;
 }
 
 /* Attachment border and shadow */
