@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+17.03.2025
+----------
+Breadcrumbs - Text-wrap fix
+
 13.03.2025
 ----------
 Attachment actions buttons overlay fix
@@ -2579,6 +2583,7 @@ span.hiddenOnHover.ng-binding,
 [class^="breadcrumbs-module__highlightedText--"],
 [class^="breadcrumbs-leaf-module__highlightedText--"],
 [class^="breadcrumbs-leaf-module__breadcrumb--"],
+[class^="breadcrumbs-leaf-module__breadcrumb--"] *,
 .survey-table--cell,
 .titleWidget,
 .ticketsListPage .titleSection .titlePart h1,
