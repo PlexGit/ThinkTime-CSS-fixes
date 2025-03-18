@@ -19,6 +19,11 @@ MAIN FOCUS
 
 LATEST FIXES
 
+18.03.2025
+----------
+Ticket heading text - Deep blue color
+Articles and news - H1 and H2 font - Deep blue color
+
 17.03.2025
 ----------
 Breadcrumbs - Text-wrap fix
@@ -78,6 +83,7 @@ Unpublished changes label text wrappable and centered
   --stylebot-color-ticket-title: #d3e8e6;
   /* --stylebot-ticket-text: #4d4d4d; */
   --stylebot-ticket-text: #2b2f49;
+  --stylebot-heading-text: #1a3a5a;
   /* --knowledge-base-color: #547084;
   --primary-color: #547084; */
   --knowledge-base-color: #223355;
@@ -957,14 +963,19 @@ th *, td * {
     row-gap: 8px;
 }
 
-/* Articles and news - H1 and H2 font size */
+/* Articles and news - H1 and H2 font size and color */
 h1[class^="learn-item-view-info-wrapper-module__title--"] {
     font-size: 2.25em;
-    color: darkslategray;
+    color: var(--stylebot-heading-text);
 }
 h2[class^="article-section-module__title--"] {
     font-size: 1.75em;
-    color: darkslategray;
+    color: var(--stylebot-heading-text);
+}
+
+/* Ticket title color */
+h2[class^="support-ticket-title-module__title--"] {
+    color: var(--stylebot-heading-text);
 }
 
 /* KB articles list - Title text bold */
