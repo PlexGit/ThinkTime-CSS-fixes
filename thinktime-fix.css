@@ -22,6 +22,7 @@ LATEST FIXES
 24.03.2025
 ----------
 Unified Search results date - no text wrap
+KB folders - Articles quantity - New positioning
 
 23.03.2025
 ----------
@@ -796,6 +797,16 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* KB folders - Articles quantity - New positioning */
+[class^="knowledge-base-folders-module__heading--"] {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+[class^="knowledge-base-folders-module__articleCount--"] {
+    text-wrap-mode: nowrap;
+}
 
 /* Unified Search results date - no text wrap */
 [class^="result-detail-module__valueColumn--"],
