@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+24.03.2025
+----------
+Unified Search results date - no text wrap
+
 23.03.2025
 ----------
 Unified Search field height fix when focus within
@@ -792,6 +796,12 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* Unified Search results date - no text wrap */
+[class^="result-detail-module__valueColumn--"],
+[class^="result-detail-module__valueColumn--"] div {
+  text-wrap-mode: nowrap;
+}
 
 /* MYJYSK v2.20 - Making truncated filter options in Calendar not truncated */
 [class^="filter-on-radiobuttons-module__optionValue--"] [class^="truncated-text-with-tooltip-module__content--"] {
