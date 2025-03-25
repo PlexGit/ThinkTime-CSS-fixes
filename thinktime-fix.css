@@ -23,6 +23,7 @@ LATEST FIXES
 ----------
 Fixed text-wrap for tickets list titles
 KB articles list - Fixes for elements and text wrapping
+Fallback font added for Verdana
 
 24.03.2025
 ----------
@@ -45,6 +46,10 @@ Breadcrumbs - Text-wrap fix
 */
 
 /* GLOBAL */
+
+/* Fallback font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+
 * {
   /* --stylebot-color-ticket-title: #dae3d8; */
   --stylebot-color-ticket-title: #d3e8e6;
@@ -132,7 +137,7 @@ th *, td * {
 @media print {
   /* Forced corporate styles */
   /* * {
-      font-family: "Verdana", "Arial", sans-serif;
+      font-family: "Verdana", "Nunito Sans", "Arial", sans-serif;
       line-height: 1.5;
   } */
   h1 {
@@ -281,7 +286,7 @@ th *, td * {
   [class^="kb-item-view-info-module__date--"],
   [class^="kb-item-owner-view-module__owner--"],
   [class^="kb-article-footnote-module__publishDate--"] {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   }
   [class^="article-section-module__section--"] {
     max-width: 100%;
@@ -1781,12 +1786,12 @@ textarea:not([id^="title."]):focus
   resize: vertical;
   border-radius: 5px;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   /* min-height: 300px; */
 }
 textarea:not([id^="title."]){
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
 }
 /* Lighter outline for focused text areas */
 .k-editable-area:focus-visible,
@@ -2228,7 +2233,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 [class*="description-module__description--"] *
 {
   /* font-size: 16px; */
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   line-height: 1.5
 }
 
@@ -2242,7 +2247,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 [class^="support-ticket-comment-module__commentBody--"] [class^="rtf-sandbox-module__wrapper--"]:not(pre)
 {
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   line-height: 1.5
 }
 [class^="rtf-sandbox-module__wrapper--"], [class^="rtf-sandbox-module__wrapper--"] * {
@@ -2341,7 +2346,7 @@ span.pull-right {
   border: none;
   padding: 0;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
 }
 
 .textAreaModal .bottomBlock {
@@ -2350,7 +2355,7 @@ span.pull-right {
   padding-left: 5px;
   padding-right: 5px;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
 }
 
 .textAreaModal textarea {
@@ -2359,7 +2364,7 @@ span.pull-right {
   padding-right: 16px;
   padding-bottom: 8px;
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
 }
 
 /* Attachment add in Tickets */
@@ -2556,7 +2561,7 @@ div.k-content.k-state-active {
 /* Task description content */
 div.ticketDetailsContent p.ng-binding {
   font-size: 16px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   line-height: 1.5
 }
 
