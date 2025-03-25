@@ -2,6 +2,7 @@
 ----------
 Fixed text-wrap for tickets list titles
 KB articles list - Fixes for elements and text wrapping
+Fallback font added for Verdana
 
 24.03.2025
 ----------
