@@ -48,7 +48,9 @@ Breadcrumbs - Text-wrap fix
 /* GLOBAL */
 
 /* Fallback font */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@300;400;700&display=swap'); */
 
 * {
   /* --stylebot-color-ticket-title: #dae3d8; */
