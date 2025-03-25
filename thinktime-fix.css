@@ -19,6 +19,11 @@ MAIN FOCUS
 
 LATEST FIXES
 
+25.03.2025
+----------
+Fixed text-wrap for tickets list titles
+KB articles list - Fixes for elements and text wrapping
+
 24.03.2025
 ----------
 Unified Search results date - no text wrap
@@ -798,6 +803,21 @@ th *, td * {
   height: fit-content !important;
 } */
 
+/* KB articles list - Fixes for elements and text wrapping */
+[class^="knowledge-base-article-list-module__articleInfoWrapper--"] {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 4px;
+    opacity: .5;
+}
+[class*=" knowledge-base-article-list-module__dot--"] {
+    display: none;
+}
+[class^="knowledge-base-article-list-module__titleRow--"] {
+    text-wrap: balance;
+}
+
 /* KB folders - Articles quantity - New positioning */
 [class^="knowledge-base-folders-module__heading--"] {
     flex-direction: row;
@@ -1259,11 +1279,12 @@ a[class^="org-tools-grid-module__orgTool--"] {
 /* text-wrap */
 [class^="knowledge-base-sidebar-item-module__title--"],
 [class^="support-ticket-row-title-module__title--"],
+[class^="support-ticket-row-title-module__title--"] *,
 [class*=" distribution-breadcrumbs-module__location--"] > *,
 [class^="distribution-breadcrumbs-module__currentLocation--"],
 [class^="recent-support-ticket-card-module__name--"]
 {
-  text-wrap: balance;
+  text-wrap: balance !important;
 }
 /* Breadcrumbs in task distribution - Center */
 [class^="distribution-breadcrumbs-module__currentLocation--"] {
