@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+26.03.2025
+----------
+KB articles list - Symbol ">" removed
+
 25.03.2025
 ----------
 Fixed text-wrap for tickets list titles
@@ -809,6 +813,14 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* KB articles list - Symbol ">" removed */
+[class^="knowledge-base-article-list-module__icon--"] {
+    display: none;
+}
+[class^="knowledge-base-article-list-module__item--"] {
+    margin-right: 0;
+}
 
 /* KB articles list - Fixes for elements and text wrapping */
 [class^="knowledge-base-article-list-module__articleInfoWrapper--"] {
