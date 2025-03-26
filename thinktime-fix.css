@@ -22,6 +22,7 @@ LATEST FIXES
 26.03.2025
 ----------
 KB articles list - Symbol ">" removed
+Filter "Soty by" text alligned right
 
 25.03.2025
 ----------
@@ -813,6 +814,11 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* Filter "Soty by" text alligned right */
+[class^="engage-sort-filter-module__label--"] {
+    text-align: end;
+}
 
 /* KB articles list - Symbol ">" removed */
 [class^="knowledge-base-article-list-module__icon--"] {
