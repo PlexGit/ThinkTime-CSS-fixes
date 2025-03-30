@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+30.03.2025
+----------
+Tasks summary title word wrap
+
 26.03.2025
 ----------
 KB articles list - Symbol ">" removed
@@ -2637,7 +2641,8 @@ span.hiddenOnHover.ng-binding,
 /* Ticlet custom form labels */
 .labelCustomField,
 /* Task title */
-[class^="header-builder-module__title--"]
+[class^="header-builder-module__title--"],
+[class^="summary-module__summaryTitle--"]
 {
   /* white-space: normal; */
   text-wrap: balance;
