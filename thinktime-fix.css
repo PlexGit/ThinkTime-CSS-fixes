@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+05.04.2025
+----------
+DASHBOARD 2.0 System Status widget readability fix (2)
+
 30.03.2025
 ----------
 Tasks summary title word wrap
@@ -1208,7 +1212,7 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 
 /* DASHBOARD 2.0 System Status widget readability fix */
-[class^="list-without-images-module__title--"] {
+[class^="list-without-images-module__title--"] * {
     text-wrap: balance;
 }
 
