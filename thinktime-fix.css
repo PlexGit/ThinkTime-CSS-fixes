@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+15.04.2025
+----------
+News Article editor - Attachments names text wrap
+
 05.04.2025
 ----------
 DASHBOARD 2.0 System Status widget readability fix (2)
@@ -800,8 +804,6 @@ th *, td * {
   }
 }
 
-/* COMMON RULES */
-
 /* ⚠️ Experiment: Making lower widgets height fit to content */
 /* [class*=" dashboard-layout-module__layout--"],
 [data-widget-id="c852e28b-dd9f-469f-9fd5-1983a8050d1e"],
@@ -822,6 +824,15 @@ th *, td * {
 {
   height: fit-content !important;
 } */
+
+/* COMMON RULES */
+
+/* News Article editor - Attachments names text wrap */
+.k-file-name {
+    text-wrap: balance;
+    overflow: visible;
+    overflow-wrap: break-word;
+}
 
 /* Filter "Soty by" text alligned right */
 [class^="engage-sort-filter-module__label--"] {
