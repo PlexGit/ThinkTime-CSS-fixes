@@ -21,6 +21,7 @@ LATEST FIXES
 
 07.05.2025
 ----------
+Notification Bell - No text underline for links
 Notification Bell - Link color in notifications
 
 15.04.2025
@@ -830,6 +831,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Notification Bell - No text underline for links */
+[class^="notification-module__innerWrapper--"]:hover [class^="notification-module__linkText--"] {
+    text-decoration: none;
+}
 
 /* Notification Bell - Link color in notifications */
 [class^="notification-module__linkText--"] {
