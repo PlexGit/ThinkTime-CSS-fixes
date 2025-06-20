@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+20.06.2025
+----------
+Task description text font made not forced for subelements
+
 19.06.2025
 ----------
 Temporary fix for width of ticket name column in Support Module table
@@ -2299,7 +2303,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 /* [class^="store-visits-summary-task-module__titleSection--"], */
 [class^="task-view-module__description--"],
 [class*="task-view-module__description--"],
-[class*="description-module__description--"] *
+[class*="description-module__description--"]
 {
   /* font-size: 16px; */
   font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
