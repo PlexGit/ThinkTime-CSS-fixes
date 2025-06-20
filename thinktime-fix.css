@@ -847,7 +847,7 @@ th *, td * {
 /* Temporary fix for width of ticket name column in Support Module table */
 table[data-cy="support-tickets-table"] th:nth-child(2),
 table[data-cy="support-tickets-table"] td:nth-child(2) {
-    width: 50% !important;
+    width: 40% !important;
 }
 
 /* Notification Bell - No text underline for links */
