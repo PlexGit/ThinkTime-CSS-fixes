@@ -33,6 +33,7 @@ Task creation - Description field height set to auto
 Fixes for sidebar in News article
 Task description - Forced font size 9pt removed
 Quick Task title font size during editing
+News and Article headings - New bottom margin 16px
 
 20.06.2025
 ----------
@@ -695,7 +696,7 @@ th *, td * {
   #section_title_539215,
   [class^="learn-item-view-info-wrapper-module__title--"],
   [class^="article-section-module__title--"] {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
   }
   /* Widget title */
   .dashboard .dashboardPanel .tabContent .k-listview .listItem.widgetContainer .titleWidget {
@@ -1839,7 +1840,7 @@ h1, h2, h3, h4, h5, h6,
 #section_title_539215,
 [class^="learn-item-view-info-wrapper-module__title--"],
 [class^="article-section-module__title--"] {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 /* Links are inline-blocks */
