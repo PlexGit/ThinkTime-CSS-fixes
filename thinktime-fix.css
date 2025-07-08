@@ -19,6 +19,18 @@ MAIN FOCUS
 
 LATEST FIXES
 
+08.07.2025
+----------
+POST v2.21 FIXES:
+Divider in app header - Hide while scrolling down
+Titles for News article now excleded from some textarea rules
+Article editor sections shadow and margins (now for News too)
+News article title marging during edit mode
+News and KB article title font size during editing
+News article forced 9pt font size removed
+Field header removed for News and KB edit mode
+Task creation - Description field height set to auto
+
 20.06.2025
 ----------
 Task description text font made not forced for subelements
@@ -606,11 +618,11 @@ th *, td * {
   }
 }
 
-@media only screen and (max-width: 920px) {
+/* @media only screen and (max-width: 920px) {
   [class^="learn-editor-content-module__header--"] {
       top: 90px;
   }
-}
+} */
 
 @media only screen and (max-width: 480px) {
 /* Ticket actions dropdown menu fix */
@@ -843,6 +855,39 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* POST v2.21 FIXES */
+/* Divider in app header - Hide while scrolling down */
+[class^="news-article-view-module__divider--"] {
+    position: static;
+}
+/* News article title marging during edit mode */
+[class^="learn-editor-stateless-title-module__field--"] {
+  margin-bottom: 48px;
+}
+/* learn-editor-title-module__field margin top */
+[class^="learn-editor-title-module__field--"] {
+  margin-top: 24px;
+}
+/* News and KB article title font size during editing */
+[class*=" learn-editor-stateless-title-module__textarea--"],
+[class*=" learn-editor-title-module__title--"] {
+  font-size: 26px;
+}
+/* News article forced 9pt font size removed */
+[class*=" news-article-view-module__section--"] .fr-view div,
+[class^="wysiwyg-view-module__root--"] .fr-view div{
+  font-size: initial;
+}
+/* Task creation - Description field height set to auto */
+.fr-wrapper {
+  height: initial;
+}
+
+/* Field header removed for News and KB edit mode */
+[class*="__fieldHeader--"] {
+  display: none;
+}
 
 /* Temporary fix for width of ticket name column in Support Module table */
 table[data-cy="support-tickets-table"] th:nth-child(2),
@@ -1853,7 +1898,7 @@ span.ticketName a,
 /* Editable areas are resizeable and have inner shadow and min-height */
 .k-editable-area,
 .commentsPanel .postComment textarea,
-textarea:not([id^="title."]):focus
+textarea:not([id^="title."]):not([id$=".title"]):focus
 {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
@@ -1862,7 +1907,7 @@ textarea:not([id^="title."]):focus
   font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   /* min-height: 300px; */
 }
-textarea:not([id^="title."]){
+textarea:not([id^="title."]):not([id$=".title"]){
   font-size: 16px;
   font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
 }
@@ -1943,11 +1988,17 @@ max-width: unset;
   background-color: ghostwhite;
 }
 
-/* Article editor sections shadow and margins*/
-[class^="article-section-edit-module__section--"] {
+/* Article editor sections shadow and margins */
+[class^="article-section-edit-module__section--"],
+[class^="news-article-section-editor-module__section--"] {
   box-shadow: 0 0 10px gainsboro;
+}
+[class^="article-section-edit-module__section--"] {
   margin-top: 12px;
 }
+/* [class^="news-article-section-editor-module__section--"]:first-of-type {
+  margin-top: 12px;
+} */
 
 /* Article editor Add buton margins fix */
 [class^="article-section-add-button-module__separatorBlock--"] {
