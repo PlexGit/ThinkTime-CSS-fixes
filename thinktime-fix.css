@@ -30,6 +30,7 @@ News and KB article title font size during editing
 News article forced 9pt font size removed
 Field header removed for News and KB edit mode
 Task creation - Description field height set to auto
+Fixes for sidebar in News article
 
 20.06.2025
 ----------
@@ -887,6 +888,17 @@ th *, td * {
 /* Field header removed for News and KB edit mode */
 [class*="__fieldHeader--"] {
   display: none;
+}
+
+/* Fixes for sidebar in News article */
+[class^="news-article-view-module__sidebar--"],
+[class^="news-article-view-module__sidebarWithAlert--"] {
+    position: static;
+    max-height: unset;
+}
+[class^="related-articles-module__list--"],
+[class^="related-articles-module__block--"] {
+    overflow: visible;
 }
 
 /* Temporary fix for width of ticket name column in Support Module table */
