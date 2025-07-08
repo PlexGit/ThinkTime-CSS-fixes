@@ -1,3 +1,15 @@
+08.07.2025
+----------
+POST v2.21 FIXES:
+Divider in app header - Hide while scrolling down
+Titles for News article now excleded from some textarea rules
+Article editor sections shadow and margins (now for News too)
+News article title marging during edit mode
+News and KB article title font size during editing
+News article forced 9pt font size removed
+Field header removed for News and KB edit mode
+Task creation - Description field height set to auto
+
 20.06.2025
 ----------
 Task description text font made not forced for subelements
