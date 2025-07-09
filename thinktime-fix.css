@@ -25,7 +25,6 @@ Froala logo removed from HTML editor
 KB article title padding during edit mode
 Froala HTML editor toolbar yellowish colors
 Froala editor buttons width fix
-System input fields - Default font size 16px
 
 08.07.2025
 ----------
@@ -916,11 +915,6 @@ th *, td * {
 /* Task creation - Description field height set to auto */
 .fr-wrapper {
   height: initial;
-}
-
-/* System input fields - Default font size 16px */
-[class^="input-module__ttInput--"] {
-  font-size: 16px;
 }
 
 /* Quick Task title font size during editing */
