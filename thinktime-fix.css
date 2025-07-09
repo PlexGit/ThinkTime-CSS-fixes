@@ -24,6 +24,7 @@ LATEST FIXES
 Froala logo removed from HTML editor
 KB article title padding during edit mode
 Froala HTML editor toolbar yellowish colors
+Froala editor buttons width fix
 
 08.07.2025
 ----------
@@ -867,6 +868,10 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.21 FIXES */
+/* Froala editor buttons width fix */
+.fr-btn span {
+  width: fit-content !important;
+}
 /* Froala HTML editor toolbar yellowish colors */
 .fr-toolbar {
   background-color: cornsilk;
