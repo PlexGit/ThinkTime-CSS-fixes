@@ -21,6 +21,7 @@ LATEST FIXES
 
 09.07.2025
 ----------
+Support Module - Sidebar max width
 Froala logo removed from HTML editor
 KB article title padding during edit mode
 Froala HTML editor toolbar yellowish colors
@@ -915,6 +916,11 @@ th *, td * {
 /* Task creation - Description field height set to auto */
 .fr-wrapper {
   height: initial;
+}
+
+/* Support Module - Sidebar max width */
+[class^="support-ticket-page-sidebar-module__sidebar--"] {
+    max-width: 20%;
 }
 
 /* Quick Task title font size during editing */
