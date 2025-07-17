@@ -21,6 +21,7 @@ LATEST FIXES
 
 17.07.2025
 ----------
+KB grid - View more button-like style
 KB logos - Removings excessive margings and white corners
 Support Module - Sidebar - Logged time elements wrapping
 Dashboard - Tables with images-links - Removings excessive margings
@@ -2962,9 +2963,12 @@ div.labelCustomField.ng-binding {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
-/* KB grid - View more color */
+/* KB grid - View more color and button-like style */
 [class^="knowledge-base-folders-module__viewMore--"] {
   color: var(--link-color);
+  padding: 8px;
+  border: solid 1px;
+  border-radius: 4px;
 }
 
 /* KB folders - items max height */
