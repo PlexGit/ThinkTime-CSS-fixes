@@ -21,6 +21,7 @@ LATEST FIXES
 
 17.07.2025
 ----------
+Article expired message - Static on scroll
 Small img icons fix - Margin
 KB grid - View more button-like style
 KB logos - Removings excessive margings and white corners
@@ -2111,6 +2112,7 @@ max-width: unset;
 [class^="app-header-module__header--"],
 [class^="kb-item-page-header-module__container--"],
 [class^="kb-item-page-header-module__expired--"],
+[class^="article-expired-alert-module__expired--"],
 [class^="task-creation-page-header-module__wrapper--"],
 [class^="task-creation-page-header-module__root--"],
 [class*=" support-page-module__header--"],
