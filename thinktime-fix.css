@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+17.07.2025
+----------
+Support Module - Sidebar - Logged time elements wrapping
+
 16.07.2025
 ----------
 Support Module - Sidebar max width
@@ -920,10 +924,13 @@ th *, td * {
 .fr-wrapper {
   height: initial;
 }
-
 /* Support Module - Sidebar max width */
 [class^="support-ticket-page-sidebar-module__sidebar--"] {
     max-width: 20%;
+}
+/* Support Module - Sidebar - Logged time elements wrapping */
+[class^="support-ticket-time-logged-module__root--"] {
+    flex-wrap: wrap;
 }
 
 /* Quick Task title font size during editing */
