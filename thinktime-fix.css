@@ -11,7 +11,7 @@ Relatively full changelog (updated periodically):
 https://github.com/PlexGit/ThinkTime-CSS-fixes/blob/main/CHANGELOG
 
 MAIN FOCUS
-- Word wraps and elements reflow to make many labels, names, and captions visible
+- Word wraps and elements reflow to make many labels, names, and captions visiblea
 - Fixed headers on almost all pages to have enough space for content
 - Redesigned article view
 - Printable styles (CTRL+P) for articles, news, tickets, and task details
@@ -22,6 +22,8 @@ LATEST FIXES
 17.07.2025
 ----------
 Support Module - Sidebar - Logged time elements wrapping
+Dashboard - Tables with images-links - Removings excessive margings
+DASHBOARD 2.0 Bulbs and other image-links paddings (2)
 
 16.07.2025
 ----------
@@ -253,7 +255,7 @@ th *, td * {
       font-family: Monospace;
   }
 
-  /* PRINTABLE COMMON CLEANUP */
+  /* PRINTABLE CLEANUP */
   body {
     position: unset;
     height: unset;
@@ -876,6 +878,11 @@ th *, td * {
 /* COMMON RULES */
 
 /* POST v2.21 FIXES */
+/* Dashboard - Tables with images-links - Removings excessive margings */
+.react-grid-item [class^="wysiwyg-widget-view-module__widget--"] .fr-view td img {
+    margin: 0 !important;
+    display: block;
+}
 /* Froala editor buttons width fix */
 .fr-btn span {
   width: fit-content !important;
@@ -1337,8 +1344,7 @@ h2[class^="support-ticket-title-module__title--"] {
 
 /* DASHBOARD 2.0 Bulbs and other image-links paddings */
 [class*=" wysiwyg-widget-view-module__view--"] a {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
 }
 
 /* DASHBOARD 2.0 Org tools paddings */
