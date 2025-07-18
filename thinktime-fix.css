@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+18.07.2025
+----------
+New KB table - Fix for article name font size and color; Fix for columns width
+
 17.07.2025
 ----------
 Article expired message - Static on scroll
@@ -881,6 +885,48 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* New KB table - Max height limit for largest cells in 5-6th column */
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5) div,
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(6) div {
+  /* max-height: 6em;
+  text-overflow: ellipsis; */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 8;              /* clamp to N lines */
+  -webkit-box-orient: vertical;
+}
+/* New KB table - Fix for width of "Expiration" and "Type" (7-8th columns) */
+[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(7),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(7),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(8),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(8) {
+  width: 8% !important;
+}
+/* New KB table - Fix for width of "Location" and "Role" (5-6th columns) */
+[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(5),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(6),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(6) {
+  width: 17% !important;
+}
+/* New KB table - Fix for width of "KB" (4th column) */
+[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(4),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(4) {
+  width: 10% !important;
+}
+/* New KB table - Fix for width of "Article name" (3rd column) */
+[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(3),
+[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(3) {
+  width: 40% !important;
+}
+/* New KB table - Article name font size and color */
+[class^="knowledge-base-content-list-module__titleWrapper--"] {
+  font-size: 12pt !important;
+}
+[class^="knowledge-base-content-list-module__titleWrapper--"] a {
+  color: var(--link-color) !important;
+}
 
 /* POST v2.21 FIXES */
 /* Dashboard - Tables with images-links - Removings excessive margings */
