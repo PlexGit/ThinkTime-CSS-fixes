@@ -21,6 +21,11 @@ LATEST FIXES
 
 18.07.2025
 ----------
+Users table - Footer message fixes
+Users table - Many mobile view fixes
+New KB table - Vertical actions buttons layout for sceen < 1024 px
+New KB table - Fixes now not applied for screen < 1024px
+New KB table - Fixed header
 Users table - Fix for columns width and font size
 New KB table - Fix for article name font size and color; Fix for columns width
 
@@ -888,6 +893,40 @@ th *, td * {
 /* COMMON RULES */
 
 /* Users table - Fix for columns width */
+/* -- Mobile view */
+[id$="AgentsList"] tbody tr:first-child td {
+    padding-top: 16px;
+}
+[id$="AgentsList"] tbody tr:last-child td {
+    padding-bottom: 16px;
+}
+[id$="AgentsList"] td {
+    border: none !important;
+}
+[id$="AgentsList"] table {
+    margin-top: unset !important;
+}
+[id$="AgentsList"] [id^="user-"] td:nth-child(2) {
+  font-size: 12pt !important;
+  font-weight: bold;
+  color: var(--link-color) !important;
+  /* padding-top: 8px !important;
+  padding-bottom: 8px !important; */
+  /* align-content: center; */
+}
+[id$="AgentsList"] * td:nth-child(1) {
+  width: 16%;
+}
+[id$="AgentsList"] * td {
+  align-content: center;
+}
+/* -- Footer message fixes */
+[data-ng-show="model.activeTotal > 0 && model.activeTotal == model.activeAgents.length"],
+[data-ng-show="model.activeTotal == 0"] {
+  text-wrap: balance !important;
+  text-align: center !important;
+  opacity: .5;
+}
 /* -- Font size */
 [id$="AgentsList"] table td {
     font-size: 13px;
@@ -918,39 +957,10 @@ th *, td * {
     width: 50% !important;
 }
 
-/* New KB table - Max height limit for largest cells in 5-6th column */
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5) div,
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(6) div {
-  /* max-height: 6em;
-  text-overflow: ellipsis; */
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 8;              /* clamp to N lines */
-  -webkit-box-orient: vertical;
-}
-/* New KB table - Fix for width of "Expiration" and "Type" (7-8th columns) */
-[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(7),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(7),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(8),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(8) {
-  width: 8% !important;
-}
-/* New KB table - Fix for width of "Location" and "Role" (5-6th columns) */
-[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(5),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(6),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(6) {
-  width: 17% !important;
-}
-/* New KB table - Fix for width of "KB" (4th column) */
-[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(4),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(4) {
-  width: 10% !important;
-}
-/* New KB table - Fix for width of "Article name" (3rd column) */
-[class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(3),
-[class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(3) {
-  width: 40% !important;
+/* New KB table - Fixed header */
+[class^="administration-page-layout-module__root--"] {
+    max-height: fit-content;
+    overflow: unset;
 }
 /* New KB table - Article name font size and color */
 [class^="knowledge-base-content-list-module__titleWrapper--"] {
@@ -958,6 +968,49 @@ th *, td * {
 }
 [class^="knowledge-base-content-list-module__titleWrapper--"] a {
   color: var(--link-color) !important;
+}
+/* ONLY if screen bigger than 1024px */
+@media only screen and (min-width: 1024px) {
+  /* New KB table - Max height limit for largest cells in 5-6th column */
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5) div,
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(6) div {
+    /* max-height: 6em;
+    text-overflow: ellipsis; */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;              /* clamp to N lines */
+    -webkit-box-orient: vertical;
+  }
+  /* New KB table - Fix for width of "Expiration" and "Type" (7-8th columns) */
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(7),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(7),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(8),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(8) {
+    width: 8% !important;
+  }
+  /* New KB table - Fix for width of "Location" and "Role" (5-6th columns) */
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(5),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(6),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(6) {
+    width: 17% !important;
+  }
+  /* New KB table - Fix for width of "KB" (4th column) */
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(4),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(4) {
+    width: 10% !important;
+  }
+  /* New KB table - Fix for width of "Article name" (3rd column) */
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table th:nth-child(3),
+  [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(3) {
+    width: 40% !important;
+  }
+}
+/* Vertical actions buttons layout for sceen < 1024 px */
+@media only screen and (max-width: 1024px) {
+  .knowledge-base-content-actions-module__container--SiFlK {
+    flex-direction: column;
+  }
 }
 
 /* POST v2.21 FIXES */
