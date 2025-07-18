@@ -915,7 +915,7 @@ th *, td * {
   /* align-content: center; */
 }
 [id$="AgentsList"] * td:nth-child(1) {
-  width: 16%;
+  width: 15%;
 }
 [id$="AgentsList"] * td {
   align-content: center;
@@ -961,6 +961,12 @@ th *, td * {
 [class^="administration-page-layout-module__root--"] {
     max-height: fit-content;
     overflow: unset;
+    height: 100%;
+}
+[class^="administration-page-layout-module__body--"],
+[class^="knowledge-bases-content-administration-page-module__content--"],
+[class^="knowledge-bases-content-administration-page-module__body--"] {
+  height: 100%;
 }
 /* New KB table - Article name font size and color */
 [class^="knowledge-base-content-list-module__titleWrapper--"] {
