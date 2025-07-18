@@ -1,5 +1,10 @@
 18.07.2025
 ----------
+Users table - Footer message fixes
+Users table - Many mobile view fixes
+New KB table - Vertical actions buttons layout for sceen < 1024 px
+New KB table - Fixes now not applied for screen < 1024px
+New KB table - Fixed header
 Users table - Fix for columns width and font size
 New KB table - Fix for article name font size and color; Fix for columns width
 
