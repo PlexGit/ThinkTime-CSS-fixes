@@ -21,6 +21,7 @@ LATEST FIXES
 
 18.07.2025
 ----------
+Users table - Fix for columns width and font size
 New KB table - Fix for article name font size and color; Fix for columns width
 
 17.07.2025
@@ -885,6 +886,37 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Users table - Fix for columns width */
+/* -- Font size */
+[id$="AgentsList"] table td {
+    font-size: 13px;
+}
+[data-ng-click="saveFilters(user.Id)"],
+[id$="AgentsList"] table td:nth-child(3) {
+    font-size: 12pt;
+    word-wrap: break-word;
+}
+/* -- 4th and 6th max height */
+[id$="AgentsList"] table td:nth-child(4) span,
+[id$="AgentsList"] table td:nth-child(6) span {
+  /* max-height: 6em;
+  text-overflow: ellipsis; */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;              /* clamp to N lines */
+  -webkit-box-orient: vertical;
+}
+/* -- "Status" 6th */
+[id$="AgentsList"] table th:nth-child(6),
+[id$="AgentsList"] table td:nth-child(6) {
+    width: 10% !important;
+}
+/* -- "Role" 4th */
+[id$="AgentsList"] table th:nth-child(4),
+[id$="AgentsList"] table td:nth-child(4) {
+    width: 50% !important;
+}
 
 /* New KB table - Max height limit for largest cells in 5-6th column */
 [class^="knowledge-base-content-list-module__tableWrapper--"] table td:nth-child(5) div,
