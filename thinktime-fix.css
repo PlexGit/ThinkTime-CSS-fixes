@@ -21,6 +21,7 @@ LATEST FIXES
 
 19.07.2025
 ----------
+Ticket page header - Elements wrap fixes
 My Work - Header elements fix for small screens
 Font size adaptive to fit one line in user edit menu's header
 Collapsible sidebar - Width limit 100% to avoid scrollbar
@@ -1272,11 +1273,11 @@ table[data-cy="support-tickets-table"] td:nth-child(2) {
 }
 
 /* More flew wraps in the pages headers */
-[class^="page-header-module__header--"],
+[class^="page-header-module__header--"] *,
 [class^="page-header-module__leadingContent--"]
 /* [class^="page-header-module__trailingContent--"] */
 {
-    flex-wrap: wrap;
+    flex-wrap: wrap !important;
 }
 
 /* Calendar filter fixes for small screen */
