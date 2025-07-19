@@ -21,6 +21,7 @@ LATEST FIXES
 
 19.07.2025
 ----------
+My Work - Header elements fix for small screens
 Font size adaptive to fit one line in user edit menu's header
 Collapsible sidebar - Width limit 100% to avoid scrollbar
 
@@ -896,6 +897,13 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* My Work - Header elements fix for small screens */
+.task-views-container-module__totalPanelRightSide--Zh20V {
+  max-width: 100%;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
 
 /* Font size adaptive to fit one line in user edit menu's header */
 [data-ng-show="model.editedAgent.Id == 0"],
