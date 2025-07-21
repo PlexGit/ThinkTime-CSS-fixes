@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+21.07.2025
+----------
+Support Module - Sidebar min width
+
 19.07.2025
 ----------
 Ticket page header - Elements wrap fixes
@@ -73,64 +77,6 @@ Fixes for sidebar in News article
 Task description - Forced font size 9pt removed
 Quick Task title font size during editing
 News and Article headings - New bottom margin 16px
-
-20.06.2025
-----------
-Task description text font made not forced for subelements
-
-19.06.2025
-----------
-Temporary fix for width of ticket name column in Support Module table
-
-09.05.2025
-----------
-Fixes for names in tickets - Centered vertically
-
-07.05.2025
-----------
-Notification Bell - No text underline for links
-Notification Bell - Link color in notifications
-
-15.04.2025
-----------
-News Article editor - Attachments names text wrap
-
-05.04.2025
-----------
-DASHBOARD 2.0 System Status widget readability fix (2)
-
-30.03.2025
-----------
-Tasks summary title word wrap
-
-26.03.2025
-----------
-KB articles list - Symbol ">" removed
-Filter "Soty by" text alligned right
-
-25.03.2025
-----------
-Fixed text-wrap for tickets list titles
-KB articles list - Fixes for elements and text wrapping
-Fallback font added for Verdana
-
-24.03.2025
-----------
-Unified Search results date - no text wrap
-KB folders - Articles quantity - New positioning
-
-23.03.2025
-----------
-Unified Search field height fix when focus within
-
-18.03.2025
-----------
-Ticket heading text - Deep blue color
-Articles and news - H1 and H2 font - Deep blue color
-
-17.03.2025
-----------
-Breadcrumbs - Text-wrap fix
 
 */
 
@@ -1112,6 +1058,7 @@ th *, td * {
 /* Support Module - Sidebar max width */
 [class^="support-ticket-page-sidebar-module__sidebar--"] {
     max-width: 20%;
+    min-width: 324px;
 }
 /* Support Module - Sidebar - Logged time elements wrapping */
 [class^="support-ticket-time-logged-module__root--"] {
