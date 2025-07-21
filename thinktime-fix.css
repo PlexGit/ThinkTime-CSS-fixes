@@ -1055,7 +1055,7 @@ th *, td * {
 .fr-wrapper {
   height: initial;
 }
-/* Support Module - Sidebar max width */
+/* Support Module - Sidebar max and min width */
 [class^="support-ticket-page-sidebar-module__sidebar--"] {
     max-width: 20%;
     min-width: 324px;
