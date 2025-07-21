@@ -21,6 +21,7 @@ LATEST FIXES
 
 21.07.2025
 ----------
+Dropdown menu - No wrap for one-line menu options
 Support Module - Sidebar min width
 
 19.07.2025
@@ -844,6 +845,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Dropdown menu - No wrap for one-line menu options */
+[class^="dropdown-panel-module__dropdownPanel--"] {
+  flex-wrap: nowrap !important;
+}
 
 /* My Work - Header elements fix for small screens */
 .task-views-container-module__totalPanelRightSide--Zh20V {
