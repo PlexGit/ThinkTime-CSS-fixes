@@ -1058,7 +1058,7 @@ th *, td * {
 /* Support Module - Sidebar max and min width */
 [class^="support-ticket-page-sidebar-module__sidebar--"] {
     max-width: 20%;
-    min-width: 324px;
+    min-width: 316px;
 }
 /* Support Module - Sidebar - Logged time elements wrapping */
 [class^="support-ticket-time-logged-module__root--"] {
