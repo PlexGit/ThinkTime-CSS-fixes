@@ -21,6 +21,7 @@ LATEST FIXES
 
 21.07.2025
 ----------
+Users table - Vertical align fix for cells
 Dropdown menu - No wrap for one-line menu options
 Support Module - Sidebar min width
 
@@ -906,6 +907,7 @@ th *, td * {
 }
 [id$="AgentsList"] * td {
   align-content: center;
+  vertical-align: middle;
 }
 /* -- Footer message fixes */
 [data-ng-show="model.activeTotal > 0 && model.activeTotal == model.activeAgents.length"],
