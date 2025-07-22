@@ -21,6 +21,7 @@ LATEST FIXES
 
 22.07.2025
 ----------
+Search icon in header - Wrapping fix
 Ticket body width limited to 100%
 
 21.07.2025
@@ -850,6 +851,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Search icon in header - Wrapping fix */
+[class^="collapsible-search-module__root--"] {
+  width: unset;
+}
 
 /* Ticket body width limited to 100% */
 [class^="support-ticket-page-module__content--"] {
