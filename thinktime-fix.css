@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+22.07.2025
+----------
+Ticket body width limited to 100%
+
 21.07.2025
 ----------
 Users table - Vertical align fix for cells
@@ -846,6 +850,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Ticket body width limited to 100% */
+[class^="support-ticket-page-module__content--"] {
+  max-width: 100%;
+}
 
 /* Dropdown menu - No wrap for one-line menu options */
 [class^="dropdown-panel-module__dropdownPanel--"] {
