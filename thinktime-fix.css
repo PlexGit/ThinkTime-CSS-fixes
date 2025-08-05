@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+05.08.2025
+----------
+Task requirements - Buttons wrap
+
 22.07.2025
 ----------
 Search icon in header - Wrapping fix
@@ -851,6 +855,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Task requirements - Buttons wrap */
+[class^="upload-requirement-section-module__imageActionRow--"] {
+  flex-wrap: wrap;
+}
 
 /* Search icon in header - Wrapping fix */
 [class^="collapsible-search-module__root--"] {
