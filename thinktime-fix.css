@@ -19,6 +19,11 @@ MAIN FOCUS
 
 LATEST FIXES
 
+06.08.2025
+----------
+Task requirements - Text wrap an distances fixes
+Status beige - Min width
+
 05.08.2025
 ----------
 Task requirements - Buttons wrap
@@ -855,6 +860,28 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Task requirements - Text wrap an distances fixes */
+[class^="requirements-module__viewResultsLink--"] {
+  margin-left: auto;
+}
+[class^="requirement-module__mainData--"] {
+    flex-wrap: wrap;
+    row-gap: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+[class^="requirement-module__requirement--"] {
+    height: fit-content;
+}
+[class^="requirement-module__title--"] {
+    text-wrap: balance !important;
+}
+
+/* Status beige - Min width */
+[class^="status-module__status--"] {
+  min-width: min-content;
+}
 
 /* Task requirements - Buttons wrap */
 [class^="upload-requirement-section-module__imageActionRow--"] {
