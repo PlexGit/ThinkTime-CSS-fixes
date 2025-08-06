@@ -377,7 +377,8 @@ th *, td * {
   [class^="news-item-view-info-module__metaInfo--"],
   [class*=" news-item-view-info-module__dot--"],
   [class^="news-article-view-page-module__divider--"],
-  .Collapsible {
+  .Collapsible,
+  [class^="news-article-view-module__divider--"] {
     display: none !important;
   }
   [class^="news-item-view-info-module__meta--"] {
