@@ -21,6 +21,7 @@ LATEST FIXES
 
 06.08.2025
 ----------
+Printable News fixes
 Task requirements - Text wrap an distances fixes
 Status beige - Min width
 
@@ -363,10 +364,11 @@ th *, td * {
   }
   [class*=" article-section-module__body--"] {
     margin-bottom: 0;
+    max-width: 100%;
   }
 
   /* PRINTABLE News */
-  /* DASHBOARD 2.0 FIXES --------------------------------------------------------------------------------------- */
+  [class^="news-article-view-module__aside--"],
   [class^="news-article-view-page-module__aside--"],
   [class^="news-item-content-wrapper-module__header--"],
   [class^="news-item-content-wrapper-module__homePanel--"],
@@ -391,12 +393,14 @@ th *, td * {
     flex-direction: column;
     font-style: italic;
     font-size: 10pt !important;
+    padding: 0;
   }
   [class^="news-article-view-page-module__body--"] {
     padding: 0;
     margin: 0;
   }
-  [class^="news-item-content-wrapper-module__body--"] {
+  [class^="news-item-content-wrapper-module__body--"],
+  [class^="news-article-view-module__body--"] {
       visibility: visible;
       page-break-inside: auto !important;
       position: relative;
