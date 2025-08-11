@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+11.08.2025
+----------
+Attachments in ticket subject - Min width 120px
+
 06.08.2025
 ----------
 Printable News fixes
@@ -1453,6 +1457,7 @@ h2[class^="support-ticket-title-module__title--"] {
 [class^="attachments-previews-list-module__attachment--"],
 [class^="article-attachments-module__attachment--"] {
     max-width: 40%;
+    min-width: 120px;
 }
 
 /* Names colors in ticket */
