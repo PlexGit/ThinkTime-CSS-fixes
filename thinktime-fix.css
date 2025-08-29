@@ -21,6 +21,7 @@ LATEST FIXES
 
 29.08.2025
 ----------
+New table cells - Forced word wrap
 Task edit mode - Top is now static
 
 15.08.2025
@@ -200,8 +201,8 @@ html {
 /* All tables items text-wrap */
 th *, td * {
   /* white-space: normal; */
-  text-wrap: balance;
-  word-wrap: break-word;
+  text-wrap: balance !important;
+  word-wrap: break-word !important;
 }
 
 /* PRINTABLE */
@@ -882,6 +883,12 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* New table module - Text wrap */
+[class*=" content-module__smartTable--"] th, [class*=" content-module__smartTable--"] td {
+  text-wrap: balance;
+  word-wrap: break-word;
+}
 
 /* Task requirements - Attachments table - Vertical align  */
 td[data-ng-if="item.attachment"] {
