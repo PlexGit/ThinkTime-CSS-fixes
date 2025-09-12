@@ -21,6 +21,7 @@ LATEST FIXES
 
 12.09.2025
 ----------
+New Store Visits page - Fixes (2)
 New Store Visits page - Fixes
 
 29.08.2025
@@ -889,6 +890,13 @@ th *, td * {
 /* COMMON RULES */
 
 /* New Store Visits page - Fixes */
+[class^="schedule-module__panelHeaderControls--"] {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+[class^="my-visits-content-module__layout--"] {
+    overflow-y: visible;
+}
 [class^="card-module__stats--"] {
   text-wrap: balance;
 }
