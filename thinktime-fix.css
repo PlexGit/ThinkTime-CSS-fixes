@@ -21,6 +21,7 @@ LATEST FIXES
 
 12.09.2025
 ----------
+Notification Bell - Avatar removal fix for small screens
 New table cells - Fixes
 New Store Visits page - Fixes (3)
 New Store Visits page - Fixes (2)
@@ -766,7 +767,8 @@ th *, td * {
     margin-right: 10px;
   }
   [class^="notification-module__avatar--"],
-  .notification-module__avatar--sAion {
+  [class^="notification-module__avatar--sAion"],
+  [class^="notification-module__prefix--"] [class*=" avatar-module__avatar--"] {
     display: none;
   }
   [class^="notification-module__prefix--"] {
