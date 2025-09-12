@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+12.09.2025
+----------
+New Store Visits page - Fixes
+
 29.08.2025
 ----------
 New table cells - Forced word wrap
@@ -883,6 +887,21 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* New Store Visits page - Fixes */
+[class^="card-module__stats--"] {
+  text-wrap: balance;
+}
+[class^="all-visits-module__searchPanel--"] {
+  flex-wrap: wrap;
+}
+[class^="table-module__headCell--p1dJZ"],
+[class^="table-module__cell--ZUVRx"] {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  text-wrap: balance !important;
+}
 
 /* New table module - Text wrap */
 [class*=" content-module__smartTable--"] th, [class*=" content-module__smartTable--"] td {
