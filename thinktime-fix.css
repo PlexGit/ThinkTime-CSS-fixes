@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+16.09.2025
+----------
+New Store Visits page - Mobile view fixes
+
 12.09.2025
 ----------
 Notification Bell - Avatar removal fix for small screens
@@ -916,6 +920,11 @@ th *, td * {
   min-width: 0 !important;
   max-width: none !important;
   text-wrap: balance !important;
+  word-wrap: break-word !important;
+}
+[class^="all-visits-content-module__page--"] [class^="table-module__headCell--"],
+[class^="all-visits-content-module__page--"] [class^="table-module__cell--"] {
+  width: auto !important;
 }
 
 /* New table module - Text wrap */
