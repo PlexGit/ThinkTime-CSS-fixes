@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+26.09.2025
+----------
+Buttons and tags with rounded boreders - Border color and width fix
+
 16.09.2025
 ----------
 New Store Visits page - Mobile view fixes
@@ -896,6 +900,12 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Buttons and tags with rounded boreders - Border color and width fix */
+[class^="tag-module__tag--"],
+[class*=" category-facet-module__trigger--"] {
+  border: 2px solid lightgray;
+}
 
 /* New Store Visits page - Fixes */
 [class^="my-visits-content-module__page--"] {
