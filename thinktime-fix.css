@@ -19,9 +19,13 @@ MAIN FOCUS
 
 LATEST FIXES
 
+01.10.2025
+----------
+Forced list margins removed now, it should be maintained inside the content now
+
 26.09.2025
 ----------
-Buttons and tags with rounded boreders - Border color and width fix
+Buttons and tags with rounded borders - Border color and width fix
 
 16.09.2025
 ----------
@@ -186,10 +190,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* List spacing */
-li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) {
+/* li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) {
   margin-top: 5px;
   margin-bottom: 5px;
-}
+} */
 
 /* SCROLLBARS */
 html {
@@ -901,7 +905,7 @@ th *, td * {
 
 /* COMMON RULES */
 
-/* Buttons and tags with rounded boreders - Border color and width fix */
+/* Buttons and tags with rounded borders - Border color and width fix */
 [class^="tag-module__tag--"],
 [class*=" category-facet-module__trigger--"] {
   border: 2px solid lightgray;
