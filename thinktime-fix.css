@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+02.10.2025
+----------
+List spacing in RTF text areas forced 10px
+
 01.10.2025
 ----------
 Forced list margins removed now, it should be maintained inside the content now
@@ -189,11 +193,19 @@ h1, h2, h3, h4, h5, h6 {
   max-width: fit-content;
 }
 
-/* List spacing */
+/* List spacing in RTF text areas forced 10px */
 /* li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) {
   margin-top: 5px;
   margin-bottom: 5px;
 } */
+[class^="kb-item-content-wrapper-module__body--"] li,
+[class^="news-item-content-wrapper-module__body--"] li,
+[class^="rtf-sandbox-module__wrapper--"] li,
+[class*=" rtf-sandbox-module__wrapper--"] li
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 /* SCROLLBARS */
 html {
