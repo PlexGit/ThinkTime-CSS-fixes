@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+14.10.2025
+----------
+Aditional margins for list of contents in articles
+
 02.10.2025
 ----------
 List spacing in RTF text areas forced 10px
@@ -2503,10 +2507,12 @@ a.link.ng-binding {
   margin-right: 8px;
 }
 
-/* Neat and balanced word-wrap in every section name */
+/* Neat and balanced word-wrap in every section name and aditional margins for list of contents in articles */
 [class^="article-side-content-wrapper-module__articleSections--"] li {
   /* white-space: normal; */
   text-wrap: balance;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Related articles REMOVAL */
