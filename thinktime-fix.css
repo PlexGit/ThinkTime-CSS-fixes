@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+05.01.2026
+----------
+Users table - Fix of ID name "activeAgentsList"
+
 28.10.2025
 ----------
 Changed aditional margins for list of contents in articles
@@ -1057,19 +1061,19 @@ td[data-ng-if="item.attachment"] {
 
 /* Users table - Fix for columns width */
 /* -- Mobile view */
-[id$="AgentsList"] tbody tr:first-child td {
+[id$="activeAgentsList"] tbody tr:first-child td {
     padding-top: 16px;
 }
-[id$="AgentsList"] tbody tr:last-child td {
+[id$="activeAgentsList"] tbody tr:last-child td {
     padding-bottom: 16px;
 }
-[id$="AgentsList"] td {
+[id$="activeAgentsList"] td {
     border: none !important;
 }
-[id$="AgentsList"] table {
+[id$="activeAgentsList"] table {
     margin-top: unset !important;
 }
-[id$="AgentsList"] [id^="user-"] td:nth-child(2) {
+[id$="activeAgentsList"] [id^="user-"] td:nth-child(2) {
   font-size: 12pt !important;
   font-weight: bold;
   color: var(--link-color) !important;
@@ -1077,10 +1081,10 @@ td[data-ng-if="item.attachment"] {
   padding-bottom: 8px !important; */
   /* align-content: center; */
 }
-[id$="AgentsList"] * td:nth-child(1) {
+[id$="activeAgentsList"] * td:nth-child(1) {
   width: 15%;
 }
-[id$="AgentsList"] * td {
+[id$="activeAgentsList"] * td {
   align-content: center;
   vertical-align: middle;
 }
@@ -1092,17 +1096,17 @@ td[data-ng-if="item.attachment"] {
   opacity: .5;
 }
 /* -- Font size */
-[id$="AgentsList"] table td {
+[id$="activeAgentsList"] table td {
     font-size: 13px;
 }
 [data-ng-click="saveFilters(user.Id)"],
-[id$="AgentsList"] table td:nth-child(3) {
+[id$="activeAgentsList"] table td:nth-child(3) {
     font-size: 12pt;
     word-wrap: break-word;
 }
 /* -- 4th and 6th max height */
-[id$="AgentsList"] table td:nth-child(4) span,
-[id$="AgentsList"] table td:nth-child(6) span {
+[id$="activeAgentsList"] table td:nth-child(4) span,
+[id$="activeAgentsList"] table td:nth-child(6) span {
   /* max-height: 6em;
   text-overflow: ellipsis; */
   overflow: hidden;
@@ -1111,13 +1115,13 @@ td[data-ng-if="item.attachment"] {
   -webkit-box-orient: vertical;
 }
 /* -- "Status" 6th */
-[id$="AgentsList"] table th:nth-child(6),
-[id$="AgentsList"] table td:nth-child(6) {
+[id$="activeAgentsList"] table th:nth-child(6),
+[id$="activeAgentsList"] table td:nth-child(6) {
     width: 10% !important;
 }
 /* -- "Role" 4th */
-[id$="AgentsList"] table th:nth-child(4),
-[id$="AgentsList"] table td:nth-child(4) {
+[id$="activeAgentsList"] table th:nth-child(4),
+[id$="activeAgentsList"] table td:nth-child(4) {
     width: 50% !important;
 }
 
