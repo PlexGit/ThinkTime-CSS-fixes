@@ -1,3 +1,7 @@
+12.01.2026
+----------
+Dialog window overflow set to visible to avoid excessive scrollbars
+
 05.01.2026
 ----------
 Users table - Fix of ID name "activeAgentsList"
