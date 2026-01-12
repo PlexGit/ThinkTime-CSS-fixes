@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+12.01.2026
+----------
+Dialog window overflow set to visible to avoid excessive scrollbars
+
 05.01.2026
 ----------
 Users table - Fix of ID name "activeAgentsList"
@@ -936,6 +940,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Dialog window overflow set to visible to avoid excessive scrollbars */
+[class^="dialog-module__container--"] {
+    overflow: visible;
+}
 
 /* Task creation - Side panel max-height unset */
 [class*=" task-page-module__fullMaxHeight--"] {
