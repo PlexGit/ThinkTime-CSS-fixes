@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+18.01.2025
+----------
+Featured article badge redesign
+
 12.01.2026
 ----------
 Dialog window overflow set to visible to avoid excessive scrollbars
@@ -940,6 +944,13 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* Featured article badge redesign */
+[class^="article-module__featureBanner--"] {
+    width: fit-content;
+    margin: 8px 12px;
+    border-radius: 12px;
+}
 
 /* Dialog window overflow set to visible to avoid excessive scrollbars */
 [class^="dialog-module__container--"] {
