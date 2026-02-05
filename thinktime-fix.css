@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+05.02.2026
+----------
+WYSISWYG and articles font forced to 12pt
+
 20.01.2025
 ----------
 Text wrap in tab names (especially the ones that hidden inder MORE button)
@@ -949,6 +953,11 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* WYSISWYG and articles font forced to 12pt */
+* {
+  --wysiwyg-font-size: 12pt !important;
+}
 
 /* MORE button items max-width unset to fit one line */
 [class^="tabs-module__extra--"] {
@@ -1898,7 +1907,8 @@ a[class^="org-tools-grid-module__orgTool--"] {
 }
 
 /* User languages list height */
-[class^="user-panel-select-module__menu--"] {
+[class^="user-panel-select-module__menu--"],
+[class*=" user-panel-select-module__menu--"] {
   max-height: calc(100vh / 2);
 }
 
