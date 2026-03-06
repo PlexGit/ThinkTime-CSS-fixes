@@ -19,6 +19,14 @@ MAIN FOCUS
 
 LATEST FIXES
 
+06.03.2026
+----------
+Notification bell - Allow word-breaks for long  words
+
+19.02.2026
+----------
+Some elements additional opacity
+
 05.02.2026
 ----------
 WYSISWYG and articles font forced to 12pt
@@ -2220,6 +2228,9 @@ a[class^="org-tools-grid-module__orgTool--"] {
     display: flex;
     flex-direction: column;
 }
+[class^="notification-module__content--"] * {
+  word-break: break-word;
+}
 
 /* Article space between paragraphs */
 [class^="article-section-module__body--"] p+* {
@@ -2694,6 +2705,7 @@ div.customFieldsTicket.ng-scope p.collapseMore a,
   color: var(--more-trigger-color) !important;
   font-weight: 600;
   word-wrap: break-word;
+  opacity: .6;
 }
 
 a:not([class]):not([id]) {
@@ -2810,6 +2822,9 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 }
 
 /* Tickets and comments text size etc */
+[class*="support-ticket-comments-module__emptyMessage--"] {
+  opacity: .4;
+}
 .ng-binding.ng-isolate-scope,
 [class*="comment-item-module__content--"],
 [class*="comment-view-module__text--"],
@@ -2823,7 +2838,7 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
   line-height: 1.5
 }
 [class^="rtf-sandbox-module__wrapper--"], [class^="rtf-sandbox-module__wrapper--"] * {
-    word-break: break-word;
+  word-break: break-word;
 }
 /* Dimmed text colors in ticket */
 [class*=" support-ticket-description-module__description--"],
