@@ -324,8 +324,8 @@ th *, td * {
       color: gray;
   }
   li {
-      margin-top: 5px;
-      margin-bottom: 5px;
+      margin-top: 0.6rem;
+      margin-bottom: 0.6rem;
   }
   img {
       max-width: 100%;
