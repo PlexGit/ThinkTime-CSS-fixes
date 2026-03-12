@@ -22,6 +22,7 @@ LATEST FIXES
 12.03.2026
 ----------
 List spacing in RTF text areas forced 0.6rem, now including edit mode
+Chat-bot input now excluded from some textarea rules
 
 06.03.2026
 ----------
@@ -2361,7 +2362,7 @@ span.ticketName a,
 /* Editable areas are resizeable and have inner shadow and min-height */
 .k-editable-area,
 .commentsPanel .postComment textarea,
-textarea:not([id^="title."]):not([id$=".title"]):focus
+textarea:not([id^="title."]):not([id$=".title"]):not([class*=" chatbot-input-module__textarea--"]):focus
 {
   box-shadow: inset 0px 0px 10px gainsboro;
   resize: vertical;
@@ -2370,7 +2371,7 @@ textarea:not([id^="title."]):not([id$=".title"]):focus
   font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
   /* min-height: 300px; */
 }
-textarea:not([id^="title."]):not([id$=".title"]){
+textarea:not([id^="title."]):not([id$=".title"]):not([class*=" chatbot-input-module__textarea--"]){
   font-size: 16px;
   font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
 }
