@@ -23,6 +23,7 @@ LATEST FIXES
 ----------
 List spacing in RTF text areas forced 0.6rem, now including edit mode
 Chat-bot input now excluded from some textarea rules
+Ticket comment - Limit height 50vw to avoid huge comment based on email
 
 06.03.2026
 ----------
@@ -2846,7 +2847,9 @@ div.editorToolbarWindow.k-header.k-window-content.k-content {
 {
   font-size: 16px;
   font-family: Verdana, "Nunito Sans", Geneva, Tahoma, sans-serif;
-  line-height: 1.5
+  line-height: 1.5;
+  max-height: 50vw;
+  overflow-y: scroll;
 }
 [class^="rtf-sandbox-module__wrapper--"], [class^="rtf-sandbox-module__wrapper--"] * {
   word-break: break-word;
