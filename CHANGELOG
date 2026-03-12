@@ -2,6 +2,7 @@
 ----------
 List spacing in RTF text areas forced 0.6rem, now including edit mode
 Chat-bot input now excluded from some textarea rules
+Ticket comment - Limit height 50vw to avoid huge comment based on email
 
 06.03.2026
 ----------
