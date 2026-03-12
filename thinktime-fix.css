@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+12.03.2026
+----------
+List spacing in RTF text areas forced 0.6rem, now including edit mode
+
 06.03.2026
 ----------
 Notification bell - Allow word-breaks for long  words
@@ -238,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   max-width: fit-content;
 }
 
-/* List spacing in RTF text areas forced 10px */
+/* List spacing in RTF text areas forced 0.6rem, now including edit mode */
 /* li:not([class^="navigation-bar-module__item--"]):not([class^="knowledge-base"]) {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -246,10 +250,16 @@ h1, h2, h3, h4, h5, h6 {
 [class^="kb-item-content-wrapper-module__body--"] li,
 [class^="news-item-content-wrapper-module__body--"] li,
 [class^="rtf-sandbox-module__wrapper--"] li,
-[class*=" rtf-sandbox-module__wrapper--"] li
+[class*=" rtf-sandbox-module__wrapper--"] li,
+[class^="news-article-edit-form-content-module__section--"] li,
+[class^="article-section-edit-module__block--"] li,
+.wysiwyg-editor li,
+[class^="wysiwyg-view-module__root--"] li,
+[class*=" description-module__description--"] li,
+.fr-view li
 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
 }
 
 /* SCROLLBARS */
