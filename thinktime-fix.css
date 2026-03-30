@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+30.03.2026
+----------
+Ticket body width set to 100% for e-mail embedded tickets fix
+
 12.03.2026
 ----------
 List spacing in RTF text areas forced 0.6rem, now including edit mode
@@ -1090,6 +1094,11 @@ td[data-ng-if="item.attachment"] {
 /* Ticket body width limited to 100% */
 [class^="support-ticket-page-module__content--"] {
   max-width: 100%;
+}
+
+/* Ticket body width set to 100% for e-mail embedded tickets fix */
+[class^="support-ticket-page-module__description--"] {
+  width: 100%;
 }
 
 /* Dropdown menu - No wrap for one-line menu options */
