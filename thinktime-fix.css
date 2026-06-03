@@ -19,6 +19,10 @@ MAIN FOCUS
 
 LATEST FIXES
 
+03.06.2026
+----------
+List of support groups in sidebar filter - Limit height and scrollable
+
 30.03.2026
 ----------
 Ticket body width set to 100% for e-mail embedded tickets fix
@@ -977,6 +981,12 @@ th *, td * {
 } */
 
 /* COMMON RULES */
+
+/* List of support groups in sidebar filter - Limit height and scrollable */
+#collapsible-content-1780489995934 {
+  overflow: scroll;
+  max-height: 33vh;
+}
 
 /* WYSISWYG and articles font forced to 12pt */
 * {
