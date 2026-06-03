@@ -983,8 +983,8 @@ th *, td * {
 /* COMMON RULES */
 
 /* List of support groups in sidebar filter - Limit height and scrollable */
-#collapsible-content-1780489995934 {
-  overflow: scroll;
+[id^="collapsible-content-"] {
+  overflow: auto;
   max-height: 33vh;
 }
 
