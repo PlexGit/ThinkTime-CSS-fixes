@@ -19,9 +19,9 @@ MAIN FOCUS
 
 LATEST FIXES
 
-03.06.2026
+09.06.2026
 ----------
-List of support groups in sidebar filter - Limit height and scrollable
+Dashboard widgets - Featured article badge redesign
 
 30.03.2026
 ----------
@@ -982,12 +982,6 @@ th *, td * {
 
 /* COMMON RULES */
 
-/* List of support groups in sidebar filter - Limit height and scrollable */
-[id^="collapsible-content-"] {
-  overflow: auto;
-  max-height: 33vh;
-}
-
 /* WYSISWYG and articles font forced to 12pt */
 * {
   --wysiwyg-font-size: 12pt !important;
@@ -1010,6 +1004,13 @@ th *, td * {
     width: fit-content;
     margin: 8px 12px;
     border-radius: 12px;
+}
+[class^="featured-article-label-module__label--"] {
+    display: none;
+}
+[class^="list-without-images-module__featuredLabel--"] {
+    margin-right: 8px;
+    margin-left: 8px;
 }
 
 /* Dialog window overflow set to visible to avoid excessive scrollbars */
